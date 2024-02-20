@@ -1,3 +1,34 @@
-datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
-
-element test { xsd:double }
+# root element will be constitution
+start = constitution
+# body could contain text so mixed; also must have attribute of country
+# i'm thinking that we could do a 'meta' section w/ info on text, and then body with the text
+    constitution = element constitution {country, meta, body}
+    
+        # do we want to limit attribute value to the 15 countries? it feels like a lot to type out 
+        country = attribute country {text}
+       
+        # used some of tei guidelines, but named elements so they make sense here 
+        meta = element meta{source}
+        
+            # not sure what else we'd need for the citation other than title, name of 
+            # website we got it from, and url
+            
+            # what else do we want to add in the meta data of the text?
+            source = element source{title, container, url}
+                title = element title {text}
+                container = element container {text}
+                url = element url {text}
+                
+        # in body: tag preamble and then chap 
+        # does every constitution have a preamble? otherwise do preamble?
+        body = element body{mixed{preamble, chapter}}
+            preamble = element preamble{text}
+            
+            # i did sections in the chapter, i think this is something different in each 
+            # one but i just called it this here. i think it might be articles in some
+            chapter = element chapter{chap_title, section*}
+                chap_title = element chap_title{text}
+                section = element section{text}
+                
+        
+        
