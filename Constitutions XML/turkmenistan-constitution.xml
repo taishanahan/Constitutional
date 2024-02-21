@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<constitution place="turkmenistan">
-    <url>https://www.constituteproject.org/constitution/Turkmenistan_2008</url> PREAMBLE We, the
+<?xml-model href="../constitution_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<constitution country="turkmenistan">
+    <meta>
+        <source>
+            <title></title>
+            <container></container>
+            <url>https://www.constituteproject.org/constitution/Turkmenistan_2008</url> 
+        </source>
+        
+    </meta><body><preamble>PREAMBLE We, the
     people of Turkmenistan, based on our inalienable right to determine our destiny; Proceeding from
     the responsibility for present and future of the Motherland; Expressing loyalty to the covenant
     of ancestors to live in unity, peace and harmony; With the aim of protecting the national values
@@ -8,8 +16,11 @@
     of Turkmenistan; Guaranteeing the rights and freedoms of each person and citizen, and seeking to
     ensure civil peace and national accord in the society, to substantiate the foundations of
     democracy and democratic, legal, secular state, we adopt the present Constitution - the Basic
-    Law of Turkmenistan. SECTION I. FUNDAMENTALS OF THE CONSTITUTIONAL SYSTEM OF TURKMENISTAN
-    Article 1 Turkmenistan is a democratic, legal and secular state in which the government takes
+    Law of Turkmenistan. </preamble><chapter><chap_title>SECTION I. FUNDAMENTALS OF THE CONSTITUTIONAL SYSTEM OF TURKMENISTAN</chap_title>
+    
+
+
+<section>Article 1 Turkmenistan is a democratic, legal and secular state in which the government takes
     the form of presidential republic. Turkmenistan exercises the complete power and complete
     authority on its territory, and independently conducts the internal and foreign policy. The
     state sovereignty and territory of Turkmenistan are homogeneous and indivisible. The State
@@ -20,16 +31,32 @@
     2. Calls upon the member states of the United Nations to respect and support this status of
     Turkmenistan and also to respect its independence, sovereignty and territorial integrity." The
     permanent neutrality of Turkmenistan, recognized by the world community, is the basis of its
-    domestic and foreign policy. Article 2 The people are the bearer of and the sole source of the
+    domestic and foreign policy. 
+
+
+</section>
+<section>Article 2 The people are the bearer of and the sole source of the
     state power in Turkmenistan. The people of Turkmenistan exercise their power directly or through
     representative bodies. No part (group) of the people, organization or individuals, have the
-    right to abrogate the state power. Article 3 In Turkmenistan, the people are the highest value
+    right to abrogate the state power. 
+
+
+</section>
+<section>Article 3 In Turkmenistan, the people are the highest value
     of the society and the state. The state is responsible for every citizen and creates conditions
     for free development of the individual, protects the life, honour, dignity and freedom, personal
     integrity, natural and inalienable rights of the citizen. Every citizen is responsible before
-    the State for the responsibilities entrusted to him by the Constitution and laws. Article 4
+    the State for the responsibilities entrusted to him by the Constitution and laws. 
+
+
+</section>
+<section>Article 4
     State power is based on the principle of separation of powers between the legislative, executive
-    and judicial branches, which operate independently, balancing each other. Article 5 The state
+    and judicial branches, which operate independently, balancing each other. 
+
+
+</section>
+<section>Article 5 The state
     and all of its organs and officials are linked by law and constitutional order. The Constitution
     of Turkmenistan is the Basic Law of the State. Rules and regulations laid down in it are
     unswervingly applicable. The laws and other legal acts that contradict the Constitution are null
@@ -37,150 +64,328 @@
     self-government, are published for general information or made available through other means,
     except when they contain state or other secrets protected by law. The normative-legal Acts
     affecting the rights and freedom of the individual and citizen, if not brought to the general
-    information of the public, are invalid from the time of their adoption. Article 6 Turkmenistan,
+    information of the public, are invalid from the time of their adoption. 
+
+
+</section>
+<section>Article 6 Turkmenistan,
     being a full subject of the global community, has the foreign policy of permanent neutrality,
     non-interference in the internal affairs of other countries, refrains from the use of force and
     participation in military blocs and alliances, promotes peaceful, friendly and mutually
     beneficial relations with countries in the region and states of the whole world. Turkmenistan
     recognizes the priority of the universally accepted norms of international law. If an
     international treaty (contract) of Turkmenistan establishes rules other than those stipulated by
-    the laws of Turkmenistan, the rules of international treaty will apply. Article 7 Turkmenistan
+    the laws of Turkmenistan, the rules of international treaty will apply. 
+
+
+</section>
+<section>Article 7 Turkmenistan
     has its own citizenship. The citizenship is acquired, retained and lost in accordance with the
     law. Citizenship of another state is not recognized for the citizens of Turkmenistan. No one can
     be deprived of citizenship or the right to change citizenship. A citizen of Turkmenistan cannot
     be extradited to another state or expelled from the limits of Turkmenistan, or restricted in the
     right to return to the homeland. The citizens of Turkmenistan are guaranteed the protection and
-    patronage of the state in the territory of Turkmenistan and beyond its borders. Article 8
+    patronage of the state in the territory of Turkmenistan and beyond its borders. 
+
+
+</section>
+<section>Article 8
     Foreign nationals and stateless persons enjoy the rights and freedoms, and bear the
     responsibilities, of citizens of Turkmenistan in accordance with law and international treaties
     of Turkmenistan. Turkmenistan, in accordance with universally recognized norms of international
     right and in the order established by the law, gives refuge to foreign citizens and stateless
-    persons. Article 9 The property is inviolable. Turkmenistan approves the right to private
+    persons. 
+
+
+</section>
+<section>Article 9 The property is inviolable. Turkmenistan approves the right to private
     ownership of the means of production, land and other material and intellectual values. They can
     also belong to the associations of citizens and the state. The law establishes objects that are
     exclusive property of the state. The state guarantees equal protection and creation of equal
     conditions for development of all forms of ownership. Confiscation of property is prohibited,
     except for the property acquired by means prohibited by law. Forced confiscation of property is
-    permissible only in cases stipulated by law. Article 10 The economy of Turkmenistan is based on
+    permissible only in cases stipulated by law. 
+
+
+</section>
+<section>Article 10 The economy of Turkmenistan is based on
     the principles of market relations. The state encourages and supports entrepreneurship, promotes
-    development of small and medium enterprises. Article 11 The state is responsible for
+    development of small and medium enterprises. 
+
+
+</section>
+<section>Article 11 The state is responsible for
     safeguarding the national historical and cultural heritage, natural environment, ensuring
     equality between social and ethnic communities. The state encourages scientific and artistic
     creativity and distribution of its positive results, promotes development of international
-    relations in the fields of science, culture, education and training, sports and tourism. Article
+    relations in the fields of science, culture, education and training, sports and tourism. 
+
+
+</section>
+<section>Article
     12 The state guarantees freedom of religion and worship, and equality before the law. Religious
     organizations are separate from the state, cannot interfere in the state affairs and carry out
     state functions. The public education system is separate from religious organizations and is
     secular. Each person independently determines his attitude toward religion, has the right to,
     individually or jointly with others, profess any religion or none, to express and disseminate
     beliefs related to attitude toward religion, to participate in religious observances, rituals,
-    and ceremonies. Article 13 In order to protect the state sovereignty and security, Turkmenistan
-    has its own armed forces. Article 14 Turkmen is the state [official] language of Turkmenistan.
-    The use of their native language is guaranteed to all citizens of Turkmenistan. Article 15 The
+    and ceremonies. 
+
+
+</section>
+<section>Article 13 In order to protect the state sovereignty and security, Turkmenistan
+    has its own armed forces. 
+
+
+</section>
+<section>Article 14 Turkmen is the state [official] language of Turkmenistan.
+    The use of their native language is guaranteed to all citizens of Turkmenistan. 
+
+
+</section>
+<section>Article 15 The
     State Flag, the State Emblem, and the National Anthem are the Symbols of Turkmenistan. The flag,
-    national emblem and national anthem are established and protected by law. Article 16 The
+    national emblem and national anthem are established and protected by law. 
+
+
+</section>
+<section>Article 16 The
     administrative-territorial structure of Turkmenistan consists of: Velayats (provinces), cities
     with right of Velayat, Etraps (districts), cities with right of district, cities (towns) in
     district, settlements, Gengeshlyk. The territory of one or more villages forms a Gengeshlyk.
-    Article 17 Ashgabat is the capital of Turkmenistan. SECTION II. RIGHTS, FREEDOMS AND DUTIES OF
-    THE CITIZENS OF TURKMENISTAN Article 18 The rights and freedoms of the individual are inviolable
+    
+
+
+</section>
+<section>Article 17 Ashgabat is the capital of Turkmenistan. SECTION II. RIGHTS, FREEDOMS AND DUTIES OF
+    THE CITIZENS OF TURKMENISTAN 
+
+
+</section>
+<section>Article 18 The rights and freedoms of the individual are inviolable
     and inalienable. No one can be deprived of their rights and freedoms, or restrictions on their
     rights and freedoms, except in accordance with the Constitution and laws. The enumeration in the
     Constitution and laws of certain rights and freedoms can not be used to deny or diminish the
-    rights and freedoms of others. Article 19 Turkmenistan guarantees the equality of rights and
+    rights and freedoms of others. 
+
+
+</section>
+<section>Article 19 Turkmenistan guarantees the equality of rights and
     freedoms of individual and citizen, and also the equality of the individual and citizen before
     the law regardless of their nationality, race, gender, origin, property and official status,
     place of residence, language, religion, political beliefs, party affiliation or lack of
-    affiliation to any party. Article 20 Men and Women in Turkmenistan have equal civil rights.
-    Violation of equality on the basis of gender is punishable by law. Article 21 The exercise of
+    affiliation to any party. 
+
+
+</section>
+<section>Article 20 Men and Women in Turkmenistan have equal civil rights.
+    Violation of equality on the basis of gender is punishable by law. 
+
+
+</section>
+<section>Article 21 The exercise of
     rights and freedoms must not violate the rights and freedoms of others, as well as the
-    requirements of morality, law, public order, [or] cause damage to national security. Article 22
+    requirements of morality, law, public order, [or] cause damage to national security. 
+
+
+</section>
+<section>Article 22
     Each individual has the right to life and liberty and the exercise (of this right). No one can
     be deprived of the right to life. The right of each person to free life is protected by the
-    state on the basis of law. The death penalty has been abolished in Turkmenistan. Article 23 A
+    state on the basis of law. The death penalty has been abolished in Turkmenistan. 
+
+
+</section>
+<section>Article 23 A
     person cannot be restrict in or deprived of rights, convicted or punished, except in strict
     accordance with the law. No one can be subjected to torture, cruel, inhuman or degrading
     treatment, or punishment, and without his consent to medical (medicinal or medical) or other
     experiments. A person can be arrested by the court or with the approval of the prosecutor only
     on the grounds precisely specified by the law. In urgent cases, precisely specified by the law,
-    the state authorities have the right to detain the citizens temporarily. Article 24 Every
+    the state authorities have the right to detain the citizens temporarily. 
+
+
+</section>
+<section>Article 24 Every
     citizen has the right to support of state in obtaining or acquiring a comfortable living
     accommodation, and construction of individual housing. The home is inviolable. No one has the
     right to enter a home or otherwise violate the sanctity of the home against the wishes of people
     living there without any legal grounds. Protecting the home against unlawful assault
     (encroachment) is the right of the individual and citizen. No one can be deprived of their
-    living accommodation except on the grounds established by law. Article 25 Everyone has the right
+    living accommodation except on the grounds established by law. 
+
+
+</section>
+<section>Article 25 Everyone has the right
     to protection from arbitrary interference in their privacy, as well as infringement of the rules
     of secrecy of correspondence, telephone and other (means of) communication, attacks on their
-    honour and reputation. Article 26 Every citizen has the right to move freely and choose their
+    honour and reputation. 
+
+
+</section>
+<section>Article 26 Every citizen has the right to move freely and choose their
     place of residence in Turkmenistan. Restrictions on entry into separate territories, and
-    movement in those territories, can only be set by law. Article 27 Men and women having reached
+    movement in those territories, can only be set by law. 
+
+
+</section>
+<section>Article 27 Men and women having reached
     the marriageable age have the right, by mutual consent, to marry and create families. Spouses
     have equal rights in family relations. Parents and substitute parents have the right and
     obligation to raise the children, care for their health, development, education, prepare them
     for work, and impart to them the culture of respect for the law, historical and national
     traditions. Adult children are obliged to take care of their parents and to extend help
-    (support) to them. Article 28 Citizens of Turkmenistan have the right to freedom of opinion and
+    (support) to them. 
+
+
+</section>
+<section>Article 28 Citizens of Turkmenistan have the right to freedom of opinion and
     expression, as well as to receive information if it is not a state or other secret protected by
-    law. Article 29 Citizens are guaranteed freedom of assembly, rallies and demonstrations in the
-    manner prescribed by law. Article 30 Citizens have the right to form political parties and other
+    law. 
+
+
+</section>
+<section>Article 29 Citizens are guaranteed freedom of assembly, rallies and demonstrations in the
+    manner prescribed by law. 
+
+
+</section>
+<section>Article 30 Citizens have the right to form political parties and other
     public associations operating within the framework of the Constitution and laws. Prohibited is
     the establishment and activity of political parties, other public, paramilitary associations,
     aimed at bringing violent change to the constitutional order, introducing violence in their
     activity, opposing the constitutional rights and freedoms of citizens, advocating war, racial,
     national or religious hatred, encroaching on the health and morals of the people, as well as the
-    political parties with ethnic or religious attributes. Article 31 Every citizen has the right to
+    political parties with ethnic or religious attributes. 
+
+
+</section>
+<section>Article 31 Every citizen has the right to
     participate in managing the affairs of the society and state, either directly or through freely
-    elected representatives. Article 32 Citizens have the right to elect and be elected to the
+    elected representatives. 
+
+
+</section>
+<section>Article 32 Citizens have the right to elect and be elected to the
     bodies of state authority. Citizens of Turkmenistan, in accordance with their abilities and
-    professional training, have equal right to access to public service. Article 33 Citizens have
+    professional training, have equal right to access to public service. 
+
+
+</section>
+<section>Article 33 Citizens have
     the right to work, choice of profession at their own discretion, sort of employment and place of
     work, to safe and healthy working conditions. Wage earners are entitled to compensation,
     appropriate to amount and quality of work. This compensation cannot be less than the subsistence
-    minimum established by the state. Article 34 Citizens have the right to rest, as expressed in
+    minimum established by the state. 
+
+
+</section>
+<section>Article 34 Citizens have the right to rest, as expressed in
     establishment of limits of work week, grant of annual paid holidays, and days of weekly rest.
-    The State creates favourable conditions for recreation and use of leisure time. Article 35
+    The State creates favourable conditions for recreation and use of leisure time. 
+
+
+</section>
+<section>Article 35
     Citizens have the right to healthcare, including free use of the network of public health
     institutions. Paid medical and non-traditional healthcare is permitted under, and in accordance
-    with, the procedure established by law. Article 36 Everyone has the right to favourable
+    with, the procedure established by law. 
+
+
+</section>
+<section>Article 36 Everyone has the right to favourable
     environment. The State supervises the management of natural resources in order to protect and
-    improve living conditions, as well as environmental protection and regeneration. Article 37
+    improve living conditions, as well as environmental protection and regeneration. 
+
+
+</section>
+<section>Article 37
     Citizens have the right to social security in old age, sickness, disability, loss of ability to
     work, loss of breadwinner, unemployment. Families with large number of children, orphans,
     veterans, people who lost their health while protecting the state or public interests, are
-    provided additional support and privileges from state and public funds. Article 38 Every citizen
+    provided additional support and privileges from state and public funds. 
+
+
+</section>
+<section>Article 38 Every citizen
     has the right to education. Secondary education is compulsory; everyone is entitled to receive
     it in public schools free of charge. The state ensures availability of vocational education for
     each person according to their abilities. On the basis and in the manner prescribed by the
     legislation of Turkmenistan, governmental and non-governmental organizations, citizens have the
     right to engage in paid work activity. The State sets educational standards, mandatory for all
-    educational institutions. Article 39 Citizens of Turkmenistan have the right to freedom of
+    educational institutions. 
+
+
+</section>
+<section>Article 39 Citizens of Turkmenistan have the right to freedom of
     artistic, scientific and technical creativity. All rights (copyrights) and interests of citizens
     in the area of scientific, technical, creative, artistic, literary and cultural activities are
     protected by law. The State contributes to the development of science, culture, arts, folk arts,
-    sports and tourism. Article 40 The exercise of the rights and freedoms is inseparable from the
+    sports and tourism. 
+
+
+</section>
+<section>Article 40 The exercise of the rights and freedoms is inseparable from the
     performance by the individual and citizen their responsibilities toward the society and the
     state. Everyone, living or staying temporarily in the territory of Turkmenistan, is obliged to
-    abide by the Constitution, the laws, and respect the national traditions. Article 41 Protection
+    abide by the Constitution, the laws, and respect the national traditions. 
+
+
+</section>
+<section>Article 41 Protection
     of Turkmenistan is the sacred duty of every citizen. General conscription is compulsory for the
-    male citizens of Turkmenistan. Article 42 Everyone is required to pay state taxes and other
-    payments in the manner and extent established by law. Article 43 Citizens are guaranteed
+    male citizens of Turkmenistan. 
+
+
+</section>
+<section>Article 42 Everyone is required to pay state taxes and other
+    payments in the manner and extent established by law. 
+
+
+</section>
+<section>Article 43 Citizens are guaranteed
     judicial protection of honour and dignity, personal and political rights and freedoms of
     individual and citizen [as stipulated] by the Constitution and laws. Citizens have the right to
     appeal in the court against the decisions and actions of the state bodies, public associations
-    and officials. Article 44 Citizens have the right to seek redress in courts for material and
+    and officials. 
+
+
+</section>
+<section>Article 44 Citizens have the right to seek redress in courts for material and
     moral damage caused to them by unlawful actions of state bodies, other organizations and their
-    employees, as well as private individuals. Article 45 A person cannot be compelled to testify
+    employees, as well as private individuals. 
+
+
+</section>
+<section>Article 45 A person cannot be compelled to testify
     and give evidence against self and close relatives. Evidence obtained as a result of mental or
-    physical influence, as well as through other illegal methods, has no legal force. Article 46 A
+    physical influence, as well as through other illegal methods, has no legal force. 
+
+
+</section>
+<section>Article 46 A
     law, aggravating the situation of citizens, shall not be retroactive. No one can be held
     responsible for actions that, at the time of their commission, were not recognized by law as
-    offence. Article 47 The implementation of the rights and freedoms of citizens may be suspended
+    offence. 
+
+
+</section>
+<section>Article 47 The implementation of the rights and freedoms of citizens may be suspended
     only in a state of emergency or martial law in a manner and within the limits established by the
     Constitution and laws. SECTION III. THE SYSTEM OF GOVERNMENT AND ADMINISTRATION IN TURKMENISTAN
-    Chapter I. General Provisions Article 48 The highest state authority and government in
+    Chapter I. General Provisions 
+
+
+</section>
+<section>Article 48 The highest state authority and government in
     Turkmenistan is exercised by the President of Turkmenistan, the Mejlis (parliament) of
     Turkmenistan, the Cabinet of Ministers of Turkmenistan, and the Supreme Court of Turkmenistan.
-    Article 49 Local district representatives and executives bodies are the local authority in
+    
+
+
+</section>
+<section>Article 49 Local district representatives and executives bodies are the local authority in
     Velayats, cities with the right of Velayat, districts, and districts with rights of city, and in
-    towns of Etraps, settlements, and the Gengeshlyks the local authority are Gengeshes. </constitution>
+    towns of Etraps, settlements, and the Gengeshlyks the local authority are Gengeshes.
+</section>
+    </chapter></body> </constitution>
