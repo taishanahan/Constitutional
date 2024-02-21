@@ -1,89 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<constitution place="armenia">
-    <url>https://www.constituteproject.org/constitution/Armenia_2015</url> PREAMBLE The Armenian
+<?xml-model href="../constitution_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<constitution country = "armenia">
+    <meta><source>
+        <title></title>
+        <container></container>
+        <url>https://www.constituteproject.org/constitution/Armenia_2015</url></source> </meta>
+  <body>  <preamble>PREAMBLE The Armenian
     People, accepting as a basis the fundamental principles of Armenian statehood and pan-national
     aspirations enshrined in the Declaration on the Independence of Armenia, having fulfilled the
     sacred behest of its freedom-loving ancestors to restore the sovereign state, dedicated to the
     strengthening and prosperity of the fatherland, with the aim of ensuring the freedom, general
     well-being, and civic solidarity of the generations, and affirming its commitment to universal
-    values, adopts the Constitution of the Republic of Armenia. 
-    CHAPTER 1. THE FOUNDATIONS OF
-    CONSTITUTIONAL ORDER 
-    Article 1 The Republic of Armenia is a sovereign, democratic, social, and
+    values, adopts the Constitution of the Republic of Armenia. </preamble>
+<chapter>    <chap_title>CHAPTER 1. THE FOUNDATIONS OF
+    CONSTITUTIONAL ORDER </chap_title>
+    
+
+<section>Article 1. The Republic of Armenia is a sovereign, democratic, social, and
     rule-of-law state. 
-    Article 2 In the Republic of Armenia, the power belongs to the people. The
+    
+    
+
+
+</section><section>Article 2. In the Republic of Armenia, the power belongs to the people. The
     people shall exercise its power through free elections, referenda, as well as through state and
     local self-government bodies and officials prescribed by the Constitution. Usurpation of the
-    power by any organization or individual shall be a crime. Article 3. The Human Being, His
+    power by any organization or individual shall be a crime. 
+    
+
+</section>
+<section>Article 3. The Human Being, His
     Dignity, Fundamental Rights, and Freedoms The human being shall be the supreme value in the
     Republic of Armenia. The inalienable dignity of the human being shall be the integral basis of
     his rights and freedoms. The respect for and protection of the fundamental rights and freedoms
     of the human being and the citizen shall be the duties of the public power. The public power
     shall be bound by the fundamental rights and freedoms of the human being and the citizen as the
-    directly applicable law. Article 4. The Principle of Separation and Balance of the Powers State
+    directly applicable law. 
+
+</section>
+<section>Article 4. The Principle of Separation and Balance of the Powers State
     power shall be exercised in accordance with the Constitution and the laws, based on the
-    separation and balance of the legislative, executive, and judicial powers. Article 5. The
+    separation and balance of the legislative, executive, and judicial powers. 
+
+</section>
+<section>Article 5. The
     Hierarchy of Legal Norms The Constitution shall have supreme legal force. Laws shall conform to
     the constitutional laws, and sub-legislative normative legal acts shall conform to the
     constitutional laws and laws. In case there are contradictions between the norms of
     international treaties ratified by the Republic of Armenia and the norms of laws, the norms of
-    the international treaties shall be applied. Article 6. The Principle of Legality State and
+    the international treaties shall be applied. 
+
+</section>
+<section>Article 6. The Principle of Legality State and
     local self-government bodies and officials shall have the power to perform only such acts for
     which they are empowered by the Constitution or laws. Bodies prescribed by the Constitution,
     based on the Constitution and laws and with the purpose of ensuring their implementation, may be
     authorized by the law to adopt sub-legislative normative legal acts. Authorizing norms shall
     comply with the principle of legal certainty. Laws and sub-legislative normative legal acts
-    shall come into force after being published in the manner stipulated by law. Article 7. The
+    shall come into force after being published in the manner stipulated by law. 
+
+</section>
+<section>Article 7. The
     Suffrage Principles Elections of the National Assembly and community councils, as well as
     referenda shall be carried out on the basis of universal, equal, free, and direct suffrage, by
-    secret vote. Article 8. Ideological Pluralism and the Multipartisan System Ideological pluralism
+    secret vote. 
+
+</section>
+<section>Article 8. Ideological Pluralism and the Multipartisan System Ideological pluralism
     and the multipartisan system shall be guaranteed in the Republic of Armenia. Parties shall be
     formed and operate freely. Equal legal opportunities for activities of the parties shall be
     guaranteed by law. Parties shall promote the formulation and expression of the people’s
     political will. The structure and activities of parties may not contravene the democratic
-    principles. Article 9. Guaranteeing Local Self-Government Local self-government is guaranteed in
-    the Republic of Armenia as one of the essential foundations of democracy. Article 10.
+    principles. 
+
+</section>
+<section>Article 9. Guaranteeing Local Self-Government Local self-government is guaranteed in
+    the Republic of Armenia as one of the essential foundations of democracy. 
+
+</section>
+<section>Article 10.
     Guaranteeing Property All forms of property shall be recognized and equally protected in the
     Republic of Armenia. Subsoils and water resources shall be exclusive property of the State.
-    Article 11. The Economic Order The basis of the economic order in the Republic of Armenia shall
+    
+
+</section>
+<section>Article 11. The Economic Order The basis of the economic order in the Republic of Armenia shall
     be the social market economy, which shall be based on private property, freedom of economic
     activity, free economic competition, and through the state policy aimed at general economic
-    well-being and social justice. Article 12. Preservation of the Environment and Sustainable
+    well-being and social justice. 
+
+</section>
+<section>Article 12. Preservation of the Environment and Sustainable
     Development The state shall promote the preservation, improvement, and regeneration of the
     environment, and the reasonable utilization of natural resources, governed by the principle of
     sustainable development and taking into account the responsibility towards future generations.
-    Everyone shall take care of the preservation of the environment. Article 13. Foreign Policy The
+    Everyone shall take care of the preservation of the environment. 
+
+</section>
+<section>Article 13. Foreign Policy The
     foreign policy of the Republic of Armenia shall be conducted on the basis of international law
     with the aim of establishing good-neighborly and mutually-beneficial relations with all states.
-    Article 14. The Armed Forces and Defense The armed forces of the Republic of Armenia shall
+    
+
+</section>
+<section>Article 14. The Armed Forces and Defense The armed forces of the Republic of Armenia shall
     ensure the defense, security, and territorial integrity of the Republic of Armenia, and the
     inviolability of its borders. The armed forces of the Republic of Armenia shall maintain
     neutrality in political matters and shall be under civilian control. Every citizen shall be
     obliged to participate in the defense of the Republic of Armenia in the manner stipulated by
-    law. Article 15. Promotion of Culture, Education, and Science, Protection of the Armenian
+    law. 
+
+</section>
+<section>Article 15. Promotion of Culture, Education, and Science, Protection of the Armenian
     language and Cultural Heritage The state shall promote the development of culture, education,
     and science. The Armenian language and the cultural heritage shall be under the care and
-    protection of the state. Article 16. Protection of the Family Family, being the natural and
+    protection of the state. 
+
+</section>
+<section>Article 16. Protection of the Family Family, being the natural and
     fundamental cell of society and the basis for the preservation and reproduction of the
     population, as well as motherhood and childhood shall be under special protection and aegis of
-    the state. Article 17. The State and Religious Organizations The freedom of activity of
+    the state. 
+
+</section>
+<section>Article 17. The State and Religious Organizations The freedom of activity of
     religious organizations shall be guaranteed in the Republic of Armenia. Religious organizations
-    shall be separate from the state. Article 18. The Armenian Apostolic Holy Church The Republic of
+    shall be separate from the state. 
+
+</section>
+<section>Article 18. The Armenian Apostolic Holy Church The Republic of
     Armenia shall recognize the exceptional mission of the Armenian Apostolic Holy Church, as the
     national church, in the spiritual life of the Armenian people, in the development of its
     national culture, and in the preservation of its national identity. The relationship between the
-    Republic of Armenia and the Armenian Apostolic Holy Church may be regulated by a law. Article
+    Republic of Armenia and the Armenian Apostolic Holy Church may be regulated by a law. 
+
+</section>
+<section>Article
     19. Ties with the Armenian Diaspora The Republic of Armenia shall carry out a policy aimed at
     developing comprehensive ties and preserving Armenianness with the Armenian Diaspora, and shall
     facilitate repatriation. Based on international law, the Republic of Armenia shall contribute to
     protecting the Armenian language and Armenian historical and cultural values in other countries,
-    and advancing Armenian educational and cultural life in such countries. Article 20. The State
+    and advancing Armenian educational and cultural life in such countries. 
+
+</section>
+<section>Article 20. The State
     Language of the Republic of Armenia The Armenian language shall be the state language of the
-    Republic of Armenia. Article 21. The Symbols of the Republic of Armenia The flag of the Republic
+    Republic of Armenia. 
+
+</section>
+<section>Article 21. The Symbols of the Republic of Armenia The flag of the Republic
     of Armenia shall be tricolor - with equal horizontal stripes of red, blue, and orange. The coat
     of arms of the Republic of Armenia shall depict, in the center on a shield, Mount Ararat with
     Noah’s ark and the coats of arms of the four kingdoms of historical Armenia. The shield is held
     by an eagle and a lion, while a sword, a branch, a sheaf, a chain, and a ribbon are depicted
     below the shield. The detailed description of the flag and the coat of arms shall be stipulated
-    by law. The anthem of the Republic of Armenia shall be stipulated by law. Article 22. The
-    Capital of the Republic of Armenia The capital of the Republic of Armenia is Yerevan. </constitution>
+    by law. The anthem of the Republic of Armenia shall be stipulated by law. 
+
+</section>
+<section>Article 22. The
+    Capital of the Republic of Armenia The capital of the Republic of Armenia is Yerevan. 
+
+</section>
+</chapter></body>
+</constitution>
