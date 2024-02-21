@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../constitution_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<constitution>
 PREAMBLE
 We, the multinational people of the Russian Federation,
 
@@ -84,3 +85,4 @@ Universally recognized principles and norms of international law as well as inte
 Article 16
 The provisions of this Chapter of the Constitution shall constitute the fundamental principles of the constitutional order of the Russian Federation and may not be changed except in accordance with the procedure established by this Constitution.
 No other provisions of this Constitution may conflict with the fundamental principles of the constitutional order of the Russian Federation.
+</constitution>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../constitution_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<constitution>
 PREAMBLE
 We, the people of Kazakhstan, united by common historic fate, creating state on the indigenous Kazakh land, considering ourselves peace-loving and civil society, dedicated to the ideals of freedom, equality and concord, wishing to take worthy place in the world community, realizing our high responsibility before the present and future generations, proceeding from our sovereign right, accept this Constitution.
 
@@ -41,3 +42,4 @@ The Republic of Kazakhstan shall respect principles and norms of international l
 
 Article 9
 The Republic of Kazakhstan shall have its state symbols - the flag, emblem and anthem. Their description and order of official use shall be established by the constitutional law.
+</constitution>

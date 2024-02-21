@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../constitution_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<constitution>
 PREAMBLE
 The people of Uzbekistan,
 
@@ -93,3 +94,4 @@ Article 17
 The Republic of Uzbekistan shall have full rights in international relations. Its foreign policy shall be based on the principles of sovereign equality of states, non-use of force or threat of its use, inviolability of frontiers, peaceful settlement of disputes, non-interference in the internal affairs of other states and other universally recognized principles and norms of the international law.
 
 The Republic may form alliances, join unions and other interstate organizations or withdraw from proceeding from the ultimate interests of the state and the people, their well-being and security.
+</constitution>

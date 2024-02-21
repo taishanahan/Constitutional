@@ -1,4 +1,5 @@
-PREAMBLE
+<?xml-model href="../constitution_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<constitution>PREAMBLE
 The Azerbaijan people, continuing the traditions of many centuries of their Statehood, guided by the principles which are reflected in the Constitutional Act on the State Independence of the Republic of Azerbaijan, wishing to provide welfare for all and everyone, and to establish justice, freedom, security, and being aware of their responsibility before past, present, and future generations, exercise their sovereign right by solemnly declaring the following goals:
 
 to protect the independence, sovereignty and the territorial integrity of the Republic of Azerbaijan;
@@ -111,3 +112,4 @@ Article 23. Azerbaijan State Symbols
 The State symbols of the Republic of Azerbaijan are the Republic of Azerbaijan Flag, the Republic of Azerbaijan Emblem and the Republic of Azerbaijan National Anthem.
 The State Flag of the Republic of Azerbaijan consists of three wide stripes. The upper stripe is of blue color, the middle stripe is red and the lower one is green. There is a white crescent and eight pointed star in the middle of the red stripe on both sides of the Flag. The proportion of the width to the length is 1 by 2.
 The design of the Republic of Azerbaijan Flag and the Republic of Azerbaijan State Emblem, the music and the text of the Republic of Azerbaijan National Anthem shall be defined by a Constitutional Law.
+</constitution>

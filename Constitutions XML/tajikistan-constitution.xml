@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../constitution_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<constitution>
 PREAMBLE
 WE, THE PEOPLE OF TAJIKISTAN,
 
@@ -109,3 +110,4 @@ Article 13
 The land, its resources, water, airspace, fauna and flora, and other natural resources are exclusively the property of the State, and the State guarantees their effective use in the interests of the people.
 
 
+</constitution>
