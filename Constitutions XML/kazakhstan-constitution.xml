@@ -1,52 +1,100 @@
 <?xml-model href="../constitution_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <constitution country="Kazakhstan">
-    <meta>   
+    <meta>
         <source>
             <title>Kazakhstan Constitution</title>
-            <container></container>
+            <container/>
             <url>https://www.constituteproject.org/constitution/Kazakhstan_2017</url>
         </source>
     </meta>
-    
-<body><preamble>PREAMBLE
-We, the people of Kazakhstan, united by common historic fate, creating state on the indigenous Kazakh land, considering ourselves peace-loving and civil society, dedicated to the ideals of freedom, equality and concord, wishing to take worthy place in the world community, realizing our high responsibility before the present and future generations, proceeding from our sovereign right, accept this Constitution.</preamble>
-<chapter>
-    <chap_title>SECTION I. GENERAL PROVISIONS</chap_title>
-<section>Article 1
-The Republic of Kazakhstan proclaims itself democratic, secular, legal and social state whose highest values are an individual, his life, rights and freedoms.
-The fundamental principles of the activity of the Republic are public concord and political stability; economic development for the benefit of all the nation; Kazakhstan patriotism and resolution of the most important issues of the affairs of state by democratic methods including voting at an all-nation referendum or in the Parliament.</section>
-<section>Article 2
-The Republic of Kazakhstan is unitary state with presidential form of government.
-The sovereignty of the Republic extends to its entire territory. The state ensures the integrity, inviolability and inalienability of its territory.
-The administrative-territorial division of the Republic, the status of its capital shall determine by law. Capital of Kazakhstan is the city of Astana.
-A special legal regime in the financial sphere may be established within the city of Astana in accordance with the constitutional law.
-The names “Republic of Kazakhstan” and “Kazakhstan” have the same meaning.</section>
-<section>Article 3
-The people shall be the only source of state power.
-The people shall exercise power directly through an all-nation referendum and free elections as well as delegate the execution of their power to state institutions.
-Nobody shall have the right to appropriate power in the Republic of Kazakhstan. Appropriation of power shall be persecuted by law. The right to act on behalf of the people and the state shall belong to the President as well as to Parliament of the Republic within the limits of the constitutional powers. The government and other state bodies shall act on behalf of the state only within the limits of their delegated authorities.
-The state power in the Republic of Kazakhstan is unified and executed on the basis of the Constitution and laws in accordance with the principle of its division into the legislative, executive and judicial branches and system of checks and balances that governs their interaction.</section>
-<section>Article 4
-The provisions of the Constitution, the laws corresponding to it, other regulatory legal acts, international treaty and other commitments of the Republic as well as regulatory resolutions of Constitutional Council and the Supreme Court of the Republic shall be the functioning law in the Republic of Kazakhstan.
-The Constitution shall have the highest juridical force and direct effect on the entire territory of the Republic.
-International treaties ratified by the Republic shall have priority over its laws. The procedure and conditions of the application in the territory of the Republic of Kazakhstan of international treaties to which Kazakhstan is a party are determined by the legislation of the Republic.
-All laws, international treaties of which the Republic is party shall be published. Official publication of regulatory legal acts dealing with the rights, freedoms and responsibilities of citizens shall be necessary condition for their application.></section>
-<section>Article 5
-The Republic of Kazakhstan shall recognize ideological and political diversity. The formation of political party organizations in state bodies shall not be permitted.
-Public associations shall be equal before the law. Illegal interference of the state in the affairs of public associations and of public associations in the affairs of the state, imposing the functions of state institutions on public associations shall not be permitted.
-Formation and functioning of public associations pursuing the goals or actions directed toward violent change of the constitutional system, violation of the integrity of the Republic, undermining the security of the state, inciting social, racial, national, religious, class and tribal enmity, as well as formation of unauthorized paramilitary units shall be prohibited.
-Activities of political parties and trade unions of other states, religious parties as well as financing political parties and trade unions by foreign legal entities and citizens, foreign states and international organizations shall not be permitted in the Republic.
-Activities of foreign religious associations on the territory of the Republic as well as appointment of heads of religious associations in the Republic by foreign religious centers shall be carried out in coordination with the respective state institutions of the Republic.</section>
-<section>Article 6
-The Republic of Kazakhstan shall recognize and by the same token protect state and private property.
-Property shall impose obligations, and its use must simultaneously benefit the society. Subjects and objects of ownership, the scope and limits of the rights of proprietors, and guarantees of their protection shall be determined by law.
-The land and underground resources, waters, flora and fauna, other natural resources shall be owned by the state. The land may also be privately owned on terms, conditions and within the limits established by legislation.</section>
-<section>Article 7
-The state language of the Republic of Kazakhstan shall be the Kazak language.
-In state institutions and local self-administrative bodies the Russian language shall be officially used on equal grounds along with the Kazak language.
-The state shall promote conditions for the study and development of the languages of the people of Kazakhstan.</section>
-<section>Article 8
-    The Republic of Kazakhstan shall respect principles and norms of international law, pursue the policy of cooperation and good-neighborly relations between states, their equality and non-interference in each other’s domestic affairs, peaceful settlement of international disputes and renounce the first use of the military force.</section>
-<section>Article 9
-The Republic of Kazakhstan shall have its state symbols - the flag, emblem and anthem. Their description and order of official use shall be established by the constitutional law.</section>
-</chapter></body></constitution>
+
+    <body>
+        <preamble>PREAMBLE We, the people of Kazakhstan, united by common historic fate, creating
+            state on the indigenous Kazakh land, considering ourselves peace-loving and civil
+            society, dedicated to the ideals of freedom, equality and concord, wishing to take
+            worthy place in the world community, realizing our high responsibility before the
+            present and future generations, proceeding from our sovereign right, accept this
+            Constitution.</preamble>
+        <chapter>
+            <chap_title>SECTION I. GENERAL PROVISIONS</chap_title>
+            <section>Article 1 The Republic of Kazakhstan proclaims itself democratic, secular,
+                legal and social state whose highest values are an individual, his life, rights and
+                freedoms. The fundamental principles of the activity of the Republic are public
+                concord and political stability; economic development for the benefit of all the
+                nation; Kazakhstan patriotism and resolution of the most important issues of the
+                affairs of state by democratic methods including voting at an all-nation referendum
+                or in the Parliament.</section>
+            <section>Article 2 The Republic of Kazakhstan is unitary state with presidential form of
+                government. The sovereignty of the Republic extends to its entire territory. The
+                state ensures the integrity, inviolability and inalienability of its territory. The
+                administrative-territorial division of the Republic, the status of its capital shall
+                determine by law. Capital of Kazakhstan is the city of Astana. A special legal
+                regime in the financial sphere may be established within the city of Astana in
+                accordance with the constitutional law. The names “Republic of Kazakhstan” and
+                “Kazakhstan” have the same meaning.</section>
+            <section>Article 3 The people shall be the only source of state power. The people shall
+                exercise power directly through an all-nation referendum and free elections as well
+                as delegate the execution of their power to state institutions. Nobody shall have
+                the right to appropriate power in the Republic of Kazakhstan. Appropriation of power
+                shall be persecuted by law. The right to act on behalf of the people and the state
+                shall belong to the President as well as to Parliament of the Republic within the
+                limits of the constitutional powers. The government and other state bodies shall act
+                on behalf of the state only within the limits of their delegated authorities. The
+                state power in the Republic of Kazakhstan is unified and executed on the basis of
+                the Constitution and laws in accordance with the principle of its division into the
+                legislative, executive and judicial branches and system of checks and balances that
+                governs their interaction.</section>
+            <section>Article 4 The provisions of the Constitution, the laws corresponding to it,
+                other regulatory legal acts, international treaty and other commitments of the
+                Republic as well as regulatory resolutions of Constitutional Council and the Supreme
+                Court of the Republic shall be the functioning law in the Republic of Kazakhstan.
+                The Constitution shall have the highest juridical force and direct effect on the
+                entire territory of the Republic. International treaties ratified by the Republic
+                shall have priority over its laws. The procedure and conditions of the application
+                in the territory of the Republic of Kazakhstan of international treaties to which
+                Kazakhstan is a party are determined by the legislation of the Republic. All laws,
+                international treaties of which the Republic is party shall be published. Official
+                publication of regulatory legal acts dealing with the rights, freedoms and
+                responsibilities of citizens shall be necessary condition for their
+                application.></section>
+            <section>Article 5 The Republic of Kazakhstan shall recognize ideological and political
+                diversity. The formation of political party organizations in state bodies shall not
+                be permitted. Public associations shall be equal before the law. Illegal
+                interference of the state in the affairs of public associations and of public
+                associations in the affairs of the state, imposing the functions of state
+                institutions on public associations shall not be permitted. Formation and
+                functioning of public associations pursuing the goals or actions directed toward
+                violent change of the constitutional system, violation of the integrity of the
+                Republic, undermining the security of the state, inciting social, racial, national,
+                religious, class and tribal enmity, as well as formation of unauthorized
+                paramilitary units shall be prohibited. Activities of political parties and trade
+                unions of other states, religious parties as well as financing political parties and
+                trade unions by foreign legal entities and citizens, foreign states and
+                international organizations shall not be permitted in the Republic. Activities of
+                foreign religious associations on the territory of the Republic as well as
+                appointment of heads of religious associations in the Republic by foreign religious
+                centers shall be carried out in coordination with the respective state institutions
+                of the Republic.</section>
+            <section>Article 6 The Republic of Kazakhstan shall recognize and by the same token
+                protect state and private property. Property shall impose obligations, and its use
+                must simultaneously benefit the society. Subjects and objects of ownership, the
+                scope and limits of the rights of proprietors, and guarantees of their protection
+                shall be determined by law. The land and underground resources, waters, flora and
+                fauna, other natural resources shall be owned by the state. The land may also be
+                privately owned on terms, conditions and within the limits established by
+                legislation.</section>
+            <section>Article 7 The state language of the Republic of Kazakhstan shall be the Kazak
+                language. In state institutions and local self-administrative bodies the Russian
+                language shall be officially used on equal grounds along with the Kazak language.
+                The state shall promote conditions for the study and development of the languages of
+                the people of Kazakhstan.</section>
+            <section>Article 8 The Republic of Kazakhstan shall respect principles and norms of
+                international law, pursue the policy of cooperation and good-neighborly relations
+                between states, their equality and non-interference in each other’s domestic
+                affairs, peaceful settlement of international disputes and renounce the first use of
+                the military force.</section>
+            <section>Article 9 The Republic of Kazakhstan shall have its state symbols - the flag,
+                emblem and anthem. Their description and order of official use shall be established
+                by the constitutional law.</section>
+        </chapter></body>
+</constitution>

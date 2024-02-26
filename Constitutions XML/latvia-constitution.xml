@@ -1,32 +1,51 @@
 <?xml-model href="../constitution_schema.rnc" type="application/relax-ng-compact-syntax"?>
-<constitution>
-PREAMBLE
-The people of Latvia, in freely elected Constitutional Assembly, have adopted the following State Constitution:
+<constitution country="Latvia">
+    <meta>
+        <source>
+            <title>Latvia Constitution</title>
+            <container/>
+            <url>https://www.constituteproject.org/constitution/Latvia_2016</url>
+        </source>
+    </meta>
+    <body><preamble>PREAMBLE The people of Latvia, in freely elected Constitutional Assembly, have
+            adopted the following State Constitution: The State of Latvia, proclaimed on 18 November
+            1918, has been established by uniting historical Latvian lands and on the basis of the
+            unwavering will of the Latvian nation to have its own State and its inalienable right of
+            self-determination in order to guarantee the existence and development of the Latvian
+            nation, its language and culture throughout the centuries, to ensure freedom and promote
+            welfare of the people of Latvia and each individual. The people of Latvia won their
+            State in the War of Liberation. They consolidated the system of government and adopted
+            the Constitution in a freely elected Constitutional Assembly. The people of Latvia did
+            not recognise the occupation regimes, resisted them and regained their freedom by
+            restoring national independence on 4 May 1990 on the basis of continuity of the State.
+            They honour their freedom fighters, commemorate victims of foreign powers, condemn the
+            Communist and Nazi totalitarian regimes and their crimes. Latvia as democratic, socially
+            responsible and national state is based on the rule of law and on respect for human
+            dignity and freedom; it recognises and protects fundamental human rights and respects
+            ethnic minorities. The people of Latvia protect their sovereignty, national
+            independence, territory, territorial integrity and democratic system of government of
+            the State of Latvia. Since ancient times, the identity of Latvia in the European
+            cultural space has been shaped by Latvian and Liv traditions, Latvian folk wisdom, the
+            Latvian language, universal human and Christian values. Loyalty to Latvia, the Latvian
+            language as the only official language, freedom, equality, solidarity, justice, honesty,
+            work ethic and family are the foundations of a cohesive society. Each individual takes
+            care of oneself, one’s relatives and the common good of society by acting responsibly
+            toward other people, future generations, the environment and nature. While acknowledging
+            its equal status in the international community, Latvia protects its national interests
+            and promotes sustainable and democratic development of a united Europe and the world.
+            God, bless Latvia!</preamble>
+        <chapter>
+            <chap_title>CHAPTER I. GENERAL PROVISIONS</chap_title>
+            <section>Article 1 Latvia is an independent democratic republic.</section>
 
-The State of Latvia, proclaimed on 18 November 1918, has been established by uniting historical Latvian lands and on the basis of the unwavering will of the Latvian nation to have its own State and its inalienable right of self-determination in order to guarantee the existence and development of the Latvian nation, its language and culture throughout the centuries, to ensure freedom and promote welfare of the people of Latvia and each individual.
+            <section>Article 2 The sovereign power of the State of Latvia is vested in the people of
+                Latvia. </section>
+            
+            <section>Article 3 The territory of the State of Latvia, within the borders established
+                by international agreements, consists of Vidzeme, Latgale, Kurzeme and
+                Zemgale.</section>
 
-The people of Latvia won their State in the War of Liberation. They consolidated the system of government and adopted the Constitution in a freely elected Constitutional Assembly.
-
-The people of Latvia did not recognise the occupation regimes, resisted them and regained their freedom by restoring national independence on 4 May 1990 on the basis of continuity of the State. They honour their freedom fighters, commemorate victims of foreign powers, condemn the Communist and Nazi totalitarian regimes and their crimes.
-
-Latvia as democratic, socially responsible and national state is based on the rule of law and on respect for human dignity and freedom; it recognises and protects fundamental human rights and respects ethnic minorities. The people of Latvia protect their sovereignty, national independence, territory, territorial integrity and democratic system of government of the State of Latvia.
-
-Since ancient times, the identity of Latvia in the European cultural space has been shaped by Latvian and Liv traditions, Latvian folk wisdom, the Latvian language, universal human and Christian values. Loyalty to Latvia, the Latvian language as the only official language, freedom, equality, solidarity, justice, honesty, work ethic and family are the foundations of a cohesive society. Each individual takes care of oneself, one’s relatives and the common good of society by acting responsibly toward other people, future generations, the environment and nature.
-
-While acknowledging its equal status in the international community, Latvia protects its national interests and promotes sustainable and democratic development of a united Europe and the world.
-
-God, bless Latvia!
-
-CHAPTER I. GENERAL PROVISIONS
-Article 1
-Latvia is an independent democratic republic.
-
-Article 2
-The sovereign power of the State of Latvia is vested in the people of Latvia.
-
-Article 3
-The territory of the State of Latvia, within the borders established by international agreements, consists of Vidzeme, Latgale, Kurzeme and Zemgale.
-
-Article 4
-The Latvian language is the official language in the Republic of Latvia. The national flag of Latvia shall be red with a band of white.
+            <section>Article 4 The Latvian language is the official language in the Republic of
+                Latvia. The national flag of Latvia shall be red with a band of white.</section>
+        </chapter></body>
 </constitution>
