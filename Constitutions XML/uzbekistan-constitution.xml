@@ -1,5 +1,5 @@
 <?xml-model href="../constitution_schema.rnc" type="application/relax-ng-compact-syntax"?>
-<constitution country="uzbekistan">
+<constitution country="Uzbekistan">
     <meta>
         <source>
             <title>Uzbekistan Constitution</title>
