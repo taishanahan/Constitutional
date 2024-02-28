@@ -26,9 +26,26 @@ start = constitution
             
             # i did sections in the chapter, i think this is something different in each 
             # one but i just called it this here. i think it might be articles in some
-            chapter = element chapter{chap_title, section*}
+            chapter = element chapter{chap_title, section+}
                 chap_title = element chap_title{text}
-                section = element section{text}
+                
+                #section -> outer most one
+                # s_header = section header
+                # s_text = section text
+                # if no specified 'section'/outer just wrap all the articles in one anyways
+                section = element section{s_header, s_text, article+}
+                    s_header = element s_header{text}
+                    s_text = element s_text{article}
+                    
+                        #articles -> inner one
+                        # a_header = article header (ie, "Article 1")
+                        # a_text = text that is in the article 
+                         article = element article{a_header, a_text}
+                             a_header = element header{text}
+                             a_text = element a_text{text}
+                    
+                    
+                
                 
         
         
