@@ -40,15 +40,8 @@ body =
     element body {
         mixed { preamble, chapter }
     }
-preamble = element preamble { clause*, text }
-# I haven't seen any preambles with clauses. Is this a thing?
-clause =
-    element clause {
-        mixed { sovereignty+ | (gov_system | national_identity | rights)* }
-    }
-sovereignty = attribute sovereignty { text }
-gov_system = attribute gov_system { text }
-national_identity = attribute national_identity { text }
+preamble = element preamble {text }
+
 # rights = attribute rights { text }
 # although they are usually not numbered, some of the consituions have several clauses underneath
 # the preamble so I included just in case we needed to make the distinction, feel free to remove it if
@@ -71,38 +64,41 @@ section = element section{s_header, s_text, article+}
                         # a_text = text that is in the article 
                          article = element article{a_header, a_text}
                              a_header = element a_header{text}
-                             a_text = element a_text{number, mixed {(rights
-                             | nationalism
-                             | values 
-                             | religion 
-                             | org 
+                             a_text = element a_text{mixed {(
+                             state_rights 
+                             | ind_rights
+                             | nationalism # any mention of being a nation; pride in the nation; patriotism; history of togetherness 
+                            # | values 
+                             | religion # mention of state religion; toleration for religion; religious leaders; use of "god"; saying country is secular
+                             | gov # democratic, etc.; presedential form of gov; parliamentary gov 
+                             | sovereignty # explicit mention of independence; sovereignty; etc.
                              | capital 
-                             | names 
                              | currency 
-                             | consent 
-                             | elections 
-                             | separation 
+                             | consent # consent of the government ; who gov derives their power from
+                             | elections # explicit mention of elections
+                             | separation # separation of powers  
                              | parties 
-                             | property 
+                             | property # obvious; note: private property too
                              | language 
-                             | international 
-                             | symbols)*}}
-                             number = attribute number {"one"}
-                             # is there any way to add numbers as a value going up?
-                             one = text
+                             | international # IR; foreign policy; interacting with other states
+                             | symbols)*}} # official emblem, flag, miltary code of arms 
                              religion = element religion {text}
                              nationalism = element nationalism {text}
-                             rights = element rights {text}
-                             values = element values {text}
-                             org = element org {text}
+                             state_rights = element state_rights {type, text}
+                                type = attribute type {text}
+                             ind_rights = element ind_rights{type, text}
+                                ind_type = attribute type{text}
+                             #values = element values {text}
+                             gov = element gov {text}
+                             sovereignty = element sovereignty {text}
                              capital = element capital {text}
-                             names = element names {text}
                              currency = element currency {text}
                              consent = element consent {text}
                              elections = element elections {text}
                              separation = element separation {text}
                              parties = element parties {text}
-                             property = element property {text}
+                             property = element property {type, text}
+                                prop_type = attribute type{"private" | "public" | "other"}
                              language = element language {text}
                              international = element international {text}
                              symbols = element symbols {text}
