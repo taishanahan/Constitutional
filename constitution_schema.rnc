@@ -76,14 +76,14 @@ start = constitution
     #------------------------------------------- end of preamble -------------------------------------------                   
  
     #------------------------------------------- CHAPTER: -------------------------------------------
-                    chapter = element chapter { chap_title, article* }
+                    chapter = element chapter { chap_title, section+ }
                     chap_title = element chap_title { text }
 
                     # section -> outer most one
                     # if no specified 'section'/outer just wrap all the articles in one anyways
-                    section = element section { s_header, s_text, article+ }
-                        s_header = element s_header { text }  # s_header = section header
-                        s_text = element s_text { article }  # s_text = section text
+                    section = element section { s_text }
+                        s_header = element s_header { s_text }  # s_header = section header
+                        s_text = element s_text { article+ }  # s_text = section text
 
                     #articles -> inner one 
                     article = element article{a_header, a_text}
