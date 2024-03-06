@@ -54,8 +54,8 @@ start = constitution
                                                  | international # IR; foreign policy; interacting with other states
                                                  | symbols # official emblem, flag, miltary code of arms 
                                                  | peace)*}} # mention of peace, harmony, welfare, etc.
-                        religion = element religion {r_type}
-                            r_type = attribute type {"church-state" | "state-religion" | "neutral"} # church-state is seperation of the two; state-religion is establishment of religion; neutral would be mention of god, etc. 
+                        religion = element religion {r_type, text}
+                            r_type = attribute r_type {"church-state" | "state-religion" | "neutral"} # church-state is seperation of the two; state-religion is establishment of religion; neutral would be mention of god, etc. 
                         nationalism = element nationalism {text}
                         ind_rights = element ind_rights{ind_type, text}
                             ind_type = attribute ind_type{
