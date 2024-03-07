@@ -26,36 +26,62 @@
         <chapter>
             <chap_title>FIRST PART. GENERAL PROVISIONS Chapter I. The Power of the
                 People</chap_title>
-            <section>Article 1. Source of Power The Azerbaijan people are the sole source of State
-                power in the Republic of Azerbaijan. The Azerbaijan people include citizens of the
-                Republic of Azerbaijan that live in the territory of the Republic of Azerbaijan or
-                outside the country and that obey the Azerbaijan State and its Laws. This does not
-                exclude norms defined by the international law.</section>
-            <section>Article 2. The Sovereignty of the People The Azerbaijan people have the
-                sovereign right to freely and independently decide their fate and to establish the
-                form of its own governance. The Azerbaijan people implement their sovereign right by
-                universal elections-referendum and by their representatives elected on the basis of
-                universal, direct and equal elections by secret and individual ballot.</section>
-            <section>Article 3. Matters to be determined by Referendum The Azerbaijan people can
-                settle every matter connected with their rights and interests by referendum. The
-                below-mentioned matters can only be determined by referendum: The adoption of the
-                Constitution of the Republic of Azerbaijan and the introduction of changes to it.
-                The change of State borders of the Republic of Azerbaijan. A referendum cannot be
-                held concerning the following matters: Taxes and the state budget; Amnesty and
-                pardon; The election, appointment or confirmation of officials, whose election,
-                appointment or confirmation are within the competence of the legislative organs and
-                (or) the executive power.</section>
-            <section>Article 4. The Right to Represent the People No one except authoritative
-                representatives elected by the people have the right to represent, speak for and
-                address on behalf of the people.</section>
-            <section>Article 5. The Unity of the People The Azerbaijan people are united. The unity
-                of the Azerbaijan people constitutes the foundation of the Azerbaijan State. The
-                Republic of Azerbaijan is wholly and indivisibly the Homeland for all the citizens
-                of the Republic of Azerbaijan.</section>
-            <section>Article 6. Banning of Power Usurpation No part of the Azerbaijan people, either
-                an individual, or a social group or an organization has the right to usurp the
-                authority of the Azerbaijan people to exercise the power. Power usurpation is the
-                most serious crime directed against the people.</section>
+            <section>
+                <s_text>
+                    <article>
+                        <a_header>Article 1.</a_header>
+                        <a_text> Source of Power The Azerbaijan people are the sole source of State
+                            power in the Republic of Azerbaijan. The Azerbaijan people include
+                            citizens of the Republic of Azerbaijan that live in the territory of the
+                            Republic of Azerbaijan or outside the country and that obey the
+                            Azerbaijan State and its Laws. This does not exclude norms defined by
+                            the international law.</a_text>
+                    </article>
+                    <article>
+                        <a_header>Article 2.</a_header>
+                        <a_text> The Sovereignty of the People The Azerbaijan people have the
+                            sovereign right to freely and independently decide their fate and to
+                            establish the form of its own governance. The Azerbaijan people
+                            implement their sovereign right by universal elections-referendum and by
+                            their representatives elected on the basis of universal, direct and
+                            equal elections by secret and individual ballot.</a_text>
+                    </article>
+                    <article>
+                        <a_header>Article 3.</a_header>
+                        <a_text> Matters to be determined by Referendum The Azerbaijan people can
+                            settle every matter connected with their rights and interests by
+                            referendum. The below-mentioned matters can only be determined by
+                            referendum: The adoption of the Constitution of the Republic of
+                            Azerbaijan and the introduction of changes to it. The change of State
+                            borders of the Republic of Azerbaijan. A referendum cannot be held
+                            concerning the following matters: Taxes and the state budget; Amnesty
+                            and pardon; The election, appointment or confirmation of officials,
+                            whose election, appointment or confirmation are within the competence of
+                            the legislative organs and (or) the executive power.</a_text>
+                    </article>
+                    <article>
+                        <a_header>Article 4.</a_header>
+                        <a_text> The Right to Represent the People No one except authoritative
+                            representatives elected by the people have the right to represent, speak
+                            for and address on behalf of the people.</a_text>
+                    </article>
+                    <article>
+                        <a_header>Article 5.</a_header>
+                        <a_text> The Unity of the People The Azerbaijan people are united. The unity
+                            of the Azerbaijan people constitutes the foundation of the Azerbaijan
+                            State. The Republic of Azerbaijan is wholly and indivisibly the Homeland
+                            for all the citizens of the Republic of Azerbaijan.</a_text>
+                    </article>
+                    <article>
+                        <a_header>Article 6.</a_header>
+                        <a_text> Banning of Power Usurpation No part of the Azerbaijan people,
+                            either an individual, or a social group or an organization has the right
+                            to usurp the authority of the Azerbaijan people to exercise the power.
+                            Power usurpation is the most serious crime directed against the
+                            people.</a_text>
+                    </article>
+                </s_text>
+            </section>
         </chapter>
     </body>
 </constitution>

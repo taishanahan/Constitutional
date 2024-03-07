@@ -36,16 +36,33 @@
             God, bless Latvia!</preamble>
         <chapter>
             <chap_title>CHAPTER I. GENERAL PROVISIONS</chap_title>
-            <section>Article 1 Latvia is an independent democratic republic.</section>
+            <section>
+                <s_text>
+                    <article>
+                        <a_header>Article 1</a_header>
+                        <a_text> Latvia is an independent democratic republic.</a_text>
+                    </article>
 
-            <section>Article 2 The sovereign power of the State of Latvia is vested in the people of
-                Latvia. </section>
-            
-            <section>Article 3 The territory of the State of Latvia, within the borders established
-                by international agreements, consists of Vidzeme, Latgale, Kurzeme and
-                Zemgale.</section>
+                    <article>
+                        <a_header>Article 2</a_header>
+                        <a_text> The sovereign power of the State of Latvia is vested in the people
+                            of Latvia.</a_text>
+                    </article>
 
-            <section>Article 4 The Latvian language is the official language in the Republic of
-                Latvia. The national flag of Latvia shall be red with a band of white.</section>
+                    <article>
+                        <a_header>Article 3</a_header>
+                        <a_text> The territory of the State of Latvia, within the borders
+                            established by international agreements, consists of Vidzeme, Latgale,
+                            Kurzeme and Zemgale.</a_text>
+                    </article>
+
+                    <article>
+                        <a_header>Article 4</a_header>
+                        <a_text> The Latvian language is the official language in the Republic of
+                            Latvia. The national flag of Latvia shall be red with a band of
+                            white.</a_text>
+                    </article>
+                </s_text>
+            </section>
         </chapter></body>
 </constitution>
