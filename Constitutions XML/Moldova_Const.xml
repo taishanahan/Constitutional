@@ -3,127 +3,126 @@
 <?xml-model href="../constitution_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <constituition>
- 
-    <body>   
-<preamble>
-   PREAMBLE
 
-WE, the plenipotentiary representatives of the people of the Republic of Moldova, members of the Parliament,
+    <body>
+        <preamble> PREAMBLE WE, the plenipotentiary representatives of the people of the Republic of Moldova, members of the Parliament, STARTING from the age-old aspirations of our people to live in a sovereign country, expressed by the proclamation of independence of the
+            Republic of Moldova, TAKING DUE ACCOUNT to the continuity of the Moldavian people statehood within the historical and ethnic framework of its growing as a nation, STRIVING to satisfy the interests of citizens of a different ethnic origin, which together with the
+            Moldavians, constitute the Republic of Moldova people, CONSIDERING the rule of law, civic peace, democracy, human dignity, fundamental human rights and freedoms, the free development of human personality, justice and political pluralism as supreme values, BEING AWARE
+            of our responsibility and obligations towards the previous, present and future generations, REASSERTING our devotion to overall human values and desire to live in peace and harmony with all world-wide peoples, in compliance with the unanimously acknowledged principles
+            and norms of the international law, We herewith adopt the Constitution of the Republic of Moldova, and declare it as the SUPREME LAW OF OUR SOCIETY AND STATE. </preamble>
+        <chapter>
+            <chap_title> TITLE I. GENERAL PRINCIPLES </chap_title>
+            <!--Regex: `(Article [1-9]+)..*\n` to find all article headings -->
+      <section>      
+         <s_text> <article>
+                <a_header>Article 1. State of the Republic of Moldova </a_header>
+                <a_text> The Republic of Moldova is a <sovereignty>sovereign, independent, unitary and indivisible state</sovereignty>. The <gov>form of government of the State is the republic</gov>. The Republic of Moldova is <gov>a democratic and governed by the rule of law
+                    State</gov>, in which <ind_rights>human dignity, his/her rights and freedoms, the free development of human personality</ind_rights>, justice and <parties>political pluralism</parties> represent supreme values and shall be guaranteed.</a_text>
+            </article>
 
-STARTING from the age-old aspirations of our people to live in a sovereign country, expressed by the proclamation of independence of the Republic of Moldova,
+            <article>
+                <a_header>Article 2. Sovereignty and State power ( <!--not so sure if this may include nationalism-->
+                </a_header>
+                <a_text>
+                    <ind_rights>National sovereignty resides with the people of the Republic of Moldova, who shall directly and through its <gov>representative bodies exercise it in the manners provided for by the Constitution</gov>.</ind_rights>
+                     <ind_rights>Neither an individual person or a group of people</ind_rights>, nor a social group, a <parties>political party or any other public organization</parties> may exercise<gov> the State power on their own behalf</gov>. <ind_rights>The usurpation of the State power shall
+                        constitute the gravest crime against the people.</ind_rights>
+                </a_text>
+            </article>
 
-TAKING DUE ACCOUNT to the continuity of the Moldavian people statehood within the historical and ethnic framework of its growing as a nation,
+            <article>
+                <a_header>Article 3. Territory</a_header>
+                <a_text>
+                    <nationalism>The territory of the Republic of Moldova is inalienable. The borders of the country shall be sanctioned by an organic law <international>under the observance of unanimously recognized principles and norms of the international law</international>.
+                    </nationalism>
+                </a_text>
+            </article>
 
-STRIVING to satisfy the interests of citizens of a different ethnic origin, which together with the Moldavians, constitute the Republic of Moldova people,
+            <article>
+                <a_header>Article 4. Human rights and freedoms </a_header>
+                <a_text>
+                    <ind_rights>Constitutional provisions on human rights and freedoms shall be interpreted and enforced in <international>accordance with the Universal Declaration of Human Rights, other conventions and treaties to which the Republic of Moldova is a party.
+                            Wherever disagreements appear between the conventions and treaties on fundamental human rights to which the Republic of Moldova is a party and its domestic laws, priority shall be given to international regulations</international>.</ind_rights>
+                </a_text>
+            </article>
 
-CONSIDERING the rule of law, civic peace, democracy, human dignity, fundamental human rights and freedoms, the free development of human personality, justice and political pluralism as supreme values,
+            <article>
+                <a_header>Article 5. Democracy and political pluralism </a_header>
+                <a_text>
+                    <gov>Democracy in the Republic of Moldova shall be exercised under the conditions of <separation>political pluralism, which is incompatible with the dictatorship or totalitarianism</separation>. <consent>No ideology may be instituted as official ideology of
+                            the State</consent>.</gov>
+                </a_text>
+            </article>
 
-BEING AWARE of our responsibility and obligations towards the previous, present and future generations,
+            <article>
+                <a_header>Article 6. Separation and cooperation of powers </a_header>
+                <a_text>
+                    <gov>In the Republic of Moldova the legislature, the <separation>executive and the judiciary shall be separate</separation> and cooperate in the exercise of the assigned prerogatives pursuant to the provisions of the Constitution. </gov></a_text>
+            </article>
 
-REASSERTING our devotion to overall human values and desire to live in peace and harmony with all world-wide peoples, in compliance with the unanimously acknowledged principles and norms of the international law,
+            <article>
+                <a_header>Article 7. Constitution - the Supreme Law</a_header>
+                <a_text> The Constitution of the Republic of Moldova shall be the Supreme Law of the State.<consent> No law or any other legal act, which contravenes the provisions of the Constitution, shall have legal force</consent>. </a_text>
+            </article>
 
-We herewith adopt the Constitution of the Republic of Moldova, and declare it as the SUPREME LAW OF OUR SOCIETY AND STATE.
-</preamble>
+            <article>
+                <a_header>Article 8. Observance of the international law and international treaties</a_header>
+                <a_text> The Republic of Moldova pledges to observe the Charter of the United Nations Organization and the treaties to which it is a party, to institute relationships with other states on the basis of unanimously recognized principles and norms of the
+                    international law. The coming into force of an international treaty containing provisions contrary to the Constitution shall be preceded by a revision of the latter. </a_text>
+            </article>
 
- <chapter>
-<chap_title>
-    TITLE I. GENERAL PRINCIPLES
-</chap_title>
-     <!--Regex: `(Article [1-9]+)..*\n` to find all article headings -->
-<article>
-<a_header>Article 1. State of the Republic of Moldova
-</a_header><a_text>
-The Republic of Moldova is a <sovereignty>sovereign, independent, unitary and indivisible state</sovereignty>.
-The <gov>form of government of the State is the republic</gov>.
-The Republic of Moldova is <gov>a democratic and governed by the rule of law State</gov>, in which <ind_rights>human dignity, his/her rights and freedoms, the free development of human personality, justice and political pluralism represent supreme values and shall be guaranteed</ind_rights>.</a_text></article>
+            <article>
+                <a_header>Article 9. Fundamental principles regarding property</a_header>
+                <a_text>
+                    <property>Property shall be public and private. It shall be constituted of material and intellectual goods. <ind_rights>No property may be used to the prejudice of human rights, liberties and dignity. </ind_rights>The market, <separation>free economic
+                            initiative</separation>
+                        <!--seperation of gov and economy, highlight democracy-->and fair competition shall represent the main elements of the economy.</property>
+                </a_text>
+            </article>
 
-<article>
-    <a_header>Article 2. Sovereignty and State power ( <!--not so sure if this may include nationalism-->
-</a_header><a_text>
-<ind_rights>National sovereignty resides with the people of the Republic of Moldova, who shall directly and through its <gov>representative bodies exercise it in the manners provided for by the Constitution</gov>.</ind_rights>
-   <state_rights> Neither an individual person or a group of people, nor a social group, a political party or any other public organization may exercise the State power on their own behalf</state_rights>. <ind_rights>The usurpation of the State power shall constitute the gravest crime against the people.</ind_rights>
-</a_text></article>
-     
-<article>
-<a_header>Article 3. Territory</a_header>
-    <a_text>
-<nationalism>The territory of the Republic of Moldova is inalienable.
-The borders of the country shall be sanctioned by an organic law <international>under the observance of unanimously recognized principles and norms of the international law</international>.
-    </nationalism>
-    </a_text></article>
-     
-<article>
-<a_header>Article 4. Human rights and freedoms
-</a_header><a_text>
-<ind_rights>Constitutional provisions on human rights and freedoms shall be interpreted and enforced in <international>accordance with the Universal Declaration of Human Rights, other conventions and treaties to which the Republic
-of Moldova is a party. Wherever disagreements appear between the conventions and treaties on fundamental human rights to which the Republic of Moldova is a party and its domestic laws, priority shall be given to international regulations</international>.</ind_rights>
-</a_text></article>
-     
-<article>
-<a_header>Article 5. Democracy and political pluralism
-</a_header><a_text>
-<gov>Democracy in the Republic of Moldova shall be exercised under the conditions of <separation>political pluralism, which is incompatible with the dictatorship or totalitarianism</separation>.
-<consent>No ideology may be instituted as official ideology of the State</consent>.</gov>
-</a_text></article>
+            <article>
+                <a_header>Article 10. Unity of the people and the right to national identity</a_header>
+                <a_text>
+                    <sovereignty>The State foundation is laid on the unity of the Republic of Moldova people. The Republic of Moldova is the common and indivisible motherland of all its citizens. </sovereignty>
+                    <ind_rights>The State shall recognize and guarantee the right of all citizens to the preservation, development and expression of their ethnic, cultural, linguistic and religious identity.</ind_rights>
+                </a_text>
+            </article>
 
-<article>
-<a_header>Article 6. Separation and cooperation of powers
-</a_header><a_text>
-<gov>In the Republic of Moldova the legislature, the <separation>executive and the judiciary shall be separate</separation> and cooperate in the exercise of the assigned prerogatives pursuant to the provisions of the Constitution.
-</gov></a_text></article>
+            <article>
+                <a_header>Article 11. Republic of Moldova - a neutral State</a_header>
+                <a_text>
+                    <international>The Republic of Moldova proclaims its permanent neutrality.<!--unsure if the first part counts as nationalism--> The Republic of Moldova shall <international>not allow the dispersal of foreign military troops on its
+                        territory</international>.</international>
+                </a_text>
+            </article>
 
-<article>
-<a_header>Article 7. Constitution - the Supreme Law</a_header><a_text>
-The Constitution of the Republic of Moldova shall be the Supreme Law of the State.<consent> No law or any other legal act, which contravenes the provisions of the Constitution, shall have legal force</consent>.
-</a_text></article>
+            <article>
+                <a_header>Article 12. Symbols of the State</a_header>
+                <a_text>
+                    <symbols>The Republic of Moldova has a flag, coat of arms and anthem. The State flag of the Republic of Moldova shall be a tricolour. The colours are arranged vertically in the following order from the flagpole: blue, yellow, and red. The coat of arms is
+                        printed on the central yellow stripe of the tricolour. The State coat of arms shall consist of a shield divided horizontally into two parts: the upper part being of a red chromatics and the lower part - blue chromatics with a superimposed auroch's head
+                        showing between its horns an eight-pointed star. On its right the auroch's head is flanked by a five-petalled rose, and on its left by a slightly rotated crescent. All heraldic elements present on the shield are of golden (yellow) colour. The shield is
+                        laid on the breast of a natural eagle holding in its beak a golden cross, in its right claw a green olive-tree branch and in its left claw a golden sceptre. The State anthem of the Republic of Moldova shall be established by organic law. The flag, coat of
+                        arms and anthem shall be considered the State symbols of the Republic of Moldova and shall be protected by law as such.</symbols>
+                </a_text>
+            </article>
 
-<article>
-<a_header>Article 8. Observance of the international law and international treaties</a_header><a_text>
-The Republic of Moldova pledges to observe the Charter of the United Nations Organization and the treaties to which it is a party, to institute relationships with other states on the basis of unanimously recognized principles and norms of the international law.
-The coming into force of an international treaty containing provisions contrary to the Constitution shall be preceded by a revision of the latter.
-</a_text></article>
-     
-<article>    
-<a_header>Article 9. Fundamental principles regarding property</a_header><a_text>
-<property>Property shall be public and private. It shall be constituted of material and intellectual goods.
-<ind_rights>No property may be used to the prejudice of human rights, liberties and dignity.
-</ind_rights>The market, <separation>free economic initiative</separation> <!--seperation of gov and economy, highlight democracy-->and fair competition shall represent the main elements of the economy.</property>
-</a_text></article>
-     
-<article>
-<a_header>Article 10. Unity of the people and the right to national identity</a_header><a_text>
-<sovereignty>The State foundation is laid on the unity of the Republic of Moldova people. The Republic of Moldova is the common and indivisible motherland of all its citizens.
-</sovereignty>
-<ind_rights>The State shall recognize and guarantee the right of all citizens to the preservation, development and expression of their ethnic, cultural, linguistic and religious identity.</ind_rights>
-</a_text></article>
-     
-<article>
- <a_header>Article 11. Republic of Moldova - a neutral State</a_header><a_text> 
-<international>The Republic of Moldova proclaims its permanent neutrality.<!--unsure if the first part counts as nationalism-->
-The Republic of Moldova shall <international>not allow the dispersal of foreign military troops on its territory</international>.</international>
-</a_text></article>
-     
-<article>
-<a_header>Article 12. Symbols of the State</a_header>
-    <a_text>
-<symbols>The Republic of Moldova has a flag, coat of arms and anthem.
-The State flag of the Republic of Moldova shall be a tricolour. The colours are arranged vertically in the following order from the flagpole: blue, yellow, and red. The coat of arms is printed on the central yellow stripe of the tricolour.
-The State coat of arms shall consist of a shield divided horizontally into two parts: the upper part being of a red chromatics and the lower part - blue chromatics with a superimposed auroch's head showing between its horns an eight-pointed star. On its right the auroch's head is flanked by a five-petalled rose, and on its left by a slightly rotated crescent. All heraldic elements present on the shield are of golden (yellow) colour. The shield is laid on the breast of a natural eagle holding in its beak a golden cross, in its right claw a green olive-tree branch and in its left claw a golden sceptre.
-The State anthem of the Republic of Moldova shall be established by organic law.
-The flag, coat of arms and anthem shall be considered the State symbols of the Republic of Moldova and shall be protected by law as such.</symbols>
- </a_text></article>
-
-<article>
-<a_header>Article 13. State language, use of other languages</a_header><a_text>
-<language>The State language in the Republic of Moldova is the Moldavian language, and its writing is based on the Latin alphabet
-<nationalism>The State shall acknowledge and protect the right to the preservation, development and use of the Russian language and other languages spoken within the territory of the State.</nationalism>
-<international>The State shall facilitate the study of languages of widespread international usage.</international>
-The manner of functioning of languages within the territory of the Republic of Moldova <gov>shall be established by organic law</gov>.</language>
-</a_text></article>
-<article>
-<a_header>Article 14. Capital</a_header><a_text>
-<capital>The capital of the Republic of Moldova is the city of Chisinau.</capital>
-</a_text></article>
- </chapter>
-        </body>   
+            <article>
+                <a_header>Article 13. State language, use of other languages</a_header>
+                <a_text>
+                   The State language in the Republic of Moldova is the Moldavian language, and its writing is based on the Latin alphabet <nationalism>The State shall acknowledge and protect the right to the preservation, development and use of the Russian language
+                            and other languages spoken within the territory of the State.</nationalism>
+                    The State shall <language>facilitate the study of languages</language>of widespread <international>international usage</international>. The manner of functioning of languages within the territory of the Republic of Moldova shall be established by organic
+                        law.
+                </a_text>
+            </article>
+            <article>
+                <a_header>Article 14. Capital</a_header>
+                <a_text>
+                    <capital>The capital of the Republic of Moldova is the city of Chisinau.</capital>
+                </a_text>
+            </article></s_text>
+      </section>
+        </chapter>
+    </body>
 </constituition>

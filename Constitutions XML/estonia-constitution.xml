@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../constitution_schema.rnc" type="application/relax-ng-compact-syntax"?>
-<constitution country="estonia">
+<constitution country="Estonia">
     <meta>
         <source>
             <title/>
@@ -9,10 +9,10 @@
         </source>
     </meta>
     <body><preamble>PREAMBLE With unwavering faith and a steadfast will to strengthen and develop
-            the state, which embodies the inextinguishable right of the people of Estonia to
-            national self-determination and which was proclaimed on 24 February 1918, which is
-            founded on liberty, justice and the rule of law, which is created to protect the peace
-            and defend the people against aggression from the outside, and which forms a pledge to
+            the state, which embodies the <sovereignty>inextinguishable right of the people of Estonia to
+            national self-determination</sovereignty> and which was proclaimed on 24 February 1918, which is
+            founded on<gov> liberty, justice and the rule of law,</gov> which is created to <state_rights type = "soveriegnty">protect the peace
+            and defend the people against aggression from the outside,</state_rights> and which forms a pledge to
             present and future generations for their social progress and welfare, which must
             guarantee the preservation of the Estonian people, the Estonian language and the
             Estonian culture through the ages, the people of Estonia, on the basis of Article 1 of
