@@ -9,36 +9,71 @@
         </source>
     </meta>
     <body><preamble>PREAMBLE With unwavering faith and a steadfast will to strengthen and develop
-            the state, which embodies the <sovereignty>inextinguishable right of the people of Estonia to
-            national self-determination</sovereignty> and which was proclaimed on 24 February 1918, which is
-            founded on<gov> liberty, justice and the rule of law,</gov> which is created to <state_rights type = "soveriegnty">protect the peace
-            and defend the people against aggression from the outside,</state_rights> and which forms a pledge to
-            present and future generations for their social progress and welfare, which must
-            guarantee the preservation of the Estonian people, the Estonian language and the
-            Estonian culture through the ages, the people of Estonia, on the basis of Article 1 of
-            the Constitution which entered into force in 1938, and in the referendum held on 28 June
-            1992, have adopted the following Constitution. </preamble>
+            the state, which embodies the <sovereignty>inextinguishable right of the people of
+                Estonia to national self-determination</sovereignty> and which was proclaimed on 24
+            February 1918, which is founded on<gov> liberty, justice and the rule of law,</gov>
+            which is created to<peace> protect the peace and defend the people against aggression
+                from the outside,</peace>and which forms a pledge to present and future generations
+            for their social progress and welfare, which must guarantee the <peace>preservation of
+                the Estonian people</peace>, <language>the Estonian language </language>and the
+                <nationalism> Estonian culture through the ages,</nationalism> the people of
+            Estonia, on the basis of Article 1 of the Constitution which entered into force in 1938,
+            and in the referendum held on 28 June 1992, have adopted the following Constitution. </preamble>
         <chapter>
             <chap_title>CHAPTER I. GENERAL PROVISIONS</chap_title>
-           <section> <s_text><article><a_header>Article 1 </a_header><a_text>Estonia is an independent and sovereign democratic republic wherein
-                the supreme power of state is vested in the people. The independence and sovereignty
-                of Estonia are timeless and inalienable. </a_text></article>
-            <article><a_header>Article 2</a_header><a_text> The land, territorial waters and airspace of the Estonian state are
-                an inseparable and indivisible whole. Estonia is politically a unitary state wherein
-                administrative division shall be provided by law.</a_text></article>
-            <article><a_header>Article 3</a_header><a_text> The state authority shall be exercised solely pursuant to the
-                Constitution and laws which are in conformity therewith. Generally recognized
-                principles and rules of international law are an inseparable part of the Estonian
-                legal system. Laws shall be published in the prescribed manner. Only published laws
-                have obligatory force. </a_text></article>
-            <article><a_header>Article 4 </a_header><a_text>The activities of the Riigikogu (Parliament of Estonia), the
-                President of the Republic, the Government of the Republic, and the courts shall be
-                organized on the principle of separation and balance of powers.</a_text> </article>
-            <article><a_header>Article 5 </a_header><a_text>The natural wealth and resources of Estonia are national riches which
-                shall be used economically.</a_text></article>
-            <article><a_header>Article 6</a_header><a_text> The official language of Estonia is Estonian. </a_text></article>
-            <article> <a_header>Article 7</a_header> <a_text>The national colors of Estonia are blue, black and white. The design
-                of the national flag and the national coat of arms shall be provided by
-                law.</a_text></article></s_text></section>
+            <section>
+                <s_text>
+                    <article>
+                        <a_header>Article 1 </a_header>
+                        <a_text>Estonia is an <sovereignty>independent and sovereign
+                                </sovereignty><gov>democratic republic</gov> wherein the
+                                s<consent>upreme power of state is vested in the people.</consent>
+                            <sovereignty>The independence and sovereignty of Estonia are timeless
+                                and inalienable.</sovereignty>
+                        </a_text>
+                    </article>
+                    <article>
+                        <a_header>Article 2</a_header>
+                        <a_text> The land, territorial waters and airspace of the Estonian state are
+                            an inseparable and indivisible whole. <gov>Estonia is politically a
+                                unitary state wherein administrative division shall be provided by
+                                law.</gov></a_text>
+                    </article>
+                    <article>
+                        <a_header>Article 3</a_header>
+                        <a_text> The state authority shall be exercised solely pursuant to the
+                            Constitution and laws which are in conformity therewith.
+                                <international>Generally recognized principles and rules of
+                                international law are an inseparable part of the Estonian legal
+                                system.</international> Laws shall be published in the prescribed
+                            manner. Only published laws have obligatory force. </a_text>
+                    </article>
+                    <article>
+                        <a_header>Article 4 </a_header>
+                        <a_text>The a<gov>ctivities of the Riigikogu (Parliament of Estonia), the
+                                President of the Republic, the Government of the Republic, and the
+                                courts</gov> shall be organized on the <separation>principle of
+                                separation and balance of powers.</separation></a_text>
+                    </article>
+                    <article>
+                        <a_header>Article 5 </a_header>
+                        <a_text><property prop_type="public">The natural wealth and resources of
+                                Estonia are national riches which shall be used
+                                economically.</property></a_text>
+                    </article>
+                    <article>
+                        <a_header>Article 6</a_header>
+                        <a_text> The official <language>language of Estonia is Estonian.
+                            </language></a_text>
+                    </article>
+                    <article>
+                        <a_header>Article 7</a_header>
+                        <a_text>The <symbols>national colors of Estonia are blue, black and
+                                white.</symbols>
+                            <symbols>The design of the national flag and the national coat of arms
+                                shall be provided by law.</symbols></a_text>
+                    </article>
+                </s_text>
+            </section>
         </chapter></body>
 </constitution>

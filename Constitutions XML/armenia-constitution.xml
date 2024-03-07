@@ -173,50 +173,59 @@
                     </article>
                     <article>
                         <a_header>Article 17.</a_header>
-                        <a_text> The State and Religious Organizations <religion r_type="church-state">The freedom of activity of
-                            religious organizations</religion> shall be guaranteed in the Republic of Armenia.
-                            Religious organizations shall be separate from the state. </a_text>
+                        <a_text> The State and Religious Organizations <religion
+                                r_type="church-state">The freedom of activity of religious
+                                organizations</religion> shall be guaranteed in the Republic of
+                            Armenia. <religion r_type="church-state">Religious organizations shall
+                                be separate from the state</religion>. </a_text>
                     </article>
                     <article>
                         <a_header>Article 18.</a_header>
                         <a_text> The Armenian Apostolic Holy Church The Republic of Armenia shall
-                            recognize the exceptional mission of the Armenian Apostolic Holy Church,
-                            as the national church, in the spiritual life of the Armenian people, in
-                            the development of its national culture, and in the preservation of its
-                            national identity. The relationship between the Republic of Armenia and
-                            the Armenian Apostolic Holy Church may be regulated by a law. </a_text>
+                            recognize the <religion r_type="state-religion">exceptional mission of
+                                the Armenian Apostolic Holy Church, as the national
+                                church</religion>, in the spiritual life of the Armenian people, in
+                            the development of its <nationalism>national culture, and in the
+                                preservation of its national identity. </nationalism> The
+                            relationship between the Republic of Armenia and the Armenian Apostolic
+                            Holy Church may be regulated by a law. </a_text>
                     </article>
                     <article>
                         <a_header>Article 19.</a_header>
                         <a_text> Ties with the Armenian Diaspora The Republic of Armenia shall carry
-                            out a policy aimed at developing comprehensive ties and preserving
-                            Armenianness with the Armenian Diaspora, and shall facilitate
-                            repatriation. Based on international law, the Republic of Armenia shall
-                            contribute to protecting the Armenian language and Armenian historical
-                            and cultural values in other countries, and advancing Armenian
-                            educational and cultural life in such countries. </a_text>
+                            out a policy aimed at <nationalism>developing comprehensive ties and
+                                preserving Armenianness with the Armenian Diaspora</nationalism>,
+                            and shall facilitate repatriation. Based on international law, the
+                            Republic of Armenia shall contribute to p<nationalism>rotecting the
+                                Armenian language and Armenian historical and cultural values in
+                                other countries</nationalism>, and advancing Armenian educational
+                            and cultural life in such countries. </a_text>
                     </article>
                     <article>
                         <a_header>Article 20.</a_header>
-                        <a_text> The State Language of the Republic of Armenia The Armenian language
-                            shall be the state language of the Republic of Armenia. </a_text>
+                        <a_text> The State Language of the Republic of Armenia <language>The
+                                Armenian language shall be the state language of the Republic of
+                                Armenia</language>. </a_text>
                     </article>
                     <article>
                         <a_header>Article 21.</a_header>
-                        <a_text> The Symbols of the Republic of Armenia The flag of the Republic of
-                            Armenia shall be tricolor - with equal horizontal stripes of red, blue,
-                            and orange. The coat of arms of the Republic of Armenia shall depict, in
-                            the center on a shield, Mount Ararat with Noah’s ark and the coats of
-                            arms of the four kingdoms of historical Armenia. The shield is held by
-                            an eagle and a lion, while a sword, a branch, a sheaf, a chain, and a
-                            ribbon are depicted below the shield. The detailed description of the
-                            flag and the coat of arms shall be stipulated by law. The anthem of the
-                            Republic of Armenia shall be stipulated by law. </a_text>
+                        <a_text> The Symbols of the Republic of Armenia <symbols>The flag of the
+                                Republic of Armenia shall be tricolor - with equal horizontal
+                                stripes of red, blue, and orange.</symbols>
+                            <symbols>The coat of arms of the Republic of Armenia shall depict, in
+                                the center on a shield, Mount Ararat with Noah’s ark and the coats
+                                of arms of the four kingdoms of historical Armenia. The shield is
+                                held by an eagle and a lion, while a sword, a branch, a sheaf, a
+                                chain, and a ribbon are depicted below the shield.</symbols> The
+                            detailed description of the flag and the coat of arms shall be
+                            stipulated by law. <symbols>The anthem of the Republic of Armenia shall
+                                be stipulated by law.</symbols>
+                        </a_text>
                     </article>
                     <article>
                         <a_header>Article 22.</a_header>
-                        <a_text> The Capital of the Republic of Armenia The capital of the Republic
-                            of Armenia is Yerevan. </a_text>
+                        <a_text> The Capital of the Republic of Armenia T<capital>he capital of the
+                                Republic of Armenia is Yerevan. </capital></a_text>
                     </article>
                 </s_text>
             </section>
