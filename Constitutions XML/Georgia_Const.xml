@@ -1,79 +1,108 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<constituiton> 
-    <preamble>PREAMBLE
-    
-    We, the citizens of Georgia - whose firm will it is to establish a democratic social order, economic freedom, and a legal and a social state; to secure universally recognised human rights and freedoms; and to enhance state independence and peaceful relations with other peoples - drawing on the centuries-old traditions of the statehood of the Georgian nation and the historical and legal legacy of the Constitution of Georgia of 1921, proclaim this Constitution before God and the nation.
-    </preamble>
-   <body><chapter> <section><ch_heading>CHAPTER ONE. GENERAL PROVISIONS</ch_heading>
-    
-    <s_text>
-        <!--regex: (Article [1-9]+).*?\n to find a_heading-->
-   <article> <a_heading>Article 1. State sovereignty
-</a_heading>    
-  <a_text>  Georgia is an independent, unified and indivisible state as confirmed by the Referendum of 31 March 1991 held in the entire territory of the country, including the Autonomous Soviet Socialist Republic of Abkhazia and the former Autonomous Region of South Ossetia, and by the Act of Restoration of State Independence of Georgia of 9 April 1991.
-    The territory of the state of Georgia was determined on 21 December 1991. The territorial integrity of Georgia and the inviolability of the state border is confirmed by the Constitution and laws of Georgia, and recognised by the world community of nations and by international organisations. The alienation of the territory of the state of Georgia shall be prohibited. The state border may be changed only by a bilateral agreement with a neighbouring state.</a_text>
-    </article>
-        
-    <article><a_heading>Article 2. State symbols
-</a_heading>    
-    <a_text>'Georgia' is the name of the state of Georgia.
-    Tbilisi is the capital of Georgia.
-    The official language of Georgia shall be Georgian, and, in the Autonomous Republic of Abkhazia, also Abkhazian. The official language is protected by the organic law.
-    The state flag, the coat of arms, and the anthem of Georgia are established by the organic law, which shall be revised in accordance with the procedure established for revising the Constitution.</a_text>
-    </article>
-   
-  <article> <a_heading>Article 3. Democracy
-</a_heading>    
-   <a_text> Georgia is a democratic republic.
-    People are the source of state authority. People exercise power through their representatives, as well as through referendums and other forms of direct democracy.
-    No one shall have the right to seize power. The current term of a body elected in general elections shall not be extended or reduced by the Constitution or law.
-    Political parties shall participate in the formation and exercise of the political will of the people. The activities of political parties shall be based on the principles of freedom, equality, transparency, and intra-party democracy.
-    </a_text></article>
-        
- <article><a_heading>Article 4. Legal state
-</a_heading>    
-<a_text>    Georgia is a legal state.
-    The State acknowledges and protects universally recognised human rights and freedoms as eternal and supreme human values. While exercising authority, the people and the State shall be bound by these rights and freedoms as directly applicable law. The Constitution shall not deny other universally recognised human rights and freedoms that are not explicitly referred to herein, but that inherently derive from the principles of the Constitution.
-    State authority shall be exercised based on the principle of the separation of powers.
-    State authority shall be exercised within the ambit of the Constitution and law. The Constitution of Georgia shall be the supreme law of the State. General rules for the adoption and issuance of legislative and other normative acts, and their hierarchy, shall be determined by the organic law.
-    The legislation of Georgia shall comply with the universally recognised principles and norms of international law. An international treaty of Georgia shall take precedence over domestic normative acts unless it comes into conflict with the Constitution or the Constitutional Agreement of Georgia.
-    </a_text></article>
- <article>       
-<a_heading>Article 5. Social state
-</a_heading>    
-   <a_text> Georgia is a social state.
-    The State shall take care of strengthening the principles of social justice, social equality and social solidarity within society.
-    The State shall take care of the equitable socio-economic and demographic development in the entire territory of the country. Special conditions for the development of high mountain regions shall be determined by law.
-    The State shall take care of human health care and social protection, ensuring the subsistence minimum and decent housing, and protecting the welfare of the family. The State shall promote the employment of citizens. Conditions for providing the subsistence minimum shall be determined by law.
-    The State shall take care of environmental protection and the rational use of natural resources.
-    The State shall take care of the protection of national values, identity and cultural heritage, and of the development of education, science and culture.
-    The State shall take care of the development of sports, establishing a healthy lifestyle, and engaging children and youth in physical education and sports.
-    The State shall take care of maintaining and developing connections with the homeland for Georgian compatriots residing abroad.</a_text>
-    </article>
-        
-<article><a_heading>Article 6. Economic freedom
-</a_heading>   <a_text> 
-    Economic freedom is recognised and guaranteed.
-    The State shall take care of developing a free and open economy, and free enterprise and competition.
-    Abolishing the universal right to private property shall be prohibited.
-    </a_text></article>
-<article>        
-<a_heading>Article 7. Basis of territorial arrangement
-</a_heading>    
-<a_text> The following shall fall within the exclusive competence of the supreme state authorities of Georgia:
-a. legislation on human rights, Georgian citizenship, migration, entry into and exit from the country, and the temporary or permanent stay of aliens and stateless persons in Georgia;
-b. criminal, penitentiary, civil, intellectual property, administrative, labour and procedural legislation; legislation pertaining to land, minerals, and other natural resources; pharmaceutical legislation; legislation on obtaining the status of educational institution, and on accreditation, and academic degrees; and legislation on the National Academy of Sciences;
-c. foreign policy and international relations; foreign trade, customs and tariff regimes;
-d. state defence, military industry and arms trade; issues relating to war and truce; determining and introducing the legal regime of a state of emergency and martial law; the armed forces; courts and prosecution; state security; criminal police and investigation; the status, regime and protection of the state border; and a cordon sanitaire on the border;
-e. state finances and state loans; the printing and emission of money; and legislation on banking, credit, insurance, tax and trade of national significance;
-f. railways and motor roads of national significance; the integrated energy system and regime; communications; the status and protection of territorial waters, airspace, the continental shelf and the exclusive economic zone; aviation; the merchant fleet; ensigns; harbours of national significance; fishing in oceans and high seas; meteorology; environmental monitoring systems; standards and models; geodesy and cartography; determining the precise time; and state statistics.
-g. The powers of the Autonomous Republic of Abkhazia and the Autonomous Republic of Ajara, and procedures for exercising such powers shall be determined by the constitutional laws of Georgia that are an integral part of the Constitution of Georgia.
-h. The state territorial arrangement of Georgia shall be revised by a constitutional law of Georgia on the basis of the principle of the separation of powers after the complete restoration of the jurisdiction of Georgia over the entire territory of the country.
-i. The citizens of Georgia shall regulate affairs of local importance through local self-government in accordance with the legislation of Georgia. The separation of the powers of state authority and self-governing units is based on the principle of subsidiarity. The State ensures that the financial resources of self-governing units correspond with their powers as determined by the organic law.
-j. An exclusive economic zone shall be established in Anaklia on the basis of the organic law, where a special legal regime shall apply. Other exclusive economic zones with special legal regimes may also be established on the basis of the organic law.</a_text>
-</article>
-<article><a_heading>Article 8. Relationship between the State and the Apostolic Autocephalous Orthodox Church of Georgia
-</a_heading><a_text>Along with freedom of belief and religion, the State shall recognise the outstanding role of the Apostolic Autocephalous Orthodox Church of Georgia in the history of Georgia, and its independence from the State. The
-relationship between the state of Georgia and the Apostolic Autocephalous Orthodox Church of Georgia shall be determined by a constitutional agreement, which shall be in full compliance with the universally recognised principles and norms of international law in the area of human rights and freedoms.</a_text>
-    </article>
-    </s_text></section></chapter></body></constituiton> 
+<?xml-model href="../constitution_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<constitution country="Georgia">
+    <meta>
+        <source>
+            <title>Georgia 1995 (rev. 2018)</title>
+            <container>Constitute Project</container>
+            <url>https://www.constituteproject.org/constitution/Georgia_2018</url>
+        </source>
+    </meta>
+
+    <body>
+        <preamble>PREAMBLE We, the citizens of Georgia - whose firm will it is to establish a democratic social order, economic freedom, and a legal and a social state; to secure universally recognised human rights and freedoms; and to enhance state independence and peaceful relations with other
+            peoples - drawing on the centuries-old traditions of the statehood of the Georgian nation and the historical and legal legacy of the Constitution of Georgia of 1921, proclaim this Constitution before God and the nation. </preamble>
+        <chapter>
+
+            <chap_title>CHAPTER ONE. GENERAL PROVISIONS</chap_title>
+            <section>
+                <s_text>
+                    <!--regex: (Article [1-9]+).*?\n to find a_heading-->
+                    <article>
+                        <a_header> Article 1. State sovereignty </a_header>  <!--would nationalism also count as history-->
+                        <a_text> Georgia is an <sovereignty>independent, unified and indivisible state</sovereignty> as confirmed by the <nationalism>Referendum of 31 March 1991 held in the entire territory of the country, including the Autonomous Soviet Socialist Republic of Abkhazia and the former
+                                Autonomous Region of South Ossetia, and by the Act of Restoration of State Independence of Georgia of 9 April 1991</nationalism>. The territory of the state of Georgia was determined on 21 December 1991. The t<nationalism>erritorial integrity of Georgia and the inviolability of
+                            the state border is confirmed by the Constitution and laws of Georgia</nationalism>, and <international>recognised by the world community of nations and by international organisations</international>. The <nationalism>alienation of the territory of the state of Georgia shall be prohibited</nationalism>. The <sovereignty>state border may be changed only by
+                            a bilateral agreement with a neighbouring state</sovereignty>.</a_text>
+                    </article>
+
+                    <article>
+                        <a_header> Article 2. State symbols </a_header>
+                        <a_text>'Georgia' is the name of the state of Georgia. <capital>Tbilisi</capital> is the capital of Georgia. <language>The official language of Georgia shall be Georgian, and, in the Autonomous Republic of Abkhazia, also Abkhazian</language>. The <nationalism>official language is protected by the organic law</nationalism>. The <symbols>state flag,
+                            the coat of arms, and the anthem of Georgia are established by the organic law</symbols>, which shall be revised in accordance with the procedure established for revising the Constitution.</a_text>
+                    </article>
+
+                    <article>
+                        <a_header> Article 3. Democracy </a_header>
+                        <a_text> Georgia is a <gov>democratic republic</gov>. <gov>People are the source of state authority</gov>. People exercise power through their <parties p_type="multi">representatives, as well as through referendums</parties> and other forms of <gov>direct democracy</gov>. No one shall have the right to seize power. The current term of a body
+                            elected in general<elections> elections shall not be extended or reduced by the Constitution or law</elections>. <parties p_type="multi">Political parties</parties> shall participate in the formation and exercise of the political will of the people. The activities of political parties shall be based on the principles of
+                            freedom, equality, transparency, and <parties p_type="multi">intra-party democracy</parties>. </a_text>
+                    </article>
+
+                    <article>
+                        <a_header> Article 4. Legal state </a_header>
+                        <a_text> Georgia is a <sovereignty>legal state</sovereignty>. The State acknowledges and protects <international>universally recognised human rights and freedoms as eternal and supreme human values. While exercising authority, the people and the State shall be bound by these rights and freedoms as directly applicable
+                            law</international>. The Constitution<international> shall not deny other universally recognised human rights and freedoms that are not explicitly referred to herein</international>, but that inherently derive from the principles of the Constitution. State authority shall be exercised based on the principle of the
+                            <separation>separation of powers</separation>. State authority shall be exercised within the ambit of the Constitution and law. The Constitution of Georgia shall be the supreme law of the State. General rules for the adoption and issuance of legislative and other normative acts, and their
+                            hierarchy, shall be determined by the organic law. The legislation of Georgia shall comply with the universally recognised principles and norms of international law. An international treaty of Georgia shall take precedence over domestic normative acts unless it comes into
+                            conflict with the Constitution or the Constitutional Agreement of Georgia. </a_text>
+                    </article>
+                    <article>
+                        <a_header> Article 5. Social state </a_header>
+                        <a_text> Georgia is a social state. The State shall take care of strengthening the principles of social justice, social equality and social solidarity within society. The State shall take care of the equitable socio-economic and demographic development in the entire territory
+                            of the country. Special conditions for the development of high mountain regions shall be determined by law. The State shall take care of human health care and social protection, ensuring the subsistence minimum and decent housing, and protecting the welfare of the family.
+                            The State shall promote the employment of citizens. Conditions for providing the subsistence minimum shall be determined by law. The State shall take care of environmental protection and the rational use of natural resources. The State shall take care of the protection of
+                            <nationalism>national values</nationalism>, <ind_rights ind_type="racial-equality">identity and cultural heritage</ind_rights>, and of the development of <ind_rights ind_type="misc">education, science and culture</ind_rights>. The State shall take care of the <ind_rights ind_type="misc">development of sports, establishing a healthy lifestyle, and engaging children and youth in physical education and sports</ind_rights>. The State
+                            shall take care of<nationalism> maintaining and developing connections with the homeland for Georgian compatriots residing abroad</nationalism>.</a_text>
+                    </article>
+
+                    <article>
+                        <a_header> Article 6. Economic freedom </a_header>
+                        <a_text><property prop_type="private"> Economic freedom</property> is recognised and guaranteed. The State shall take care of developing a <property prop_type="private">free and open economy, and free enterprise and competition</property>. <property prop_type="private">Abolishing the universal right to private property shall be prohibited</property>. </a_text>
+                    </article>
+                    <article>
+                        <a_header> Article 7. Basis of territorial arrangement </a_header>
+                        <a_text> The following shall fall within <consent>the exclusive competence of the supreme state authorities of Georgia</consent>:
+                           
+                           a. <ind_rights ind_type="liberty">legislation on human rights</ind_rights>, <ind_rights ind_type="citizenship">Georgian citizenship</ind_rights>,
+                            <ind_rights ind_type="misc">migration>, entry into and exit from
+                            the country</ind_rights>, and the <ind_rights ind_type="legal">temporary or permanent stay of aliens and stateless
+                            persons</ind_rights> in Georgia; 
+                            
+                            b. criminal, penitentiary, civil, intellectual property, administrative, labour and procedural legislation; legislation pertaining to land, minerals, and other natural resources; pharmaceutical legislation; legislation on obtaining the status of
+                            educational institution, and on accreditation, and academic degrees; and legislation on the National Academy of Sciences;
+                           
+                            c. <international>foreign policy and international relations; foreign trade, customs and tariff regimes</international>; 
+                            
+                            d. state defence, military industry and arms trade; <peace>issues
+                            relating to war and truce</peace>; determining and introducing the legal regime of a state of emergency and martial law; the armed forces; courts and prosecution; state security; criminal police and investigation;<sovereignty> the status, regime and protection of the state border; and a
+                            cordon sanitaire on the border; </sovereignty>
+                            
+                            e.<currency> state finances and state loans; the printing and emission of money; and legislation on banking, credit, insurance, tax and trade of national significance</currency>; 
+                            
+                            f. <property prop_type="public">railways and motor roads of national significance; the integrated energy system
+                            and regime; communications</property>; <sovereignty>the status and protection of territorial waters, airspace, the continental shelf and the exclusive economic zone</sovereignty>; <property prop_type="public">aviation; the merchant fleet; ensigns; harbours of national significance; fishing in oceans and high seas; meteorology;
+                            environmental monitoring systems; standards and models; geodesy and cartography; determining the precise time; and state statistics</property>. 
+                            
+                            g. The <separation>powers of the Autonomous Republic of Abkhazia and the Autonomous Republic of Ajara, and procedures for exercising such powers shall
+                            be determined by the constitutional laws</separation> of Georgia that are an integral part of the Constitution of Georgia. 
+                            
+                            h. The <separation>state territorial arrangement of Georgia shall be revised by a constitutional law of Georgia on the basis of the principle of the separation of powers</separation>
+                            after the complete restoration of the jurisdiction of Georgia over the entire territory of the country. 
+                            
+                            i. The citizens of Georgia shall regulate affairs of local importance through local <ind_rights ind_type="legal">self-government</ind_rights> in accordance with the legislation of Georgia. <separation>The separation of the
+                            powers of state authority and self-governing units is based on the principle of subsidiarity</separation>. The State ensures that the financial resources of self-governing units correspond with their powers as determined by the organic law. 
+                            
+                            j. An exclusive economic zone shall be
+                            established in Anaklia on the basis of the organic law, where a special legal regime shall apply. Other exclusive economic zones with special legal regimes may also be established on the basis of the organic law.</a_text>
+                    </article>
+                    <article>
+                        <a_header> Article 8. Relationship between the State and the Apostolic Autocephalous Orthodox Church of Georgia </a_header>
+                        <a_text>Along with <religion r_type="neutral">freedom of belief and religion</religion>, the State shall recognise the outstanding role of the <nationalism>Apostolic Autocephalous Orthodox Church of Georgia in the history of Georgia</nationalism>, and its<separation> independence from the State</separation>. The relationship between the state of Georgia and the
+                            Apostolic Autocephalous Orthodox Church of Georgia shall be determined by a constitutional agreement, which shall be in full compliance with<international> the universally recognised principles and norms of international law in the area of human rights and freedoms</international>.</a_text>
+                    </article>
+
+                </s_text>
+            </section>
+        </chapter>
+    </body>
+</constitution>
