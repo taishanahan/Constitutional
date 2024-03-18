@@ -9,12 +9,13 @@
     </meta>
 
     <body>
-        <preamble>PREAMBLE We, the people of Kazakhstan, united by common historic fate, creating
+        <preamble>PREAMBLE<consent> We, the people of Kazakhstan,</consent><nationalism> united by common historic fate, creating
             state on the indigenous Kazakh land, considering ourselves peace-loving and civil
-            society, dedicated to the ideals of freedom, equality and concord, wishing to take
+            society,</nationalism> dedicated to the ideals of freedom, equality and concord, wishing to take
             worthy place in the world community, realizing our high responsibility before the
             present and future generations, proceeding from our sovereign right, accept this
             Constitution.</preamble>
+        <!-- Every preamble I've covered doesn't dedicate itself to rights, but rather often nonspecific (and noncommittal) "ideals" or "values." This is probably something to add. Will have to bring this up. -->
         <chapter>
             <chap_title>SECTION I. GENERAL PROVISIONS</chap_title>
             <section>
@@ -23,23 +24,23 @@
                         <a_header>Article 1</a_header>
                         <!--Maybe a relgious tag so that religion in some constitutions can be compared against secularism in others-->
                         <a_text>The Republic of Kazakhstan proclaims itself <gov>democratic</gov>,
-                                <religion r_type="neutral">secular</religion>, legal and social
+                                <religion r_type="church-state">secular</religion>, legal and social
                             state whose highest values are an <ind_rights ind_type="liberty"
                                 >individual, his life, rights and freedoms.</ind_rights> The
                             fundamental principles of the activity of the Republic are public
                             concord and political stability; economic development for the benefit of
-                            all the nation; <nationalism>Kazakhstan patriotism and resolution of the
-                                most important issues of the affairs of state by democratic methods
-                                including voting at an all-nation referendum or in the
-                                Parliament</nationalism>.</a_text>
+                            all the nation; <nationalism>Kazakhstan patriotism</nationalism> and<gov> resolution of the
+                                most important issues of the affairs of state by democratic methods</gov>
+                                <elections>including voting at an all-nation referendum or in the
+                                Parliament.</elections></a_text>
                     </article>
                     <article>
                         <a_header>Article 2</a_header>
                         <a_text>
                             <gov>The Republic of Kazakhstan is unitary state with presidential form
-                                of government.</gov> The sovereignty of the Republic extends to its
+                                of government.</gov> <sovereignty>The sovereignty of the Republic extends to its
                             entire territory. The state ensures the integrity, inviolability and
-                            inalienability of its territory. <capital>The administrative-territorial
+                            inalienability of its territory.</sovereignty> <capital>The administrative-territorial
                                 division of the Republic, the status of its capital shall determine
                                 by law. Capital of Kazakhstan is the city of Astana.</capital> A
                             special legal regime in the financial sphere may be established within
@@ -53,12 +54,12 @@
                                 power.</consent>
                             <elections>The people shall exercise power directly through an
                                 all-nation referendum and free elections as well as delegate the
-                                execution of their power to state institutions.</elections> Nobody
+                                execution of their power to state institutions.Nobody
                             shall have the right to appropriate power in the Republic of Kazakhstan.
-                            Appropriation of power shall be persecuted by law. <consent>The right to
-                                act on behalf of the people and the state shall belong to the
+                            Appropriation of power shall be persecuted by law.</elections> <consent>The right to
+                                act on behalf of the people and the state</consent><gov> shall belong to the
                                 President as well as to Parliament of the Republic within the limits
-                                of the constitutional powers.</consent>
+                                of the constitutional powers.</gov>
                             <separation>The government and other state bodies shall act on behalf of
                                 the state only within the limits of their delegated authorities. The
                                 state power in the Republic of Kazakhstan is unified and executed on
@@ -69,20 +70,20 @@
                     </article>
                     <article>
                         <a_header>Article 4</a_header>
-                        <a_text>The provisions of the Constitution, the laws corresponding to it,
-                            other regulatory legal acts, international treaty and other commitments
-                            of the Republic as well as regulatory resolutions of Constitutional
+                        <a_text><gov>The provisions of the Constitution, the laws corresponding to it,
+                            other regulatory legal acts,</gov><international> international treaty and other commitments</international>
+                            <separation>of the Republic as well as regulatory resolutions of Constitutional
                             Council and the Supreme Court of the Republic shall be the functioning
-                            law in the Republic of Kazakhstan. The Constitution shall have the
+                            law in the Republic of Kazakhstan</separation>.<gov> The Constitution shall have the
                             highest juridical force and direct effect on the entire territory of the
-                            Republic. International treaties ratified by the Republic shall have
+                            Republic.</gov><international> International treaties ratified by the Republic shall have
                             priority over its laws. The procedure and conditions of the application
                             in the territory of the Republic of Kazakhstan of international treaties
                             to which Kazakhstan is a party are determined by the legislation of the
                             Republic. All laws, international treaties of which the Republic is
-                            party shall be published. Official publication of regulatory legal acts
+                            party shall be published.</international><ind_rights ind_type="misc"> Official publication of regulatory legal acts
                             dealing with the rights, freedoms and responsibilities of citizens shall
-                            be necessary condition for their application.></a_text>
+                            be necessary condition for their application.</ind_rights>></a_text>
                     </article>
                     <article>
                         <a_header>Article 5</a_header>
@@ -100,28 +101,27 @@
                                 undermining the security of the state, inciting social, racial,
                                 national, religious, class and tribal enmity, as well as formation
                                 of unauthorized paramilitary units shall be prohibited.</parties>
-                            Activities of political parties and trade unions of other states,
+                            <international>Activities of political parties and trade unions of other states,
                             religious parties as well as financing political parties and trade
                             unions by foreign legal entities and citizens, foreign states and
                             international organizations shall not be permitted in the
-                                Republic<religion r_type="state-religion">. Activities of
-                                <!--Treason?--> foreign religious associations on the territory of
+                                Republic.</international> <international>Activities of <!--Treason?--> foreign</international><religion r_type="state-religion"> religious associations on the territory of
                                 the Republic as well as appointment of heads of religious
                                 associations in the Republic by foreign
-                                religious<!-- Does this mean that the state has control over religous leaders?-->
+                                religious<!-- Feels like should be tagged concerning religion, but also the-->
                                 centers shall be carried out in coordination with the respective
                                 state institutions of the Republic.</religion></a_text>
                     </article>
                     <article>
                         <a_header>>Article 6</a_header>
                         <a_text><property prop_type="public">The Republic of Kazakhstan shall
-                                recognize and by the same token protect state and private property.
-                                Property shall impose obligations, and its use must simultaneously
+                                recognize and by the same token protect state</property><property prop_type="private"> and private property</property>.
+                                <property prop_type="other">Property shall impose obligations, and its use must simultaneously
                                 benefit the society. Subjects and objects of ownership, the scope
                                 and limits of the rights of proprietors, and guarantees of their
-                                protection shall be determined by law. The land and underground
+                                protection shall be determined by law.</property><property prop_type="public"> The land and underground
                                 resources, waters, flora and fauna, other natural resources shall be
-                                owned by the state. The land may also be privately owned on terms,
+                                owned by the state.</property> <property prop_type="private">The land may also be privately owned on terms,
                                 conditions and within the limits established by
                                 legislation.</property></a_text>
                     </article>

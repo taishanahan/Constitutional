@@ -7,60 +7,61 @@
             <url>https://www.constituteproject.org/constitution/Latvia_2016</url>
         </source>
     </meta>
-    <body><preamble>PREAMBLE The people of Latvia, in freely elected Constitutional Assembly, have
-            adopted the following State Constitution: The State of Latvia, proclaimed on 18 November
+    <body><preamble>PREAMBLE <consent>The people of Latvia, in freely elected Constitutional Assembly, have
+            adopted</consent> the following <gov>State Constitution</gov>: <sovereignty>The State of Latvia, proclaimed on 18 November
             1918, has been established by uniting historical Latvian lands and on the basis of the
             unwavering will of the Latvian nation to have its own State and its inalienable right of
-            self-determination in order to guarantee the existence and development of the Latvian
-            nation, its language and culture throughout the centuries, to ensure freedom and promote
-            welfare of the people of Latvia and each individual. The people of Latvia won their
-            State in the War of Liberation. They consolidated the system of government and adopted
-            the Constitution in a freely elected Constitutional Assembly. The people of Latvia did
-            not recognise the occupation regimes, resisted them and regained their freedom by
-            restoring national independence on 4 May 1990 on the basis of continuity of the State.
-            They honour their freedom fighters, commemorate victims of foreign powers, condemn the
-            Communist and Nazi totalitarian regimes and their crimes. Latvia as democratic, socially
-            responsible and national state is based on the rule of law and on respect for human
-            dignity and freedom; it recognises and protects fundamental human rights and respects
-            ethnic minorities. The people of Latvia protect their sovereignty, national
-            independence, territory, territorial integrity and democratic system of government of
-            the State of Latvia. Since ancient times, the identity of Latvia in the European
-            cultural space has been shaped by Latvian and Liv traditions, Latvian folk wisdom, the
-            Latvian language, universal human and Christian values. Loyalty to Latvia, the Latvian
-            language as the only official language, freedom, equality, solidarity, justice, honesty,
+            self-determination</sovereignty> <nationalism>in order to guarantee the existence and development of the Latvian
+            nation</nationalism>, <language>its language</language> and <nationalism>culture</nationalism> throughout the centuries, t<sovereignty>o ensure freedom and promote <!-- Wondering if language should be a part of nationalism. I don't think so though because language often = information -->
+            welfare of the people of Latvia</sovereignty><ind_rights ind_type="liberty"> and each individual</ind_rights>.<sovereignty> The people of Latvia won their 
+            State in the War of Liberation.</sovereignty> <gov>They consolidated the system of government and adopted
+            the Constitution in a freely elected Constitutional Assembly.</gov> <international>The people of Latvia did
+            not recognise the occupation regimes</international>, resisted them and <sovereignty>regained their freedom by
+            restoring national independence on 4 May 1990 on the basis of continuity of the State.</sovereignty>
+            <nationalism>They honour their freedom fighters</nationalism>, <international>commemorate victims of foreign powers, condemn the
+            Communist and Nazi totalitarian regimes and their crimes.</international> Latvia as <gov>democratic, socially
+            responsible and national state is based on the rule of law</gov> and on <ind_rights ind_type="liberty">respect for human
+            dignity and freedom</ind_rights>; it recognises and protects fundamental human rights and respects
+            ethnic minorities. <sovereignty>The people of Latvia protect their sovereignty, national
+            independence, territory, territorial integrity</sovereignty> and <gov>democratic system of government of
+            the State of Latvia.</gov> Since ancient times, <nationalism>the identity of Latvia in the European
+            cultural space has been shaped by Latvian and Liv traditions, Latvian folk wisdom,</nationalism> <language>the
+            Latvian language</language>, universal human and <religion r_type="neutral">Christian values</religion>. <nationalism>Loyalty to Latvia</nationalism>,<language> the Latvian
+            language as the only official language</language>, freedom, equality, solidarity, justice, honesty,
             work ethic and family are the foundations of a cohesive society. Each individual takes
             care of oneself, one’s relatives and the common good of society by acting responsibly
-            toward other people, future generations, the environment and nature. While acknowledging
+            toward other people, <nationalism>future generations</nationalism>, the environment and nature. <international>While acknowledging
             its equal status in the international community, Latvia protects its national interests
-            and promotes sustainable and democratic development of a united Europe and the world.
-            God, bless Latvia!</preamble>
+            and promotes sustainable and democratic development of a united Europe and the world.</international>
+            <religion r_type="neutral">God, bless Latvia!</religion></preamble>
         <chapter>
             <chap_title>CHAPTER I. GENERAL PROVISIONS</chap_title>
             <section>
                 <s_text>
                     <article>
                         <a_header>Article 1</a_header>
-                        <a_text> Latvia is an independent democratic republic.</a_text>
+                        <a_text><gov> Latvia is an independent democratic republic.</gov></a_text>
                     </article>
 
                     <article>
                         <a_header>Article 2</a_header>
-                        <a_text> The sovereign power of the State of Latvia is vested in the people
-                            of Latvia.</a_text>
+                        <a_text> <sovereignty>The sovereign power of the State of Latvia</sovereignty><consent> is vested in the people
+                            of Latvia.</consent></a_text>
                     </article>
 
                     <article>
                         <a_header>Article 3</a_header>
-                        <a_text> The territory of the State of Latvia, within the borders
-                            established by international agreements, consists of Vidzeme, Latgale,
-                            Kurzeme and Zemgale.</a_text>
+                        <a_text> <sovereignty>The territory of the State of Latvia,</sovereignty> <international>within the borders
+                            established by international agreements,</international><sovereignty> consists of Vidzeme, Latgale,
+                            Kurzeme and Zemgale.</sovereignty></a_text>
                     </article>
 
                     <article>
                         <a_header>Article 4</a_header>
-                        <a_text> The Latvian language is the official language in the Republic of
-                            Latvia. The national flag of Latvia shall be red with a band of
-                            white.</a_text>
+                        <a_text><language> The Latvian language is the official language in the Republic of 
+                            Latvia.</language><symbols> The national flag of Latvia shall be red with a band of
+                            white.</symbols></a_text>
+                        <!-- Latvia places a lot of emphasis on language. I know the USSR tried to replace a lot of languages and literature when it took over countries. Could be some reading to do here. -->
                     </article>
                 </s_text>
             </section>
