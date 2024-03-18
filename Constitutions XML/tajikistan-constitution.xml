@@ -1,66 +1,124 @@
 
-<constitution> 
+<?xml-model href="../constitution_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<constitution country="Tajikistan">
+    
+    <meta>
+        <source>
+            <title> Tajikistan 1994 (rev. 2016)</title>
+            <container>Constitute Project</container>
+            <url>https://www.constituteproject.org/constitution/Tajikistan_2016</url>
+        </source>
+    </meta>
+    <body>
+   
     <preamble>PREAMBLE
-    WE, THE PEOPLE OF TAJIKISTAN, As an inseparable part of the world community, Realizing our debt and our
-    responsibility to the past, present and future generations, Understanding the necessity of ensuring the sovereignty and development of
-    our State, Recognizing as unshakable the freedom and rights of man, Respecting the equality of rights and friendship of all nations and
-    nationalities, Seeking to build a just society, ADOPT AND PROCLAIM THIS CONSTITUTION</preamble>
-    <body><chapter><section><ch_heading>CHAPTER 1. FOUNDATIONS OF THE CONSTITUTIONAL SYSTEM
-    </ch_heading><s_text>
-    <article><a_heading>Article 1 </a_heading>
-    <a_text>The Republic of Tajikistan is a sovereign, democratic, law-governed, secular, and unitary State. The form of the governance of
-    the Republic of Tajikistan is Presidential. Tajikistan is a social State the policy of which is aimed at providing conditions that
-    ensure dignified life and free human development. "Republic of Tajikistan" and "Tajikistan" are equivalent terms.</a_text></article> 
-    <article><a_heading>Article 2 </a_heading>
-   <a_text> The State language of Tajikistan is the Tajik language. Russian is the language of communication between the nationalities. All nations and
-    nationalities living on the territory of the Republic have the right to freely use their native language.</a_text></article>
-    <article><a_heading>Article 3 </a_heading>
-        <a_text>The State symbols of the Republic of Tajikistan are the flag, the emblem, and the national anthem. </a_text> </article>
-   <article><a_heading>Article 4 </a_heading>
-     <a_text>The capital of Tajikistan is the city of Dushanbe.</a_text> </article>
-        
-    <article><a_heading>Article 5</a_heading>
-     <a_text>Human, its rights and freedoms are the highest value. The life, honor, dignity and other natural rights of man are
-    inviolable. The rights and freedoms of man and citizen are recognized, observed, and protected by the State. </a_text></article>
-    <article><a_heading>Article 6 </a_heading>
-    <a_text>In Tajikistan, the people are the bearer of sovereignty and the sole source of the State power, which they exercise directly as well as through their
-    representatives. The ultimate direct expression of the power of the people is a national referendum and elections. The citizens of
-    Tajikistan, regardless of their nationalities, constitute the people of Tajikistan. No single social organization, political party,
-    group of people or individual has the right to usurp State power. The usurpation of power or infringement on its authorities is
-    prohibited. The right to represent the entire people of Tajikistan belongs only to the President and the Majlisi Milli and the Majlisi
-    Namoyandagon of the Majlisi Oli of the Republic of Tajikistan at their joint session. </a_text></article>
-        <article><a_heading>Article 7 </a_heading>
-   <a_text> The territory of Tajikistan is indivisible and inviolable. Tajikistan consists of the Gorno-Badakhshan Autonomous Oblast, oblasts (areas), cities, rayons (regions),
-    settlements, and villages. The State secures the sovereignty, independence and territorial integrity of the Republic. Propaganda and
-    actions aimed to divide the unity of the State are prohibited. The procedure for creating and changing administrative-territorial units
-    is regulated by a constitutional law.</a_text> </article>
-        <article><a_heading>Article 8 </a_heading>
-    <a_text>In Tajikistan, public life shall be developed on the basis of political and ideological
-    pluralism. No single ideology of a party, social association, religious organization, movement, or group may be recognized as the State
-    [ideology]. Social associations and political parties are created and function within the framework of the Constitution and laws.
-    Religious unions are separate from the State and may not interfere with State affairs. Creation and functioning of social associations
-    and political parties propagating racism, nationalism, social and religious enmity, or encouraging forcible overthrow of the
-    constitutional system and organization of armed groups are prohibited. The activity of political parties of other countries,
-    establishing national and religious parties, including funding of political parties by foreign countries and organizations, foreign
-    legal entities and citizens shall be prohibited.</a_text></article> 
-    <article><a_heading>Article 9 </a_heading>
-    <a_text>The State power is based on the principle of its division into legislative, executive, and judicial.</a_text> </article>
-    <article><a_heading>Article 10 </a_heading>
-    <a_text>The Constitution of Tajikistan has the supreme juridical force [and] its norms have direct effect.
-    Laws and other legal acts contradicting the Constitution have no juridical force. The State and all its organs, officials, citizens and
-    their associations are obligated to observe and implement the Constitution and laws of the Republic. International legal acts recognized
-    by Tajikistan are a constituent part of the legal system of the Republic. In case of disparity between the laws of the Republic and the
-    recognized international legal acts, the norms of the international acts apply. Laws and international legal acts recognized by
-    Tajikistan enter force after their official publication.</a_text></article> 
-    <article><a_heading>Article 11</a_heading>
-    <a_text>Tajikistan, conducting peaceful policy, respects the sovereignty and
-    independence of other States [and] determines its foreign policy on the basis of international norms. War propaganda is prohibited.
-    Tajikistan, guided by the supreme interests of the people, may join commonwealths and other international organizations as well as
-    withdraw from them [and] establish relations with foreign countries. The State cooperates with compatriots [living] abroad. </a_text> </article>
-    <article><a_heading>Article 12</a_heading>
-   <a_text> Foundations of the economy of Tajikistan are composed of various forms of property. The State guarantees the freedom of economic and
-    entrepreneurial activity, equality of rights, and legal protection of all forms of property including private property.</a_text> </article>
-     <article><a_heading>Article 13 </a_heading>
-     <a_text>The land, its resources, water, airspace, fauna and flora, and other natural resources are exclusively the property of the State, and the
-    State guarantees their effective use in the interests of the people.</a_text></article>
-    </s_text></section></chapter></body> </constitution>
+        WE, THE PEOPLE OF TAJIKISTAN, As <international>an inseparable part of the world community</international>, Realizing our debt and our
+        responsibility to the past, present and future generations, Understanding the<sovereignty> necessity of ensuring the sovereignty</sovereignty> and development
+        of our State, Recognizing as unshakable the freedom and rights of man, Respecting the <ind_rights ind_type="racial-equality">equality of rights and friendship of all
+        nations and nationalities</ind_rights>, Seeking to build a just society, ADOPT AND PROCLAIM THIS CONSTITUTION</preamble>
+ 
+        <chapter>
+            <chap_title>CHAPTER 1. FOUNDATIONS OF THE CONSTITUTIONAL SYSTEM</chap_title>
+           
+            <section>
+                <s_text>
+               
+            <article>
+                        <a_header>Article 1 </a_header>
+                        <a_text>The Republic of Tajikistan is a <sovereignty>sovereign</sovereignty>, <gov>democratic</gov>, law-governed, <separation>secular</separation>, and <sovereignty>unitary</sovereignty> State. The form of
+                            the governance of the Republic of Tajikistan is <gov>Presidential</gov>. Tajikistan is a social State the policy of which
+                            is aimed at providing conditions that <ind_rights ind_type="misc">ensure dignified life and free human development</ind_rights>. "Republic of Tajikistan"
+                            and "Tajikistan" are equivalent terms.</a_text>
+                    </article>
+                    <article>
+                        <a_header>Article 2 </a_header>
+                        <a_text> The <language>State language of Tajikistan is the Tajik language</language>. <language>Russian is the language of communication between
+                            the nationalities</language>. All <ind_rights ind_type="racial-equality">nations and nationalities living on the territory of the Republic have the right to
+                            freely use their native language</ind_rights>.</a_text>
+                    </article>
+                    <article>
+                        <a_header>Article 3 </a_header>
+                        <a_text>The State symbols of the Republic of Tajikistan are the <symbols>flag, the emblem, and the national anthem</symbols>. </a_text>
+                    </article>
+                    <article>
+                        <a_header>Article 4 </a_header>
+                        <a_text>The capital of Tajikistan is the city of <capital>Dushanbe</capital>.</a_text>
+                    </article>
+
+                    <article>
+                        <a_header>Article 5</a_header>
+                        <a_text>Human, its <ind_rights ind_type="misc">rights and freedoms are the highest value</ind_rights>. The
+                            <ind_rights ind_type="misc">life, honor, dignity and other natural rights of
+                            man are inviolable</ind_rights>. The <ind_rights ind_type="legal">rights and freedoms of man and citizen are recognized, observed, and protected by the
+                                State</ind_rights>. </a_text>
+                    </article>
+                    <article>
+                        <a_header>Article 6 </a_header>
+                        <a_text>In Tajikistan, the <nationalism>people are the bearer of sovereignty and the sole source of the State power</nationalism>, which they
+                           <gov> exercise directly as well as through their representatives</gov>. The ultimate <nationalism>direct expression of the power of the
+                            people is a national referendum</nationalism> and <elections>elections</elections>. The <ind_rights ind_type="racial-equality">citizens of Tajikistan, regardless of their nationalities,
+                            constitute the people of Tajikistan</ind_rights>.<consent> No single social organization, political party, group of people or
+                            individual has the right to usurp State power. The usurpation of power or infringement on its authorities is
+                            prohibited</consent>. The <gov>right to represent the entire people of Tajikistan belongs only to the President and the Majlisi
+                            Milli and the Majlisi Namoyandagon of the Majlisi Oli</gov> of the Republic of Tajikistan at their joint session.
+                        </a_text>
+                    </article>
+                    <article>
+                        <a_header>Article 7 </a_header>
+                        <a_text> The territory of Tajikistan is <sovereignty>indivisible and inviolable</sovereignty>. Tajikistan consists of the Gorno-Badakhshan
+                            Autonomous Oblast, oblasts (areas), cities, rayons (regions), settlements, and villages. The State secures the
+                         <sovereignty>   sovereignty, independence and territorial integrity</sovereignty> of the Republic. Propaganda and actions aimed to divide the
+                            unity of the State are prohibited. The procedure for creating and changing administrative-territorial units is
+                            regulated by a constitutional law.</a_text>
+                    </article>
+                    <article>
+                        <a_header>Article 8 </a_header>
+                        <a_text>In Tajikistan, public life shall be developed on the basis of <parties p_type="multi">political and ideological pluralism</parties>. No single
+                            ideology of a party, social association, religious organization, movement, or group may be recognized as the
+                            State [ideology]. <ind_rights ind_type="assembly">Social associations</ind_rights> and <parties p_type="multi">political parties</parties> are created and function within the framework of the
+                            Constitution and laws. <separation>Religious unions are separate from the State and may not interfere with State affairs.</separation>
+                            Creation and functioning of social associations and political parties<ind_rights ind_type="racial-equality"> propagating racism, nationalism, social
+                            and religious enmity</ind_rights>, or encouraging forcible overthrow of the constitutional system and organization of armed
+                            groups are prohibited. The <international>activity of political parties of other countries, establishing national and religious
+                            parties, including funding of political parties by foreign countries and organizations, foreign legal entities
+                            and citizens shall be prohibited</international>.</a_text>
+                    </article>
+                    <article>
+                        <a_header>Article 9 </a_header>
+                        <a_text>The State power is based on the principle of its <separation>division into legislative, executive, and
+                            judicial</separation>.</a_text>
+                    </article>
+                    <article>
+                        <a_header>Article 10 </a_header>
+                        <a_text>The Constitution of Tajikistan has the supreme juridical force [and] its norms have direct effect. <consent>Laws and
+                            other legal acts contradicting the Constitution have no juridical force</consent>. The State and all its organs,
+                            officials, citizens and their associations are obligated to observe and implement the Constitution and laws of
+                            the Republic. <international>International legal acts recognized by Tajikistan are a constituent part</international> of the legal system of
+                            the Republic. In case of <consent>disparity between the laws of the Republic and the recognized international legal acts,
+                                the norms of the international acts apply</consent>. <international>Laws and international legal acts recognized by Tajikistan enter
+                                force after their official publication</international>.</a_text>
+                    </article>
+                    <article>
+                        <a_header>Article 11</a_header>
+                        <a_text>Tajikistan, <peace>conducting peaceful policy, respects the sovereignty and independence of other States</peace> [and]
+                            determines its<international> foreign policy on the basis of international norms</international>. <peace>War propaganda is prohibited</peace>. Tajikistan,
+                            guided by the supreme interests of the people, <international>may join commonwealths and other international organizations as
+                            well as withdraw from them [and] establish relations with foreign countries</international>. The State <international>cooperates with
+                            compatriots [living] abroad</international>. </a_text>
+                    </article>
+                    <article>
+                        <a_header>Article 12</a_header>
+                        <a_text> Foundations of the economy of Tajikistan are composed of various forms of property. The State guarantees
+                            the freedom of economic and entrepreneurial activity, equality of rights, and legal protection of all forms of
+                            property including <property prop_type="private">private property</property>.</a_text>
+                    </article>
+                    <article>
+                        <a_header>Article 13 </a_header>
+                        <a_text>The <property prop_type="public">land, its resources, water, airspace, fauna and flora, and other natural resources are exclusively the
+                            property of the State</property>, and the State guarantees their effective use in the interests of the people.</a_text>
+                    </article>
+                </s_text>
+            </section>
+        </chapter>
+    </body>
+</constitution>
