@@ -70,29 +70,44 @@ preamble =
              | # IR; foreign policy; interacting with other states
                symbols
              | # official emblem, flag, miltary code of arms 
-               peace)*
+               peace
+             |
+               treason # any mention of not usurping the gov, etc.
+             |
+               levels # different levels of gov (ie, local gov); attribute if it mentions federalist or unitary
+             |  
+               economic # only marked as this if it EXPLICITLY mentions the type of system (ie, free market or not)
+             | 
+               values)* # general values of the state, used in preambles mostly 
         }
     }
 # mention of peace, harmony, welfare, etc.
 religion = element religion { r_type, text }
-r_type = attribute r_type { "church-state" | "state-religion" | "neutral" }
-# church-state is seperation of the two; state-religion is establishment of religion; neutral would be mention of god, etc. 
+    r_type = attribute r_type { "secular" | "state-religion" | "neutral" }
+# secular is seperation of the two; state-religion is establishment of religion; neutral would be mention of god, etc. 
+# mentions of freedom of religion can be tagged as secular 
 nationalism = element nationalism { text }
+treason = element treason { text }
+values = element values {text}
+levels = element levels { l_type, text }
+    l_type = attribute l_type { "unitary" | "federalist" | "neutral" }
+economic = element economic {e_type, text}
+    e_type = attribute e_type { "free" | "state" }
 ind_rights = element ind_rights { ind_type, text }
-ind_type =
-    attribute ind_type {
-        "speech"
-        | "protest"
-        | "citizenship"
-        | "assembly"
-        | "legal"
-        | "arms"
-        | "vote"
-        | "racial-equality"
-        | "gender-equality"
-        | "liberty"
-        | "misc"
-    }
+    ind_type =
+        attribute ind_type {
+            "speech"
+            | "protest"
+            | "citizenship"
+            | "assembly"
+            | "legal"
+            | "arms"
+            | "vote"
+            | "racial-equality"
+            | "gender-equality"
+            | "liberty"
+            | "misc"
+        }
 gov = element gov { text }
 sovereignty = element sovereignty { text }
 capital = element capital { text }
@@ -101,9 +116,9 @@ consent = element consent { text }
 elections = element elections { text }
 separation = element separation { text }
 parties = element parties { p_type, text }
-p_type = attribute p_type { "0" | "1" | "2" | "multi" }
+    p_type = attribute p_type { "0" | "1" | "2" | "multi" }
 property = element property { prop_type, text }
-prop_type = attribute prop_type { "private" | "public" | "other" }
+    prop_type = attribute prop_type { "private" | "public" | "other" }
 language = element language { text }
 international = element international { text }
 symbols = element symbols { text }
@@ -154,16 +169,16 @@ a_text =
              | # IR; foreign policy; interacting with other states
                symbols
              | # official emblem, flag, miltary code of arms 
-               peace)*
+               peace
+             |
+               treason
+             |
+               levels
+             |
+               economic
+             |
+               values)*
         }
     }
-# So what I did here was I did a basic markup of the Khazak constitution. These are the themes I found in each article. I'm sure we can come up with better names, this was just quick stuff.
-# Wondering if maybe it would be beneficial to make each different article a new element, but I don't think so. How can we narrow this?
-# Should Secularism be separate from religion?
-# Should rights be freedoms? 
-# Org=organization? Maybe gform for government form?
-# separation for separation of powers?
-# international form international relations
-
 # ------------------------------------------- end of chapter -------------------------------------------
 # ------------------------------------------- end of body -------------------------------------------
