@@ -8,38 +8,38 @@
         </source>
     </meta>
     <body>
-        <preamble> PREAMBLE <consent>The Azerbaijan people</consent>,<nationalism> continuing the traditions of many centuries of
-            their Statehood, guided by the principles which are reflected in the Constitutional Act
-            on the State Independence of the Republic of Azerbaijan,</nationalism> wishing <!-- heres that lack of commitment again -->
-            to provide welfare for all and everyone, and to establish justice, freedom, security, and being aware of their
-            responsibility before past, present, and future generations, <sovereignty>exercise their sovereign
+        <preamble> PREAMBLE The Azerbaijan people,<nationalism> continuing the traditions of many centuries of
+            their Statehood</nationalism>, guided by the principles which are reflected in the Constitutional Act
+            on the State Independence of the Republic of Azerbaijan, wishing
+            to provide <peace>welfare for all and everyone</peace>, and to <ind_rights ind_type="liberty">establish justice, freedom, security,</ind_rights> and being aware of <nationalism>their
+                responsibility before past, present, and future generations</nationalism>, <sovereignty>exercise their sovereign
             right by solemnly declaring the following goals: to protect the independence,
             sovereignty and the territorial integrity of the Republic of Azerbaijan;</sovereignty><gov> to guarantee
             the democratic system within the framework of the Constitution; to achieve the
-            realization of a civil society; to establish a law-governed,</gov> <religion r_type="church-state">secular state</religion> which assures
-            the supremacy of the law as an expression of the will of the people; to assure to all a
-            decent level of life in accordance with a just economic and social order; to live under
-            conditions of friendship, peace and safety with other peoples, maintaining a commitment
+            realization of a civil society; to establish a law-governed,</gov> <religion r_type="secular">secular state</religion> which assures
+            the supremacy of the law as an <consent>expression of the will of the people</consent>; <peace>to assure to all a
+            decent level of life</peace> in accordance with a just economic and social order; <peace>to live under
+            conditions of friendship, peace and safety with other peoples</peace>, maintaining a commitment
             to general human values and to implement a mutually beneficial cooperation for these
-            purposes. For the sake of the above stated high intentions, <gov>this Constitution shall be
-            adopted through a nationwide referendum.</gov></preamble><!-- Election -->
+            purposes. For the sake of the above stated high intentions, <elections>this Constitution shall be
+            adopted through a nationwide referendum.</elections></preamble><!-- Election -->
         <chapter>
             <chap_title>FIRST PART. GENERAL PROVISIONS Chapter I. The Power of the
                 People</chap_title>
             <section>
                 <s_text>
                     <article>
-                        <a_header>Article 1.</a_header>
-                        <a_text><consent> Source of Power The Azerbaijan people are the sole source of State
-                            power in the Republic of Azerbaijan.</consent><nationalism> The Azerbaijan people include
+                        <a_header>Article 1. Source of Power</a_header>
+                        <a_text> <consent>The Azerbaijan people are the sole source of State
+                            power in the Republic of Azerbaijan</consent>.<nationalism> The Azerbaijan people include
                             citizens of the Republic of Azerbaijan that live in the territory of the
                             Republic of Azerbaijan or outside the country and that obey the
                             Azerbaijan State and its Laws.</nationalism><international> This does not exclude norms defined by
                             the international law.</international></a_text>
                     </article>
                     <article>
-                        <a_header>Article 2.</a_header>
-                        <a_text><sovereignty> The Sovereignty of the People The Azerbaijan people have the
+                        <a_header>Article 2. The Sovereignty of the People</a_header>
+                        <a_text><sovereignty> The Azerbaijan people have the
                             sovereign right to freely and independently decide their fate and to
                             establish the form of its own governance.</sovereignty><sovereignty> The Azerbaijan people
                             implement their sovereign right</sovereignty><elections> by universal elections-referendum and by
@@ -47,38 +47,38 @@
                             equal elections by secret and individual ballot.</elections></a_text>
                     </article>
                     <article>
-                        <a_header>Article 3.</a_header>
-                        <a_text><elections> Matters to be determined by Referendum The Azerbaijan people can
+                        <a_header>Article 3. Matters to be determined by Referendum </a_header>
+                        <a_text><elections>The Azerbaijan people can
                             settle every matter connected with their rights and interests by
-                            referendum. The below-mentioned matters can only be determined by
+                            referendum</elections>. <elections>The below-mentioned matters can only be determined by
                             referendum: The adoption of the Constitution of the Republic of
                             Azerbaijan and the introduction of changes to it. The change of State
-                            borders of the Republic of Azerbaijan. A referendum cannot be held
+                            borders of the Republic of Azerbaijan</elections>. <elections>A referendum cannot be held
                             concerning the following matters: Taxes and the state budget; Amnesty
                             and pardon; The election, appointment or confirmation of officials,
                             whose election, appointment or confirmation are within the competence of
                             the legislative organs and (or) the executive power.</elections></a_text>
                     </article>
                     <article>
-                        <a_header>Article 4.</a_header>
-                        <a_text> T<consent>he Right to Represent the People No one except authoritative
+                        <a_header>Article 4. The Right to Represent the People</a_header>
+                        <a_text> <consent> No one except authoritative
                             representatives elected by the people have the right to represent, speak
                             for and address on behalf of the people.</consent></a_text>
                     </article>
                     <article>
-                        <a_header>Article 5.</a_header>
-                        <a_text> <nationalism>The Unity of the People The Azerbaijan people are united. The unity
+                        <a_header>Article 5. The Unity of the People</a_header>
+                        <a_text> <nationalism> The Azerbaijan people are united. The unity
                             of the Azerbaijan people constitutes the foundation of the Azerbaijan
                             State. The Republic of Azerbaijan is wholly and indivisibly the Homeland
                             for all the citizens of the Republic of Azerbaijan.</nationalism></a_text>
                     </article>
                     <article>
-                        <a_header>Article 6.</a_header>
-                        <a_text><elections> Banning of Power Usurpation No part of the Azerbaijan people,
+                        <a_header>Article 6. Banning of Power Usurpation</a_header>
+                        <a_text><treason> No part of the Azerbaijan people,
                             either an individual, or a social group or an organization has the right
                             to usurp the authority of the Azerbaijan people to exercise the power.
                             Power usurpation is the most serious crime directed against the
-                            people.</elections></a_text>
+                            people.</treason></a_text>
                     </article>
                 </s_text>
             </section>
