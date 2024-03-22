@@ -9,11 +9,11 @@
     </meta>
 
     <body>
-        <preamble>PREAMBLE<consent> We, the people of Kazakhstan,</consent><nationalism> united by common historic fate, creating
-            state on the indigenous Kazakh land, considering ourselves peace-loving and civil
-            society,</nationalism> dedicated to the ideals of freedom, equality and concord, wishing to take
-            worthy place in the world community, realizing our high responsibility before the
-            present and future generations, proceeding from our sovereign right, accept this
+        <preamble>PREAMBLE<consent> We, the people of Kazakhstan,</consent><nationalism>united by common historic fate, creating
+            state on the indigenous Kazakh land</nationalism>, <peace>considering ourselves peace-loving</peace> and civil
+            society, dedicated to the ideals of freedom, equality and concord, wishing to take
+            worthy place in the world community, realizing <nationalism>our high responsibility before the
+            present and future generations</nationalism>, proceeding from <sovereignty>our sovereign right</sovereignty>, accept this
             Constitution.</preamble>
         <!-- Every preamble I've covered doesn't dedicate itself to rights, but rather often nonspecific (and noncommittal) "ideals" or "values." This is probably something to add. Will have to bring this up. -->
         <chapter>
@@ -24,12 +24,12 @@
                         <a_header>Article 1</a_header>
                         <!--Maybe a relgious tag so that religion in some constitutions can be compared against secularism in others-->
                         <a_text>The Republic of Kazakhstan proclaims itself <gov>democratic</gov>,
-                                <religion r_type="church-state">secular</religion>, legal and social
+                                <religion r_type="secular">secular</religion>, legal and social
                             state whose highest values are an <ind_rights ind_type="liberty"
                                 >individual, his life, rights and freedoms.</ind_rights> The
-                            fundamental principles of the activity of the Republic are public
-                            concord and political stability; economic development for the benefit of
-                            all the nation; <nationalism>Kazakhstan patriotism</nationalism> and<gov> resolution of the
+                            fundamental principles of the activity of the Republic are <peace>public
+                            concord and political stability</peace>; economic development for the benefit of
+                            all the nation; <nationalism>Kazakhstan patriotism</nationalism> and <gov>resolution of the
                                 most important issues of the affairs of state by democratic methods</gov>
                                 <elections>including voting at an all-nation referendum or in the
                                 Parliament.</elections></a_text>
@@ -37,53 +37,53 @@
                     <article>
                         <a_header>Article 2</a_header>
                         <a_text>
-                            <gov>The Republic of Kazakhstan is unitary state with presidential form
-                                of government.</gov> <sovereignty>The sovereignty of the Republic extends to its
+                            The Republic of Kazakhstan is <levels l_type="unitary">unitary state</levels> with <gov>presidential form
+                                of government</gov>. <sovereignty>The sovereignty of the Republic extends to its
                             entire territory. The state ensures the integrity, inviolability and
-                            inalienability of its territory.</sovereignty> <capital>The administrative-territorial
+                            inalienability of its territory.</sovereignty> The administrative-territorial
                                 division of the Republic, the status of its capital shall determine
-                                by law. Capital of Kazakhstan is the city of Astana.</capital> A
-                            special legal regime in the financial sphere may be established within
+                                by law. <capital>Capital of Kazakhstan is the city of Astana</capital>. A
+                            special legal regime in the financial sphere may be established within <!-- I'll find out what the hell this means-->
                             the city of Astana in accordance with the constitutional law.
-                                <sovereignty>The names “Republic of Kazakhstan” and “Kazakhstan”
-                                have the same meaning.</sovereignty></a_text>
+                                <sovereignty>The names “Republic of Kazakhstan” and “Kazakhstan” <!-- Also ok not using sovereignty to tag names as I once suggested now that I see it again. Lmk.-->
+                                have the same meaning</sovereignty>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 3</a_header>
                         <a_text><consent>The people shall be the only source of state
                                 power.</consent>
                             <elections>The people shall exercise power directly through an
-                                all-nation referendum and free elections as well as delegate the
-                                execution of their power to state institutions.Nobody
-                            shall have the right to appropriate power in the Republic of Kazakhstan.
-                            Appropriation of power shall be persecuted by law.</elections> <consent>The right to
+                                all-nation referendum and free elections</elections> as well as <consent>delegate the
+                                    execution of their power to state institutions</consent>. <treason>Nobody
+                                        shall have the right to appropriate power in the Republic of Kazakhstan.
+                                        Appropriation of power shall be persecuted by law</treason>. <consent>The right to
                                 act on behalf of the people and the state</consent><gov> shall belong to the
-                                President as well as to Parliament of the Republic within the limits
-                                of the constitutional powers.</gov>
-                            <separation>The government and other state bodies shall act on behalf of
+                                    President as well as to Parliament of the Republic</gov> within the limits
+                                of the constitutional powers.
+                            The government and other state bodies shall act on behalf of
                                 the state only within the limits of their delegated authorities. The
                                 state power in the Republic of Kazakhstan is unified and executed on
                                 the basis of the Constitution and laws in accordance with the
-                                principle of its division into the legislative, executive and
+                                principle of <separation>its division into the legislative, executive and
                                 judicial branches and system of checks and balances that governs
-                                their interaction.</separation></a_text>
+                                their interaction</separation>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 4</a_header>
-                        <a_text><gov>The provisions of the Constitution, the laws corresponding to it,
-                            other regulatory legal acts,</gov><international> international treaty and other commitments</international>
-                            <separation>of the Republic as well as regulatory resolutions of Constitutional
+                        <a_text>The provisions of the Constitution, the laws corresponding to it,
+                            other regulatory legal acts,<international> international treaty and other commitments</international>
+                            of the Republic as well as regulatory resolutions of Constitutional
                             Council and the Supreme Court of the Republic shall be the functioning
-                            law in the Republic of Kazakhstan</separation>.<gov> The Constitution shall have the
+                            law in the Republic of Kazakhstan. The Constitution shall have the
                             highest juridical force and direct effect on the entire territory of the
-                            Republic.</gov><international> International treaties ratified by the Republic shall have
+                            Republic.<international> International treaties ratified by the Republic shall have
                             priority over its laws. The procedure and conditions of the application
                             in the territory of the Republic of Kazakhstan of international treaties
-                            to which Kazakhstan is a party are determined by the legislation of the
+                            to which Kazakhstan is a party are determined by the legislation of the <!-- Multiple ideas, multiple tags?-->
                             Republic. All laws, international treaties of which the Republic is
-                            party shall be published.</international><ind_rights ind_type="misc"> Official publication of regulatory legal acts
-                            dealing with the rights, freedoms and responsibilities of citizens shall
-                            be necessary condition for their application.</ind_rights>></a_text>
+                            party shall be published</international>. Official publication of regulatory legal acts
+                            dealing with the <ind_rights ind_type="liberty">rights, freedoms and responsibilities of citizens shall
+                            be necessary condition for their application</ind_rights>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 5</a_header>
@@ -127,12 +127,12 @@
                     </article>
                     <article>
                         <a_header>Article 7</a_header>
-                        <a_text><language>The state language of the Republic of Kazakhstan shall be
-                                the Kazak language. In state institutions and local
+                        <a_text><language lang_type="native">The state language of the Republic of Kazakhstan shall be
+                                the Kazak language </language>. <language lang_type="russian">In state institutions and local
                                 self-administrative bodies the Russian language shall be officially
-                                used on equal grounds along with the Kazak language. The state shall
+                                used on equal grounds along with the Kazak language</language>. <language lang_type="native">The state shall
                                 promote conditions for the study and development of the languages of
-                                the people of Kazakhstan.</language></a_text>
+                                the people of Kazakhstan</language>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 8</a_header>
@@ -141,13 +141,13 @@
                                 good-neighborly relations between states, their equality and
                                 non-interference in each other’s domestic affairs, peaceful
                                 settlement of international disputes and renounce the first use of
-                                the military force.</international></a_text>
+                                the military force</international>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 9</a_header>
                         <a_text><symbols>The Republic of Kazakhstan shall have its state symbols -
-                                the flag, emblem and anthem. Their description and order of official
-                                use shall be established by the constitutional law.</symbols>
+                                the flag, emblem and anthem</symbols>. Their description and order of official
+                                use shall be established by the constitutional law.
                         </a_text>
                     </article>
                 </s_text>
