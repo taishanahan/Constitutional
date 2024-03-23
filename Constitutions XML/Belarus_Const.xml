@@ -10,15 +10,15 @@
     </meta>
 
     <body>
-        <preamble>PREAMBLE We, the People of the Republic of Belarus, (of Belarus), proceeding from
-            the responsibility for the <nationalism>present and future of Belarus, recognising
-                ourselves as a full-fledged subject of the international community and
-            confirming our adherence to values common to all mankind, founding ourselves on our inalienable right to
-                self-determination, supported by the centuries-long history of development of
-                Belarusian statehood </nationalism>, striving to <ind_rights ind_type="liberty">assert the rights and freedoms of every citizen of the Republic of
-                Belarus </ind_rights>, desiring to <peace>maintain civic concord, firm foundations of
-                government by the people and a state based on the rule of law</peace>, adopt hereby
-            this Constitution - the Fundamental Law of the Republic of Belarus.</preamble>
+        <preamble>PREAMBLE We, the People of the Republic of Belarus, (of Belarus), proceeding from the
+            responsibility for the <nationalism>present and future of Belarus, recognising ourselves as a
+                full-fledged subject of the international community and confirming our adherence to values
+                common to all mankind, founding ourselves on our inalienable right to self-determination,
+                supported by the centuries-long history of development of Belarusian statehood </nationalism>,
+            striving to <ind_rights ind_type="liberty">assert the rights and freedoms of every citizen of the
+                Republic of Belarus </ind_rights>, desiring to <peace>maintain civic concord, firm foundations
+                of government by the people and a state based on the rule of law</peace>, adopt hereby this
+            Constitution - the Fundamental Law of the Republic of Belarus.</preamble>
         <chapter>
 
             <chap_title> SECTION 1. FUNDAMENTALS OF THE CONSTITUTIONAL SYSTEM </chap_title>
@@ -27,232 +27,211 @@
                     <article>
                         <a_header>Article 1 </a_header>
                         <a_text>The Republic of Belarus is a <levels l_type="unitary">unitary</levels>,
-                            <gov>democratic, social state</gov> 
-                            based on the rule of law. The Republic of Belarus exercises supreme
-                            control and absolute <sovereignty>authority over the whole of its
-                                territory and implements an independent domestic and foreign
+                            <gov>democratic, social state based on the rule of law</gov>. The Republic of
+                            Belarus exercises supreme control and absolute <sovereignty>authority over the
+                                whole of its territory and implements an independent domestic and foreign
                                 policy</sovereignty>. The Republic of Belarus shall defend its
-                            <sovereignty>independence and territorial integrity</sovereignty>, its
-                                constitutional system, and <peace>safeguard lawfulness and law and
-                                order</peace>.</a_text>
+                                <sovereignty>independence and territorial integrity</sovereignty>, its
+                            constitutional system, and <peace>safeguard lawfulness and law and
+                            order</peace>.</a_text>
                     </article>
 
                     <article>
                         <a_header>Article 2</a_header>
-                        <a_text> The <ind_rights ind_type="liberty">individual, his rights, freedoms
-                                and guarantees to secure them are the supreme value and goal of the
-                                society and the State</ind_rights>. The State shall assume
-                            responsibility before the citizen to <ind_rights ind_type="liberty"
-                                >create the conditions for free and dignified development of his
-                                personality</ind_rights>. The citizen shall assume responsibility
-                            before the State to discharge unwaveringly the duties imposed upon him
-                            by the Constitution.</a_text>
+                        <a_text> The <ind_rights ind_type="liberty">individual, his rights, freedoms and
+                                guarantees to secure them are the supreme value and goal of the society and
+                                the State</ind_rights>. The State shall assume responsibility before the
+                            citizen to <ind_rights ind_type="liberty">create the conditions for free and
+                                dignified development of his personality</ind_rights>. The citizen shall
+                            assume responsibility before the State to discharge unwaveringly the duties
+                            imposed upon him by the Constitution.</a_text>
                     </article>
                     <article>
                         <a_header>Article 3 </a_header>
                         <!--the tagging for tgis is not
                         that good need help-->
-                        <a_text> <nationalism>The people shall be the sole source of state
-                                power</nationalism> and the <sovereignty>bearer of
-                                sovereignty</sovereignty> in the Republic of Belarus. The
-                                <gov>people shall exercise their power directly, through
-                                representative and other bodies in the forms and within the confines
-                                determined by the Constitution</gov>. Any <consent>actions aimed at
-                                changing the constitutional system</consent> and <consent>seizing
-                                state power by forcible means or by way of any other violation of
-                                the laws</consent> of the Republic of Belarus shall be punishable by
-                            law.</a_text>
+                        <a_text>
+                            <consent>The people shall be the sole source of state power</consent> and
+                            the <sovereignty>bearer of sovereignty</sovereignty> in the Republic of Belarus.
+                            The <gov>people shall exercise their power directly, through representative and
+                                other bodies in the forms and within the confines determined by the
+                                Constitution</gov>. <treason>Any actions aimed at changing the constitutional
+                                system and seizing state power by forcible means or by way
+                                of any other violation of the laws of the Republic of Belarus shall
+                            be punishable by law</treason>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 4</a_header>
                         <a_text>
-                            <gov>Democracy</gov> in the Republic of Belarus shall be exercised on
-                            the basis of <parties p_type="multi"> diversity of political
-                                institutions, ideologies and opinions</parties>. The <ind_rights
-                                ind_type="liberty">ideology of political parties, religious or other
-                                public associations, social groups may not be made mandatory for
-                                citizens</ind_rights>.</a_text>
+                            <gov>Democracy</gov> in the Republic of Belarus shall be exercised on the basis of
+                                <parties p_type="multi"> diversity of political institutions, ideologies and
+                                opinions</parties>. The <ind_rights ind_type="liberty">ideology of political
+                                parties, religious or other public associations, social groups may not be made
+                                mandatory for citizens</ind_rights>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 5</a_header>
-                        <a_text> Political parties and other public associations acting within the
-                            framework of the Constitution and laws of the Republic of Belarus shall
-                            contribute to ascertaining and <gov>expressing the political will of the
-                                citizens</gov> and <elections>shall participate in
-                                elections</elections>. Political parties and other public
-                            associations <consent>shall have the right to use state mass media
-                            </consent>under the procedure determined by the legislation. The
-                            foundation and activities of political parties and other public
-                            associations, that aim to change the constitutional system by force or
-                                <consent>conduct propaganda of war, social, ethnic, religious and
-                                racial hatred, shall be prohibited</consent>.</a_text>
+                        <a_text> Political parties and other public associations acting within the framework
+                            of the Constitution and laws of the Republic of Belarus shall contribute to
+                            ascertaining and <gov>expressing the political will of the citizens</gov> and
+                                <elections>shall participate in elections</elections>. <ind_rights ind_type="misc">Political parties and
+                            other public associations shall have the right to use state mass media
+                            under the procedure determined by the legislation</ind_rights>. <treason>The foundation and
+                            activities of political parties and other public associations, that aim to change
+                            the constitutional system by force or conduct propaganda of war, social,
+                                ethnic, religious and racial hatred, shall be prohibited</treason>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 6</a_header>
-                        <a_text>State power in the Republic of Belarus shall be exercised on the
-                            principle of <separation>its separation into legislative, executive, and
-                                judicial powers</separation>. State bodies within the confines of
-                            their powers, shall be <separation>independent: they shall interact
-                                among themselves, check and balance one
-                            another</separation>.</a_text>
+                        <a_text>State power in the Republic of Belarus shall be exercised on the principle of
+                                <separation>its separation into legislative, executive, and judicial
+                                powers</separation>. State bodies within the confines of their powers, shall
+                            be <separation>independent: they shall interact among themselves, check and
+                                balance one another</separation>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 7</a_header>
                         <!--unsure of this one too -->
-                        <a_text>The Republic of Belarus shall be bound by the principle of supremacy
-                            of law. The State and all the bodies and officials thereof shall operate
-                            within the confines of the Constitution and acts of legislation adopted
-                            in accordance therewith. <gov>Legal acts or specific provisions thereof
-                                which have been recognised under the procedure specified by law as
-                                contradicting the provisions of the Constitution shall have no legal
-                                force</gov>. Normative acts of state bodies shall be published or
-                            promulgated by other means specified by law.</a_text>
+                        <a_text>The Republic of Belarus shall be bound by the principle of supremacy of law.
+                           <consent> The State and all the bodies and officials thereof shall operate within the
+                            confines of the Constitution and acts of legislation adopted in accordance
+                            therewith</consent>. <consent>Legal acts or specific provisions thereof which have been
+                                recognised under the procedure specified by law as contradicting the
+                                provisions of the Constitution shall have no legal force</consent>.<consent> Normative acts
+                            of state bodies shall be published or promulgated by other means specified by
+                            law</consent>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 8 </a_header>
-                        <a_text>The Republic of Belarus shall recognize the supremacy of the
-                            generally recognised principles of <international>international law and
-                                shall ensure the compliance of laws </international>therewith. <international>The
-                            Republic of Belarus in conformity with the rules of international law
-                                may on a voluntary basis enter interstate formations
-                                and withdraw from them</international>. <sovereignty>Conclusion of
-                                treaties that are contrary to the Constitution shall not be
-                                permitted</sovereignty>.</a_text>
+                        <a_text>The Republic of Belarus shall recognize the supremacy of the generally
+                            recognised principles of <international>international law and shall ensure the
+                                compliance of laws </international>therewith. <international>The Republic of
+                                Belarus in conformity with the rules of international law may on a voluntary
+                                basis enter interstate formations and withdraw from them</international>.
+                                <sovereignty>Conclusion of treaties that are contrary to the Constitution
+                                shall not be permitted</sovereignty>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 9 </a_header>
-                        <a_text> The territory of the Republic of Belarus shall be the natural
-                            condition of the existence and spatial limit of the <ind_rights
-                                ind_type="citizenship">people's self-determination</ind_rights>, and
-                            the basis for its prosperity and the
-                                <sovereignty>sovereignty</sovereignty> of the Republic of Belarus.
-                            The territory of Belarus shall be integral and inalienable. The
-                            territory shall be divided into regions (oblasts), districts, cities and
-                            other administrative and territorial units. The <consent>administrative
-                                and territorial division of the State is determined by the
-                                legislation</consent>.</a_text>
+                        <a_text> <sovereignty>The territory of the Republic of Belarus shall be the natural condition of
+                            the existence and spatial limit of the people's
+                                self-determination</sovereignty>, and the basis for its prosperity and the
+                                <sovereignty>sovereignty</sovereignty> of the Republic of Belarus. The
+                            territory of Belarus shall be integral and inalienable. The territory shall be
+                            divided into regions (oblasts), districts, cities and other administrative and
+                            territorial units. The <levels l_type="federalist">administrative and territorial division of the
+                                State is determined by the legislation</levels>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 10 </a_header>
                         <a_text> A citizen of the Republic of Belarus shall be <ind_rights
-                                ind_type="citizenship"> guaranteed protection and patronage of the State
-                                both in the territory of Belarus and
-                   beyond</ind_rights>. <ind_rights
-                                ind_type="citizenship">No one may be deprived of citizenship of the
-                                Republic of Belarus or the right to change his
-                                citizenship</ind_rights>. A <ind_rights ind_type="citizenship"
-                                >citizen of the Republic of Belarus may not be extradited to a
-                                foreign state</ind_rights>, unless otherwise provided by treaties to
-                            which the Republic of Belarus is a party.Acquisition and
-                                loss of the citizenship shall be carried out in accordance with the
-                                law.</a_text>
+                                ind_type="citizenship"> guaranteed protection and patronage of the State both
+                                in the territory of Belarus and beyond</ind_rights>. <ind_rights
+                                ind_type="citizenship">No one may be deprived of citizenship of the Republic
+                                of Belarus or the right to change his citizenship</ind_rights>. A <ind_rights
+                                ind_type="citizenship">citizen of the Republic of Belarus may not be
+                                extradited to a foreign state</ind_rights>, unless otherwise provided by
+                            treaties to which the Republic of Belarus is a party.Acquisition and loss of the
+                            citizenship shall be carried out in accordance with the law.</a_text>
                     </article>
                     <article>
                         <a_header>Article 11</a_header>
-                        <a_text> <international> Foreign nationals and stateless persons in the territory of Belarus
-                               shall enjoy the rights and
-                                freedoms and execute duties on equal terms with the
-                                citizens of the Republic of Belarus, unless otherwise
-                            specified by the Constitution, laws and treaties</international>.</a_text>
+                        <a_text>
+                            <international> Foreign nationals and stateless persons in the territory of
+                                Belarus shall enjoy the rights and freedoms and execute duties on equal terms
+                                with the citizens of the Republic of Belarus, unless otherwise specified by
+                                the Constitution, laws and treaties</international>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 12</a_header>
-                        <a_text>The Republic of Belarus may <international
-                                >grant the right of asylum to persons persecuted in other states for
-                                political or religious beliefs or their ethnic
-                                affiliation</international>.</a_text>
+                        <a_text>The Republic of Belarus may <international>grant the right of asylum to
+                                persons persecuted in other states for political or religious beliefs or their
+                                ethnic affiliation</international>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 13</a_header>
-                        <a_text> Property may be <property prop_type="public">state-owned
-                            </property>or <property prop_type="private">private</property>. The
-                            State shall <ind_rights ind_type="misc">grant equal rights to all to
-                                conduct economic and other activities</ind_rights>, except for those
-                            prohibited by law, and guarantee equal protection and equal conditions
-                            for the development of all forms of ownership. The State
-                                shall<separation> promote the development of
+                        <a_text> Property may be <property prop_type="public">state-owned </property>or
+                                <property prop_type="private">private</property>. The State shall <ind_rights
+                                ind_type="misc">grant equal rights to all to conduct economic and other
+                                activities</ind_rights>, except for those prohibited by law, and guarantee
+                            equal protection and equal conditions for the development of all forms of
+                            ownership. The State shall<separation> promote the development of
                                 co-operation</separation>. The State shall guarantee to all equal
-                            opportunities for <ind_rights ind_type="misc">free utilisation of
-                                abilities and property for entrepreneurial and other types of
-                                economic activities which are not prohibited by the
-                            law</ind_rights>. The State shall <consent>regulate economic activities
-                                in the interests of the individual and society, and shall ensure the
-                                direction and co-ordination of state and private economic activity
-                                for social purposes</consent>. The <property prop_type="public"
-                                >mineral wealth, waters and forests are the exclusive property of
-                                the State</property>. The <property prop_type="public">land for
-                                agricultural use is the property of the State</property>. Law may
-                                <property prop_type="public"> determine facilities that are in the
-                                ownership of the State only, or establish a special procedure for
-                                their transfer to private ownership, or grant the State an exclusive
-                                right to conduct certain types of activity</property>. The State
-                            shall guarantee the <ind_rights ind_type="misc">working people the right
-                                to participate in management of enterprises, organizations and
-                                establishments to enhance their efficiency and improve social and
-                                economic living standards</ind_rights>.</a_text>
+                            opportunities for <ind_rights ind_type="misc">free utilisation of abilities and
+                                property for entrepreneurial and other types of economic activities which are
+                                not prohibited by the law</ind_rights>. The State shall <consent>regulate
+                                economic activities in the interests of the individual and society, and shall
+                                ensure the direction and co-ordination of state and private economic activity
+                                for social purposes</consent>. The <property prop_type="public">mineral
+                                wealth, waters and forests are the exclusive property of the State</property>.
+                            The <property prop_type="public">land for agricultural use is the property of the
+                                State</property>. Law may <property prop_type="public"> determine facilities
+                                that are in the ownership of the State only, or establish a special procedure
+                                for their transfer to private ownership, or grant the State an exclusive right
+                                to conduct certain types of activity</property>. The State shall guarantee the
+                                <ind_rights ind_type="misc">working people the right to participate in
+                                management of enterprises, organizations and establishments to enhance their
+                                efficiency and improve social and economic living
+                            standards</ind_rights>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 14</a_header>
-                        <a_text>The State shall regulate relations among <ind_rights
-                                ind_type="liberty">social, ethnic and other communities on the basis
-                                of the principles of equality before the law and respect of their
-                                rights and interests</ind_rights>. Relations in the<separation>
-                                social and labour sphere between the bodies of state administration,
-                                associations of employers and trade unions shall be exercised on the
-                                principles of social partnership and interaction of
-                                parties</separation>.</a_text>
+                        <a_text>The State shall regulate relations among <ind_rights ind_type="liberty"
+                                >social, ethnic and other communities on the basis of the principles of
+                                equality before the law and respect of their rights and
+                            interests</ind_rights>. Relations in the<separation> social and labour sphere
+                                between the bodies of state administration, associations of employers and
+                                trade unions shall be exercised on the principles of social partnership and
+                                interaction of parties</separation>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 15</a_header>
                         <a_text>The State shall bear responsibility for preserving the <ind_rights
                                 ind_type="racial-equality">historic, cultural and spiritual heritage, and for
-                                free development of the cultures of all ethnic
-                                communities</ind_rights> residing in the Republic of
-                            Belarus.</a_text>
+                                free development of the cultures of all ethnic communities</ind_rights>
+                            residing in the Republic of Belarus.</a_text>
                     </article>
                     <article>
                         <a_header>Article 16</a_header>
-                        <a_text><religion r_type="neutral">Religions and faiths shall be equal
-                                before the law. Relations between the State and religious
-                                organizations shall be regulated by law with regard to their
-                                influence</religion> on formation of<nationalism> spiritual, cultural and state
-                            traditions of the Belarusian people</nationalism>. The activities of religious
-                            organisations, their bodies and representatives, that are directed
-                            against the <sovereignty>sovereignty of the Republic of Belarus, its
-                                constitutional system and civic concord</sovereignty>, or involve
-                                <ind_rights ind_type="misc"> violation of civil rights and freedoms
-                                of its citizens </ind_rights>as well as impede the execution of
-                            state, public and family duties by its citizens or are detrimental to
+                        <a_text><religion r_type="neutral">Religions and faiths shall be equal before the law.
+                                Relations between the State and religious organizations shall be regulated by
+                                law with regard to their influence</religion> on formation of<nationalism>
+                                spiritual, cultural and state traditions of the Belarusian
+                                people</nationalism>. The activities of religious organisations, their bodies
+                            and representatives, that are directed against the <sovereignty>sovereignty of the
+                                Republic of Belarus, its constitutional system and civic
+                            concord</sovereignty>, or involve <ind_rights ind_type="misc"> violation of civil
+                                rights and freedoms of its citizens </ind_rights>as well as impede the
+                            execution of state, public and family duties by its citizens or are detrimental to
                             their health and morality shall be prohibited.</a_text>
                     </article>
                     <article>
                         <a_header> Article 17 </a_header>
-                        <a_text> The <language lang_type="native">Belarusian</language> and
-                            <language lang_type="russian">Russian languages</language> shall be
-                            the official languages of the Republic of Belarus</a_text>
+                        <a_text> The <language lang_type="native">Belarusian</language> and <language
+                                lang_type="russian">Russian languages</language> shall be the official
+                            languages of the Republic of Belarus</a_text>
                     </article>
                     <article>
                         <a_header>Article 18 </a_header>
-                        <a_text> In its foreign policy the Republic of Belarus shall proceed from
-                            the principles of<international> equality of states, non-use of force or
-                                the threat of force, inviolability of frontiers, peaceful settlement
-                                of disputes, non-interference in internal affairs and other
-                                generally recognised principles and norms of the international
-                                law</international>. The Republic of Belarus aims at making its
-                                <international>territory a nuclear-free zone, and the state
+                        <a_text> In its foreign policy the Republic of Belarus shall proceed from the
+                            principles of<international> equality of states, non-use of force or the threat of
+                                force, inviolability of frontiers, peaceful settlement of disputes,
+                                non-interference in internal affairs and other generally recognised principles
+                                and norms of the international law</international>. The Republic of Belarus
+                            aims at making its <international>territory a nuclear-free zone, and the state
                                 neutral</international>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 19 </a_header>
-                        <a_text>The symbols of the Republic of Belarus as a sovereign state shall be
-                            its <symbols>national flag, national emblem and national
-                                anthem</symbols>.</a_text>
+                        <a_text>The symbols of the Republic of Belarus as a sovereign state shall be its
+                                <symbols>national flag, national emblem and national
+                            anthem</symbols>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 20 </a_header>
                         <a_text>The capital of the Republic of Belarus is the city of
-                                <capital>Minsk</capital>. The status of the city of Minsk shall be
-                            determined by the law.</a_text>
+                            <capital>Minsk</capital>. The status of the city of Minsk shall be determined by
+                            the law.</a_text>
                     </article>
                 </s_text>
             </section>

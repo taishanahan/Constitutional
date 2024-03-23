@@ -13,9 +13,9 @@
         <preamble>PREAMBLE The Verkhovna Rada of Ukraine, on behalf of the Ukrainian people -
                 <ind_rights ind_type="racial-equality">citizens of Ukraine of all
                 nationalities</ind_rights>, expressing the <nationalism>sovereign will of the
-                people, based on the centuries-old history of Ukrainian state-building</nationalism>
+                people, based on the centuries-old history of Ukrainian state-building
             and on the right to self-determination realised by the Ukrainian nation, all the
-            Ukrainian people, <ind_rights ind_type="misc">providing for the guarantee of human
+            Ukrainian people</nationalism>, <ind_rights ind_type="misc">providing for the guarantee of human
                 rights and freedoms and of the worthy conditions of human life</ind_rights>,
                 <peace>caring for the strengthening of civil harmony on Ukrainian soil</peace>,
             striving to develop and strengthen a <gov> democratic, social, law-based state</gov>,
@@ -79,27 +79,27 @@
                     <article>
                         <a_header>Article 6</a_header>
 
-                        <a_text>State power in Ukraine is exercised on the principles of <gov>its
-                                division into legislative, executive and judicial power</gov>.
-                                <gov>Bodies of legislative, executive and judicial power exercise
-                                their authority within the limits</gov> established by this
-                            Constitution and in accordance with the laws of Ukraine.</a_text>
+                        <a_text><separation>State power in Ukraine is exercised on the principles of its
+                                division into legislative, executive and judicial power.</separation>
+                                <consent>Bodies of legislative, executive and judicial power exercise
+                                their authority within the limits established by this
+                                Constitution and in accordance with the laws of Ukraine</consent>.</a_text>
                     </article>
 
                     <article>
                         <a_header>Article 7</a_header>
 
-                        <a_text>In Ukraine, <gov>local self-government is recognised and
-                                guaranteed</gov>.</a_text>
+                        <a_text>In Ukraine, <levels l_type="neutral">local self-government is recognised and
+                                guaranteed</levels>.</a_text>
                     </article>
 
                     <article>
                         <a_header>Article 8</a_header>
 
                         <a_text>In Ukraine, the principle of the rule of law is recognised and
-                            effective. The<consent> Constitution of Ukraine has the highest legal
-                                force</consent>. Laws and other normative legal acts are adopted on
-                            the basis of the Constitution of Ukraine and shall conform to it. The
+                            effective. <consent>The Constitution of Ukraine has the highest legal
+                                force</consent>. <consent>Laws and other normative legal acts are adopted on
+                            the basis of the Constitution of Ukraine and shall conform to it</consent>. The
                             norms of the Constitution of Ukraine are norms of direct effect. Appeals
                             to the court in defence of the <ind_rights ind_type="misc"
                                 >constitutional rights and freedoms of the individual and
@@ -121,22 +121,25 @@
                     <article>
                         <a_header>Article 10</a_header>
 
-                        <a_text>The state language of Ukraine is the <language>Ukrainian
-                                language</language>. The State ensures the comprehensive development
+                        <a_text><language lang_type="native">The state language of Ukraine is the Ukrainian
+                                language. The State ensures the comprehensive development
                             and functioning of the Ukrainian language in all spheres of social life
-                            throughout the entire territory of Ukraine. In Ukraine, <language>the
-                                free development, use and protection of Russian, and other languages
-                                of national minorities of Ukraine, is guaranteed</language>. The
+                            throughout the entire territory of Ukraine</language>. In Ukraine,
+                            <language lang_type="russian">the
+                                free development, use and protection of Russian</language>,
+                            and<ind_rights ind_type="racial-equality"> other languages
+                                of national minorities of Ukraine, is guaranteed</ind_rights>.
+                            <ind_rights ind_type="liberty">The
                             State promotes the learning of languages of international
-                                communication.<language> The use of languages in Ukraine is
-                                guaranteed by the Constitution </language>of Ukraine and is
-                            determined by law.</a_text>
+                            communication.The use of languages in Ukraine is
+                                guaranteed by the Constitution of Ukraine and is
+                                determined by law</ind_rights>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 11</a_header>
 
-                        <a_text>The State promotes the consolidation and development of the
-                            Ukrainian nation, of <nationalism>its historical consciousness,
+                        <a_text><nationalism>The State promotes the consolidation and development of the
+                            Ukrainian nation, of its historical consciousness,
                                 traditions and culture</nationalism>, and also the development of
                             the <ind_rights ind_type="racial-equality">ethnic, cultural, linguistic
                                 and religious identity of all indigenous peoples and national
@@ -145,9 +148,9 @@
                     <article>
                         <a_header>Article 12</a_header>
 
-                        <a_text>Ukraine provides for the satisfaction of <ind_rights ind_type="misc"
+                        <a_text>Ukraine provides for the satisfaction of <ind_rights ind_type="citizenship"
                                 >national and cultural, and linguistic needs of
-                                Ukrainians</ind_rights> residing beyond the borders of the State.
+                            Ukrainians residing beyond the borders of the State</ind_rights>.
                         </a_text>
                     </article>
                     <article>
@@ -158,9 +161,9 @@
                                 the natural resources of its continental shelf, and the exclusive
                                 (maritime) economic zone, are objects of the right of property of
                                 the Ukrainian people</property>. Ownership rights on behalf of the
-                            Ukrainian people are <separation>exercised by bodies of state power and
-                                bodies of local self-government</separation> within the limits
-                            determined by this Constitution. <property prop_type="private"> Every
+                            Ukrainian people are <levels l_type="neutral">exercised by bodies of state power and
+                                bodies of local self-government within the limits
+                                determined by this Constitution</levels>. <property prop_type="private"> Every
                                 citizen has the right to utilise the natural objects of the people's
                                 right of property </property>in accordance with the law. Property
                             entails responsibility. Property shall not be used to the detriment of
@@ -173,16 +176,16 @@
                     <article>
                         <a_header>Article 14</a_header>
 
-                        <a_text>Land is the fundamental national wealth that is under special state
-                            protection. The right of property to land is guaranteed. This right is
-                            acquired and realised by citizens, legal persons and the State,
-                            exclusively in accordance with the law.</a_text>
+                        <a_text><property prop_type="public">Land is the fundamental national wealth that is under special state
+                            protection</property>. The <property prop_type="private">right of property to land is guaranteed. This right is
+                                acquired and realised by citizens</property>,<property prop_type="public"> legal persons and the State,
+                            exclusively in accordance with the law</property>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 15</a_header>
 
                         <a_text>Social life in Ukraine is based on the principles of <ind_rights
-                                ind_type="racial-equality">political, economic and ideological
+                                ind_type="liberty">political, economic and ideological
                                 diversity</ind_rights>. No <ind_rights ind_type="liberty">ideology
                                 shall be recognised by the State as mandatory</ind_rights>.
                             Censorship is prohibited. The <ind_rights ind_type="protest">State
@@ -196,42 +199,42 @@
 
                         <a_text>To ensure ecological safety and to maintain the ecological balance
                             on the territory of Ukraine, to overcome the consequences of the
-                            Chornobyl catastrophe - a <international>catastrophe of global
-                                scale</international>, and to preserve the gene pool of the
-                            Ukrainian people, is the duty of the State. </a_text>
+                            Chornobyl catastrophe - a catastrophe of global
+                                scale, and to <nationalism>preserve the gene pool of the
+                            Ukrainian people, is the duty of the State</nationalism>. </a_text>
                     </article>
                     <article>
                         <a_header>Article 17</a_header>
 
-                        <a_text>To protect the <sovereignty>sovereignty and territorial
-                                indivisibility of Ukraine</sovereignty>, and to ensure its economic
-                            and informational security are the <nationalism>most important functions
+                        <a_text><sovereignty>To protect the sovereignty and territorial
+                            indivisibility of Ukraine</sovereignty>, and to <nationalism>ensure its economic
+                            and informational security are the most important functions
                                 of the State and a matter of concern for all the Ukrainian
-                                people</nationalism>. The defence of Ukraine and the protection of
+                                people</nationalism>. <sovereignty>The defence of Ukraine and the protection of
                             its sovereignty, territorial indivisibility and inviolability, are
-                            entrusted to the Armed Forces of Ukraine. Ensuring <sovereignty>state
-                                security and protecting the state border</sovereignty> of Ukraine
+                            entrusted to the Armed Forces of Ukraine</sovereignty>. <consent>Ensuring state
+                                security and protecting the state border of Ukraine
                             are entrusted to the respective military formations and law enforcement
                             bodies of the State, whose organisation and operational procedure are
-                            determined by law. The <ind_rights ind_type="misc">Armed Forces of
+                            determined by law</consent>. The <ind_rights ind_type="misc">Armed Forces of
                                 Ukraine and other military formations shall not be used by anyone to
-                                restrict the rights and freedoms of citizens</ind_rights> or with
+                                restrict the rights and freedoms of citizens</ind_rights> or<treason> with
                             the intent to overthrow the constitutional order, subvert the bodies of
-                            power or obstruct their activity. The State ensures the<ind_rights
+                            power or obstruct their activity</treason>. The State ensures the<ind_rights
                                 ind_type="legal"> social protection of citizens of Ukraine who serve
                                 in the Armed Forces of Ukraine and in other military formations as
-                                well as of members of their families</ind_rights>. The <ind_rights
-                                ind_type="assembly">creation and operation of any armed formations
-                                not envisaged by law are prohibited</ind_rights> on the territory of
-                            Ukraine. The <international>location of foreign military bases shall not
+                                well as of members of their families</ind_rights>. <treason>The 
+                                creation and operation of any armed formations
+                                not envisaged by law are prohibited on the territory of
+                            Ukraine</treason>. The <international>location of foreign military bases shall not
                                 be permitted on the territory of Ukraine</international>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 18</a_header>
 
-                        <a_text>The <international>foreign political activity</international> of
-                            Ukraine is aimed at <sovereignty>ensuring its national interests and
-                                security</sovereignty> by <peace>maintaining peaceful and mutually
+                        <a_text>The <international>foreign political activity of
+                            Ukraine is aimed at ensuring its national interests and
+                                security</international> by <peace>maintaining peaceful and mutually
                                 beneficial co-operation with members of the international
                                 community</peace>, according to generally acknowledged
                                 <international>principles and norms of international
@@ -241,12 +244,12 @@
                         <a_header>Article 19</a_header>
 
                         <a_text>The legal order in Ukraine is based on the principles according to
-                            which <ind_rights ind_type="misc"> no one shall be forced to do what is
-                                not envisaged by legislation</ind_rights>. Bodies of state power and
-                            bodies of local self-government and their officials are obliged to act
-                            only on the grounds,<consent> within the limits of authority,</consent>
+                            which <ind_rights ind_type="legal"> no one shall be forced to do what is
+                                not envisaged by legislation</ind_rights>. <levels l_type="neutral">Bodies of state power and
+                            bodies of local self-government and their officials</levels> are obliged to act
+                            only on the grounds,<consent> within the limits of authority,
                             and in the manner envisaged by the Constitution and the laws of
-                            Ukraine.</a_text>
+                            Ukraine</consent>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 20</a_header>
