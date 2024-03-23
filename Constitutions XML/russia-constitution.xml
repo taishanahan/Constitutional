@@ -7,16 +7,16 @@
             <url>https://www.constituteproject.org/constitution/Russia_2014</url>
         </source>
     </meta>
-    <body><preamble>PREAMBLE <consent>We, the multinational people of the Russian Federation, united by a
-            common fate on our land</consent>, <ind_rights ind_type="misc">establishing human rights and freedoms</ind_rights>,<peace> civil peace and accord</peace>,
+    <body><preamble>PREAMBLE We, the multinational people of the Russian Federation, united by a
+            common fate on our land, <ind_rights ind_type="liberty">establishing human rights and freedoms</ind_rights>,<peace> civil peace and accord</peace>,
             <nationalism>preserving the historically established State unity</nationalism>,<sovereignty> proceeding from universally
             acknowledged principles of equality and self-determination of peoples</sovereignty>,<nationalism> revering the
             memory of ancestors who have passed on to us their love for the Fatherland and faith in
             good and justice</nationalism>,<sovereignty> reviving the sovereign statehood of Russia</sovereignty> and <gov>asserting the firmness
-            of its democratic basis</gov>, striving to ensure the well-being and prosperity of Russia,
+            of its democratic basis</gov>, striving to ensure the<peace> well-being and prosperity</peace> of Russia,
             <nationalism>proceeding from the responsibility for our Fatherland before present and future
-            generations</nationalism>,<international> recognizing ourselves to be a part of the world community</international>,<gov> do hereby adopt
-            THE CONSTITUTION OF THE RUSSIAN FEDERATION</gov>.</preamble>
+            generations</nationalism>,<international> recognizing ourselves to be a part of the world community</international>, do hereby adopt
+            THE CONSTITUTION OF THE RUSSIAN FEDERATION.</preamble>
         <chapter>
             <chap_title>SECTION ONE CHAPTER 1. THE BASIS OF THE CONSTITUTIONAL SYSTEM</chap_title>
             <section>
@@ -24,34 +24,33 @@
                     <article>
                         <a_header>Article 1</a_header>
                         <a_text><gov>The Russian Federation - Russia is a democratic federative
-                            law-governed state with a republican form of government.</gov><sovereignty> The names
-                            Russian Federation and Russia are equivalent.</sovereignty></a_text>
+                            law-governed state with a republican form of government</gov>.<sovereignty> The names
+                            Russian Federation and Russia are equivalent</sovereignty>.</a_text> <!-- Same thing with names -->
                     </article>
                     <article>
                         <a_header>Article 2</a_header>
-                        <a_text><ind_rights ind_type="misc">Man, his rights and freedoms shall be the supreme value. The
-                            recognition, observance and protection of human and civil rights and
-                            freedoms shall be an obligation of the State.</ind_rights></a_text>
+                        <a_text>Man, his rights and freedoms shall be the supreme value. The
+                            recognition, observance and <ind_rights ind_type="liberty">protection of human and civil rights and
+                            freedoms shall be an obligation of the State</ind_rights>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 3</a_header>
                         <a_text><sovereignty>The bearer of sovereignty</sovereignty> and <consent>the sole source of power in the
-                            Russian Federation shall be its multinational people.</consent> <gov>The people shall
-                            exercise its power directly, as well as through State government bodies
-                            and local self-government bodies.</gov> <elections>The supreme direct expression of the
-                            power of the people shall be referendum and free elections. Nobody may
+                            Russian Federation shall be its multinational people</consent>. The people shall
+                            exercise its power directly, as well as <levels l_type="neutral">through State government bodies
+                            and local self-government bodies</levels>. <elections>The supreme direct expression of the
+                                power of the people shall be referendum and free elections</elections>. <treason>Nobody may
                             usurp power in the Russian Federation. The seizure of power or
-                            usurpation of State authority shall be prosecuted under federal
-                            law.</elections></a_text>
-                        <!-- Should probably add clarification to elections that they also cover the prevention of seizures of power -->
+                            usurpation of State authority shall be prosecuted</treason> under federal
+                            law.</a_text>
                     </article>
                     <article>
                         <a_header>Article 4</a_header>
                         <a_text><sovereignty>The sovereignty of the Russian Federation shall extend to the
-                            entirety of its territory.</sovereignty><gov> The Constitution of the Russian Federation
+                            entirety of its territory</sovereignty>.<gov> The Constitution of the Russian Federation
                             and federal laws shall have supremacy on the entire territory of the
-                            Russian Federation.</gov><sovereignty> The Russian Federation shall ensure the integrity
-                            and inviolability of its territory.</sovereignty></a_text>
+                            Russian Federation</gov>.<sovereignty> The Russian Federation shall ensure the integrity
+                            and inviolability of its territory</sovereignty>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 5</a_header>
@@ -62,10 +61,10 @@
                             and legislation. A kray, oblast, city of federal significance,
                             autonomous oblast and autonomous okrug shall have its own charter and
                             legislation. The federal structure of the Russian Federation shall be
-                            based on its State integrity, the unity of the system of State power,</gov>
+                            based on its State integrity, the unity of the system of State power</gov>,
                             <separation>the division of matters of authority and powers between State government
                             bodies of the Russian Federation and State government bodies of
-                            constituent entities of the Russian Federation,</separation> <ind_rights ind_type="misc">the equality</ind_rights> and
+                            constituent entities of the Russian Federation,</separation> <ind_rights ind_type="liberty">the equality</ind_rights> and
                             <sovereignty>self-determination of peoples in the Russian Federation</sovereignty>. All constituent
                             entities of the Russian Federation shall be equal with one another in
                             relations with federal State government bodies.</a_text>
@@ -76,11 +75,11 @@
                         <a_text><ind_rights ind_type="citizenship"> Citizenship of the Russian Federation shall be acquired and
                             terminated in accordance with federal law, and shall be one and equal,
                             irrespective of the grounds on which it is acquired. Every citizen of
-                            the Russian Federation shall enjoy all rights and freedoms on its
+                            the Russian Federation</ind_rights> shall enjoy all <ind_rights ind_type="liberty">rights and freedoms</ind_rights> on its
                             territory and shall bear equal responsibilities as envisaged in the
-                            Constitution of the Russian Federation. A citizen of the Russian
+                            Constitution of the Russian Federation. <ind_rights ind_type="citizenship">A citizen of the Russian
                             Federation may not be deprived of his (her) citizenship or of the right
-                            to change it.</ind_rights></a_text>
+                            to change it</ind_rights>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 7</a_header>
@@ -92,23 +91,22 @@
                             fatherhood and childhood, to the disabled and to elderly citizens, the
                             system of social services shall be developed and State pensions,
                             allowances and other social security guarantees shall be
-                            established.</ind_rights></a_text>
-                        <!-- This we actually have to do add in. State financial rights. In general might need to consider economics more. -->
+                            established</ind_rights>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 8</a_header>
                         <a_text> <property prop_type="private">In the Russian Federation the integrity of economic space, free
                             flow of goods, services and financial resources, support of competition,
-                            and the freedom of economic activity shall be guaranteed.</property> <property prop_type="public"> In the Russian
+                            and the freedom of economic activity shall be guaranteed</property>. <property prop_type="public"> In the Russian
                             Federation private, State, municipal and other forms of property shall
-                            be recognized and shall be protected on an equal basis.</property></a_text>
+                            be recognized and shall be protected on an equal basis</property>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 9</a_header>
                         <a_text> Land and other natural resources shall be utilized and protected in
                             the Russian Federation as the basis of the life and activity of the
                             peoples living on the territories concerned. <property prop_type="private">Land and other natural
-                            resources may be subject to private,</property><property prop_type="public"> State, municipal</property><property prop_type="other"> and other forms of
+                            resources may be subject to private</property>,<property prop_type="public"> State, municipal</property><property prop_type="other"> and other forms of
                             ownership.</property></a_text>
                     </article>
                     <article>
@@ -116,26 +114,26 @@
                         <a_text><separation> State power in the Russian Federation shall be exercised on the
                             basis of its division into legislative, executive and judicial
                             authority. Bodies of legislative, executive and judicial authority shall
-                            be independent.</separation></a_text>
+                            be independent</separation>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 11</a_header>
-                        <a_text><gov> State power in the Russian Federation shall be exercised by the
+                        <a_text> State power in the Russian Federation shall be exercised by the
                             President of the Russian Federation, the Federal Assembly (the Council
                             of Federation and the State Duma), the Government of the Russian
                             Federation, and the courts of the Russian Federation. State power in
                             constituent entities of the Russian Federation shall be exercised by
-                            bodies of State government formed by those constituent entities. The
+                            bodies of State government formed by those constituent entities. <levels l_type="unitary">The <!-- I think this is implied unitarianism-->
                             division of authorities and powers among State government bodies of the
                             Russian Federation and State government bodies of constituent entities
-                            of the Russian Federation shall be established by this Constitution, the
+                            of the Russian Federation shall be established</levels> by this Constitution, the
                             Federation Treaty and other treaties on the division of authorities and
-                            powers.</gov></a_text>
+                            powers.</a_text>
                     </article>
                     <article>
                         <a_header>Article 12</a_header>
-                        <a_text> Local self-government shall be recognized and guaranteed in the
-                            Russian Federation. Local self-government shall be independent within
+                        <a_text> <levels l_type="neutral">Local self-government shall be recognized and guaranteed in the
+                            Russian Federation</levels>. Local self-government shall be independent within
                             the limits of its competence. Bodies of local self-government shall not
                             form part of the system of State government bodies.</a_text>
                     </article>
@@ -145,7 +143,7 @@
                             Federation. <parties p_type="multi">No ideology shall be proclaimed as State ideology or as
                             obligatory. Political diversity and the multi-party system shall be
                             recognized in the Russian Federation. Public associations shall be equal
-                            before the law.</parties> The establishment and activities of public associations
+                            before the law</parties>. The establishment and activities of public associations
                             whose goals and activities are aimed at the forcible changing of the
                             basis of the constitutional order and at violating the integrity of the
                             Russian Federation, at undermining its security, at creating armed
@@ -154,10 +152,10 @@
                     </article>
                     <article>
                         <a_header>Article 14</a_header>
-                        <a_text> <religion r_type="church-state">The Russian Federation shall be a secular state. No religion may be
+                        <a_text> <religion r_type="secular">The Russian Federation shall be a secular state. No religion may be
                             established as the State religion or as obligatory. Religious
                             associations shall be separate from the State and shall be equal before
-                            the law.</religion></a_text>
+                            the law</religion>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 15</a_header>
@@ -168,24 +166,24 @@
                             Russian Federation. State government bodies, local self-government
                             bodies, officials, citizens and their associations shall be obliged to
                             observe the Constitution of the Russian Federation and laws. Laws must
-                            be officially published. Unpublished laws shall not have force.</gov><ind_rights ind_type="misc"> Any
+                            be officially published. Unpublished laws shall not have force.</gov><ind_rights ind_type="liberty"> Any
                             normative legal acts concerning human and civil rights, freedoms and
                             obligations shall not have force unless they have been officially
                             published for the information of the general public.</ind_rights>
                             <international>Universally recognized principles and norms of international law as well as
                             international agreements of the Russian Federation should be an integral
-                            part of its legal system. If an international agreement of the Russian
+                            part of its legal system</international>. <international>If an international agreement of the Russian
                             Federation establishes rules, which differ from those stipulated by law,
-                            then the rules of the international agreement shall be applied.</international></a_text>
+                            then the rules of the international agreement shall be applied</international>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 16</a_header>
-                        <a_text><gov> The provisions of this Chapter of the Constitution shall constitute
+                        <a_text> The provisions of this Chapter of the Constitution shall constitute
                             the fundamental principles of the constitutional order of the Russian
                             Federation and may not be changed except in accordance with the
                             procedure established by this Constitution. No other provisions of this
                             Constitution may conflict with the fundamental principles of the
-                            constitutional order of the Russian Federation.</gov></a_text>
+                            constitutional order of the Russian Federation.</a_text>
                     </article>
                 </s_text>
             </section>
