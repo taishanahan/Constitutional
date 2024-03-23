@@ -7,19 +7,19 @@
             <url>https://www.constituteproject.org/constitution/Uzbekistan_2011</url>
         </source>
     </meta>
-    <body><preamble>PREAMBLE <consent>The people of Uzbekistan</consent>, solemnly declaring their
+    <body><preamble>PREAMBLE The people of Uzbekistan, solemnly declaring their
             adherence to <ind_rights ind_type="liberty">human rights</ind_rights> and
                 <sovereignty>principles of state sovereignty</sovereignty>, <nationalism>being aware
                 of their ultimate responsibility to the present and the future generations, relying
-                on historical experience in the development of the Uzbek statehood,</nationalism>
+                on historical experience in the development of the Uzbek statehood</nationalism>,
             affirming their commitment to the ideals of <gov>democracy</gov> and social justice,
                 <international>recognizing priority of the generally accepted norms of the
                 international law</international>, aspiring to a worthy life for the citizens of the
             Republic, <gov>setting forth the task of creating a humane and democratic law-governed
-                state,</gov>
-            <peace>aiming to ensure civil peace and national accord,</peace>
+                state</gov>,
+            <peace>aiming to ensure civil peace and national accord</peace>,
             <gov>adopt in the person of their plenipotentiary representatives the present
-                Constitution of the Republic of Uzbekistan.</gov></preamble>
+                Constitution of the Republic of Uzbekistan</gov>.</preamble>
         <chapter>
             <chap_title>PART ONE. FUNDAMENTAL PRINCIPLES Chapter I. STATE SOVEREIGNTY</chap_title>
             <section>
@@ -29,14 +29,14 @@
                         <a_text> Uzbekistan is a <sovereignty>sovereign</sovereignty>
                             <gov>democratic republic</gov>.<sovereignty> Both names of the state
                                 “the Republic of Uzbekistan” and “Uzbekistan” shall be
-                                equivalent.</sovereignty></a_text>
+                                equivalent</sovereignty>.</a_text>
                     </article>
 
                     <article>
                         <a_header>Article 2</a_header>
                         <a_text><consent> The state shall express the will of the people and serve
                                 their interests. State bodies and officials shall be accountable to
-                                the society and citizens.</consent></a_text>
+                                the society and citizens</consent>.</a_text>
                     </article>
 
                     <article>
@@ -44,35 +44,34 @@
                         <a_text>
                             <gov>The Republic of Uzbekistan shall determine its national-state and
                                 administrative-territorial structure, its structure of state
-                                authority and administration, and shall pursue its home</gov>
+                                authority and administration</gov>, and shall pursue its home
                             <international>and foreign policies</international>.<sovereignty> The
                                 state boundary and the territory of Uzbekistan shall be inviolable
-                                and indivisible.</sovereignty></a_text>
+                                and indivisible</sovereignty>.</a_text>
                     </article>
 
                     <article>
                         <a_header>Article 4</a_header>
                         <a_text>
-                            <language>The state language of the Republic of Uzbekistan shall be
+                            <language lang_type="native">The state language of the Republic of Uzbekistan shall be
                                 Uzbek.</language>
                             <ind_rights ind_type="racial-equality">The Republic of Uzbekistan shall
                                 ensure a respectful attitude toward the languages, customs and
                                 traditions of all nationalities and ethnic groups living on its
                                 territory, and the creation of the conditions for their
-                                development.</ind_rights></a_text>
-                        <!-- Wondering if maybe we need a tolerance right attribute; ind_type="toleration" -->
+                                development</ind_rights>.</a_text>
                     </article>
                     <article>
                         <a_header>Article 5</a_header>
-                        <a_text> T<symbols>he Republic of Uzbekistan shall have its state symbols:
-                                the flag, the emblem, and the anthem sanctioned by the
-                                law.</symbols></a_text>
+                        <a_text> <symbols>The Republic of Uzbekistan shall have its state symbols:
+                                the flag, the emblem, and the anthem</symbols> sanctioned by the
+                                law.</a_text>
                     </article>
 
                     <article>
                         <a_header>Article 6</a_header>
                         <a_text><capital> The capital of the Republic of Uzbekistan shall be the
-                                city of Tashkent.</capital></a_text>
+                                city of Tashkent</capital>.</a_text>
                     </article>
                 </s_text>
             </section>
