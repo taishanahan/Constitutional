@@ -26,8 +26,10 @@
                 supreme values</parties>, BEING AWARE of our responsibility and obligations towards
             the previous, present and future generations, REASSERTING our devotion to overall human
             values and <peace> desire to live in peace and harmony with all world-wide
-                peoples</peace>, in compliance with the <international>unanimously acknowledged principles and
-                    norms of the international law</international>We herewith adopt the Constitution of the Republic of Moldova, and declare it as the SUPREME LAW OF OUR SOCIETY AND STATE. </preamble>
+                peoples</peace>, in compliance with the <international>unanimously acknowledged
+                principles and norms of the international law</international>We herewith adopt the
+            Constitution of the Republic of Moldova, and declare it as the SUPREME LAW OF OUR
+            SOCIETY AND STATE. </preamble>
         <chapter>
             <chap_title> TITLE I. GENERAL PRINCIPLES </chap_title>
             <!--Regex: `(Article [1-9]+)..*\n` to find all article headings -->
@@ -51,15 +53,15 @@
                             <!--not so sure if this may include nationalism-->
                         </a_header>
                         <a_text>
-                           <sovereignty> National sovereignty resides with the people
-                                of the Republic of Moldova</sovereignty>, who shall directly and through its
-                               <consent> representative bodies exercise it in the manners provided for by the
-                                Constitution</consent>. <treason>Neither an
-                                individual person or a group of people, nor a social group, a
-                                political party or any other public organization may exercise the
-                                State power on their own behalf</treason>. <treason>The
-                                usurpation of the State power shall constitute the gravest crime
-                                against the people.</treason>
+                            <sovereignty> National sovereignty resides with the people of the
+                                Republic of Moldova</sovereignty>, who shall directly and through
+                            its <consent> representative bodies exercise it in the manners provided
+                                for by the Constitution</consent>. <treason>Neither an individual
+                                person or a group of people, nor a social group, a political party
+                                or any other public organization may exercise the State power on
+                                their own behalf</treason>. <treason>The usurpation of the State
+                                power shall constitute the gravest crime against the
+                                people.</treason>
                         </a_text>
                     </article>
 
@@ -114,23 +116,24 @@
                     <article>
                         <a_header>Article 8. Observance of the international law and international
                             treaties</a_header>
-                        <a_text> The Republic of Moldova <international>pledges to observe the Charter of the
-                            United Nations Organization and the treaties to which it is a party, to
-                            institute relationships with other states on the basis of unanimously
-                            recognized principles and norms of the international law.</international> The coming
-                            into force of an international treaty containing provisions contrary to
-                            the Constitution shall be preceded by a revision of the latter.
-                        </a_text>
+                        <a_text> The Republic of Moldova <international>pledges to observe the
+                                Charter of the United Nations Organization and the treaties to which
+                                it is a party, to institute relationships with other states on the
+                                basis of unanimously recognized principles and norms of the
+                                international law.</international> The coming into force of an
+                            international treaty containing provisions contrary to the Constitution
+                            shall be preceded by a revision of the latter. </a_text>
                     </article>
 
                     <article>
                         <a_header>Article 9. Fundamental principles regarding property</a_header>
-                        <a_text> Property shall be <property prop_type="public">public</property> and <property prop_type="private"
-                                >private</property>. It shall be constituted of material and
-                            intellectual goods. No property may be used to the <ind_rights
-                                ind_type="misc">prejudice of human rights</ind_rights>,
-                                <ind_rights ind_type="liberty">liberties and dignity</ind_rights>.
-                            The market, <economic e_type="free">free economic initiative
+                        <a_text> Property shall be <property prop_type="public">public</property>
+                            and <property prop_type="private">private</property>. It shall be
+                            constituted of material and intellectual goods. No property may be used
+                            to the <ind_rights ind_type="misc">prejudice of human
+                                rights</ind_rights>, <ind_rights ind_type="liberty">liberties and
+                                dignity</ind_rights>. The market, <economic e_type="free">free
+                                economic initiative
                                 <!--seperation of gov and economy, highlight democracy-->and fair
                                 competition shall represent the main elements of the
                                 economy.</economic>
@@ -155,10 +158,9 @@
                         <a_header>Article 11. Republic of Moldova - a neutral State</a_header>
                         <a_text>
                             <international>The Republic of Moldova proclaims its permanent
-                                neutrality</international>.<!--unsure if the first part counts as nationalism--> The
-                                Republic of Moldova <sovereignty>shall not allow the dispersal of foreign
-                                military troops on its territory</sovereignty>.
-                        </a_text>
+                                neutrality</international>.<!--unsure if the first part counts as nationalism-->
+                            The Republic of Moldova <sovereignty>shall not allow the dispersal of
+                                foreign military troops on its territory</sovereignty>. </a_text>
                     </article>
 
                     <article>
@@ -187,16 +189,15 @@
 
                     <article>
                         <a_header>Article 13. State language, use of other languages</a_header>
-                        <a_text> The State language in the Republic of Moldova is the Moldavian
-                            language, and its writing is based on the Latin alphabet
-                                <nationalism>The State shall acknowledge and protect the right to
+                        <a_text> <language lang_type="native">The State language in the Republic of Moldova is the Moldavian
+                            language, and its writing is based on the Latin alphabet</language>.
+                                <language lang_type="russian">The State shall acknowledge and protect the right to
                                 the preservation, development and use of the Russian language and
                                 other languages spoken within the territory of the
-                                State.</nationalism> The State shall <international>facilitate the study
-                                of languagesof widespread international
-                                usage</international>. The manner of functioning of languages within
-                            the territory of the Republic of Moldova shall be established by organic
-                            law. </a_text>
+                                State.</language> The State shall <international>facilitate the
+                                study of languagesof widespread international usage</international>.
+                            The manner of functioning of languages within the territory of the
+                            Republic of Moldova shall be established by organic law. </a_text>
                     </article>
                     <article>
                         <a_header>Article 14. Capital</a_header>
