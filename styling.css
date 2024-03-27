@@ -9,15 +9,7 @@ h2{
     text-align:center;
 }
 
-.one{
-    border: 4px solid black;
-    background-color: #AFCBD5;
-    padding: 15px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    text-align:left;
-}
-.two{
+section{
     border: 4px solid black;
     background-color: #AFCBD5;
     padding: 15px;
