@@ -17,3 +17,26 @@ section{
     margin-bottom: 40px;
     text-align:left;
 }
+
+.nav-bar ul{
+    background-color: #815355;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    text-align:center;
+    list-style-type:none;
+}
+
+li a{
+    border: 2px solid black;
+    padding:10px;
+    margin: 10px;
+    display: block;
+    width: 150px;
+    background-color: #ECF8FD;
+    text-decoration:none;
+}
+a:hover{
+    background-color:black;
+    color:white;
+}
