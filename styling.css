@@ -60,3 +60,7 @@ button:hover{
     background-color: black;
     
 }
+
+/*  below are just examples for how we
+ * could style text using xslt */
+span.liberty{background-color:blue;}
