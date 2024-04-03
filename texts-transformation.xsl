@@ -67,10 +67,56 @@
         </div>
         <br/>
     </xsl:template>
+
 <!--==================== make each article text its own paragraph ========================= -->
     <xsl:template match="a_text">
         <p>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
+    
+<!--============================ transform elements =================================-->
+    <!--    1. transforming ind_rights: -->
+    <xsl:template match="ind_rights">
+        <span class="{@ind_type}">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <!--    2. religion -->
+    <xsl:template match="religion">
+        <span class="{@r_type}">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <!--    3. nationalism -->
+    <xsl:template match="nationalism">
+        <span class="nationalism">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <!--    4. language -->
+    <xsl:template match="language">
+        <span class="{@lang_type}">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <!--    5. Soveriegnty -->
+    <xsl:template match="sovereignty">
+        <span class="soveriegnty">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <!--    6. gov -->
+    <xsl:template match="gov">
+        <span class="gov">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+
 </xsl:stylesheet>

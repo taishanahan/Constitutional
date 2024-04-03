@@ -3,6 +3,23 @@
     <head>
         <title>Constitutions</title>
         <link rel="stylesheet" type="text/css" href="styling.css"/>
+        <style>
+            .collapse{
+                background-color: #black;
+                border: none;
+                outline: none;
+                font-size: 15px;
+            }
+            .active,
+            .collpase:hover{
+                background-color: grey;
+            }
+            .content{
+                display: none;
+                overflow: hidden;
+                font-size: 20px;
+            }
+        </style>
     </head>
     <body>
         <h1>An Analysis of the Constitutions of Former Soviet Union States</h1>
@@ -15,6 +32,41 @@
                 <li><a href ="index.xhtml">Conclusions</a></li>
             </ul>
         </div>
-        <section><p> here there will be a way to navigate the constitutions</p></section>
+        <section>
+            <p> Click on a button below to view a constitution </p>
+                <div class="texts"><ul>
+                    <li>
+                        <button type="button" class="collapse">Armenia</button>
+                        <div class="content">
+                            <p><iframe id="Armenia" src="armenia-xslt-test.xhtml" height="400"></iframe></p>
+                        </div>
+                    </li>
+                    <li>
+                        <button type="button" class="collapse">Azerbaijan</button>
+                        <div class="content">
+                            <p><iframe id="azerbaijan" src="azerbaijan-xslt.xhtml" height="400"></iframe></p>
+                        </div>
+                    </li>
+                    <li>
+                        <button type="button" class="collapse">Belarus</button>
+                        <div class="content">
+                            <p><iframe id="belarus" src="belarus-xslt.xhtml" height="400"></iframe></p>
+                        </div>
+                    </li>
+                    <li>
+                        <button type="button" class="collapse">Estonia</button>
+                        <div class="content">
+                            <p><iframe id="estonia" src="estonia-xslt.xhtml" height="400"></iframe></p>
+                        </div>
+                    </li>
+                    <li>
+                        <button type="button" class="collapse">Kyrgyzstan</button>
+                        <div class="content">
+                            <p><iframe id="Kyrgyzstan" src="kyrgyzstan-xslt.xhtml" height="400"></iframe></p>
+                        </div>
+                    </li>
+                </ul></div>
+                            <script src="script-test.js"></script>
+        </section>
     </body>
 </html>

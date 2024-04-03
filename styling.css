@@ -63,4 +63,39 @@ button:hover{
 
 /*  below are just examples for how we
  * could style text using xslt */
-span.liberty{background-color:blue;}
+span.liberty{
+    background-color: #E3DAE7;
+}
+
+span.vote{
+    background-color: #A0849D;
+}
+
+span.citizenship{
+    background-color:#D3B3B8;
+}
+
+span.nationalism{
+    background-color:#C0CFFA;
+}
+
+span.russian{
+    background-color:#6497b1;
+}
+
+span.native{
+    background-color:#AAAAAA;
+}
+
+span.gov{
+    background-color:#e0a899;
+}
+
+iframe{
+    width:100%;
+}
+
+li button{
+    text-decoration:none;
+}
+
