@@ -21,6 +21,9 @@
     
 <!--======================= turn the preamble into a paragraph ===================================-->
     <xsl:template match="preamble">
+        <h2>
+            <xsl:text>PREAMBLE</xsl:text>
+        </h2>
     <p class="preamble">
         <xsl:apply-templates/>
     </p>
@@ -40,7 +43,7 @@
         </h3>
     </xsl:template>
    
-    <!--====================test to see if there are section headers to figure out how big to make the article headers ======================-->
+<!--====================test to see if there are section headers to figure out how big to make the article headers ======================-->
     <xsl:template match="a_header">
         <xsl:variable name="count-sections" as="xs:integer" select="count(//section)"/>
         <xsl:choose>
@@ -57,12 +60,17 @@
         </xsl:choose>
     </xsl:template>
     
-<!--=================== make each article its own paragraph ====================================-->
+<!--=================== make each article its own div ====================================-->
     <xsl:template match="article">
+        <div>
+            <xsl:apply-templates/>
+        </div>
+        <br/>
+    </xsl:template>
+<!--==================== make each article text its own paragraph ========================= -->
+    <xsl:template match="a_text">
         <p>
             <xsl:apply-templates/>
         </p>
-        <br/>
     </xsl:template>
-    
 </xsl:stylesheet>
