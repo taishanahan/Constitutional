@@ -51,10 +51,18 @@
         
         <!--        code for a random quote below, excpet i can't figure out why styling .button in CSS isnt working but the code works if we want to  actually use-->
         <!--        it in our final project-->
-        <button onclick="document.getElementById('demo').innerHTML = getRndQuote()">Click Here For Random Quote</button>
         <p id="demo"></p>
+        <button onclick="document.getElementById('demo').innerHTML = getRndQuote()">Click Here For Fun Fact</button>
+        
         <script>
-            const quotes = ["\"Quote one\"", "\"Quote two\"", "\"Quote Three\"", "\"Quote four\"", "\"Quote five\"", "\"Quote six\""];
+            const quotes = [
+                "Easter Eggs are originally from Ukraine!", 
+                "\"Quote two\"", 
+                "\"Quote Three\"", 
+                "\"Quote four\"", 
+                "\"Quote five\"", 
+                "\"Quote six\""
+                ];
             arrLength = quotes.length;
             let result = ""; // the quote at a random index:
             function getRndQuote()
