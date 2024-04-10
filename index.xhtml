@@ -16,7 +16,6 @@
                 <li><a href="index.xhtml">Conclusions</a></li>
             </ul>
         </div>
-        
         <section class="one">
             <h2>Overview</h2>
             <hr />
@@ -28,9 +27,6 @@
                 important information to include was for different states. </p>
         </section>
         <!-- <img src="https://cdn.britannica.com/46/108246-004-92D4DA73/Commonwealth-of-Independent-States-creation-1991.jpg" alt="Map of the USSR States" />-->
-        
-        
-        
         <section class="two">
             <h2>About the Researchers</h2>
             <hr />
@@ -47,28 +43,53 @@
                     texts. </li>
             </ul>
         </section>
-        
-        
+        <iframe id="belarus" src="map-russia-test.html" height="400"></iframe>
+       <!-- <style scoped="scoped">
+            .embed-container {
+                position: relative;
+                padding-bottom: 80%;
+                height: 0;
+                max-width: 100%;
+            }
+            .embed-container iframe,
+            .embed-container object,
+            .embed-container iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+            small {
+                position: absolute;
+                z-index: 40;
+                bottom: 0;
+                margin-bottom: -15px;
+            }</style><div class="embed-container">
+            <iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0"
+                marginwidth="0" title="Russia Layer"
+                src="//pitt.maps.arcgis.com/apps/Embed/index.html?webmap=b5761e299fbe4337ace2904ac946a25c&extent=-57.802,-28.0209,180,77.3059&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"
+            ></iframe>
+        </div>-->
         <!--        code for a random quote below, excpet i can't figure out why styling .button in CSS isnt working but the code works if we want to  actually use-->
         <!--        it in our final project-->
         <p id="demo"></p>
-        <button onclick="document.getElementById('demo').innerHTML = getRndQuote()">Click Here For Fun Fact</button>
-        
+        <button onclick="document.getElementById('demo').innerHTML = getRndQuote()">Click Here For
+            Fun Fact</button>
         <script>
-            const quotes = [
-                "Easter Eggs are originally from Ukraine!", 
-                "\"Quote two\"", 
-                "\"Quote Three\"", 
-                "\"Quote four\"", 
-                "\"Quote five\"", 
-                "\"Quote six\""
-                ];
-            arrLength = quotes.length;
-            let result = ""; // the quote at a random index:
-            function getRndQuote()
-            {
-                return result = quotes[Math.floor(Math.random() * arrLength)]; // should return a number between 0 and arrlength
-            }
-        </script>
+                const quotes =[
+                "Easter Eggs are originally from Ukraine!",
+                "\"Quote two\"",
+                "\"Quote Three\"",
+                "\"Quote four\"",
+                "\"Quote five\"",
+                "\"Quote six\""];
+                arrLength = quotes.length;
+                let result = "";
+                // the quote at a random index:
+                function getRndQuote() {
+                    return result = quotes[Math.floor(Math.random() * arrLength)];
+                    // should return a number between 0 and arrlength
+                }</script>
     </body>
 </html>
