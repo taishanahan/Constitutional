@@ -35,7 +35,7 @@
     </xsl:template>
     <xsl:template match="constitution">
         <xsl:variable name="xpos" as="xs:double" select="count(preceding-sibling::constitution)"/>
-        <xsl:variable name="ypos" as="xs:double" select="count(descendant::nationalism)"/>
+        <xsl:variable name="ypos" as="xs:double" select="count(descendant::language)"/>
         
         <rect x="{$xpos * 100 * $barspacing + 70}" y="-{$ypos * 100 + 50}" width="{$barwidth}" height="{$ypos * 100}" stroke="black" fill="red" opacity=".5"/>
         <!-- text x="{$xpos * 100 + $barspacing + 50 + $barwidth div 2}" y="-{$ypos * 100 + 60}" font-size="x-large" text-anchor="middle">
