@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ind_rights>
+    <right class="liberty">
+        <country span="Belarus"/>
+        <country span="Georgia"/>
+        <country span="Moldova"/>
+        <country span="Ukraine"/>
+        <country span="Armenia"/>
+        <country span="Azerbaijan"/>
+        <country span="Kazakhstan"/>
+        <country span="Kyrgyzstan"/>
+        <country span="Latvia"/>
+        <country span="Lithuania"/>
+        <country span="Russia"/>
+        <country span="Tajikistan"/>
+        <country span="Turkmenistan"/>
+        <country span="Uzbekistan"/>
+    </right>
+    
+    <right class ="vote">
+        <country span="Armenia"/>
+        <country span="Kyrgyzstan"/>
+    </right>
+    
+    <right class ="speech">
+        
+    </right>
+    
+    <right class ="protest">
+        <country span="Ukraine"/>
+    </right>
+    
+    <right class="assembly">
+        <country span="Kyrgyzstan"/>
+        <country span="Tajikistan"/>
+    </right>
+    
+    <right class="citizenship">
+        <country span="Belarus"/> 
+        <country span="Georgia"/>
+        <country span="Ukraine"/>
+        <country span="Lithuania"/>
+        <country span="Russia"/>
+        <country span="Turkmenistan"/>
+    </right>
+    
+    <right class="misc">
+        <country span="Belarus"/> 
+        <country span="Georgia"/>
+        <country span="Moldova"/>
+        <country span="Ukraine"/>
+        <country span="Russia"/>
+    </right>
+    
+    <right class="gender-equality">
+        
+    </right>
+    
+    <right class="racial-equality">
+        <country span="Belarus"/> 
+        <country span="Georgia"/>
+        <country span="Moldova"/>
+        <country span="Ukraine"/>
+        <country span="Latvia"/>
+        <country span="Tajikistan"/>
+        <country span="Turkmenistan"/>
+        <country span="Uzbekistan"/>
+    </right>
+    
+    <right class="arms">
+        
+    </right>
+    
+    <right class="legal">
+        <country span="Ukraine"/>
+        <country span="Kyrgyzstan"/>
+        <country span="Lithuania"/>
+    </right>
+</ind_rights>
