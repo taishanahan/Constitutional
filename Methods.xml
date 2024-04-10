@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Methods>
+    <h1>Methods</h1>
+    <h2>Elements</h2>
+    <body>Our team, to ensure an efficacious work process and acessible reading process, worked to define the elements that comprised the analysis of these documents. These elements
+    are not all-encompassing, but are instead designed to be applicable to the body of text so as to make data collection informative and robust, but also efficient.</body>
+    <ul>
+        <li>
+            <e-title>ind_rights</e-title>
+                <def>Any guarantee of individual rights.</def>
+                <attributes>
+                    <ul>
+                        <h3>ind_type</h3>
+                        <li>protest</li>
+                        <li>citizenship</li>
+                        <li>assembly</li>
+                        <li>legal</li>
+                        <li>vote</li>
+                        <li>racial-equality</li> <!-- estonia religion -->
+                        <li>liberty</li>
+                        <li>misc</li>
+                    </ul>                    
+                </attributes>
+        </li>
+        <li>
+            <e-title>nationalism</e-title>
+            <def>Any mention of national pride, history, patriotism, or responsibility</def>   
+        </li>
+        <li>
+            <e-title>religion</e-title>
+            <def>Any mention of religion, it's freedoms, or its role with relation to the state.</def>
+            <attributes>
+                <ul>
+                    <h3>r_type</h3>
+                    <li>secular</li>
+                    <li>state-religion</li>
+                    <li>neutral</li>
+                </ul>
+            </attributes>
+        </li>
+        <li>
+            <e-title>gov</e-title>
+            <def>Miscellaneous reference to government role and design.</def>
+            
+        </li>
+        <li>
+            <e-title>sovereignty</e-title>
+            <def>Reference to the right of the individual state's right to exist.</def>
+        </li>
+        <li>
+            <e-title>capital</e-title>
+            <def>Explicit designation of a capital city.</def>
+        </li>
+        <li>
+            <e-title>currency</e-title>
+            <def>Explicit designation of a currency.</def>
+        </li>
+        <li>
+            <e-title>consent</e-title>
+            <def>The consent of the governed. Anything that references that government or power lies with the people of the state.</def>
+        </li>
+        <li>
+            <e-title>elections</e-title>
+            <def>Reference to electoral proceedings. Not suffrage, but rather what elections will be held and how.</def>
+        </li>
+        <li>
+            <e-title>separation</e-title>
+            <def>Separation of powers, different branches of government (executive, legislative, judicial).</def>
+        </li>
+        <li>
+            <e-title>parties</e-title>
+            <def>Reference to political parties and their definition, permittance, or prohibition.</def> <!-- Maybe change to part-type -->
+            <attributes>
+                <ul>
+                    <h3>p_type</h3>
+                    <li>0</li>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>multi</li>
+                </ul>
+            </attributes>
+        </li>
+        <li>
+            <e-title>property</e-title>
+            <def>Reference to rights of public or private ownership.</def>
+            <attributes>
+                <ul>
+                    <h3>prop_type</h3>
+                    <li>public</li>
+                    <li>private</li>
+                    <li>other</li>
+                </ul>
+            </attributes>
+        </li>
+        <li>
+            <e-title>language</e-title>
+            <def>Explicit mention of a specific language.</def>
+            <attributes>
+                <ul>
+                    <h3>lang_type</h3>
+                    <li>native</li>
+                    <li>russian</li>
+                </ul>    
+            </attributes>
+        </li>
+        <li>
+            <e-title>international</e-title>
+            <def>Any reference to international politics or association. The role the state intends to have internationally.</def>
+        </li>
+        <li>
+            <e-title>symbols</e-title>
+            <def>Official symbols representing the state including flags, anthems, coats of arms, etc.</def>
+        </li>
+        <li>
+            <e-title>peace</e-title>
+            <def>Reference to harmony or order.</def>
+        </li>
+        <li>
+            <e-title>treason</e-title>
+            <def>Reference to attempts to usurp the powers at be in the state. Any attempt to illegitimately remove established government.</def>
+        </li>
+        <li>
+            <e-title>levels</e-title>
+            <def>Mention of levels of government (national, state, local, etc), their powers, and how they interact with one another.</def>
+            <attributes>
+                <ul>
+                    <h3>l_type</h3>
+                    <li>unitary</li>
+                    <li>federalist</li>
+                    <li>neutral</li>
+                </ul>      
+            </attributes>
+        </li>
+        <li>
+            <e-title>economic</e-title>
+            <def>Explicit definition of a state economic system</def>
+            <attributes>
+                <ul>
+                    <h3>e_type</h3>
+                    <li>free</li> <!-- Maybe should add - how we think of free -->
+                    <li>state</li>
+                    <li>mixed</li>
+                </ul>
+            </attributes>
+        </li>
+     </ul>
+</Methods>
+
+        
+        
+        
+        
+        
+
