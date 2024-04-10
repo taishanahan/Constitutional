@@ -6,18 +6,6 @@
     version="3.0">
     <xsl:output method="xml" indent="yes"/>
     <xsl:variable name="totalNum" as="xs:double" select="15"/>
-    <!--<xsl:variable name="liberty" as="xs:double" select="count(//liberty/country) div $totalNum"/>
-    <xsl:variable name="vote" as="xs:double" select="count(//vote/country) div $totalNum"/>
-    <xsl:variable name="speech" as="xs:double" select="count(//speech/country) div $totalNum"/>
-    <xsl:variable name="protest" as="xs:double" select="count(//protest/country) div $totalNum"/>
-    <xsl:variable name="assembly" as="xs:double" select="count(//assembly/country) div $totalNum"/>
-    <xsl:variable name="citizenship" as="xs:double" select="count(//citizenship/country) div $totalNum"/>
-    <xsl:variable name="misc" as="xs:double" select="count(//misc/country) div $totalNum"/>
-    <xsl:variable name="gender-equality" as="xs:double" select="count(//gender-equality/country) div $totalNum"/>
-    <xsl:variable name="racial-equality" as="xs:double" select="count(//racial-equality/country) div $totalNum"/>
-    <xsl:variable name="arms" as="xs:double" select="count(//arms/country) div $totalNum"/>
-    <xsl:variable name="legal" as="xs:double" select="count(//legal/country) div $totalNum"/>
-    -->
     <xsl:variable name="maxheight" as="xs:double" select="1000"/>
     <xsl:variable name="maxwidth" as="xs:double" select="15 * 120"/>
     <xsl:variable name="scale" as="xs:double" select="10"/>
