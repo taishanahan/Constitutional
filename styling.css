@@ -1,15 +1,21 @@
+/* style the body and the background color: */
 body{
     background-color:#ECF8FD;
     text-align:center;
     }
+    
+/*    color the main header at the top: */
 h1{
     color:#F2B418;
 }
+
+/* center the other headers: */
 h2{
     text-align:center;
 }
 
-section{
+/* make sections and <p class="paragraph"> elements have a border/box around them: */
+section, .paragraph{
     border: 4px solid black;
     background-color: #AFCBD5;
     padding: 15px;
@@ -19,6 +25,13 @@ section{
     border-radius:10px;
 }
 
+/* make the text in this item larger and center it: */
+.paragraph{
+    font-size: 25px;
+    text-align:center;
+}
+
+/*next couple are to style the navigation bar at the top: */
 .nav-bar ul{
     background-color: #815355;
     display:flex;
@@ -28,7 +41,6 @@ section{
     list-style-type:none;
     border-radius:10px;
 }
-
 li a{
     border: 2px solid black;
     padding:10px;
@@ -44,11 +56,12 @@ a:hover{
     color:white;
 }
 
+/*style buttons: */
 button{
     background-color: #AFCBD5;
     border: 4px solid black;
     color: white;
-    padding: 11px 16px;
+    padding: 15px 30px;
     text-align:center;
     text-decoration: none;
     display: inline-block;
@@ -56,13 +69,18 @@ button{
     font-size: 20px;
     border-radius:10px;
 }
+/*make it so a button changes color when you hover: */
 button:hover{
     background-color: black;
-    
 }
 
-/*  below are just examples for how we
- * could style text using xslt */
+/*style the list on the constitutions page: */
+.texts ul{
+    list-style-type:none;
+}
+
+
+/* below are how the texts are going to be colored: */
 span.liberty{
     background-color: #E3DAE7;
 }
@@ -95,7 +113,4 @@ iframe{
     width:100%;
 }
 
-li button{
-    text-decoration:none;
-}
 
