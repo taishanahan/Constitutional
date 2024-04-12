@@ -1,0 +1,2 @@
+//>>built
+define("esri/layers/KMLFolder",["dojo/_base/declare","dojo/_base/lang","dojo/has","../kernel","../lang"],function(a,b,f,c,d){a=a(null,{declaredClass:"esri.layers.KMLFolder",constructor:function(e){b.mixin(this,e);d.isDefined(this.visibility)&&(this.visible=!!this.visibility)}});b.setObject("layers.KMLFolder",a,c);return a});
