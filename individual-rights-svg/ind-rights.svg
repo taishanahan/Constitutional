@@ -4,74 +4,74 @@
      width="2200"
      viewBox="0, -2000, 2000, 2000">
    <g>
-      <text x="1400" y="-690" text-anchor="middle" font-size="xx-large">Percent of constitutions that mention each right</text>
+      <text x="50" y="-1690" text-anchor="middle" font-size="xx-large">Percent of constitutions that mention each right</text>
    </g>
    <rect width="933.3333333333333"
          height="20"
-         x="1000"
-         y="-40"
+         x="-250"
+         y="-1040"
          stroke="black"/>
-   <text y="-25" x="1958.3333333333333" text-anchor="middle">93 %
+   <text y="-1025" x="698.3333333333333" text-anchor="start">93 %
         </text>
-   <text x="975" y="-25" text-anchor="end">liberty</text>
+   <text x="-275" y="-1025" text-anchor="end">Liberty</text>
    <rect width="133.33333333333334"
          height="20"
-         x="1000"
-         y="-100"
+         x="-250"
+         y="-1100"
          stroke="black"/>
-   <text y="-85" x="1158.3333333333333" text-anchor="middle">13 %
+   <text y="-1085" x="-101.66666666666666" text-anchor="start">13 %
         </text>
-   <text x="975" y="-85" text-anchor="end">vote</text>
-   <rect width="0" height="20" x="1000" y="-160" stroke="black"/>
-   <text y="-145" x="1025" text-anchor="middle">0 %
+   <text x="-275" y="-1085" text-anchor="end">Vote</text>
+   <rect width="0" height="20" x="-250" y="-1160" stroke="black"/>
+   <text y="-1145" x="-235" text-anchor="start">0 %
         </text>
-   <text x="975" y="-145" text-anchor="end">speech</text>
+   <text x="-275" y="-1145" text-anchor="end">Speech</text>
    <rect width="66.66666666666667"
          height="20"
-         x="1000"
-         y="-220"
+         x="-250"
+         y="-1220"
          stroke="black"/>
-   <text y="-205" x="1091.6666666666667" text-anchor="middle">7 %
+   <text y="-1205" x="-168.33333333333331" text-anchor="start">7 %
         </text>
-   <text x="975" y="-205" text-anchor="end">protest</text>
+   <text x="-275" y="-1205" text-anchor="end">Protest</text>
    <rect width="133.33333333333334"
          height="20"
-         x="1000"
-         y="-280"
+         x="-250"
+         y="-1280"
          stroke="black"/>
-   <text y="-265" x="1158.3333333333333" text-anchor="middle">13 %
+   <text y="-1265" x="-101.66666666666666" text-anchor="start">13 %
         </text>
-   <text x="975" y="-265" text-anchor="end">assembly</text>
-   <rect width="400" height="20" x="1000" y="-340" stroke="black"/>
-   <text y="-325" x="1425" text-anchor="middle">40 %
+   <text x="-275" y="-1265" text-anchor="end">Assembly</text>
+   <rect width="400" height="20" x="-250" y="-1340" stroke="black"/>
+   <text y="-1325" x="165" text-anchor="start">40 %
         </text>
-   <text x="975" y="-325" text-anchor="end">citizenship</text>
+   <text x="-275" y="-1325" text-anchor="end">Citizenship</text>
    <rect width="333.33333333333326"
          height="20"
-         x="1000"
-         y="-400"
+         x="-250"
+         y="-1400"
          stroke="black"/>
-   <text y="-385" x="1358.3333333333333" text-anchor="middle">33 %
+   <text y="-1385" x="98.33333333333326" text-anchor="start">33 %
         </text>
-   <text x="975" y="-385" text-anchor="end">misc</text>
-   <rect width="0" height="20" x="1000" y="-460" stroke="black"/>
-   <text y="-445" x="1025" text-anchor="middle">0 %
+   <text x="-275" y="-1385" text-anchor="end">Misc</text>
+   <rect width="0" height="20" x="-250" y="-1460" stroke="black"/>
+   <text y="-1445" x="-235" text-anchor="start">0 %
         </text>
-   <text x="975" y="-445" text-anchor="end">gender-equality</text>
+   <text x="-275" y="-1445" text-anchor="end">Gender-equality</text>
    <rect width="533.3333333333334"
          height="20"
-         x="1000"
-         y="-520"
+         x="-250"
+         y="-1520"
          stroke="black"/>
-   <text y="-505" x="1558.3333333333335" text-anchor="middle">53 %
+   <text y="-1505" x="298.33333333333337" text-anchor="start">53 %
         </text>
-   <text x="975" y="-505" text-anchor="end">racial-equality</text>
-   <rect width="0" height="20" x="1000" y="-580" stroke="black"/>
-   <text y="-565" x="1025" text-anchor="middle">0 %
+   <text x="-275" y="-1505" text-anchor="end">Racial-equality</text>
+   <rect width="0" height="20" x="-250" y="-1580" stroke="black"/>
+   <text y="-1565" x="-235" text-anchor="start">0 %
         </text>
-   <text x="975" y="-565" text-anchor="end">arms</text>
-   <rect width="200" height="20" x="1000" y="-640" stroke="black"/>
-   <text y="-625" x="1225" text-anchor="middle">20 %
+   <text x="-275" y="-1565" text-anchor="end">Arms</text>
+   <rect width="200" height="20" x="-250" y="-1640" stroke="black"/>
+   <text y="-1625" x="-35" text-anchor="start">20 %
         </text>
-   <text x="975" y="-625" text-anchor="end">legal</text>
+   <text x="-275" y="-1625" text-anchor="end">legal</text>
 </svg>
