@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ind_rights>
-    <right class="liberty">
+    <right class="Liberty">
         <country span="Belarus"/>
         <country span="Georgia"/>
         <country span="Moldova"/>
@@ -17,25 +17,25 @@
         <country span="Uzbekistan"/>
     </right>
     
-    <right class ="vote">
+    <right class ="Vote">
         <country span="Armenia"/>
         <country span="Kyrgyzstan"/>
     </right>
     
-    <right class ="speech">
+    <right class ="Speech">
         
     </right>
     
-    <right class ="protest">
+    <right class ="Protest">
         <country span="Ukraine"/>
     </right>
     
-    <right class="assembly">
+    <right class="Assembly">
         <country span="Kyrgyzstan"/>
         <country span="Tajikistan"/>
     </right>
     
-    <right class="citizenship">
+    <right class="Citizenship">
         <country span="Belarus"/> 
         <country span="Georgia"/>
         <country span="Ukraine"/>
@@ -44,7 +44,7 @@
         <country span="Turkmenistan"/>
     </right>
     
-    <right class="misc">
+    <right class="Misc">
         <country span="Belarus"/> 
         <country span="Georgia"/>
         <country span="Moldova"/>
@@ -52,11 +52,11 @@
         <country span="Russia"/>
     </right>
     
-    <right class="gender-equality">
+    <right class="Gender-equality">
         
     </right>
     
-    <right class="racial-equality">
+    <right class="Racial-equality">
         <country span="Belarus"/> 
         <country span="Georgia"/>
         <country span="Moldova"/>
@@ -67,7 +67,7 @@
         <country span="Uzbekistan"/>
     </right>
     
-    <right class="arms">
+    <right class="Arms">
         
     </right>
     

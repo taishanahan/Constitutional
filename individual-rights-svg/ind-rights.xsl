@@ -20,7 +20,7 @@
             viewBox="0, -2000, 2000, 2000">
         <g>
             <xsl:variable name="height" as="xs:double" select="$barInterval * 23"/>
-            <text  x="1400" y="-{$height}" text-anchor="middle" font-size="xx-large">Percent of constitutions that mention each right</text>
+            <text  x="50" y="-{$height + $maxheight}" text-anchor="middle" font-size="xx-large">Percent of constitutions that mention each right</text>
         </g>
         <xsl:apply-templates/>
         </svg>
@@ -32,13 +32,14 @@
         <xsl:variable name="math" as="xs:double" select="$rightCount div $totalNum"/>    
         <xsl:variable name="percent" as="xs:double" select="$math * 100"/>
         <xsl:variable name="num" as="xs:integer" select="position() - 1"/>
-        <xsl:variable name="yPos" as="xs:double" select="$num * $barInterval + $spacing"/>
+        <xsl:variable name="yPos" as="xs:double" select="$num * $barInterval + $spacing + $maxheight"/>
+        <xsl:variable name="xPos" as="xs:double" select="-250"/>
         <xsl:variable name="rectWidth" as="xs:double" select="$percent * $scale"/>
-        <rect width="{$rectWidth}" height="{$barWidth}" x="1000" y="-{$yPos}" stroke="black"/>    
-        <text y="-{$yPos - 15}" x="{$rectWidth + 1025}" text-anchor="middle">
+        <rect width="{$rectWidth}" height="{$barWidth}" x="{$xPos}" y="-{$yPos}" stroke="black"/>    
+        <text y="-{$yPos - 15}" x="{$rectWidth + $xPos +15}" text-anchor="start">
             <xsl:apply-templates select="round($percent)"/> %
         </text>
-        <text x="975" y="-{$yPos - 15}" text-anchor="end">
+        <text x="{$xPos -25}" y="-{$yPos - 15}" text-anchor="end">
             <xsl:value-of select="@class"/>
         </text>
     </xsl:template>
