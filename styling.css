@@ -61,19 +61,19 @@ a:hover {
 /*style buttons: */
 
 button {
-  padding: 15px 30px;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  outline: none;
-  color: white;
-  display: inline-block;
-  margin: 10px;
- font-size: 20px;  
-  background-color: #008B8B;
- border: none;
-  border-radius: 10px;
-  box-shadow: 0 9px #999;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+    background-color: #008B8B;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
 }
 
 /*make it so a button changes color when you hover: */
@@ -82,9 +82,9 @@ button:hover {
 }
 
 .button:active {
-  background-color: black;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+    background-color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 /*style the list on the constitutions page: */
