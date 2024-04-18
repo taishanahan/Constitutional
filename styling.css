@@ -1,117 +1,129 @@
 /* style the body and the background color: */
-body{
-    background-color:#ECF8FD;
-    text-align:center;
-    }
-    
+body {
+    background-color: #ECF8FD;
+    text-align: center;
+}
+
 /*    color the main header at the top: */
-h1{
-    color:#F2B418;
+h1 {
+    color: #F2B418;
 }
 
 /* center the other headers: */
-h2{
-    text-align:center;
+h2 {
+    text-align: center;
 }
 
 /* make sections and <p class="paragraph"> elements have a border/box around them: */
-section, .paragraph{
+section,
+.paragraph {
     border: 4px solid black;
     background-color: #AFCBD5;
     padding: 15px;
     margin-top: 40px;
     margin-bottom: 40px;
-    text-align:left;
-    border-radius:10px;
+    text-align: left;
+    border-radius: 10px;
 }
 
 
 /* make the text in this item larger and center it: */
-.paragraph{
+.paragraph {
     font-size: 25px;
-    text-align:center;
+    text-align: center;
 }
 
 /*next couple are to style the navigation bar at the top: */
-.nav-bar ul{
+.nav-bar ul {
     background-color: #815355;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-    text-align:center;
-    list-style-type:none;
-    border-radius:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    list-style-type: none;
+    border-radius: 10px;
 }
-li a{
+li a {
     border: 2px solid black;
-    padding:10px;
+    padding: 10px;
     margin: 10px;
     display: block;
     width: 150px;
     background-color: #ECF8FD;
-    text-decoration:none;
-    border-radius:10px;
+    text-decoration: none;
+    border-radius: 10px;
 }
-a:hover{
-    background-color:black;
-    color:white;
+a:hover {
+    background-color: black;
+    color: white;
 }
 
 /*style buttons: */
-button{
-    background-color: #AFCBD5;
-    border: 4px solid black;
-    color: white;
-    padding: 15px 30px;
-    text-align:center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 10px;
-    font-size: 20px;
-    border-radius:10px;
+
+button {
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+ font-size: 20px;  
+  background-color: #008B8B;
+ border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
 }
+
 /*make it so a button changes color when you hover: */
-button:hover{
+button:hover {
     background-color: black;
 }
 
+.button:active {
+  background-color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 /*style the list on the constitutions page: */
-.texts ul{
-    list-style-type:none;
+.texts ul {
+    list-style-type: none;
 }
 
 
 /* below are how the texts are going to be colored: */
-span.liberty{
+span.liberty {
     background-color: #E3DAE7;
 }
 
-span.vote{
+span.vote {
     background-color: #A0849D;
 }
 
-span.citizenship{
-    background-color:#D3B3B8;
+span.citizenship {
+    background-color: #D3B3B8;
 }
 
-span.nationalism{
-    background-color:#C0CFFA;
+span.nationalism {
+    background-color: #C0CFFA;
 }
 
-span.russian{
-    background-color:#6497b1;
+span.russian {
+    background-color: #6497b1;
 }
 
-span.native{
-    background-color:#AAAAAA;
+span.native {
+    background-color: #AAAAAA;
 }
 
-span.gov{
-    background-color:#e0a899;
+span.gov {
+    background-color: #e0a899;
 }
 
-iframe{
-    width:100%;
+iframe {
+    width: 100%;
 }
 
 
