@@ -2,11 +2,11 @@
 <svg xmlns="http://www.w3.org/2000/svg"
      height="1400"
      width="2200"
-     viewBox="0, -2000, 2000, 2000">
+     viewBox="0, -1500, 1500, 1500">
    <g>
-      <line x1="-300" y1="-50" x2="1800" y2="-50" stroke="black"/>
+      <line x1="50" y1="-50" x2="1800" y2="-50" stroke="black"/>
       <text x="1810" y="-50" font-size="xx-large">Constitution</text>
-      <line x1="-300" y1="-50" x2="50" y2="-1050" stroke="black"/>
+      <line x1="50" y1="-50" x2="50" y2="-1050" stroke="black"/>
       <text x="100" y="-1100" font-size="xx-large" text-anchor="middle">Mentions of Nationalism</text>
       <text x="30"
             y="-50"
@@ -129,7 +129,7 @@
             y2="-1050"
             stroke="black"
             opacity=".2"/>
-      <rect x="-300"
+      <rect x="70"
             y="-950"
             width="30"
             height="900"
@@ -141,7 +141,7 @@
             dominant-baseline="middle"
             font-size="x-large"
             text-anchor="middle">Armenia</text>
-      <rect x="-180"
+      <rect x="190"
             y="-450"
             width="30"
             height="400"
@@ -153,7 +153,7 @@
             dominant-baseline="middle"
             font-size="x-large"
             text-anchor="middle">Azerbaijan</text>
-      <rect x="-60"
+      <rect x="310"
             y="-150"
             width="30"
             height="100"
@@ -165,7 +165,7 @@
             dominant-baseline="middle"
             font-size="x-large"
             text-anchor="middle">Estonia</text>
-      <rect x="60"
+      <rect x="430"
             y="-450"
             width="30"
             height="400"
@@ -177,7 +177,7 @@
             dominant-baseline="middle"
             font-size="x-large"
             text-anchor="middle">Georgia</text>
-      <rect x="180"
+      <rect x="550"
             y="-350"
             width="30"
             height="300"
@@ -189,7 +189,7 @@
             dominant-baseline="middle"
             font-size="x-large"
             text-anchor="middle">Kyrgyzstan</text>
-      <rect x="300"
+      <rect x="670"
             y="-450"
             width="30"
             height="400"
@@ -201,7 +201,7 @@
             dominant-baseline="middle"
             font-size="x-large"
             text-anchor="middle">Lithuania</text>
-      <rect x="420"
+      <rect x="790"
             y="-350"
             width="30"
             height="300"
@@ -213,7 +213,7 @@
             dominant-baseline="middle"
             font-size="x-large"
             text-anchor="middle">Turkmenistan</text>
-      <rect x="540"
+      <rect x="910"
             y="-50"
             width="30"
             height="0"
@@ -225,7 +225,7 @@
             dominant-baseline="middle"
             font-size="x-large"
             text-anchor="middle">Tajikistan</text>
-      <rect x="660"
+      <rect x="1030"
             y="-350"
             width="30"
             height="300"
@@ -237,7 +237,7 @@
             dominant-baseline="middle"
             font-size="x-large"
             text-anchor="middle">Kazakhstan</text>
-      <rect x="780"
+      <rect x="1150"
             y="-650"
             width="30"
             height="600"
@@ -249,7 +249,7 @@
             dominant-baseline="middle"
             font-size="x-large"
             text-anchor="middle">Latvia</text>
-      <rect x="900"
+      <rect x="1270"
             y="-350"
             width="30"
             height="300"
@@ -261,7 +261,7 @@
             dominant-baseline="middle"
             font-size="x-large"
             text-anchor="middle">Russia</text>
-      <rect x="1020"
+      <rect x="1390"
             y="-150"
             width="30"
             height="100"
@@ -273,7 +273,7 @@
             dominant-baseline="middle"
             font-size="x-large"
             text-anchor="middle">Uzbekistan</text>
-      <rect x="1140"
+      <rect x="1510"
             y="-250"
             width="30"
             height="200"
@@ -285,7 +285,7 @@
             dominant-baseline="middle"
             font-size="x-large"
             text-anchor="middle">Belarus</text>
-      <rect x="1260"
+      <rect x="1630"
             y="-150"
             width="30"
             height="100"
@@ -297,7 +297,7 @@
             dominant-baseline="middle"
             font-size="x-large"
             text-anchor="middle">Moldova</text>
-      <rect x="1380"
+      <rect x="1750"
             y="-450"
             width="30"
             height="400"

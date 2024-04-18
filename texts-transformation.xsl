@@ -117,6 +117,97 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
+    
+<!--        7. economic -->
+    <xsl:template match="economic">
+        <span class="{@e_type}">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+<!--        8. Symbols -->
+    <xsl:template match="symbols">
+        <span class="symbols">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+<!--        9. capital -->
+    <xsl:template match="capital">
+        <span class="capital">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+<!--        10. consent -->
+    <xsl:template match="consent">
+        <span class="consent">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+<!--        11. seperation -->
+    <xsl:template match="separation">
+        <span class="separation">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+<!--        12. parties -->
+    <xsl:template match="parties">
+        <span class="{@p_type}">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+<!--        13. property -->
+    <xsl:template match="property">
+        <span class="{@prop_type}">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+<!--        14. international -->
+    <xsl:template match="international">
+        <span class="international">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+<!--        15. peace -->
+    <xsl:template match="peace">
+        <span class="peace">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+<!--        16. treason -->
+    <xsl:template match="treason">
+        <span class="treason">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+<!--        17. levels -->
+    <xsl:template match="levels">
+        <span class="{@l_type}">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+<!--        18. elections -->
+    <xsl:template match="elections">
+        <span class="elections">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+<!--        19. currency -->
+    <xsl:template match="currency">
+        <span class="currency">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
 
 
 </xsl:stylesheet>
