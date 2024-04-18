@@ -1,274 +1,327 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
-     height="1400"
-     width="2200"
+     height="850"
+     width="1350"
      viewBox="0, -1500, 1500, 1600">
    <g>
-      <line x1="50" y1="-50" x2="1800" y2="-50" stroke="black"/>
-      <text x="900" y="50" font-size="xx-large">Constitution</text>
-      <line x1="50" y1="-50" x2="50" y2="-1050" stroke="black"/>
-      <text x="0" y="-1100" font-size="xx-large" text-anchor="middle">Number of Individual Rights Divided by Freedom House
+      <line x1="50" y1="-50" x2="1820" y2="-50" stroke="black"/>
+      <text x="825" y="50" font-size="xx-large">Constitution</text>
+      <line x1="50" y1="-50" x2="50" y2="-650" stroke="black"/>
+      <text x="0" y="-700" font-size="xx-large" text-anchor="middle">Number of Individual Rights Divided by Freedom House
                     Score</text>
       <text x="30"
             y="-50"
             font-size="x-large"
             text-anchor="middle"
-            dominant-baseline="middle">0</text>
+            dominant-baseline="middle">0.0</text>
       <line x1="50"
             y1="-50"
-            x2="1800"
+            x2="1850"
             y2="-50"
+            stroke="black"
+            opacity=".2"/>
+      <text x="30"
+            y="-100"
+            font-size="x-large"
+            text-anchor="middle"
+            dominant-baseline="middle">0.8</text>
+      <line x1="50"
+            y1="-100"
+            x2="1850"
+            y2="-100"
             stroke="black"
             opacity=".2"/>
       <text x="30"
             y="-150"
             font-size="x-large"
             text-anchor="middle"
-            dominant-baseline="middle">5</text>
+            dominant-baseline="middle">1.7</text>
       <line x1="50"
             y1="-150"
-            x2="1800"
+            x2="1850"
             y2="-150"
+            stroke="black"
+            opacity=".2"/>
+      <text x="30"
+            y="-200"
+            font-size="x-large"
+            text-anchor="middle"
+            dominant-baseline="middle">2.5</text>
+      <line x1="50"
+            y1="-200"
+            x2="1850"
+            y2="-200"
             stroke="black"
             opacity=".2"/>
       <text x="30"
             y="-250"
             font-size="x-large"
             text-anchor="middle"
-            dominant-baseline="middle">10</text>
+            dominant-baseline="middle">3.3</text>
       <line x1="50"
             y1="-250"
-            x2="1800"
+            x2="1850"
             y2="-250"
+            stroke="black"
+            opacity=".2"/>
+      <text x="30"
+            y="-300"
+            font-size="x-large"
+            text-anchor="middle"
+            dominant-baseline="middle">4.2</text>
+      <line x1="50"
+            y1="-300"
+            x2="1850"
+            y2="-300"
             stroke="black"
             opacity=".2"/>
       <text x="30"
             y="-350"
             font-size="x-large"
             text-anchor="middle"
-            dominant-baseline="middle">15</text>
+            dominant-baseline="middle">5.0</text>
       <line x1="50"
             y1="-350"
-            x2="1800"
+            x2="1850"
             y2="-350"
+            stroke="black"
+            opacity=".2"/>
+      <text x="30"
+            y="-400"
+            font-size="x-large"
+            text-anchor="middle"
+            dominant-baseline="middle">5.8</text>
+      <line x1="50"
+            y1="-400"
+            x2="1850"
+            y2="-400"
             stroke="black"
             opacity=".2"/>
       <text x="30"
             y="-450"
             font-size="x-large"
             text-anchor="middle"
-            dominant-baseline="middle">20</text>
+            dominant-baseline="middle">6.7</text>
       <line x1="50"
             y1="-450"
-            x2="1800"
+            x2="1850"
             y2="-450"
+            stroke="black"
+            opacity=".2"/>
+      <text x="30"
+            y="-500"
+            font-size="x-large"
+            text-anchor="middle"
+            dominant-baseline="middle">7.5</text>
+      <line x1="50"
+            y1="-500"
+            x2="1850"
+            y2="-500"
             stroke="black"
             opacity=".2"/>
       <text x="30"
             y="-550"
             font-size="x-large"
             text-anchor="middle"
-            dominant-baseline="middle">25</text>
+            dominant-baseline="middle">8.3</text>
       <line x1="50"
             y1="-550"
-            x2="1800"
+            x2="1850"
             y2="-550"
+            stroke="black"
+            opacity=".2"/>
+      <text x="30"
+            y="-600"
+            font-size="x-large"
+            text-anchor="middle"
+            dominant-baseline="middle">9.2</text>
+      <line x1="50"
+            y1="-600"
+            x2="1850"
+            y2="-600"
             stroke="black"
             opacity=".2"/>
       <text x="30"
             y="-650"
             font-size="x-large"
             text-anchor="middle"
-            dominant-baseline="middle">30</text>
+            dominant-baseline="middle">10.0</text>
       <line x1="50"
             y1="-650"
-            x2="1800"
+            x2="1850"
             y2="-650"
             stroke="black"
             opacity=".2"/>
-      <text x="30"
-            y="-750"
-            font-size="x-large"
-            text-anchor="middle"
-            dominant-baseline="middle">35</text>
-      <line x1="50"
-            y1="-750"
-            x2="1800"
-            y2="-750"
-            stroke="black"
-            opacity=".2"/>
-      <text x="30"
-            y="-850"
-            font-size="x-large"
-            text-anchor="middle"
-            dominant-baseline="middle">40</text>
-      <line x1="50"
-            y1="-850"
-            x2="1800"
-            y2="-850"
-            stroke="black"
-            opacity=".2"/>
-      <text x="30"
-            y="-950"
-            font-size="x-large"
-            text-anchor="middle"
-            dominant-baseline="middle">45</text>
-      <line x1="50"
-            y1="-950"
-            x2="1800"
-            y2="-950"
-            stroke="black"
-            opacity=".2"/>
-      <text x="30"
-            y="-1050"
-            font-size="x-large"
-            text-anchor="middle"
-            dominant-baseline="middle">50</text>
-      <line x1="50"
-            y1="-1050"
-            x2="1800"
-            y2="-1050"
-            stroke="black"
-            opacity=".2"/>
       <rect x="70"
-            y="-54.62962962962963"
-            width="30"
-            height="4.62962962962963"
+            y="-63.888888888888886"
+            width="50"
+            height="13.888888888888888"
             stroke="black"
             fill="red"
             opacity=".5"/>
-      <text x="85" y="-25" font-size="x-large" text-anchor="middle">Armenia</text>
-      <text x="85" y="-104.62962962962963" text-anchor="start">0.2</text>
+      <text x="80" y="-25" font-size="x-large" text-anchor="middle">Armenia</text>
+      <text x="80"
+            y="-83.88888888888889"
+            text-anchor="start"
+            font-size="x-large">0.2</text>
       <rect x="190"
-            y="-57.14285714285714"
-            width="30"
-            height="7.142857142857142"
+            y="-71.42857142857143"
+            width="50"
+            height="21.428571428571427"
             stroke="black"
             fill="red"
             opacity=".5"/>
-      <text x="205" y="-25" font-size="x-large" text-anchor="middle">Azerbaijan</text>
-      <text x="205" y="-107.14285714285714" text-anchor="start">0.4</text>
+      <text x="200" y="-25" font-size="x-large" text-anchor="middle">Azerbaijan</text>
+      <text x="200"
+            y="-91.42857142857143"
+            text-anchor="start"
+            font-size="x-large">0.4</text>
       <rect x="310"
             y="-50"
-            width="30"
+            width="50"
             height="0"
             stroke="black"
             fill="red"
             opacity=".5"/>
-      <text x="325" y="-25" font-size="x-large" text-anchor="middle">Estonia</text>
-      <text x="325" y="-100" text-anchor="start">0.0</text>
+      <text x="320" y="-25" font-size="x-large" text-anchor="middle">Estonia</text>
+      <text x="320" y="-70" text-anchor="start" font-size="x-large">0.0</text>
       <rect x="430"
-            y="-60.3448275862069"
-            width="30"
-            height="10.344827586206897"
+            y="-81.0344827586207"
+            width="50"
+            height="31.03448275862069"
             stroke="black"
             fill="red"
             opacity=".5"/>
-      <text x="445" y="-25" font-size="x-large" text-anchor="middle">Georgia</text>
-      <text x="445" y="-110.34482758620689" text-anchor="start">0.5</text>
+      <text x="440" y="-25" font-size="x-large" text-anchor="middle">Georgia</text>
+      <text x="440"
+            y="-101.0344827586207"
+            text-anchor="start"
+            font-size="x-large">0.5</text>
       <rect x="550"
-            y="-62.96296296296296"
-            width="30"
-            height="12.962962962962962"
+            y="-88.88888888888889"
+            width="50"
+            height="38.888888888888886"
             stroke="black"
             fill="red"
             opacity=".5"/>
-      <text x="565" y="-25" font-size="x-large" text-anchor="middle">Kyrgyzstan</text>
-      <text x="565" y="-112.96296296296296" text-anchor="start">0.6</text>
+      <text x="560" y="-25" font-size="x-large" text-anchor="middle">Kyrgyzstan</text>
+      <text x="560"
+            y="-108.88888888888889"
+            text-anchor="start"
+            font-size="x-large">0.6</text>
       <rect x="670"
-            y="-53.93258426966292"
-            width="30"
-            height="3.932584269662921"
+            y="-61.79775280898876"
+            width="50"
+            height="11.797752808988763"
             stroke="black"
             fill="red"
             opacity=".5"/>
-      <text x="685" y="-25" font-size="x-large" text-anchor="middle">Lithuania</text>
-      <text x="685" y="-103.93258426966293" text-anchor="start">0.2</text>
+      <text x="680" y="-25" font-size="x-large" text-anchor="middle">Lithuania</text>
+      <text x="680"
+            y="-81.79775280898876"
+            text-anchor="start"
+            font-size="x-large">0.2</text>
       <rect x="790"
-            y="-250"
-            width="30"
-            height="200"
+            y="-650"
+            width="50"
+            height="600"
             stroke="black"
             fill="red"
             opacity=".5"/>
-      <text x="805" y="-25" font-size="x-large" text-anchor="middle">Turkmenistan</text>
-      <text x="805" y="-300" text-anchor="start">10.0</text>
+      <text x="800" y="-25" font-size="x-large" text-anchor="middle">Turkmenistan</text>
+      <text x="800" y="-670" text-anchor="start" font-size="x-large">10.0</text>
       <rect x="910"
-            y="-140"
-            width="30"
-            height="90"
+            y="-320"
+            width="50"
+            height="270"
             stroke="black"
             fill="red"
             opacity=".5"/>
-      <text x="925" y="-25" font-size="x-large" text-anchor="middle">Tajikistan</text>
-      <text x="925" y="-190" text-anchor="start">4.5</text>
+      <text x="920" y="-25" font-size="x-large" text-anchor="middle">Tajikistan</text>
+      <text x="920" y="-340" text-anchor="start" font-size="x-large">4.5</text>
       <rect x="1030"
-            y="-54.34782608695652"
-            width="30"
-            height="4.3478260869565215"
+            y="-63.04347826086956"
+            width="50"
+            height="13.043478260869565"
             stroke="black"
             fill="red"
             opacity=".5"/>
-      <text x="1045" y="-25" font-size="x-large" text-anchor="middle">Kazakhstan</text>
-      <text x="1045" y="-104.34782608695652" text-anchor="start">0.2</text>
+      <text x="1040" y="-25" font-size="x-large" text-anchor="middle">Kazakhstan</text>
+      <text x="1040"
+            y="-83.04347826086956"
+            text-anchor="start"
+            font-size="x-large">0.2</text>
       <rect x="1150"
-            y="-52.84090909090909"
-            width="30"
-            height="2.840909090909091"
+            y="-58.52272727272727"
+            width="50"
+            height="8.522727272727272"
             stroke="black"
             fill="red"
             opacity=".5"/>
-      <text x="1165" y="-25" font-size="x-large" text-anchor="middle">Latvia</text>
-      <text x="1165" y="-102.8409090909091" text-anchor="start">0.1</text>
+      <text x="1160" y="-25" font-size="x-large" text-anchor="middle">Latvia</text>
+      <text x="1160"
+            y="-78.52272727272727"
+            text-anchor="start"
+            font-size="x-large">0.1</text>
       <rect x="1270"
-            y="-80.76923076923077"
-            width="30"
-            height="30.76923076923077"
+            y="-142.30769230769232"
+            width="50"
+            height="92.3076923076923"
             stroke="black"
             fill="red"
             opacity=".5"/>
-      <text x="1285" y="-25" font-size="x-large" text-anchor="middle">Russia</text>
-      <text x="1285" y="-130.76923076923077" text-anchor="start">1.5</text>
+      <text x="1280" y="-25" font-size="x-large" text-anchor="middle">Russia</text>
+      <text x="1280"
+            y="-162.30769230769232"
+            text-anchor="start"
+            font-size="x-large">1.5</text>
       <rect x="1390"
-            y="-58.33333333333333"
-            width="30"
-            height="8.333333333333332"
+            y="-75"
+            width="50"
+            height="25"
             stroke="black"
             fill="red"
             opacity=".5"/>
-      <text x="1405" y="-25" font-size="x-large" text-anchor="middle">Uzbekistan</text>
-      <text x="1405" y="-108.33333333333333" text-anchor="start">0.4</text>
+      <text x="1400" y="-25" font-size="x-large" text-anchor="middle">Uzbekistan</text>
+      <text x="1400" y="-95" text-anchor="start" font-size="x-large">0.4</text>
       <rect x="1510"
-            y="-137.5"
-            width="30"
-            height="87.5"
+            y="-312.5"
+            width="50"
+            height="262.5"
             stroke="black"
             fill="red"
             opacity=".5"/>
-      <text x="1525" y="-25" font-size="x-large" text-anchor="middle">Belarus</text>
-      <text x="1525" y="-187.5" text-anchor="start">4.4</text>
+      <text x="1520" y="-25" font-size="x-large" text-anchor="middle">Belarus</text>
+      <text x="1520" y="-332.5" text-anchor="start" font-size="x-large">4.4</text>
       <rect x="1630"
-            y="-54.91803278688525"
-            width="30"
-            height="4.918032786885246"
+            y="-64.75409836065573"
+            width="50"
+            height="14.754098360655737"
             stroke="black"
             fill="red"
             opacity=".5"/>
-      <text x="1645" y="-25" font-size="x-large" text-anchor="middle">Moldova</text>
-      <text x="1645" y="-104.91803278688525" text-anchor="start">0.2</text>
+      <text x="1640" y="-25" font-size="x-large" text-anchor="middle">Moldova</text>
+      <text x="1640"
+            y="-84.75409836065573"
+            text-anchor="start"
+            font-size="x-large">0.2</text>
       <rect x="1750"
-            y="-68.36734693877551"
-            width="30"
-            height="18.367346938775512"
+            y="-105.10204081632654"
+            width="50"
+            height="55.102040816326536"
             stroke="black"
             fill="red"
             opacity=".5"/>
-      <text x="1765" y="-25" font-size="x-large" text-anchor="middle">Ukraine</text>
-      <text x="1765" y="-118.36734693877551" text-anchor="start">0.9</text>
+      <text x="1760" y="-25" font-size="x-large" text-anchor="middle">Ukraine</text>
+      <text x="1760"
+            y="-125.10204081632654"
+            text-anchor="start"
+            font-size="x-large">0.9</text>
       <text x="200"
-            y="-1200"
+            y="-760"
             font-size="xxx-large"
             dominant-baseline="middle">Comparison of Number of Individual Rights to Freedom House
                     Score</text>
    </g>
 </svg>
+
