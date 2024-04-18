@@ -3,6 +3,7 @@
     <head>
         <title>Constitutions</title>
         <link rel="stylesheet" type="text/css" href="styling.css" />
+        <script src="textpage-highlight-javascript.js"></script>
         <style>
             .collapse {
                 background-color: #black;
@@ -18,7 +19,8 @@
                 display: none;
                 overflow: hidden;
                 font-size: 20px;
-            }</style>
+            }
+        </style>
     </head>
     <body>
         <h1>An Analysis of the Constitutions of Former Soviet Union States</h1>
@@ -57,13 +59,13 @@
             <p>Check a box to highlight the text:</p>
             
             
-            <input type="checkbox" id="myCheck" onclick="highlight()"></input>
+            <input type="checkbox" id="myCheck" onclick="highlightNationalism()"></input>
             <label for="myCheck">Nationalism</label>    
                 <!--<p id="text" style="display:none">Checkbox is CHECKED!</p>
                 -->
             <div id="nationalism"><h2>Testing Changing Color: Nationalism</h2></div>
                 
-            <script>
+            <!--<script>
                     function highlight() {
                       var checkBox = document.getElementById("myCheck");
                       var text = document.getElementById("text");
@@ -75,7 +77,7 @@
                       }
                       
                     }
-                </script>
+                </script>-->
                 
         </section>
         <p class="paragraph"> Click on a country below to view its constitution </p>

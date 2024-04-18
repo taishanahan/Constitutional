@@ -10,6 +10,7 @@
         <html>
             <head>
                 <link rel="stylesheet" type="text/css" href="styling.css"/>
+                <script src="textpage-highlight-javascript.js"></script>
                 <title>XSLT for Constitutions</title>
             </head>
             <body>
@@ -17,7 +18,9 @@
                 <xsl:apply-templates select="//body"/>
             </body>
         </html>
-    </xsl:template>    
+    </xsl:template>   
+    
+    
     
 <!--======================= turn the preamble into a paragraph ===================================-->
     <xsl:template match="preamble">
@@ -78,7 +81,7 @@
 <!--============================ transform elements =================================-->
     <!--    1. transforming ind_rights: -->
     <xsl:template match="ind_rights">
-        <span class="{@ind_type}">
+        <span class="{@ind_type}" id="{@ind_type}">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
@@ -92,7 +95,7 @@
     
     <!--    3. nationalism -->
     <xsl:template match="nationalism">
-        <span class="nationalism">
+        <span class="nationalism" id="nationalism">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
