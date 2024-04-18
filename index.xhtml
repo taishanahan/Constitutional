@@ -74,11 +74,11 @@
         <!--        code for a random quote below, excpet i can't figure out why styling .button in CSS isnt working but the code works if we want to  actually use-->
         <!--        it in our final project-->
         <p id="demo"></p>
-        <button class="button" onclick="document.getElementById('demo').innerHTML = getRndQuote()">Click Here For
-            Fun Fact</button>
+        <button class="button" onclick="document.getElementById('demo').innerHTML = getRndQuote()"
+            >Click Here For Fun Fact</button>
         <script>
                 const quotes =[
-                "Easter Eggs are originally from Ukraine!",
+                      "Easter Eggs are originally from Ukraine!",
                 "\"The Epic of Manas, a Kyrgyz Poem from the 18th Century, is considered to be one of the longest in history.\"",
                 "\"Uzbekistan is one of only two double landlocked countries in the world, meaning that it is landlocked and so are all of its immediate neighbors. Can you guess the other?\"",
                 "\"Georgia is considered by many to be the original home of wine. It has a history of winemaking dating back eight millennia!\"",
@@ -87,9 +87,23 @@
                 arrLength = quotes.length;
                 let result = "";
                 // the quote at a random index:
-                function getRndQuote() {
+                   function getRndQuote() {
                     return result = quotes[Math.floor(Math.random() * arrLength)];
                     // should return a number between 0 and arrlength
                 }</script>
     </body>
 </html>
+
+<!--quotes:   "\"Spanning more than 7,500 km, Kazakhstan’s border with Russia is the longest
+                continous border in the world ! \"",
+                 "\"From 2002 to 2008, the names of the days of the week and months of the year in
+                 Turkmenistan were changed to reflect Turkmen national symbols. \"",
+                 "\"Armenia was the first country in the world to adopt Christianity as its state
+                 religion! \"",
+                 "\"The Yanar Dağ in Azerbaijan is a mud volcano with a natural glowing fire inside that’s been blazing for at least 65 years!\"" 
+                 "\"Lithuania is the only country with a national scent, which is a mizture of
+                 wildflowers, raspberry, and ginger.\"",
+                 "\"Estonia was the first country to adopt an online political voting system!.\"",
+                "\"The national animal of Moldova is an extinct breed of cow called the auroch.\"",
+                "\"Bealrusians celebrate both Catholic and Orthodox Christmases and Easters.\"",
+                "\"Russia boasts 20% of the world's trees!\"" -->
