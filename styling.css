@@ -77,7 +77,7 @@ button {
 }
 
 /*make it so a button changes color when you hover: */
-button:hover {
+.button:hover {
     background-color: black;
 }
 
