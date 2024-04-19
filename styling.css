@@ -152,4 +152,11 @@ iframe {
     width: 100%;
 }
 
+div.N-Con {
+    display: flex;
+    flex-direction: row;
+}
 
+div.N-SBS {
+    display: inline-block;
+}
