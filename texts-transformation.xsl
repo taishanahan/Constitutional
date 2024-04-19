@@ -10,33 +10,142 @@
         <html>
             <head>
                 <link rel="stylesheet" type="text/css" href="styling.css"/>
+                <link rel="stylesheet" type="text/css" href="transformation-styling.css"/>
                 <script src="textpage-highlight-javascript.js"></script>
                 <title>XSLT for Constitutions</title>
                 
             </head>
             <body>
+                
+<!--=========================== NAV BAR SO IT DISPLAYS ON EACH PAGE: ========================================-->
                 <h1>An Analysis of the Constitutions of Former Soviet Union States</h1>
                 <div class="nav-bar">
                     <ul>
-                        <li><a href="index.xhtml">Home</a></li>
-                        <li><a href="about-page.xhtml">About</a></li>
-                        <li><a href="constitution-page.xhtml">Constitutions</a></li>
-                        <li><a href="analysis-page.xhtml">Analysis</a></li>
-                        <li><a href="conclusion-page.xhtml">Conclusions</a></li>
+                        <li class="navbar"><a href="index.xhtml">Home</a></li>
+                        <li class="navbar"><a href="about-page.xhtml">About</a></li>
+                        <li class="navbar"><a href="constitution-page.xhtml">Constitutions</a></li>
+                        <li class="navbar"><a href="analysis-page.xhtml">Analysis</a></li>
+                        <li class="navbar"><a href="conclusion-page.xhtml">Conclusions</a></li>
                     </ul>
                 </div>
-                <input type="checkbox" id="myCheck" onclick="highlightNationalism()"></input>
-                <label for="myCheck">Nationalism</label>  
                 
-<!--               only want to select the body, not the meta data too-->
-                <xsl:apply-templates select="//body"/>
+<!--============================= SIDE NAV BAR: ===============================================-->
+                <div class="sidenav">
+                    <ul>
+                        <li class="sidebar"><a href="armenia-xslt-test.xhtml">Armenia</a></li>
+                        <li class="sidebar">
+                            <a href="azerbaijan-xslt.xhtml">Azerbaijan</a></li>
+                        <li class="sidebar">
+                            <a href="belarus-xslt.xhtml">Belarus</a></li>
+                        <li class="sidebar"><a href="estonia-xslt.xhtml">Estonia</a></li>
+                        <li class="sidebar"><a href="georgia-xslt.xhtml">Georgia</a></li>
+                        <li class="sidebar"><a href="kazakhstan-xslt.xhtml">Kazhakstan</a></li>
+                        <li class="sidebar"><a href="kyrgyzstan-xslt.xhtml">Kyrgyzstan</a></li>
+                        <li class="sidebar">
+                            <a href="latvia-xslt.xhtml">Latvia</a></li>
+                        <li class="sidebar"><a href="lithuania-xslt.xhtml">Lithuania</a></li>
+                        <li class="sidebar">
+                            <a href="moldova-xslt.xhtml">Moldova</a></li>
+                        <li class="sidebar"><a href="russia-xslt.xhtml">Russia</a></li>
+                        <li class="sidebar"><a href="tajikstan-xslt.xhtml">Tajikistan</a>
+                        </li>
+                        <li class="sidebar"><a href="turkmenistan-xslt.xhtml">Turkmenistan</a></li>
+                        <li class="sidebar">
+                            <a href="ukraine-xslt.xhtml">Ukraine</a></li>
+                        <li  class="sidebar">
+                            <a href="uzbekistan-xslt.xhtml">Uzbekistan</a></li>
+                    </ul>
+                </div>
+                
+<!--======================== CHECKBOXES TO ADD COLOR TO DIF ELEMENTS: ======================================-->
+                
+               <div class="check-box">
+                   <h4>Check a box to highlight an element: </h4>
+                    <ul>
+                      <li class="colors">
+                          <input type="checkbox" id="myCheckOne" onclick="highlightNationalism()"></input>
+                          <label for="myCheckOne">Nationalism</label>  
+                      </li>
+                  
+                      <li class="colors">
+                          <input type="checkbox" id="myCheckTwo" onclick="highlightLiberty()"></input>
+                          <label for="myCheckTwo">Liberty</label>
+                      </li> 
+                        
+                        <li class="colors">
+                            <input type="checkbox" id="myCheckGov" onclick="highlightGov()"></input>
+                            <label for="myCheckGov">Government</label>
+                        </li>
+                        
+                        <li class="colors">
+                            <input type="checkbox" id="myCheckCitizenship" onclick="highlightCitizenship()"></input>
+                            <label for="myCheckCitizenship">Citizenship</label>
+                        </li>
+                        
+                        <li class="colors">
+                            <input type="checkbox" id="myCheckVote" onclick="highlightVote()"></input>
+                            <label for="myCheckVote">Vote</label>
+                        </li> 
+                        
+                        <li class="colors">
+                            <input type="checkbox" id="myCheckProtest" onclick="highlightProtest()"></input>
+                            <label for="myCheckProtest">Protest</label>
+                        </li>
+                        
+                        <li class="colors">
+                            <input type="checkbox" id="myCheckAssembly" onclick="highlightAssembly()"></input>
+                            <label for="myCheckAssembly">Assembly</label>
+                        </li>
+                        
+                        <li class="colors">
+                            <input type="checkbox" id="myCheckLegal" onclick="highlightLegal()"></input>
+                            <label for="myCheckLegal">Legal</label>
+                        </li>
+                        
+                        <li class="colors">
+                            <input type="checkbox" id="myCheckRace" onclick="highlightRace()"></input>
+                            <label for="myCheckRace">Racial Equality</label>
+                        </li>
+                        
+                        <li class="colors">
+                            <input type="checkbox" id="myCheckMisc" onclick="highlightMisc()"></input>
+                            <label for="myCheckMisc">Misc Rights</label>
+                        </li>
+                        
+                        <li class="colors">
+                            <input type="checkbox" id="myCheckCapital" onclick="highlightCapital()"></input>
+                            <label for="myCheckCapital">Capital</label>
+                        </li>
+                        
+                        <li class="colors">
+                            <input type="checkbox" id="myCheckSymbols" onclick="highlightSymbols()"></input>
+                            <label for="myCheckSymbols">Symbols</label>
+                        </li>
+                        
+                        <li class="colors">
+                            <input type="checkbox" id="myCheckRussian" onclick="highlightRussian()"></input>
+                            <label for="myCheckRussian">Russian Language</label>
+                        </li>
+                        
+                        <li class="colors">
+                            <input type="checkbox" id="myCheckNative" onclick="highlightNative()"></input>
+                            <label for="myCheckNative">Native Language</label>
+                        </li>
+                        
+                        
+                    </ul>
+               </div> 
+                
+                
+                
+<!--========================== MAKE ALL TEXT SECTION ELEMENT: ===============================-->
+                <div class="text"><xsl:apply-templates select="//body"/></div>
+                
             </body>
         </html>
     </xsl:template>   
     
-    
-    
-<!--======================= turn the preamble into a paragraph ===================================-->
+    <!--======================= turn the preamble into a paragraph ===================================-->
     <xsl:template match="preamble">
         <h2>
             <xsl:text>PREAMBLE</xsl:text>
@@ -95,7 +204,7 @@
 <!--============================ transform elements =================================-->
     <!--    1. transforming ind_rights: -->
     <xsl:template match="ind_rights">
-        <span class="{@ind_type}" id="{@ind_type}">
+        <span class="{@ind_type}">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
@@ -109,7 +218,7 @@
     
     <!--    3. nationalism -->
     <xsl:template match="nationalism">
-        <span class="nationalism" id="nationalism">
+        <span class="nationalism">
             <xsl:apply-templates/>
         </span>
     </xsl:template>

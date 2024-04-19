@@ -119,7 +119,7 @@ button:hover {
 
 button.one {}
 
-/* below are how the texts are going to be colored: */
+/*/\* below are how the texts are going to be colored: *\/
 span.liberty {
     background-color: #E3DAE7;
 }
@@ -146,7 +146,7 @@ span.native {
 
 span.gov {
     background-color: #e0a899;
-}
+}*/
 
 iframe {
     width: 100%;

@@ -1,0 +1,60 @@
+.sidenav{
+    float: left;
+    width: 15%; 
+}
+
+.sidenav ul{
+    justify-content: space-around;
+    align-content: space-between;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px;
+}
+
+li.sidebar{
+    text-decoration:none;
+    list-style-type:none;
+    padding: 20px;
+    padding-left:0px;
+    border-radius: 0px;
+}
+li.sidebar a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 0px;
+    color:black;
+    
+    
+}
+
+.sidebar a:hover{
+    background-color: black;
+    color: white;
+}
+
+.check-box{
+    float:left;
+    display: flex;
+    flex-direction: column;
+}
+li.colors{
+    text-decoration:none;
+    list-style-type:none;
+    margin:10px;
+    padding-left:0px;
+    
+}
+
+.text{
+    float:left;
+    width: 62%;
+    margin: 5px;
+}
+
+.check-box{
+    float:right;
+    width: 20%;
+    text-align:left;
+}
