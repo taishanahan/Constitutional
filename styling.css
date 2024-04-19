@@ -83,40 +83,41 @@ a:hover {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
-.demo{
-    text-align:center;
+.demo {
+    text-align: center;
 }
 
 /*style buttons on constitution page*/
 
-button{
+button {
     background-color: #AFCBD5;
     border: 4px solid black;
     color: white;
     padding: 11px 16px;
     padding: 15px 30px;
-    text-align:center;
+    text-align: center;
     text-decoration: none;
     display: inline-block;
     margin: 10px;
     font-size: 20px;
-    border-radius:10px;
+    border-radius: 10px;
 }
-button:hover{
+button:hover {
     background-color: black;
 
 }
-    
-    /*make it so a button changes color when you hover: */
-    .button:hover {
-        background-color: black;
-    }
+
+/*make it so a button changes color when you hover: */
+.button:hover {
+    background-color: black;
+}
 
 /*style the list on the constitutions page: */
 .texts ul {
     list-style-type: none;
 }
 
+button.one {}
 
 /* below are how the texts are going to be colored: */
 span.liberty {
