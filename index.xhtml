@@ -13,7 +13,7 @@
                 <li><a href="about-page.xhtml">About</a></li>
                 <li><a href="constitution-page.xhtml">Constitutions</a></li>
                 <li><a href="analysis-page.xhtml">Analysis</a></li>
-                <li><a href="index.xhtml">Conclusions</a></li>
+                <li><a href="conclusion-page.xhtml">Conclusions</a></li>
             </ul>
         </div>
         <section class="one">
@@ -26,6 +26,37 @@
                 individual rights, and soveriegnty. The ultimate goal was to see what the most
                 important information to include was for different states. </p>
         </section>
+        <div>
+            <p id="demo"></p>
+            <button class="button"
+                onclick="document.getElementById('demo').innerHTML = getRndQuote()">Click Here For
+                Fun Fact</button>
+            <script>
+                    const quotes =[
+                    "\"Easter Eggs are originally from Ukraine!\"",
+                    "\"The Epic of Manas, a Kyrgyz Poem from the 18th Century, is considered to be one of the longest in history.\"",
+                    "\"Uzbekistan is one of only two double landlocked countries in the world, meaning that it is landlocked and so are all of its immediate neighbors. Can you guess the other?\"",
+                    "\"Georgia is considered by many to be the original home of wine. It has a history of winemaking dating back eight millennia!\"",
+                    "\"Jacob Davis, one of the inventors of jeans, is Latvian!\"",
+                    "\"Armenia was the first country in the world to adopt Christianity as its state religion!\"",
+                    "\"Spanning more than 7,500 km, Kazakhstan’s border with Russia is the longest continous border in the world !\"",
+                    "\"From 2002 to 2008, the names of the days of the week and months of the year in Turkmenistan were changed to reflect Turkmen national symbols.\"",
+                    "\"Armenia was the first country in the world to adopt Christianity as its state religion!\"",
+                    "\"The Yanar Dağ in Azerbaijan is a mud volcano with a natural glowing fire inside that’s been blazing for at least 65 years!\"",
+                    "\"Lithuania is the only country with a national scent, which is a mizture of wildflowers, raspberry, and ginger.\"",
+                    "\"Estonia was the first country to adopt an online political voting system!.\"",
+                    "\"The national animal of Moldova is an extinct breed of cow called the auroch.\"",
+                    "\"Bealrusians celebrate both Catholic and Orthodox Christmases and Easters.\"",
+                    "\"Russia boasts 20% of the world's trees!\"",
+                    "\"Tajikistan's capital city, Dushanbe, comes from the Tajik work dush, meaning Monday.\""];
+                    arrLength = quotes.length;
+                    let result = "";
+                    // the quote at a random index:
+                    function getRndQuote() {
+                        return result = quotes[Math.floor(Math.random() * arrLength)];
+                        // should return a number between 0 and arrlength
+                    }</script>
+        </div>
         <!-- <img src="https://cdn.britannica.com/46/108246-004-92D4DA73/Commonwealth-of-Independent-States-creation-1991.jpg" alt="Map of the USSR States" />-->
         <section class="two">
             <h2>About the Researchers</h2>
@@ -43,7 +74,7 @@
                     texts. </li>
             </ul>
         </section>
-        <iframe id="belarus" src="map-russia-test.html" height="400"></iframe>
+        <!-- <iframe id="belarus" src="map-russia-test.html" height="400"></iframe>-->
         <!-- <style scoped="scoped">
             .embed-container {
                 position: relative;
@@ -73,37 +104,5 @@
         </div>-->
         <!--        code for a random quote below, excpet i can't figure out why styling .button in CSS isnt working but the code works if we want to  actually use-->
         <!--        it in our final project-->
-        <p id="demo"></p>
-        <button class="button" onclick="document.getElementById('demo').innerHTML = getRndQuote()"
-            >Click Here For Fun Fact</button>
-        <script>
-                const quotes =[
-                      "Easter Eggs are originally from Ukraine!",
-                "\"The Epic of Manas, a Kyrgyz Poem from the 18th Century, is considered to be one of the longest in history.\"",
-                "\"Uzbekistan is one of only two double landlocked countries in the world, meaning that it is landlocked and so are all of its immediate neighbors. Can you guess the other?\"",
-                "\"Georgia is considered by many to be the original home of wine. It has a history of winemaking dating back eight millennia!\"",
-                "\"Jacob Davis, one of the inventors of jeans, is Latvian!\"",
-                "\"Tajikistan's capital city, Dushanbe, comes from the Tajik work dush, meaning Monday.\""];
-                arrLength = quotes.length;
-                let result = "";
-                // the quote at a random index:
-                   function getRndQuote() {
-                    return result = quotes[Math.floor(Math.random() * arrLength)];
-                    // should return a number between 0 and arrlength
-                }</script>
     </body>
 </html>
-
-<!--quotes:   "\"Spanning more than 7,500 km, Kazakhstan’s border with Russia is the longest
-                continous border in the world ! \"",
-                 "\"From 2002 to 2008, the names of the days of the week and months of the year in
-                 Turkmenistan were changed to reflect Turkmen national symbols. \"",
-                 "\"Armenia was the first country in the world to adopt Christianity as its state
-                 religion! \"",
-                 "\"The Yanar Dağ in Azerbaijan is a mud volcano with a natural glowing fire inside that’s been blazing for at least 65 years!\"" 
-                 "\"Lithuania is the only country with a national scent, which is a mizture of
-                 wildflowers, raspberry, and ginger.\"",
-                 "\"Estonia was the first country to adopt an online political voting system!.\"",
-                "\"The national animal of Moldova is an extinct breed of cow called the auroch.\"",
-                "\"Bealrusians celebrate both Catholic and Orthodox Christmases and Easters.\"",
-                "\"Russia boasts 20% of the world's trees!\"" -->
