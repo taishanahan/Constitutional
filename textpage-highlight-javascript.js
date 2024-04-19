@@ -4,9 +4,9 @@ function highlightNationalism() {
     var checkBox = document.getElementById("myCheck");
     var nationalism = document.getElementById("nationalism");
     if (checkBox.checked == true){
-        nationalism.style.color="green";
+        nationalism.style.backgroundColor="green";
     } else {
-        nationalism.style.color="black";
+        nationalism.style.backgroundColor="";
     }
 }
                 
