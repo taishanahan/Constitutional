@@ -20,68 +20,57 @@
                 overflow: hidden;
                 font-size: 20px;
             }
+            .sidenav ul{
+                float:left;
+                
+            }
+            li.sidebar{
+                text-decoration:none;
+                list-style-type:none;
+                border: 2px solid black;
+            }
         </style>
     </head>
     <body>
         <h1>An Analysis of the Constitutions of Former Soviet Union States</h1>
         <div class="nav-bar">
             <ul>
-                <li><a href="index.xhtml">Home</a></li>
-                <li><a href="about-page.xhtml">About</a></li>
-                <li><a href="constitution-page.xhtml">Constitutions</a></li>
-                <li><a href="analysis-page.xhtml">Analysis</a></li>
-                <li><a href="conclusion-page.xhtml">Conclusions</a></li>
+                <li class="navbar"><a href="index.xhtml">Home</a></li>
+                <li class="navbar"><a href="about-page.xhtml">About</a></li>
+                <li class="navbar"><a href="constitution-page.xhtml">Constitutions</a></li>
+                <li class="navbar"><a href="analysis-page.xhtml">Analysis</a></li>
+                <li class="navbar"><a href="conclusion-page.xhtml">Conclusions</a></li>
             </ul>
         </div>
-        <section>
-           <!-- <ul>
-                <li><label class="container">
-                        <input type="checkbox" checked="checked" /> Nationalism <span
-                            class="checkmark"></span>
-                    </label></li>
-                <li><label class="container">
-                        <input type="checkbox" checked="checked" />Individual Rights <span
-                            class="checkmark"></span>
-                    </label></li>
-                <li><label class="container">
-                        <input type="checkbox" checked="checked" />Government <span
-                            class="checkmark"></span>
-                    </label></li>
-                <li><label class="container">
-                        <input type="checkbox" checked="checked" />Languages <span class="checkmark"
-                        ></span>
-                    </label></li>
-                <li><label class="container">
-                        <input type="checkbox" checked="checked" />Symbols <span class="checkmark"
-                        ></span>
-                    </label></li>
-            </ul>-->
-            <p>Check a box to highlight the text:</p>
-            
-            
-            <input type="checkbox" id="myCheck" onclick="highlightNationalism()"></input>
-            <label for="myCheck">Nationalism</label>    
-                <!--<p id="text" style="display:none">Checkbox is CHECKED!</p>
-                -->
-            <div id="nationalism"><h2>Testing Changing Color: Nationalism</h2></div>
-                
-            <!--<script>
-                    function highlight() {
-                      var checkBox = document.getElementById("myCheck");
-                      var text = document.getElementById("text");
-                      var nationalism = document.getElementById("nationalism");
-                      if (checkBox.checked == true){
-                       nationalism.style.color="green";
-                      } else {
-                         nationalism.style.color="black";
-                      }
-                      
-                    }
-                </script>-->
-                
-        </section>
         <p class="paragraph"> Click on a country below to view its constitution </p>
-        <section>
+        <div class="sidenav">
+            <ul>
+                <li class="sidebar"><a href="armenia-xslt-test.xhtml">Armenia</a></li>
+                <li class="sidebar">
+                    <a href="azerbaijan-xslt.xhtml">Azerbaijan</a></li>
+                <li class="sidebar">
+                    <a href="belarus-xslt.xhtml">Belarus</a></li>
+                <li class="sidebar"><a href="estonia-xslt.xhtml">Estonia</a></li>
+                <li class="sidebar"><a href="georgia-xslt.xhtml">Georgia</a></li>
+                <li class="sidebar"><a href="kazakhstan-xslt.xhtml">Kazhakstan</a></li>
+                <li class="sidebar"><a href="kyrgyzstan-xslt.xhtml">Kyrgyzstan</a></li>
+                <li class="sidebar">
+                    <a href="latvia-xslt.xhtml">Latvia</a></li>
+                <li class="sidebar"><a href="lithuania-xslt.xhtml">Lithuania</a></li>
+                <li class="sidebar">
+                    <a href="moldova-xslt.xhtml">Moldova</a></li>
+                <li class="sidebar"><a href="russia-xslt.xhtml">Russia</a></li>
+                <li class="sidebar"><a href="tajikstan-xslt.xhtml">Tajikistan</a>
+                </li>
+                <li class="sidebar"><a href="turkmenistan-xslt.xhtml">Turkmenistan</a></li>
+                <li class="sidebar">
+                    <a href="ukraine-xslt.xhtml">Ukraine</a></li>
+                <li  class="sidebar">
+                    <a href="uzbekistan-xslt.xhtml">Uzbekistan</a></li>
+            </ul>
+        </div>
+        <!--        how the code used to be set up: -->
+        <!--<section>
 
             <div class="texts">
                 <ul>
@@ -193,6 +182,6 @@
                 </ul>
             </div>
             <script src="script-test.js"></script>
-        </section>
+        </section>-->
     </body>
 </html>
