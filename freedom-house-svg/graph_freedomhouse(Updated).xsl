@@ -89,7 +89,8 @@
         <xsl:variable name="xpos" as="xs:double"
             select="count(preceding-sibling::constitution)"/>
         <!-- Calculating the vertical scale factor: Number of rights divided by the Freedom House score -->
-        <xsl:variable name="ypos" as="xs:double" select="count(descendant::ind_rights) div map:get($freedomhouse,@country)"/>
+        <xsl:variable name="ypos" as="xs:double"
+            select="count(descendant::ind_rights) div map:get($freedomhouse,@country)"/>
         <!--map get associates each country with the interger associted above (freedomhouse)-->
         
         
