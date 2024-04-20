@@ -13,8 +13,8 @@
     <xsl:template match="/">
         
         <svg
-            height="{$maxheight + 400}"
-            width="{$maxwidth + 400}"
+            height="{$maxheight}"
+            width="{$maxwidth}"
             viewBox="0, -1500, 1500, 1500"> 
             <g> 
                 <line x1="{50}" y1="-{50}" x2="{$maxwidth}" y2="-{50}" stroke="black"/>

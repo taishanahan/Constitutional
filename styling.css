@@ -155,11 +155,26 @@ iframe {
 div.N-Con {
     display: flex;
     flex-direction: row;
-    flex-grow: 1;
-    justify-content: space-around;
 }
 
 div.N-SBS {
     display: inline-block;
-    
+
+}
+
+#N-Chart {
+    flex: 2;
+}
+
+div.L-Con {
+    display: flex;
+    flex-direction: row;
+}
+
+div.L-SBS {
+    display: inline-block;
+}
+
+#L-Chart {
+   flex: 2; 
 }
