@@ -180,6 +180,23 @@ div.L-SBS {
    flex: 2; 
 }
 
+div.F-Con {
+    display: flex;
+    flex-direction: row;
+}
+
+div.F-SBS {
+    display: inline-block;
+    justify-content: space-around;
+
+}
+
+#F-Chart {
+    flex: 2;
+}
+
+
+
 div.H-Con {
     display: flex;
     flex-direction: row;
