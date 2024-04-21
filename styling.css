@@ -159,6 +159,7 @@ div.N-Con {
 
 div.N-SBS {
     display: inline-block;
+    justify-content: space-around;
 
 }
 
@@ -177,4 +178,14 @@ div.L-SBS {
 
 #L-Chart {
    flex: 2; 
+}
+
+div.H-Con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+div.H-Maps {
+    display: inline-block;
 }
