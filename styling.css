@@ -117,7 +117,19 @@ button:hover {
     list-style-type: none;
 }
 
-button.one {}
+button.one {  background-color: #AFCBD5;
+    border: 4px solid black;
+    color: white;
+    padding: 11px 16px;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+
+
 
 /*/\* below are how the texts are going to be colored: *\/
 span.liberty {
@@ -176,5 +188,5 @@ div.L-SBS {
 }
 
 #L-Chart {
-   flex: 2; 
+    flex: 2;
 }

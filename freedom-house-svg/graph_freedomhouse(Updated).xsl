@@ -67,8 +67,8 @@
                 <xsl:for-each select="0 to 12">
                     <!--vertical axis numbers-->
                     <xsl:variable name="Ruling-height" as="xs:double" select=". * 50 "/>
-                    <text x="{30}" y="-{$Ruling-height + 50}" font-size="x-large" text-anchor="middle" dominant-baseline="middle">
-                        <xsl:value-of select="format-number($Ruling-height div 60,'0.0')"/>   
+                    <text x="{40 -30}" y="-{$Ruling-height + 50}" font-size="x-large" text-anchor="middle" dominant-baseline="middle">
+                        <xsl:value-of select="format-number($Ruling-height div 150,'0.00')"/>   
                   </text>
                     <!--lines between each graph-->
                     <line x1="50" y1="-{$Ruling-height + 50}" x2="{$maxwidth + 200}" y2="-{$Ruling-height
@@ -104,7 +104,7 @@
         <!--text on top of bar graphs-->
         <text x="{$xpos * 100 * $barspacing + 70 + $barwidth div 2}" y="-{$ypos * 150 + 70}"
             text-anchor="start" font-size="x-large" >
-            <xsl:value-of select="format-number($ypos*2.5, '0.0')"/> <!--round to nearest tenth-->
+            <xsl:value-of select="format-number($ypos, '0.00')"/> <!--round to nearest tenth-->
         </text>
     </xsl:template>
     
