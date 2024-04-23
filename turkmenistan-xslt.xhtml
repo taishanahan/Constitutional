@@ -2,257 +2,307 @@
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <link rel="stylesheet" type="text/css" href="styling.css" />
-      <title>XSLT for Constitutions</title>
+      <link rel="stylesheet" type="text/css" href="transformation-styling.css" /><script src="textpage-highlight-javascript.js"></script><title>XSLT for Constitutions</title>
    </head>
    <body>
-      <h2>PREAMBLE</h2>
-      <p class="preamble">PREAMBLE We, the people of Turkmenistan, based on our <span class="soveriegnty">inalienable
-            right to determine our destiny;</span><span class="nationalism"> Proceeding from the
-            responsibility for present and future of the Motherland;</span>
-         <span class="nationalism">Expressing loyalty to the covenant of ancestors</span> to
-         <span class="peace">live in unity, peace and harmony;</span> With the aim of protecting the
-         national values and interests, <span class="soveriegnty">strengthening the independence, sovereignty,
-            </span>the status of permanent neutrality of Turkmenistan; <span class="liberty">Guaranteeing the rights and freedoms of each person and
-            citizen</span>, and seeking to <span class="peace">ensure civil peace and national accord
-            in the society,</span> to substantiate the <span class="gov">foundations of democracy and
-            democratic, legal,</span>
-         <span class="secular">secular state</span>, we adopt the present
-         Constitution - the Basic Law of Turkmenistan. </p>
-      
-      <h2>SECTION I. FUNDAMENTALS OF THE CONSTITUTIONAL SYSTEM OF
-         TURKMENISTAN</h2>
-      
-      
-      
-      <div>
+      <h1>An Analysis of the Constitutions of Former Soviet Union States</h1>
+      <div class="nav-bar">
+         <ul>
+            <li class="navbar"><a href="index.xhtml">Home</a></li>
+            <li class="navbar"><a href="about-page.xhtml">About</a></li>
+            <li class="navbar"><a href="constitution-page.xhtml">Constitutions</a></li>
+            <li class="navbar"><a href="analysis-page.xhtml">Analysis</a></li>
+            <li class="navbar"><a href="conclusion-page.xhtml">Conclusions</a></li>
+         </ul>
+      </div>
+      <div class="sidenav">
+         <ul>
+            <li class="sidebar"><a href="armenia-xslt-test.xhtml">Armenia</a></li>
+            <li class="sidebar"><a href="azerbaijan-xslt.xhtml">Azerbaijan</a></li>
+            <li class="sidebar"><a href="belarus-xslt.xhtml">Belarus</a></li>
+            <li class="sidebar"><a href="estonia-xslt.xhtml">Estonia</a></li>
+            <li class="sidebar"><a href="georgia-xslt.xhtml">Georgia</a></li>
+            <li class="sidebar"><a href="kazakhstan-xslt.xhtml">Kazhakstan</a></li>
+            <li class="sidebar"><a href="kyrgyzstan-xslt.xhtml">Kyrgyzstan</a></li>
+            <li class="sidebar"><a href="latvia-xslt.xhtml">Latvia</a></li>
+            <li class="sidebar"><a href="lithuania-xslt.xhtml">Lithuania</a></li>
+            <li class="sidebar"><a href="moldova-xslt.xhtml">Moldova</a></li>
+            <li class="sidebar"><a href="russia-xslt.xhtml">Russia</a></li>
+            <li class="sidebar"><a href="tajikstan-xslt.xhtml">Tajikistan</a></li>
+            <li class="sidebar"><a href="turkmenistan-xslt.xhtml">Turkmenistan</a></li>
+            <li class="sidebar"><a href="ukraine-xslt.xhtml">Ukraine</a></li>
+            <li class="sidebar"><a href="uzbekistan-xslt.xhtml">Uzbekistan</a></li>
+         </ul>
+      </div>
+      <div class="check-box">
+         <h4>Check a box to highlight an element: </h4>
+         <ul>
+            <li class="colors"><input type="checkbox" id="myCheckOne" onclick="highlightNationalism()" /><label for="myCheckOne">Nationalism</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckTwo" onclick="highlightLiberty()" /><label for="myCheckTwo">Liberty</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckGov" onclick="highlightGov()" /><label for="myCheckGov">Government</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckCitizenship" onclick="highlightCitizenship()" /><label for="myCheckCitizenship">Citizenship</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckVote" onclick="highlightVote()" /><label for="myCheckVote">Vote</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckProtest" onclick="highlightProtest()" /><label for="myCheckProtest">Protest</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckAssembly" onclick="highlightAssembly()" /><label for="myCheckAssembly">Assembly</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckLegal" onclick="highlightLegal()" /><label for="myCheckLegal">Legal</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckRace" onclick="highlightRace()" /><label for="myCheckRace">Racial Equality</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckMisc" onclick="highlightMisc()" /><label for="myCheckMisc">Misc Rights</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckCapital" onclick="highlightCapital()" /><label for="myCheckCapital">Capital</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckSymbols" onclick="highlightSymbols()" /><label for="myCheckSymbols">Symbols</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckRussian" onclick="highlightRussian()" /><label for="myCheckRussian">Russian Language</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckNative" onclick="highlightNative()" /><label for="myCheckNative">Native Language</label></li>
+         </ul>
+      </div>
+      <div class="text">
+         <h2>PREAMBLE</h2>
+         <p class="preamble">PREAMBLE We, the people of Turkmenistan, based on our <span class="soveriegnty">inalienable
+               right to determine our destiny;</span><span class="nationalism"> Proceeding from the
+               responsibility for present and future of the Motherland;</span>
+            <span class="nationalism">Expressing loyalty to the covenant of ancestors</span> to
+            <span class="peace">live in unity, peace and harmony;</span> With the aim of protecting the
+            national values and interests, <span class="soveriegnty">strengthening the independence, sovereignty,
+               </span>the status of permanent neutrality of Turkmenistan; <span class="liberty">Guaranteeing the rights and freedoms of each person and
+               citizen</span>, and seeking to <span class="peace">ensure civil peace and national accord
+               in the society,</span> to substantiate the <span class="gov">foundations of democracy and
+               democratic, legal,</span>
+            <span class="secular">secular state</span>, we adopt the present
+            Constitution - the Basic Law of Turkmenistan. </p>
          
-         <h3>Article 1 </h3>
+         <h2>SECTION I. FUNDAMENTALS OF THE CONSTITUTIONAL SYSTEM OF
+            TURKMENISTAN</h2>
          
-         <p><span class="gov">Turkmenistan is a democratic, legal</span> and <span class="secular">secular state</span> in which the government
-            takes <span class="gov">the form of presidential republic</span>. Turkmenistan
-            exercises the <span class="soveriegnty">complete power and complete authority on its
-               territory, and independently conducts the internal and foreign
-               policy</span>. The state sovereignty and territory of
-            Turkmenistan are homogeneous and indivisible. The State
-            <span class="soveriegnty">protects the independence, territorial integrity of
-               Turkmenistan</span>, and constitutional system, and provides
-            law and order. Turkmenistan, by law, <span class="international">has the status of
-               permanent neutrality</span>. <span class="international">The United
-               Nations General Assembly resolution "Permanent Neutrality of
-               Turkmenistan"</span> dated 12 December 1995: "1. Recognizes
-            and supports the declared status of permanent neutrality of
-            Turkmenistan; 2. Calls upon the member states of the United Nations to
-            respect and support this status of Turkmenistan and also <span class="soveriegnty">to
-               respect its independence, sovereignty and territorial
-               integrity</span>." The permanent neutrality of Turkmenistan,
-            recognized by the world community, <span class="international">is the basis of its
-               domestic and foreign policy</span>. </p>
-         </div><br />
-      
-      <div>
          
-         <h3>Article 2 </h3>
          
-         <p>The people are the <span class="consent">bearer of and the sole source of the
-               state power in Turkmenistan</span>. The people of Turkmenistan
-            <span class="elections">exercise their power directly or through representative
-               bodies</span>. <span class="treason">No part (group) of the people,
-               organization or individuals, have the right to abrogate the state
-               power</span>. </p>
-         </div><br />
-      
-      <div>
-         
-         <h3>Article 3 </h3>
-         
-         <p>In Turkmenistan, the people are the highest value of the society and
-            the state. <span class="gov">The state is responsible for every citizen</span> and
-            creates conditions for <span class="liberty">free development
-               of the individual, protects the life, honour, dignity and freedom,
-               personal integrity, natural and inalienable rights of the
-               citizen</span>. Every citizen is responsible before the State
-            for the responsibilities entrusted to him by the Constitution and laws.
-            </p>
-         </div><br />
-      
-      <div>
-         
-         <h3>Article 4 </h3>
-         
-         <p>State power is based on the principle of <span class="separation">separation of
-               powers between the legislative, executive and judicial branches,
-               which operate independently, balancing each other</span>.
-            </p>
-         </div><br />
-      
-      <div>
-         
-         <h3>Article 5 </h3>
-         
-         <p>The state and all of its organs and officials are linked by law and
-            constitutional order. The Constitution of Turkmenistan is the Basic Law
-            of the State. Rules and regulations laid down in it are unswervingly
-            applicable. The laws and other legal acts that contradict the
-            Constitution are null and void. The normative-legal acts of the
-            government and administration, and the local self-government, are
-            published for general information or made available through other means,
-            except when they contain state or other secrets protected by law. The
-            normative-legal Acts affecting the rights and freedom of the individual
-            and citizen, if not brought to the general information of the public,
-            are invalid from the time of their adoption. </p>
-         </div><br />
-      
-      <div>
-         
-         <h3>Article 6 </h3>
-         
-         <p>Turkmenistan, being a full subject of the global community, has the
-            <span class="international">foreign policy of permanent neutrality,
-               non-interference in the internal affairs of other countries,
-               refrains from the use of force and participation in military blocs
-               and alliances, promotes peaceful, friendly and mutually beneficial
-               relations with countries in the region and states of the whole
-               world</span>. Turkmenistan recognizes the priority of the
-            <span class="international">universally accepted norms of international
-               law</span>. <span class="international">If an international treaty
-               (contract) of Turkmenistan establishes rules other than those
-               stipulated by the laws of Turkmenistan, the rules of international
-               treaty will apply</span>. </p>
-         </div><br />
-      
-      <div>
-         
-         <h3>Article 7 </h3>
-         
-         <p><span class="soveriegnty">Turkmenistan has its own citizenship.</span> The
-            citizenship is acquired, retained and lost in accordance with the law. 
+         <div>
             
-            <span class="citizenship">Citizenship of another state is not
-               recognized for the citizens of Turkmenistan</span>.
-            <span class="citizenship">No one can be deprived of
-               citizenship or the right to change citizenship</span>. A
-            citizen of Turkmenistan <span class="citizenship">cannot be
-               extradited to another state or expelled from the limits of
-               Turkmenistan, or restricted in the right to return to the
-               homeland</span>. <span class="citizenship">The
-               citizens of Turkmenistan are guaranteed the protection and patronage
-               of the state in the territory of Turkmenistan and beyond its
-               borders</span>. </p>
-         </div><br />
-      
-      <div>
+            <h3>Article 1 </h3>
+            
+            <p><span class="gov">Turkmenistan is a democratic, legal</span> and <span class="secular">secular state</span> in which the government
+               takes <span class="gov">the form of presidential republic</span>. Turkmenistan
+               exercises the <span class="soveriegnty">complete power and complete authority on its
+                  territory, and independently conducts the internal and foreign
+                  policy</span>. The state sovereignty and territory of
+               Turkmenistan are homogeneous and indivisible. The State
+               <span class="soveriegnty">protects the independence, territorial integrity of
+                  Turkmenistan</span>, and constitutional system, and provides
+               law and order. Turkmenistan, by law, <span class="international">has the status of
+                  permanent neutrality</span>. <span class="international">The United
+                  Nations General Assembly resolution "Permanent Neutrality of
+                  Turkmenistan"</span> dated 12 December 1995: "1. Recognizes
+               and supports the declared status of permanent neutrality of
+               Turkmenistan; 2. Calls upon the member states of the United Nations to
+               respect and support this status of Turkmenistan and also <span class="soveriegnty">to
+                  respect its independence, sovereignty and territorial
+                  integrity</span>." The permanent neutrality of Turkmenistan,
+               recognized by the world community, <span class="international">is the basis of its
+                  domestic and foreign policy</span>. </p>
+            </div><br />
          
-         <h3>Article 8 </h3>
+         <div>
+            
+            <h3>Article 2 </h3>
+            
+            <p>The people are the <span class="consent">bearer of and the sole source of the
+                  state power in Turkmenistan</span>. The people of Turkmenistan
+               <span class="elections">exercise their power directly or through representative
+                  bodies</span>. <span class="treason">No part (group) of the people,
+                  organization or individuals, have the right to abrogate the state
+                  power</span>. </p>
+            </div><br />
          
-         <p>Foreign nationals and stateless persons enjoy the rights and
-            freedoms, and bear the responsibilities, of citizens of Turkmenistan in
-            accordance with law <span class="international">and international treaties of
-               Turkmenistan</span>. Turkmenistan, <span class="international">in
-               accordance with universally recognized norms of international right
-               and in the order established by the law, gives refuge to foreign
-               citizens and stateless persons</span>. </p>
-         </div><br />
-      
-      <div>
+         <div>
+            
+            <h3>Article 3 </h3>
+            
+            <p>In Turkmenistan, the people are the highest value of the society and
+               the state. <span class="gov">The state is responsible for every citizen</span> and
+               creates conditions for <span class="liberty">free development
+                  of the individual, protects the life, honour, dignity and freedom,
+                  personal integrity, natural and inalienable rights of the
+                  citizen</span>. Every citizen is responsible before the State
+               for the responsibilities entrusted to him by the Constitution and laws.
+               </p>
+            </div><br />
          
-         <h3>Article 9 </h3>
+         <div>
+            
+            <h3>Article 4 </h3>
+            
+            <p>State power is based on the principle of <span class="separation">separation of
+                  powers between the legislative, executive and judicial branches,
+                  which operate independently, balancing each other</span>.
+               </p>
+            </div><br />
          
-         <p><span class="private">The property is inviolable</span>.
-            <span class="private">Turkmenistan approves the right to
-               private ownership of the means of production, land and other
-               material and intellectual values</span>. <span class="public">They can also belong to the associations of
-               citizens and the state</span>. The law establishes <span class="public">objects that are exclusive property of the
-               state</span>. <span class="private">The state guarantees
-               equal protection and creation of equal conditions for development of
-               all forms of ownership</span>. <span class="private">Confiscation of property is prohibited</span>, except for the
-            property acquired by means prohibited by law. Forced confiscation of
-            property is permissible only in cases stipulated by law. </p>
-         </div><br />
-      
-      <div>
+         <div>
+            
+            <h3>Article 5 </h3>
+            
+            <p>The state and all of its organs and officials are linked by law and
+               constitutional order. The Constitution of Turkmenistan is the Basic Law
+               of the State. Rules and regulations laid down in it are unswervingly
+               applicable. The laws and other legal acts that contradict the
+               Constitution are null and void. The normative-legal acts of the
+               government and administration, and the local self-government, are
+               published for general information or made available through other means,
+               except when they contain state or other secrets protected by law. The
+               normative-legal Acts affecting the rights and freedom of the individual
+               and citizen, if not brought to the general information of the public,
+               are invalid from the time of their adoption. </p>
+            </div><br />
          
-         <h3>Article 10 </h3>
+         <div>
+            
+            <h3>Article 6 </h3>
+            
+            <p>Turkmenistan, being a full subject of the global community, has the
+               <span class="international">foreign policy of permanent neutrality,
+                  non-interference in the internal affairs of other countries,
+                  refrains from the use of force and participation in military blocs
+                  and alliances, promotes peaceful, friendly and mutually beneficial
+                  relations with countries in the region and states of the whole
+                  world</span>. Turkmenistan recognizes the priority of the
+               <span class="international">universally accepted norms of international
+                  law</span>. <span class="international">If an international treaty
+                  (contract) of Turkmenistan establishes rules other than those
+                  stipulated by the laws of Turkmenistan, the rules of international
+                  treaty will apply</span>. </p>
+            </div><br />
          
-         <p>The economy of Turkmenistan is based on the principles of <span class="free">market relations</span>. The state encourages and
-            supports entrepreneurship, promotes development of small and medium
-            enterprises. </p>
-         </div><br />
-      
-      <div>
+         <div>
+            
+            <h3>Article 7 </h3>
+            
+            <p><span class="soveriegnty">Turkmenistan has its own citizenship.</span> The
+               citizenship is acquired, retained and lost in accordance with the law. 
+               
+               <span class="citizenship">Citizenship of another state is not
+                  recognized for the citizens of Turkmenistan</span>.
+               <span class="citizenship">No one can be deprived of
+                  citizenship or the right to change citizenship</span>. A
+               citizen of Turkmenistan <span class="citizenship">cannot be
+                  extradited to another state or expelled from the limits of
+                  Turkmenistan, or restricted in the right to return to the
+                  homeland</span>. <span class="citizenship">The
+                  citizens of Turkmenistan are guaranteed the protection and patronage
+                  of the state in the territory of Turkmenistan and beyond its
+                  borders</span>. </p>
+            </div><br />
          
-         <h3>Article 11 </h3>
+         <div>
+            
+            <h3>Article 8 </h3>
+            
+            <p>Foreign nationals and stateless persons enjoy the rights and
+               freedoms, and bear the responsibilities, of citizens of Turkmenistan in
+               accordance with law <span class="international">and international treaties of
+                  Turkmenistan</span>. Turkmenistan, <span class="international">in
+                  accordance with universally recognized norms of international right
+                  and in the order established by the law, gives refuge to foreign
+                  citizens and stateless persons</span>. </p>
+            </div><br />
          
-         <p>The state is responsible for <span class="nationalism">safeguarding the national
-               historical and cultural heritage</span>, natural environment,
-            ensuring <span class="liberty">equality between
-               social</span> and <span class="racial-equality">ethnic communities</span>. The state encourages scientific
-            and artistic creativity and distribution of its positive results,
-            <span class="international">promotes development of international
-               relations</span> in the fields of science, culture,
-            education and training, sports and tourism. </p>
-         </div><br />
-      
-      <div>
+         <div>
+            
+            <h3>Article 9 </h3>
+            
+            <p><span class="private">The property is inviolable</span>.
+               <span class="private">Turkmenistan approves the right to
+                  private ownership of the means of production, land and other
+                  material and intellectual values</span>. <span class="public">They can also belong to the associations of
+                  citizens and the state</span>. The law establishes <span class="public">objects that are exclusive property of the
+                  state</span>. <span class="private">The state guarantees
+                  equal protection and creation of equal conditions for development of
+                  all forms of ownership</span>. <span class="private">Confiscation of property is prohibited</span>, except for the
+               property acquired by means prohibited by law. Forced confiscation of
+               property is permissible only in cases stipulated by law. </p>
+            </div><br />
          
-         <h3>Article 12 </h3>
+         <div>
+            
+            <h3>Article 10 </h3>
+            
+            <p>The economy of Turkmenistan is based on the principles of <span class="free">market relations</span>. The state encourages and
+               supports entrepreneurship, promotes development of small and medium
+               enterprises. </p>
+            </div><br />
          
-         <p>The state guarantees <span class="secular">freedom of religion
-               and worship</span>, and equality before the law. <span class="secular">Religious organizations are separate from the
-               state</span>, cannot interfere in the state affairs and carry
-            out state functions. <span class="secular">The public education
-               system is separate from religious organizations and is
-               secular</span>. Each person independently determines his
-            attitude toward religion, has the right to, individually or jointly with
-            others, profess any religion or none, to express and disseminate beliefs
-            related to attitude toward religion, to participate in religious
-            observances, rituals, and ceremonies. </p>
-         </div><br />
-      
-      <div>
+         <div>
+            
+            <h3>Article 11 </h3>
+            
+            <p>The state is responsible for <span class="nationalism">safeguarding the national
+                  historical and cultural heritage</span>, natural environment,
+               ensuring <span class="liberty">equality between
+                  social</span> and <span class="racial-equality">ethnic communities</span>. The state encourages scientific
+               and artistic creativity and distribution of its positive results,
+               <span class="international">promotes development of international
+                  relations</span> in the fields of science, culture,
+               education and training, sports and tourism. </p>
+            </div><br />
          
-         <h3>Article 13 </h3>
+         <div>
+            
+            <h3>Article 12 </h3>
+            
+            <p>The state guarantees <span class="secular">freedom of religion
+                  and worship</span>, and equality before the law. <span class="secular">Religious organizations are separate from the
+                  state</span>, cannot interfere in the state affairs and carry
+               out state functions. <span class="secular">The public education
+                  system is separate from religious organizations and is
+                  secular</span>. Each person independently determines his
+               attitude toward religion, has the right to, individually or jointly with
+               others, profess any religion or none, to express and disseminate beliefs
+               related to attitude toward religion, to participate in religious
+               observances, rituals, and ceremonies. </p>
+            </div><br />
          
-         <p>In order to <span class="soveriegnty">protect the state sovereignty and security,
-               Turkmenistan has its own armed forces</span>. </p>
-         </div><br />
-      
-      <div>
+         <div>
+            
+            <h3>Article 13 </h3>
+            
+            <p>In order to <span class="soveriegnty">protect the state sovereignty and security,
+                  Turkmenistan has its own armed forces</span>. </p>
+            </div><br />
          
-         <h3>Article 14 </h3>
+         <div>
+            
+            <h3>Article 14 </h3>
+            
+            <p><span class="native">Turkmen is the state [official]
+                  language of Turkmenistan</span>. <span class="native">The use of their native language is guaranteed to all citizens of
+                  Turkmenistan</span>. </p>
+            </div><br />
          
-         <p><span class="native">Turkmen is the state [official]
-               language of Turkmenistan</span>. <span class="native">The use of their native language is guaranteed to all citizens of
-               Turkmenistan</span>. </p>
-         </div><br />
-      
-      <div>
+         <div>
+            
+            <h3>Article 15 </h3>
+            
+            <p><span class="symbols">The State Flag, the State Emblem, and the National Anthem
+                  are the Symbols of Turkmenistan</span>. The flag, national emblem
+               and national anthem are established and protected by law. </p>
+            </div><br />
          
-         <h3>Article 15 </h3>
+         <div>
+            
+            <h3>Article 16 </h3>
+            
+            <p><span class="neutral">The administrative-territorial structure of
+                  Turkmenistan consists of</span>: Velayats (provinces), cities with
+               right of Velayat, Etraps (districts), cities with right of district,
+               cities (towns) in district, settlements, Gengeshlyk. The territory of
+               one or more villages forms a Gengeshlyk. </p>
+            </div><br />
          
-         <p><span class="symbols">The State Flag, the State Emblem, and the National Anthem
-               are the Symbols of Turkmenistan</span>. The flag, national emblem
-            and national anthem are established and protected by law. </p>
-         </div><br />
-      
-      <div>
+         <div>
+            
+            <h3>Article 17 </h3>
+            
+            <p><span class="capital">Ashgabat is the capital of Turkmenistan</span>.
+               </p>
+            </div><br />
          
-         <h3>Article 16 </h3>
          
-         <p><span class="neutral">The administrative-territorial structure of
-               Turkmenistan consists of</span>: Velayats (provinces), cities with
-            right of Velayat, Etraps (districts), cities with right of district,
-            cities (towns) in district, settlements, Gengeshlyk. The territory of
-            one or more villages forms a Gengeshlyk. </p>
-         </div><br />
-      
-      <div>
-         
-         <h3>Article 17 </h3>
-         
-         <p><span class="capital">Ashgabat is the capital of Turkmenistan</span>.
-            </p>
-         </div><br />
-      
-      
-      </body>
+         </div>
+   </body>
 </html>
