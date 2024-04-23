@@ -127,7 +127,7 @@ button.one {  background-color: #AFCBD5;
     display: inline-block;
     margin: 10px;
     font-size: 20px;
-    border-radius: 10px;
+    border-radius: 10px;}
 
 
 
@@ -171,6 +171,7 @@ div.N-Con {
 
 div.N-SBS {
     display: inline-block;
+    justify-content: space-around;
 
 }
 
@@ -188,5 +189,36 @@ div.L-SBS {
 }
 
 #L-Chart {
+
     flex: 2;
+
+   flex: 2; 
+}
+
+div.F-Con {
+    display: flex;
+    flex-direction: row;
+}
+
+div.F-SBS {
+    display: inline-block;
+    justify-content: space-around;
+
+}
+
+#F-Chart {
+    flex: 2;
+}
+
+
+
+div.H-Con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+div.H-Maps {
+    display: inline-block;
+
 }
