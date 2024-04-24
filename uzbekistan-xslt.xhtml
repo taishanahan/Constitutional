@@ -2,97 +2,147 @@
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <link rel="stylesheet" type="text/css" href="styling.css" />
-      <title>XSLT for Constitutions</title>
+      <link rel="stylesheet" type="text/css" href="transformation-styling.css" /><script src="textpage-highlight-javascript.js"></script><title>XSLT for Constitutions</title>
    </head>
    <body>
-      <h2>PREAMBLE</h2>
-      <p class="preamble">PREAMBLE The people of Uzbekistan, solemnly declaring their
-         adherence to <span class="liberty">human rights</span> and
-         <span class="soveriegnty">principles of state sovereignty</span>, <span class="nationalism">being aware
-            of their ultimate responsibility to the present and the future generations, relying
-            on historical experience in the development of the Uzbek statehood</span>,
-         affirming their commitment to the ideals of <span class="gov">democracy</span> and social justice,
-         <span class="international">recognizing priority of the generally accepted norms of the
-            international law</span>, aspiring to a worthy life for the citizens of the
-         Republic, <span class="gov">setting forth the task of creating a humane and democratic law-governed
-            state</span>,
-         <span class="peace">aiming to ensure civil peace and national accord</span>,
-         <span class="gov">adopt in the person of their plenipotentiary representatives the present
-            Constitution of the Republic of Uzbekistan</span>.</p>
-      
-      
-      <h2>PART ONE. FUNDAMENTAL PRINCIPLES Chapter I. STATE SOVEREIGNTY</h2>
-      
-      
-      
-      <div>
+      <h1>An Analysis of the Constitutions of Former Soviet Union States</h1>
+      <div class="nav-bar">
+         <ul>
+            <li class="navbar"><a href="index.xhtml">Home</a></li>
+            <li class="navbar"><a href="about-page.xhtml">About</a></li>
+            <li class="navbar"><a href="constitution-page.xhtml">Constitutions</a></li>
+            <li class="navbar"><a href="analysis-page.xhtml">Analysis</a></li>
+            <li class="navbar"><a href="conclusion-page.xhtml">Conclusions</a></li>
+         </ul>
+      </div>
+      <div class="sidenav">
+         <ul>
+            <li class="sidebar"><a href="armenia-xslt-test.xhtml">Armenia</a></li>
+            <li class="sidebar"><a href="azerbaijan-xslt.xhtml">Azerbaijan</a></li>
+            <li class="sidebar"><a href="belarus-xslt.xhtml">Belarus</a></li>
+            <li class="sidebar"><a href="estonia-xslt.xhtml">Estonia</a></li>
+            <li class="sidebar"><a href="georgia-xslt.xhtml">Georgia</a></li>
+            <li class="sidebar"><a href="kazakhstan-xslt.xhtml">Kazhakstan</a></li>
+            <li class="sidebar"><a href="kyrgyzstan-xslt.xhtml">Kyrgyzstan</a></li>
+            <li class="sidebar"><a href="latvia-xslt.xhtml">Latvia</a></li>
+            <li class="sidebar"><a href="lithuania-xslt.xhtml">Lithuania</a></li>
+            <li class="sidebar"><a href="moldova-xslt.xhtml">Moldova</a></li>
+            <li class="sidebar"><a href="russia-xslt.xhtml">Russia</a></li>
+            <li class="sidebar"><a href="tajikstan-xslt.xhtml">Tajikistan</a></li>
+            <li class="sidebar"><a href="turkmenistan-xslt.xhtml">Turkmenistan</a></li>
+            <li class="sidebar"><a href="ukraine-xslt.xhtml">Ukraine</a></li>
+            <li class="sidebar"><a href="uzbekistan-xslt.xhtml">Uzbekistan</a></li>
+         </ul>
+      </div>
+      <div class="check-box">
+         <h4>Check a box to highlight an element: </h4>
+         <ul>
+            <li class="colors"><input type="checkbox" id="myCheckOne" onclick="highlightNationalism()" /><label for="myCheckOne">Nationalism</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckTwo" onclick="highlightLiberty()" /><label for="myCheckTwo">Liberty</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckGov" onclick="highlightGov()" /><label for="myCheckGov">Government</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckCitizenship" onclick="highlightCitizenship()" /><label for="myCheckCitizenship">Citizenship</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckVote" onclick="highlightVote()" /><label for="myCheckVote">Vote</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckProtest" onclick="highlightProtest()" /><label for="myCheckProtest">Protest</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckAssembly" onclick="highlightAssembly()" /><label for="myCheckAssembly">Assembly</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckLegal" onclick="highlightLegal()" /><label for="myCheckLegal">Legal</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckRace" onclick="highlightRace()" /><label for="myCheckRace">Racial Equality</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckMisc" onclick="highlightMisc()" /><label for="myCheckMisc">Misc Rights</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckCapital" onclick="highlightCapital()" /><label for="myCheckCapital">Capital</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckSymbols" onclick="highlightSymbols()" /><label for="myCheckSymbols">Symbols</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckRussian" onclick="highlightRussian()" /><label for="myCheckRussian">Russian Language</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckNative" onclick="highlightNative()" /><label for="myCheckNative">Native Language</label></li>
+         </ul>
+      </div>
+      <div class="text">
+         <h2>PREAMBLE</h2>
+         <p class="preamble">PREAMBLE The people of Uzbekistan, solemnly declaring their
+            adherence to <span class="liberty">human rights</span> and
+            <span class="soveriegnty">principles of state sovereignty</span>, <span class="nationalism">being aware
+               of their ultimate responsibility to the present and the future generations, relying
+               on historical experience in the development of the Uzbek statehood</span>,
+            affirming their commitment to the ideals of <span class="gov">democracy</span> and social justice,
+            <span class="international">recognizing priority of the generally accepted norms of the
+               international law</span>, aspiring to a worthy life for the citizens of the
+            Republic, <span class="gov">setting forth the task of creating a humane and democratic law-governed
+               state</span>,
+            <span class="peace">aiming to ensure civil peace and national accord</span>,
+            <span class="gov">adopt in the person of their plenipotentiary representatives the present
+               Constitution of the Republic of Uzbekistan</span>.</p>
          
-         <h3>Article 1</h3>
          
-         <p> Uzbekistan is a <span class="soveriegnty">sovereign</span>
-            <span class="gov">democratic republic</span>.<span class="soveriegnty"> Both names of the state
-               “the Republic of Uzbekistan” and “Uzbekistan” shall be
-               equivalent</span>.</p>
-         </div><br />
-      
-      
-      <div>
+         <h2>PART ONE. FUNDAMENTAL PRINCIPLES Chapter I. STATE SOVEREIGNTY</h2>
          
-         <h3>Article 2</h3>
          
-         <p><span class="consent"> The state shall express the will of the people and serve
-               their interests. State bodies and officials shall be accountable to
-               the society and citizens</span>.</p>
-         </div><br />
-      
-      
-      <div>
          
-         <h3>Article 3</h3>
+         <div>
+            
+            <h3>Article 1</h3>
+            
+            <p> Uzbekistan is a <span class="soveriegnty">sovereign</span>
+               <span class="gov">democratic republic</span>.<span class="soveriegnty"> Both names of the state
+                  “the Republic of Uzbekistan” and “Uzbekistan” shall be
+                  equivalent</span>.</p>
+            </div><br />
          
-         <p>
-            <span class="gov">The Republic of Uzbekistan shall determine its national-state and
-               administrative-territorial structure, its structure of state
-               authority and administration</span>, and shall pursue its home
-            <span class="international">and foreign policies</span>.<span class="soveriegnty"> The
-               state boundary and the territory of Uzbekistan shall be inviolable
-               and indivisible</span>.</p>
-         </div><br />
-      
-      
-      <div>
          
-         <h3>Article 4</h3>
+         <div>
+            
+            <h3>Article 2</h3>
+            
+            <p><span class="consent"> The state shall express the will of the people and serve
+                  their interests. State bodies and officials shall be accountable to
+                  the society and citizens</span>.</p>
+            </div><br />
          
-         <p>
-            <span class="native">The state language of the Republic of Uzbekistan shall be
-               Uzbek.</span>
-            <span class="racial-equality">The Republic of Uzbekistan shall
-               ensure a respectful attitude toward the languages, customs and
-               traditions of all nationalities and ethnic groups living on its
-               territory, and the creation of the conditions for their
-               development</span>.</p>
-         </div><br />
-      
-      <div>
          
-         <h3>Article 5</h3>
+         <div>
+            
+            <h3>Article 3</h3>
+            
+            <p>
+               <span class="gov">The Republic of Uzbekistan shall determine its national-state and
+                  administrative-territorial structure, its structure of state
+                  authority and administration</span>, and shall pursue its home
+               <span class="international">and foreign policies</span>.<span class="soveriegnty"> The
+                  state boundary and the territory of Uzbekistan shall be inviolable
+                  and indivisible</span>.</p>
+            </div><br />
          
-         <p> <span class="symbols">The Republic of Uzbekistan shall have its state symbols:
-               the flag, the emblem, and the anthem</span> sanctioned by the
-            law.</p>
-         </div><br />
-      
-      
-      <div>
          
-         <h3>Article 6</h3>
+         <div>
+            
+            <h3>Article 4</h3>
+            
+            <p>
+               <span class="native">The state language of the Republic of Uzbekistan shall be
+                  Uzbek.</span>
+               <span class="racial-equality">The Republic of Uzbekistan shall
+                  ensure a respectful attitude toward the languages, customs and
+                  traditions of all nationalities and ethnic groups living on its
+                  territory, and the creation of the conditions for their
+                  development</span>.</p>
+            </div><br />
          
-         <p><span class="capital"> The capital of the Republic of Uzbekistan shall be the
-               city of Tashkent</span>.</p>
-         </div><br />
-      
-      
-      
-      </body>
+         <div>
+            
+            <h3>Article 5</h3>
+            
+            <p> <span class="symbols">The Republic of Uzbekistan shall have its state symbols:
+                  the flag, the emblem, and the anthem</span> sanctioned by the
+               law.</p>
+            </div><br />
+         
+         
+         <div>
+            
+            <h3>Article 6</h3>
+            
+            <p><span class="capital"> The capital of the Republic of Uzbekistan shall be the
+                  city of Tashkent</span>.</p>
+            </div><br />
+         
+         
+         
+         </div>
+   </body>
 </html>

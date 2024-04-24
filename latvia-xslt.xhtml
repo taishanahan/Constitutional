@@ -2,79 +2,129 @@
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <link rel="stylesheet" type="text/css" href="styling.css" />
-      <title>XSLT for Constitutions</title>
+      <link rel="stylesheet" type="text/css" href="transformation-styling.css" /><script src="textpage-highlight-javascript.js"></script><title>XSLT for Constitutions</title>
    </head>
    <body>
-      <h2>PREAMBLE</h2>
-      <p class="preamble">PREAMBLE The people of Latvia, in freely elected Constitutional Assembly, have
-         adopted the following State Constitution: The State of Latvia, proclaimed on 18 November
-         1918, has been <span class="nationalism">established by uniting historical Latvian lands and on the basis of the
-            unwavering will of the Latvian nation</span> to have <span class="soveriegnty">its own State and its inalienable right of
-            self-determination in order to guarantee the existence and development of the Latvian
-            nation</span>, <span class="native">its language</span> and <span class="nationalism">culture</span> throughout the centuries, to ensure <span class="liberty">freedom</span> and <span class="peace">promote
-            welfare of the people of Latvia</span> and each individual. The people of Latvia won their 
-         State in the War of Liberation. <span class="gov">They consolidated the system of government and adopted
-            the Constitution in a freely elected Constitutional Assembly</span>. <span class="international">The people of Latvia did
-            not recognise the occupation regimes</span>, resisted them and <span class="soveriegnty">regained their freedom by
-            restoring national independence on 4 May 1990 on the basis of continuity of the State</span>.
-         <span class="nationalism">They honour their freedom fighters</span>, <span class="international">commemorate victims of foreign powers, condemn the
-            Communist and Nazi totalitarian regimes and their crimes</span>. Latvia as <span class="gov">democratic, socially
-            responsible and national state is based on the rule of law</span> and on <span class="liberty">respect for human
-            dignity and freedom</span>; it recognises and protects <span class="liberty">fundamental human rights</span> and <span class="racial-equality">respects
-            ethnic minorities</span>. The people of Latvia protect <span class="soveriegnty">their sovereignty, national
-            independence, territory, territorial integrity</span> and <span class="gov">democratic system of government of
-            the State of Latvia.</span> Since ancient times, <span class="nationalism">the identity of Latvia in the European
-            cultural space has been shaped by Latvian and Liv traditions, Latvian folk wisdom,</span> <span class="native">the
-            Latvian language</span>, universal human and <span class="neutral">Christian values</span>. <span class="nationalism">Loyalty to Latvia</span>,<span class="native"> the Latvian
-            language as the only official language</span>, <span class="liberty">freedom, equality, solidarity, justice</span>, honesty,
-         work ethic and family are the foundations of a cohesive society. Each individual takes
-         care of oneself, one’s relatives and the common good of society by acting responsibly
-         toward other people, <span class="nationalism">future generations</span>, the environment and nature. <span class="international">While acknowledging
-            its equal status in the international community, Latvia protects its national interests
-            and promotes sustainable and democratic development of a united Europe and the world</span>.
-         <span class="neutral">God, bless Latvia!</span></p>
-      
-      
-      <h2>CHAPTER I. GENERAL PROVISIONS</h2>
-      
-      
-      
-      <div>
+      <h1>An Analysis of the Constitutions of Former Soviet Union States</h1>
+      <div class="nav-bar">
+         <ul>
+            <li class="navbar"><a href="index.xhtml">Home</a></li>
+            <li class="navbar"><a href="about-page.xhtml">About</a></li>
+            <li class="navbar"><a href="constitution-page.xhtml">Constitutions</a></li>
+            <li class="navbar"><a href="analysis-page.xhtml">Analysis</a></li>
+            <li class="navbar"><a href="conclusion-page.xhtml">Conclusions</a></li>
+         </ul>
+      </div>
+      <div class="sidenav">
+         <ul>
+            <li class="sidebar"><a href="armenia-xslt-test.xhtml">Armenia</a></li>
+            <li class="sidebar"><a href="azerbaijan-xslt.xhtml">Azerbaijan</a></li>
+            <li class="sidebar"><a href="belarus-xslt.xhtml">Belarus</a></li>
+            <li class="sidebar"><a href="estonia-xslt.xhtml">Estonia</a></li>
+            <li class="sidebar"><a href="georgia-xslt.xhtml">Georgia</a></li>
+            <li class="sidebar"><a href="kazakhstan-xslt.xhtml">Kazhakstan</a></li>
+            <li class="sidebar"><a href="kyrgyzstan-xslt.xhtml">Kyrgyzstan</a></li>
+            <li class="sidebar"><a href="latvia-xslt.xhtml">Latvia</a></li>
+            <li class="sidebar"><a href="lithuania-xslt.xhtml">Lithuania</a></li>
+            <li class="sidebar"><a href="moldova-xslt.xhtml">Moldova</a></li>
+            <li class="sidebar"><a href="russia-xslt.xhtml">Russia</a></li>
+            <li class="sidebar"><a href="tajikstan-xslt.xhtml">Tajikistan</a></li>
+            <li class="sidebar"><a href="turkmenistan-xslt.xhtml">Turkmenistan</a></li>
+            <li class="sidebar"><a href="ukraine-xslt.xhtml">Ukraine</a></li>
+            <li class="sidebar"><a href="uzbekistan-xslt.xhtml">Uzbekistan</a></li>
+         </ul>
+      </div>
+      <div class="check-box">
+         <h4>Check a box to highlight an element: </h4>
+         <ul>
+            <li class="colors"><input type="checkbox" id="myCheckOne" onclick="highlightNationalism()" /><label for="myCheckOne">Nationalism</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckTwo" onclick="highlightLiberty()" /><label for="myCheckTwo">Liberty</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckGov" onclick="highlightGov()" /><label for="myCheckGov">Government</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckCitizenship" onclick="highlightCitizenship()" /><label for="myCheckCitizenship">Citizenship</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckVote" onclick="highlightVote()" /><label for="myCheckVote">Vote</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckProtest" onclick="highlightProtest()" /><label for="myCheckProtest">Protest</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckAssembly" onclick="highlightAssembly()" /><label for="myCheckAssembly">Assembly</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckLegal" onclick="highlightLegal()" /><label for="myCheckLegal">Legal</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckRace" onclick="highlightRace()" /><label for="myCheckRace">Racial Equality</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckMisc" onclick="highlightMisc()" /><label for="myCheckMisc">Misc Rights</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckCapital" onclick="highlightCapital()" /><label for="myCheckCapital">Capital</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckSymbols" onclick="highlightSymbols()" /><label for="myCheckSymbols">Symbols</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckRussian" onclick="highlightRussian()" /><label for="myCheckRussian">Russian Language</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckNative" onclick="highlightNative()" /><label for="myCheckNative">Native Language</label></li>
+         </ul>
+      </div>
+      <div class="text">
+         <h2>PREAMBLE</h2>
+         <p class="preamble">PREAMBLE The people of Latvia, in freely elected Constitutional Assembly, have
+            adopted the following State Constitution: The State of Latvia, proclaimed on 18 November
+            1918, has been <span class="nationalism">established by uniting historical Latvian lands and on the basis of the
+               unwavering will of the Latvian nation</span> to have <span class="soveriegnty">its own State and its inalienable right of
+               self-determination in order to guarantee the existence and development of the Latvian
+               nation</span>, <span class="native">its language</span> and <span class="nationalism">culture</span> throughout the centuries, to ensure <span class="liberty">freedom</span> and <span class="peace">promote
+               welfare of the people of Latvia</span> and each individual. The people of Latvia won their 
+            State in the War of Liberation. <span class="gov">They consolidated the system of government and adopted
+               the Constitution in a freely elected Constitutional Assembly</span>. <span class="international">The people of Latvia did
+               not recognise the occupation regimes</span>, resisted them and <span class="soveriegnty">regained their freedom by
+               restoring national independence on 4 May 1990 on the basis of continuity of the State</span>.
+            <span class="nationalism">They honour their freedom fighters</span>, <span class="international">commemorate victims of foreign powers, condemn the
+               Communist and Nazi totalitarian regimes and their crimes</span>. Latvia as <span class="gov">democratic, socially
+               responsible and national state is based on the rule of law</span> and on <span class="liberty">respect for human
+               dignity and freedom</span>; it recognises and protects <span class="liberty">fundamental human rights</span> and <span class="racial-equality">respects
+               ethnic minorities</span>. The people of Latvia protect <span class="soveriegnty">their sovereignty, national
+               independence, territory, territorial integrity</span> and <span class="gov">democratic system of government of
+               the State of Latvia.</span> Since ancient times, <span class="nationalism">the identity of Latvia in the European
+               cultural space has been shaped by Latvian and Liv traditions, Latvian folk wisdom,</span> <span class="native">the
+               Latvian language</span>, universal human and <span class="neutral">Christian values</span>. <span class="nationalism">Loyalty to Latvia</span>,<span class="native"> the Latvian
+               language as the only official language</span>, <span class="liberty">freedom, equality, solidarity, justice</span>, honesty,
+            work ethic and family are the foundations of a cohesive society. Each individual takes
+            care of oneself, one’s relatives and the common good of society by acting responsibly
+            toward other people, <span class="nationalism">future generations</span>, the environment and nature. <span class="international">While acknowledging
+               its equal status in the international community, Latvia protects its national interests
+               and promotes sustainable and democratic development of a united Europe and the world</span>.
+            <span class="neutral">God, bless Latvia!</span></p>
          
-         <h3>Article 1</h3>
          
-         <p><span class="gov"> Latvia is an independent democratic republic</span>.</p>
-         </div><br />
-      
-      
-      <div>
+         <h2>CHAPTER I. GENERAL PROVISIONS</h2>
          
-         <h3>Article 2</h3>
          
-         <p> <span class="soveriegnty">The sovereign power of the State of Latvia</span><span class="consent"> is vested in the people
-               of Latvia</span>.</p>
-         </div><br />
-      
-      
-      <div>
          
-         <h3>Article 3</h3>
+         <div>
+            
+            <h3>Article 1</h3>
+            
+            <p><span class="gov"> Latvia is an independent democratic republic</span>.</p>
+            </div><br />
          
-         <p> The territory of the State of Latvia, <span class="international">within the borders
-               established by international agreements,</span><span class="soveriegnty"> consists of Vidzeme, Latgale,
-               Kurzeme and Zemgale</span>.</p>
-         </div><br />
-      
-      
-      <div>
          
-         <h3>Article 4</h3>
+         <div>
+            
+            <h3>Article 2</h3>
+            
+            <p> <span class="soveriegnty">The sovereign power of the State of Latvia</span><span class="consent"> is vested in the people
+                  of Latvia</span>.</p>
+            </div><br />
          
-         <p><span class="native"> The Latvian language is the official language in the Republic of 
-               Latvia.</span><span class="symbols"> The national flag of Latvia shall be red with a band of
-               white</span>.</p>
-         </div><br />
-      
-      
-      </body>
+         
+         <div>
+            
+            <h3>Article 3</h3>
+            
+            <p> The territory of the State of Latvia, <span class="international">within the borders
+                  established by international agreements,</span><span class="soveriegnty"> consists of Vidzeme, Latgale,
+                  Kurzeme and Zemgale</span>.</p>
+            </div><br />
+         
+         
+         <div>
+            
+            <h3>Article 4</h3>
+            
+            <p><span class="native"> The Latvian language is the official language in the Republic of 
+                  Latvia.</span><span class="symbols"> The national flag of Latvia shall be red with a band of
+                  white</span>.</p>
+            </div><br />
+         
+         
+         </div>
+   </body>
 </html>

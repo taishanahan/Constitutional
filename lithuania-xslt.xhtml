@@ -2,97 +2,252 @@
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <link rel="stylesheet" type="text/css" href="styling.css" />
-      <title>XSLT for Constitutions</title>
+      <link rel="stylesheet" type="text/css" href="transformation-styling.css" /><script src="textpage-highlight-javascript.js"></script><title>XSLT for Constitutions</title>
    </head>
    <body>
-      <h2>PREAMBLE</h2>
-      <p class="preamble">PREAMBLE The people of Uzbekistan, solemnly declaring their
-         adherence to <span class="liberty">human rights</span> and
-         <span class="soveriegnty">principles of state sovereignty</span>, <span class="nationalism">being aware
-            of their ultimate responsibility to the present and the future generations, relying
-            on historical experience in the development of the Uzbek statehood</span>,
-         affirming their commitment to the ideals of <span class="gov">democracy</span> and social justice,
-         <span class="international">recognizing priority of the generally accepted norms of the
-            international law</span>, aspiring to a worthy life for the citizens of the
-         Republic, <span class="gov">setting forth the task of creating a humane and democratic law-governed
-            state</span>,
-         <span class="peace">aiming to ensure civil peace and national accord</span>,
-         <span class="gov">adopt in the person of their plenipotentiary representatives the present
-            Constitution of the Republic of Uzbekistan</span>.</p>
-      
-      
-      <h2>PART ONE. FUNDAMENTAL PRINCIPLES Chapter I. STATE SOVEREIGNTY</h2>
-      
-      
-      
-      <div>
+      <h1>An Analysis of the Constitutions of Former Soviet Union States</h1>
+      <div class="nav-bar">
+         <ul>
+            <li class="navbar"><a href="index.xhtml">Home</a></li>
+            <li class="navbar"><a href="about-page.xhtml">About</a></li>
+            <li class="navbar"><a href="constitution-page.xhtml">Constitutions</a></li>
+            <li class="navbar"><a href="analysis-page.xhtml">Analysis</a></li>
+            <li class="navbar"><a href="conclusion-page.xhtml">Conclusions</a></li>
+         </ul>
+      </div>
+      <div class="sidenav">
+         <ul>
+            <li class="sidebar"><a href="armenia-xslt-test.xhtml">Armenia</a></li>
+            <li class="sidebar"><a href="azerbaijan-xslt.xhtml">Azerbaijan</a></li>
+            <li class="sidebar"><a href="belarus-xslt.xhtml">Belarus</a></li>
+            <li class="sidebar"><a href="estonia-xslt.xhtml">Estonia</a></li>
+            <li class="sidebar"><a href="georgia-xslt.xhtml">Georgia</a></li>
+            <li class="sidebar"><a href="kazakhstan-xslt.xhtml">Kazhakstan</a></li>
+            <li class="sidebar"><a href="kyrgyzstan-xslt.xhtml">Kyrgyzstan</a></li>
+            <li class="sidebar"><a href="latvia-xslt.xhtml">Latvia</a></li>
+            <li class="sidebar"><a href="lithuania-xslt.xhtml">Lithuania</a></li>
+            <li class="sidebar"><a href="moldova-xslt.xhtml">Moldova</a></li>
+            <li class="sidebar"><a href="russia-xslt.xhtml">Russia</a></li>
+            <li class="sidebar"><a href="tajikstan-xslt.xhtml">Tajikistan</a></li>
+            <li class="sidebar"><a href="turkmenistan-xslt.xhtml">Turkmenistan</a></li>
+            <li class="sidebar"><a href="ukraine-xslt.xhtml">Ukraine</a></li>
+            <li class="sidebar"><a href="uzbekistan-xslt.xhtml">Uzbekistan</a></li>
+         </ul>
+      </div>
+      <div class="check-box">
+         <h4>Check a box to highlight an element: </h4>
+         <ul>
+            <li class="colors"><input type="checkbox" id="myCheckOne" onclick="highlightNationalism()" /><label for="myCheckOne">Nationalism</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckTwo" onclick="highlightLiberty()" /><label for="myCheckTwo">Liberty</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckGov" onclick="highlightGov()" /><label for="myCheckGov">Government</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckCitizenship" onclick="highlightCitizenship()" /><label for="myCheckCitizenship">Citizenship</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckVote" onclick="highlightVote()" /><label for="myCheckVote">Vote</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckProtest" onclick="highlightProtest()" /><label for="myCheckProtest">Protest</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckAssembly" onclick="highlightAssembly()" /><label for="myCheckAssembly">Assembly</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckLegal" onclick="highlightLegal()" /><label for="myCheckLegal">Legal</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckRace" onclick="highlightRace()" /><label for="myCheckRace">Racial Equality</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckMisc" onclick="highlightMisc()" /><label for="myCheckMisc">Misc Rights</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckCapital" onclick="highlightCapital()" /><label for="myCheckCapital">Capital</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckSymbols" onclick="highlightSymbols()" /><label for="myCheckSymbols">Symbols</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckRussian" onclick="highlightRussian()" /><label for="myCheckRussian">Russian Language</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckNative" onclick="highlightNative()" /><label for="myCheckNative">Native Language</label></li>
+         </ul>
+      </div>
+      <div class="text">
+         <h2>PREAMBLE</h2>
+         <p class="preamble">PREAMBLE THE LITHUANIAN NATION – having created the State of Lithuania
+            <span class="nationalism">many centuries ago</span>, – having based its <span class="gov">legal
+               foundations on the Lithuanian Statutes and the Constitutions of the Republic of
+               Lithuania</span>, – having for centuries staunchly defended its <span class="soveriegnty">freedom
+               and independence</span>, – having preserved its spirit, <span class="native">native language</span>, writing, and
+            <span class="nationalism">customs</span>, – embodying the <span class="liberty">innate right of the human being</span> and the <span class="soveriegnty">Nation to live
+               and create freely</span> in the <span class="nationalism">land of their fathers and
+               forefathers</span>—in the <span class="soveriegnty">independent State of
+               Lithuania</span>, – fostering 
+            <span class="consent">national concord</span> in the land of Lithuania, – striving for an open,
+            just, and <span class="peace">harmonious</span>
+            <span class="gov">civil society</span> and State under the <span class="gov">rule of law</span>, <span class="consent">by the
+               will of the citizens</span> of the reborn State of Lithuania, adopts and
+            proclaims this</p>
          
-         <h3>Article 1</h3>
          
-         <p> Uzbekistan is a <span class="soveriegnty">sovereign</span>
-            <span class="gov">democratic republic</span>.<span class="soveriegnty"> Both names of the state
-               “the Republic of Uzbekistan” and “Uzbekistan” shall be
-               equivalent</span>.</p>
-         </div><br />
-      
-      
-      <div>
+         <h2>CHAPTER I. THE STATE OF LITHUANIA </h2>
          
-         <h3>Article 2</h3>
          
-         <p><span class="consent"> The state shall express the will of the people and serve
-               their interests. State bodies and officials shall be accountable to
-               the society and citizens</span>.</p>
-         </div><br />
-      
-      
-      <div>
          
-         <h3>Article 3</h3>
+         <div>
+            
+            <h3>Article 1 </h3>
+            
+            <p>The State of Lithuania shall be an
+               <span class="soveriegnty">independent</span>
+               <span class="gov">democratic republic</span>.</p>
+            </div><br />
          
-         <p>
-            <span class="gov">The Republic of Uzbekistan shall determine its national-state and
-               administrative-territorial structure, its structure of state
-               authority and administration</span>, and shall pursue its home
-            <span class="international">and foreign policies</span>.<span class="soveriegnty"> The
-               state boundary and the territory of Uzbekistan shall be inviolable
-               and indivisible</span>.</p>
-         </div><br />
-      
-      
-      <div>
+         <div>
+            
+            <h3>Article 2 </h3>
+            
+            <p>The State of Lithuania shall be created by the Nation.
+               <span class="soveriegnty">Sovereignty shall belong to the
+                  Nation</span>.</p>
+            </div><br />
          
-         <h3>Article 4</h3>
+         <div>
+            
+            <h3>Article 3 </h3>
+            
+            <p><span class="soveriegnty">No one may restrict or limit the
+                  sovereignty</span> of the Nation or make claims to the
+               sovereign powers belonging to the entire Nation. <span class="soveriegnty">The Nation
+                  and each citizen shall have the right to resist anyone who
+                  encroaches on the independence</span>, territorial integrity,
+               and constitutional order of the State of Lithuania by force.</p>
+            </div><br />
          
-         <p>
-            <span class="native">The state language of the Republic of Uzbekistan shall be
-               Uzbek.</span>
-            <span class="racial-equality">The Republic of Uzbekistan shall
-               ensure a respectful attitude toward the languages, customs and
-               traditions of all nationalities and ethnic groups living on its
-               territory, and the creation of the conditions for their
-               development</span>.</p>
-         </div><br />
-      
-      <div>
+         <div>
+            
+            <h3>Article 4 </h3>
+            
+            <p>The Nation shall execute its supreme sovereign power either
+               <span class="gov">directly</span> or through its <span class="gov">democratically</span>
+               <span class="elections">elected representatives</span>.</p>
+            </div><br />
          
-         <h3>Article 5</h3>
+         <div>
+            
+            <h3>Article 5 </h3>
+            
+            <p>In Lithuania, <span class="separation">State power shall be executed by the
+                  Seimas, the President of the Republic and the Government, and the
+                  Judiciary</span>. The scope of power shall be limited by the
+               Constitution.<span class="consent">State institutions shall serve the
+                  people</span>. </p>
+            </div><br />
          
-         <p> <span class="symbols">The Republic of Uzbekistan shall have its state symbols:
-               the flag, the emblem, and the anthem</span> sanctioned by the
-            law.</p>
-         </div><br />
-      
-      
-      <div>
+         <div>
+            
+            <h3>Article 6 </h3>
+            
+            <p>The Constitution shall be an integral and directly applicable act.
+               Everyone may defend <span class="liberty">his rights by
+                  invoking the Constitution</span>.</p>
+            </div><br />
          
-         <h3>Article 6</h3>
+         <div>
+            
+            <h3>Article 7 </h3>
+            
+            <p>Any law or other act, which is contrary to the Constitution, shall
+               be invalid. Only laws which are published shall be valid. <span class="legal">Ignorance of the law shall not exempt one from
+                  liability</span>. </p>
+            </div><br />
          
-         <p><span class="capital"> The capital of the Republic of Uzbekistan shall be the
-               city of Tashkent</span>.</p>
-         </div><br />
-      
-      
-      
-      </body>
+         <div>
+            
+            <h3>Article 8 </h3>
+            
+            <p><span class="treason">Seizure of State power or of its institution by force shall
+                  be considered anti-constitutional actions</span>, which are
+               unlawful and invalid. </p>
+            </div><br />
+         
+         <div>
+            
+            <h3>Article 9 </h3>
+            
+            <p>The most significant issues concerning the life of the State and the
+               Nation shall be decided by <span class="elections">referendum</span>. In the
+               cases established by law, the Seimas shall announce a referendum.
+               <span class="elections">A referendum shall also be announced if not less than
+                  300,000 citizens with the electoral right so request</span>.
+               The procedure for the announcement and execution of a referendum shall
+               be established by law. </p>
+            </div><br />
+         
+         <div>
+            
+            <h3>Article 10 </h3>
+            
+            <p><span class="unitary">The territory of the State of Lithuania
+                  shall be integral and shall not be divided into any State-like
+                  formations</span>. The State boundaries may be altered only by an
+               <span class="gov">international treaty of the Republic of Lithuania after it has
+                  been ratified by 4/5 [four-fifths] of all the Members of the
+                  Seimas</span>.</p>
+            </div><br />
+         
+         <div>
+            
+            <h3>Article 11 </h3>
+            
+            <p><span class="gov">The administrative units of the territory of the State of
+                  Lithuania</span> and their boundaries shall be established by law.
+               </p>
+            </div><br />
+         
+         
+         <div>
+            
+            <h3>Article 12 </h3>
+            
+            <p><span class="citizenship">Citizenship of the Republic of
+                  Lithuania shall be acquired by birth</span> and other grounds
+               established by law. With the exception of individual cases provided for
+               by law, <span class="citizenship">no one may be a citizen of
+                  both the Republic of Lithuania and another state</span> at the
+               same time. The procedure for the acquisition and loss of citizenship
+               shall be established by law. </p>
+            </div><br />
+         
+         <div>
+            
+            <h3>Article 13 </h3>
+            
+            <p><span class="citizenship">The State of Lithuania shall
+                  protect its citizens abroad</span>. It shall be <span class="citizenship">prohibited to extradite a
+                  citizen</span> of the Republic of Lithuania to another state
+               <span class="international">unless an international treaty of the Republic of
+                  Lithuania establishes otherwise</span>. </p>
+            </div><br />
+         
+         <div>
+            
+            <h3>Article 14 </h3>
+            
+            <p><span class="native">Lithuanian shall be the State language
+                  </span>.</p>
+            </div><br />
+         
+         <div>
+            
+            <h3>Article 15 </h3>
+            
+            <p><span class="symbols">The colours of the State flag shall be yellow, green, and
+                  red</span>. <span class="symbols">The Coat-of-Arms of the State shall be a
+                  white Vytis on a red field</span>. The State Coat-of-Arms, flag
+               and their use shall be established by laws. </p>
+            </div><br />
+         
+         <div>
+            
+            <h3>Article 16 </h3>
+            
+            <p><span class="symbols">The anthem of the State shall be “Tautiška giesme” by
+                  Vincas Kudirka</span>.</p>
+            </div><br />
+         
+         <div>
+            
+            <h3>Article 17 </h3>
+            
+            <p><span class="capital">The capital of the State of Lithuania shall be the city of
+                  Vilnius</span>, <span class="nationalism">the long-standing historical capital
+                  of Lithuania</span>.</p>
+            </div><br />
+         
+         
+         
+         </div>
+   </body>
 </html>

@@ -2,97 +2,147 @@
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <link rel="stylesheet" type="text/css" href="styling.css" />
-      <title>XSLT for Constitutions</title>
+      <link rel="stylesheet" type="text/css" href="transformation-styling.css" /><script src="textpage-highlight-javascript.js"></script><title>XSLT for Constitutions</title>
    </head>
    <body>
-      <h2>PREAMBLE</h2>
-      <p class="preamble">PREAMBLE With unwavering faith and a steadfast will to strengthen and develop
-         the state, which embodies the <span class="soveriegnty">inextinguishable right of the people of
-            Estonia to national self-determination</span> and which was proclaimed on 24
-         February 1918, which is founded on <span class="gov">liberty, justice and the rule of law</span>,
-         which is created to <span class="peace">protect the peace and defend the people against aggression
-            from the outside</span>, and which forms a pledge to present and future generations
-         for their social progress and welfare, which must guarantee the <span class="peace">preservation of
-            the Estonian people</span>, <span class="native">the Estonian
-            language</span> and the <span class="nationalism">Estonian culture through the
-            ages</span>, the people of Estonia, on the basis of Article 1 of the
-         Constitution which <span class="elections">entered into force in 1938, and in the
-            referendum</span> held on 28 June 1992, have adopted the following
-         Constitution. </p>
-      
-      
-      <h2>CHAPTER I. GENERAL PROVISIONS</h2>
-      
-      
-      
-      <div>
+      <h1>An Analysis of the Constitutions of Former Soviet Union States</h1>
+      <div class="nav-bar">
+         <ul>
+            <li class="navbar"><a href="index.xhtml">Home</a></li>
+            <li class="navbar"><a href="about-page.xhtml">About</a></li>
+            <li class="navbar"><a href="constitution-page.xhtml">Constitutions</a></li>
+            <li class="navbar"><a href="analysis-page.xhtml">Analysis</a></li>
+            <li class="navbar"><a href="conclusion-page.xhtml">Conclusions</a></li>
+         </ul>
+      </div>
+      <div class="sidenav">
+         <ul>
+            <li class="sidebar"><a href="armenia-xslt-test.xhtml">Armenia</a></li>
+            <li class="sidebar"><a href="azerbaijan-xslt.xhtml">Azerbaijan</a></li>
+            <li class="sidebar"><a href="belarus-xslt.xhtml">Belarus</a></li>
+            <li class="sidebar"><a href="estonia-xslt.xhtml">Estonia</a></li>
+            <li class="sidebar"><a href="georgia-xslt.xhtml">Georgia</a></li>
+            <li class="sidebar"><a href="kazakhstan-xslt.xhtml">Kazhakstan</a></li>
+            <li class="sidebar"><a href="kyrgyzstan-xslt.xhtml">Kyrgyzstan</a></li>
+            <li class="sidebar"><a href="latvia-xslt.xhtml">Latvia</a></li>
+            <li class="sidebar"><a href="lithuania-xslt.xhtml">Lithuania</a></li>
+            <li class="sidebar"><a href="moldova-xslt.xhtml">Moldova</a></li>
+            <li class="sidebar"><a href="russia-xslt.xhtml">Russia</a></li>
+            <li class="sidebar"><a href="tajikstan-xslt.xhtml">Tajikistan</a></li>
+            <li class="sidebar"><a href="turkmenistan-xslt.xhtml">Turkmenistan</a></li>
+            <li class="sidebar"><a href="ukraine-xslt.xhtml">Ukraine</a></li>
+            <li class="sidebar"><a href="uzbekistan-xslt.xhtml">Uzbekistan</a></li>
+         </ul>
+      </div>
+      <div class="check-box">
+         <h4>Check a box to highlight an element: </h4>
+         <ul>
+            <li class="colors"><input type="checkbox" id="myCheckOne" onclick="highlightNationalism()" /><label for="myCheckOne">Nationalism</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckTwo" onclick="highlightLiberty()" /><label for="myCheckTwo">Liberty</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckGov" onclick="highlightGov()" /><label for="myCheckGov">Government</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckCitizenship" onclick="highlightCitizenship()" /><label for="myCheckCitizenship">Citizenship</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckVote" onclick="highlightVote()" /><label for="myCheckVote">Vote</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckProtest" onclick="highlightProtest()" /><label for="myCheckProtest">Protest</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckAssembly" onclick="highlightAssembly()" /><label for="myCheckAssembly">Assembly</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckLegal" onclick="highlightLegal()" /><label for="myCheckLegal">Legal</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckRace" onclick="highlightRace()" /><label for="myCheckRace">Racial Equality</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckMisc" onclick="highlightMisc()" /><label for="myCheckMisc">Misc Rights</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckCapital" onclick="highlightCapital()" /><label for="myCheckCapital">Capital</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckSymbols" onclick="highlightSymbols()" /><label for="myCheckSymbols">Symbols</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckRussian" onclick="highlightRussian()" /><label for="myCheckRussian">Russian Language</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckNative" onclick="highlightNative()" /><label for="myCheckNative">Native Language</label></li>
+         </ul>
+      </div>
+      <div class="text">
+         <h2>PREAMBLE</h2>
+         <p class="preamble">PREAMBLE With unwavering faith and a steadfast will to strengthen and develop
+            the state, which embodies the <span class="soveriegnty">inextinguishable right of the people of
+               Estonia to national self-determination</span> and which was proclaimed on 24
+            February 1918, which is founded on <span class="gov">liberty, justice and the rule of law</span>,
+            which is created to <span class="peace">protect the peace and defend the people against aggression
+               from the outside</span>, and which forms a pledge to present and future generations
+            for their social progress and welfare, which must guarantee the <span class="peace">preservation of
+               the Estonian people</span>, <span class="native">the Estonian
+               language</span> and the <span class="nationalism">Estonian culture through the
+               ages</span>, the people of Estonia, on the basis of Article 1 of the
+            Constitution which <span class="elections">entered into force in 1938, and in the
+               referendum</span> held on 28 June 1992, have adopted the following
+            Constitution. </p>
          
-         <h3>Article 1 </h3>
          
-         <p>Estonia is an <span class="soveriegnty">independent and sovereign
-               </span><span class="gov">democratic republic</span> wherein the
-            <span class="consent">supreme power of state is vested in the people</span>.
-            <span class="soveriegnty">The independence and sovereignty of Estonia are
-               timeless and inalienable</span>. </p>
-         </div><br />
-      
-      <div>
+         <h2>CHAPTER I. GENERAL PROVISIONS</h2>
          
-         <h3>Article 2</h3>
          
-         <p> The land, territorial waters and airspace of the Estonian state are
-            an inseparable and indivisible whole. Estonia is politically a <span class="unitary">unitary state</span> wherein <span class="gov">administrative
-               division shall be provided by law</span>.</p>
-         </div><br />
-      
-      <div>
          
-         <h3>Article 3</h3>
+         <div>
+            
+            <h3>Article 1 </h3>
+            
+            <p>Estonia is an <span class="soveriegnty">independent and sovereign
+                  </span><span class="gov">democratic republic</span> wherein the
+               <span class="consent">supreme power of state is vested in the people</span>.
+               <span class="soveriegnty">The independence and sovereignty of Estonia are
+                  timeless and inalienable</span>. </p>
+            </div><br />
          
-         <p> The state authority shall be exercised solely pursuant to the
-            Constitution and laws which are in conformity therewith.
-            <span class="international">Generally recognized principles and rules of
-               international law are an inseparable part of the Estonian legal
-               system</span>. Laws shall be published in the prescribed
-            manner. Only published laws have obligatory force. </p>
-         </div><br />
-      
-      <div>
+         <div>
+            
+            <h3>Article 2</h3>
+            
+            <p> The land, territorial waters and airspace of the Estonian state are
+               an inseparable and indivisible whole. Estonia is politically a <span class="unitary">unitary state</span> wherein <span class="gov">administrative
+                  division shall be provided by law</span>.</p>
+            </div><br />
          
-         <h3>Article 4 </h3>
+         <div>
+            
+            <h3>Article 3</h3>
+            
+            <p> The state authority shall be exercised solely pursuant to the
+               Constitution and laws which are in conformity therewith.
+               <span class="international">Generally recognized principles and rules of
+                  international law are an inseparable part of the Estonian legal
+                  system</span>. Laws shall be published in the prescribed
+               manner. Only published laws have obligatory force. </p>
+            </div><br />
          
-         <p>The <span class="gov">activities of the Riigikogu (Parliament of Estonia), the
-               President of the Republic, the Government of the Republic, and the
-               courts</span> shall be organized on the <span class="separation">principle of
-               separation and balance of powers</span>.</p>
-         </div><br />
-      
-      <div>
+         <div>
+            
+            <h3>Article 4 </h3>
+            
+            <p>The <span class="gov">activities of the Riigikogu (Parliament of Estonia), the
+                  President of the Republic, the Government of the Republic, and the
+                  courts</span> shall be organized on the <span class="separation">principle of
+                  separation and balance of powers</span>.</p>
+            </div><br />
          
-         <h3>Article 5 </h3>
+         <div>
+            
+            <h3>Article 5 </h3>
+            
+            <p><span class="public">The natural wealth and resources of
+                  Estonia are national riches which shall be used
+                  economically</span>.</p>
+            </div><br />
          
-         <p><span class="public">The natural wealth and resources of
-               Estonia are national riches which shall be used
-               economically</span>.</p>
-         </div><br />
-      
-      <div>
+         <div>
+            
+            <h3>Article 6</h3>
+            
+            <p> The official <span class="native">language of Estonia is
+                  Estonian </span>.</p>
+            </div><br />
          
-         <h3>Article 6</h3>
+         <div>
+            
+            <h3>Article 7</h3>
+            
+            <p>The <span class="symbols">national colors of Estonia are blue, black and
+                  white</span>. <span class="symbols">The design of the national flag and the
+                  national coat of arms shall be provided by law.</span></p>
+            </div><br />
          
-         <p> The official <span class="native">language of Estonia is
-               Estonian </span>.</p>
-         </div><br />
-      
-      <div>
          
-         <h3>Article 7</h3>
-         
-         <p>The <span class="symbols">national colors of Estonia are blue, black and
-               white</span>. <span class="symbols">The design of the national flag and the
-               national coat of arms shall be provided by law.</span></p>
-         </div><br />
-      
-      
-      </body>
+         </div>
+   </body>
 </html>

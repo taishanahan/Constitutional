@@ -2,300 +2,350 @@
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <link rel="stylesheet" type="text/css" href="styling.css" />
-      <title>XSLT for Constitutions</title>
+      <link rel="stylesheet" type="text/css" href="transformation-styling.css" /><script src="textpage-highlight-javascript.js"></script><title>XSLT for Constitutions</title>
    </head>
    <body>
-      <h2>PREAMBLE</h2>
-      <p class="preamble">We, the people of Kyrgyzstan, striving to secure the national revival of the
-         Kyrgyz, the <span class="soveriegnty">protection and development of interests of all nationalities
-            who together with the Kyrgyz form the people of Kyrgyzstan</span>; guided by
-         the <span class="nationalism">ancestors’ precepts to live</span> in <span class="peace">unity, peace and
-            concord</span>; confirming our adherence to <span class="legal">human
-            rights</span> and <span class="liberty">freedoms</span> and the
-         idea of national statehood; full of determination to develop the economy, political
-         and
-         legal institutions in order to <span class="peace">secure a worthy living standard for all</span>;
-         proclaiming our adherence to common human moral principles and moral values of
-         <span class="nationalism">national traditions</span>; wishing to establish ourselves among
-         the peoples of the world as a <span class="gov">free and democratic civil society</span>, through our
-         <span class="gov">authorized representatives</span> adopt this Constitution. </p>
-      
-      
-      <h2>First Chapter THE KYRGYZ REPUBLIC </h2>
-      
-      
-      <h3>First Section GENERAL PRINCIPLES</h3>
-      
-      
-      <div>
+      <h1>An Analysis of the Constitutions of Former Soviet Union States</h1>
+      <div class="nav-bar">
+         <ul>
+            <li class="navbar"><a href="index.xhtml">Home</a></li>
+            <li class="navbar"><a href="about-page.xhtml">About</a></li>
+            <li class="navbar"><a href="constitution-page.xhtml">Constitutions</a></li>
+            <li class="navbar"><a href="analysis-page.xhtml">Analysis</a></li>
+            <li class="navbar"><a href="conclusion-page.xhtml">Conclusions</a></li>
+         </ul>
+      </div>
+      <div class="sidenav">
+         <ul>
+            <li class="sidebar"><a href="armenia-xslt-test.xhtml">Armenia</a></li>
+            <li class="sidebar"><a href="azerbaijan-xslt.xhtml">Azerbaijan</a></li>
+            <li class="sidebar"><a href="belarus-xslt.xhtml">Belarus</a></li>
+            <li class="sidebar"><a href="estonia-xslt.xhtml">Estonia</a></li>
+            <li class="sidebar"><a href="georgia-xslt.xhtml">Georgia</a></li>
+            <li class="sidebar"><a href="kazakhstan-xslt.xhtml">Kazhakstan</a></li>
+            <li class="sidebar"><a href="kyrgyzstan-xslt.xhtml">Kyrgyzstan</a></li>
+            <li class="sidebar"><a href="latvia-xslt.xhtml">Latvia</a></li>
+            <li class="sidebar"><a href="lithuania-xslt.xhtml">Lithuania</a></li>
+            <li class="sidebar"><a href="moldova-xslt.xhtml">Moldova</a></li>
+            <li class="sidebar"><a href="russia-xslt.xhtml">Russia</a></li>
+            <li class="sidebar"><a href="tajikstan-xslt.xhtml">Tajikistan</a></li>
+            <li class="sidebar"><a href="turkmenistan-xslt.xhtml">Turkmenistan</a></li>
+            <li class="sidebar"><a href="ukraine-xslt.xhtml">Ukraine</a></li>
+            <li class="sidebar"><a href="uzbekistan-xslt.xhtml">Uzbekistan</a></li>
+         </ul>
+      </div>
+      <div class="check-box">
+         <h4>Check a box to highlight an element: </h4>
+         <ul>
+            <li class="colors"><input type="checkbox" id="myCheckOne" onclick="highlightNationalism()" /><label for="myCheckOne">Nationalism</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckTwo" onclick="highlightLiberty()" /><label for="myCheckTwo">Liberty</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckGov" onclick="highlightGov()" /><label for="myCheckGov">Government</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckCitizenship" onclick="highlightCitizenship()" /><label for="myCheckCitizenship">Citizenship</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckVote" onclick="highlightVote()" /><label for="myCheckVote">Vote</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckProtest" onclick="highlightProtest()" /><label for="myCheckProtest">Protest</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckAssembly" onclick="highlightAssembly()" /><label for="myCheckAssembly">Assembly</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckLegal" onclick="highlightLegal()" /><label for="myCheckLegal">Legal</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckRace" onclick="highlightRace()" /><label for="myCheckRace">Racial Equality</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckMisc" onclick="highlightMisc()" /><label for="myCheckMisc">Misc Rights</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckCapital" onclick="highlightCapital()" /><label for="myCheckCapital">Capital</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckSymbols" onclick="highlightSymbols()" /><label for="myCheckSymbols">Symbols</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckRussian" onclick="highlightRussian()" /><label for="myCheckRussian">Russian Language</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckNative" onclick="highlightNative()" /><label for="myCheckNative">Native Language</label></li>
+         </ul>
+      </div>
+      <div class="text">
+         <h2>PREAMBLE</h2>
+         <p class="preamble">We, the people of Kyrgyzstan, striving to secure the national revival of the
+            Kyrgyz, the <span class="soveriegnty">protection and development of interests of all nationalities
+               who together with the Kyrgyz form the people of Kyrgyzstan</span>; guided by
+            the <span class="nationalism">ancestors’ precepts to live</span> in <span class="peace">unity, peace and
+               concord</span>; confirming our adherence to <span class="legal">human
+               rights</span> and <span class="liberty">freedoms</span> and the
+            idea of national statehood; full of determination to develop the economy, political
+            and
+            legal institutions in order to <span class="peace">secure a worthy living standard for all</span>;
+            proclaiming our adherence to common human moral principles and moral values of
+            <span class="nationalism">national traditions</span>; wishing to establish ourselves among
+            the peoples of the world as a <span class="gov">free and democratic civil society</span>, through our
+            <span class="gov">authorized representatives</span> adopt this Constitution. </p>
          
-         <h4>Article 1</h4>
          
-         <p>1. The Kyrgyz Republic (Kyrgyzstan) is a
-            <span class="soveriegnty">sovereign</span>, <span class="unitary">unitary</span>, <span class="gov">democratic republic created on the basis of
-               a law-governed</span>
-            <span class="secular">secular state</span>. 2.
-            <span class="soveriegnty">Sovereignty of the Kyrgyz Republic is not limited and
-               extends throughout its entire territory</span>. 3.
-            <span class="consent">The people of the Kyrgyz Republic are the bearers of
-               sovereignty and are the only source of the state power in the Kyrgyz
-               Republic</span>. 4. The people of the Kyrgyz Republic
-            <span class="gov">exercise their power directly and through the system of state
-               organs and organs of local self-government</span> on the basis of
-            this Constitution and the laws of the Kyrgyz Republic. <span class="gov">Only the
-               Jogorku Kenesh and the President of the Kyrgyz Republic have the
-               right to represent the people</span> of Kyrgyzstan <span class="elections">by whom
-               they were elected</span>. 5. Changes and amendments to the
-            Constitution of the Kyrgyz Republic, laws of the Kyrgyz Republic and
-            other important issues of state life <span class="elections">may be put to a
-               referendum</span> (nationwide vote). The procedure for holding
-            a referendum is established by a constitutional law. 6. <span class="elections">The
-               citizens of the Kyrgyz Republic elect the President of the Kyrgyz
-               Republic, Deputies of the Jogorku Kenesh of the Kyrgyz Republic and
-               their representatives to organs of local
-               self-government</span>. 7. <span class="elections">Elections are free
-               </span>and are <span class="vote">held on the basis of
-               universal equal and direct suffrage by secret ballot</span>.
-            Citizens of the Kyrgyz Republic who have <span class="vote">attained the age of 18 have the right to vote</span>.
-            </p>
-         </div><br />
-      
-      <div>
+         <h2>First Chapter THE KYRGYZ REPUBLIC </h2>
          
-         <h4>Article 2</h4>
          
-         <p>1. The <span class="consent">state and its organs serve the whole society and not
-               a particular group</span>. 2. <span class="treason">No group of people, no
-               organization or any individual person has the right to assume power
-               in the state. The usurpation of state power is a particularly severe
-               crime</span>.</p>
-         </div><br />
-      
-      <div>
+         <h3>First Section GENERAL PRINCIPLES</h3>
          
-         <h4>Article 3</h4>
          
-         <p>1. The territory of the Kyrgyz Republic within its present
-            <span class="soveriegnty">boundaries is inviolable and indivisible</span>.
-            2. The territory of the Kyrgyz Republic is divided into <span class="neutral">administrative territorial units established by law
-               for the purposes of the organization of state government and local
-               selfgovernment</span>. 3. The cities of <span class="symbols">Bishkek and Osh
-               are cities of national significance</span>, and their status is
-            determined by law. </p>
-         </div><br />
-      
-      <div>
+         <div>
+            
+            <h4>Article 1</h4>
+            
+            <p>1. The Kyrgyz Republic (Kyrgyzstan) is a
+               <span class="soveriegnty">sovereign</span>, <span class="unitary">unitary</span>, <span class="gov">democratic republic created on the basis of
+                  a law-governed</span>
+               <span class="secular">secular state</span>. 2.
+               <span class="soveriegnty">Sovereignty of the Kyrgyz Republic is not limited and
+                  extends throughout its entire territory</span>. 3.
+               <span class="consent">The people of the Kyrgyz Republic are the bearers of
+                  sovereignty and are the only source of the state power in the Kyrgyz
+                  Republic</span>. 4. The people of the Kyrgyz Republic
+               <span class="gov">exercise their power directly and through the system of state
+                  organs and organs of local self-government</span> on the basis of
+               this Constitution and the laws of the Kyrgyz Republic. <span class="gov">Only the
+                  Jogorku Kenesh and the President of the Kyrgyz Republic have the
+                  right to represent the people</span> of Kyrgyzstan <span class="elections">by whom
+                  they were elected</span>. 5. Changes and amendments to the
+               Constitution of the Kyrgyz Republic, laws of the Kyrgyz Republic and
+               other important issues of state life <span class="elections">may be put to a
+                  referendum</span> (nationwide vote). The procedure for holding
+               a referendum is established by a constitutional law. 6. <span class="elections">The
+                  citizens of the Kyrgyz Republic elect the President of the Kyrgyz
+                  Republic, Deputies of the Jogorku Kenesh of the Kyrgyz Republic and
+                  their representatives to organs of local
+                  self-government</span>. 7. <span class="elections">Elections are free
+                  </span>and are <span class="vote">held on the basis of
+                  universal equal and direct suffrage by secret ballot</span>.
+               Citizens of the Kyrgyz Republic who have <span class="vote">attained the age of 18 have the right to vote</span>.
+               </p>
+            </div><br />
          
-         <h4>Article 4 </h4>
+         <div>
+            
+            <h4>Article 2</h4>
+            
+            <p>1. The <span class="consent">state and its organs serve the whole society and not
+                  a particular group</span>. 2. <span class="treason">No group of people, no
+                  organization or any individual person has the right to assume power
+                  in the state. The usurpation of state power is a particularly severe
+                  crime</span>.</p>
+            </div><br />
          
-         <p>1. <span class="private">Private</span>, <span class="public">state</span>, <span class="other">municipal and other forms of ownership are recognized and
-               protected</span> in the Kyrgyz Republic. The Kyrgyz Republic
-            guarantees the diversity of property forms and their equal protection by
-            law. 2. <span class="public">Land, its resources, air space,
-               waters, forests, plant and animal life, and other natural resources
-               are the property of the Kyrgyz Republic</span>, are used as the
-            basis of life and activity of the people of Kyrgyzstan and are under
-            special protection of the state. 3. <span class="private">Land
-               may also be in private</span>, <span class="other">municipal and other forms of ownership</span>. The limits of
-            and procedures for exercising of the landowners’ rights and the
-            guarantees of their protection are determined by law. 4. <span class="private">The Kyrgyz Republic protects the right of its
-               citizens and juridical persons to own property as well as their
-               [citizens’] property and its own [the Republic’s] property located
-               on the territory of other states </span>.</p>
-         </div><br />
-      
-      <div>
+         <div>
+            
+            <h4>Article 3</h4>
+            
+            <p>1. The territory of the Kyrgyz Republic within its present
+               <span class="soveriegnty">boundaries is inviolable and indivisible</span>.
+               2. The territory of the Kyrgyz Republic is divided into <span class="neutral">administrative territorial units established by law
+                  for the purposes of the organization of state government and local
+                  selfgovernment</span>. 3. The cities of <span class="symbols">Bishkek and Osh
+                  are cities of national significance</span>, and their status is
+               determined by law. </p>
+            </div><br />
          
-         <h4>Article 5 </h4>
+         <div>
+            
+            <h4>Article 4 </h4>
+            
+            <p>1. <span class="private">Private</span>, <span class="public">state</span>, <span class="other">municipal and other forms of ownership are recognized and
+                  protected</span> in the Kyrgyz Republic. The Kyrgyz Republic
+               guarantees the diversity of property forms and their equal protection by
+               law. 2. <span class="public">Land, its resources, air space,
+                  waters, forests, plant and animal life, and other natural resources
+                  are the property of the Kyrgyz Republic</span>, are used as the
+               basis of life and activity of the people of Kyrgyzstan and are under
+               special protection of the state. 3. <span class="private">Land
+                  may also be in private</span>, <span class="other">municipal and other forms of ownership</span>. The limits of
+               and procedures for exercising of the landowners’ rights and the
+               guarantees of their protection are determined by law. 4. <span class="private">The Kyrgyz Republic protects the right of its
+                  citizens and juridical persons to own property as well as their
+                  [citizens’] property and its own [the Republic’s] property located
+                  on the territory of other states </span>.</p>
+            </div><br />
          
-         <p>1.<span class="native"> The state language of the Kyrgyz
-               Republic is the Kyrgyz language</span>. 2. In the Kyrgyz
-            Republic, <span class="russian">the Russian language is used as
-               an official language</span>. 3. The Kyrgyz Republic
-            <span class="nationalism">guarantees to representatives of all the nationalities
-               that constitute the people of Kyrgyzstan</span>
-            <span class="native">the right of preservation of their native
-               language</span>, creation of conditions for learning and
-            development [of the language]. 4. <span class="liberty">It is
-               not permitted to infringe on citizens’ rights and freedoms because
-               of their ignorance of the state or official languag</span>.
-            </p>
-         </div><br />
-      
-      <div>
+         <div>
+            
+            <h4>Article 5 </h4>
+            
+            <p>1.<span class="native"> The state language of the Kyrgyz
+                  Republic is the Kyrgyz language</span>. 2. In the Kyrgyz
+               Republic, <span class="russian">the Russian language is used as
+                  an official language</span>. 3. The Kyrgyz Republic
+               <span class="nationalism">guarantees to representatives of all the nationalities
+                  that constitute the people of Kyrgyzstan</span>
+               <span class="native">the right of preservation of their native
+                  language</span>, creation of conditions for learning and
+               development [of the language]. 4. <span class="liberty">It is
+                  not permitted to infringe on citizens’ rights and freedoms because
+                  of their ignorance of the state or official languag</span>.
+               </p>
+            </div><br />
          
-         <h4>Article 6 </h4>
+         <div>
+            
+            <h4>Article 6 </h4>
+            
+            <p>1. The state symbols of the Kyrgyz Republic are the <span class="symbols">state
+                  flag, emblem and anthem</span>. Their description and the
+               procedure for their official use are determined by law. 2. <span class="capital">The
+                  capital of the Kyrgyz Republic is the city of Bishkek</span>. 3.
+               <span class="currency">The monetary unit of the Kyrgyz Republic is a
+                  som</span>.</p>
+            </div><br />
          
-         <p>1. The state symbols of the Kyrgyz Republic are the <span class="symbols">state
-               flag, emblem and anthem</span>. Their description and the
-            procedure for their official use are determined by law. 2. <span class="capital">The
-               capital of the Kyrgyz Republic is the city of Bishkek</span>. 3.
-            <span class="currency">The monetary unit of the Kyrgyz Republic is a
-               som</span>.</p>
-         </div><br />
-      
-      
-      
-      
-      <h3> Second Section THE STRUCTURE AND FUNCTIONING OF THE STATE</h3>
-      
-      
-      <div>
          
-         <h4>Article 7</h4>
          
-         <p> 1. The state power in the Kyrgyz Republic is based on the following
-            principles: • <span class="consent">Supremacy of the power of the people</span>,
-            represented and protected by <span class="elections">the nationally elected head of
-               the state— the President of the Kyrgyz Republic</span>; •
-            <span class="separation">Division of state power into the legislative, executive
-               and judicial branches, their concerted functioning and
-               interaction</span>; • Responsibility of <span class="unitary">the state organs before the nation and the
-               implementation of their powers in the interest of the
-               nation</span>; • Delimitation of functions of state power and
-            local self-government. 2.Within the limits of powers established by this
-            Constitution, <span class="unitary">the state power in the Kyrgyz
-               Republic is represented and executed by</span>: • President of the
-            Kyrgyz Republic; • Jogorku Kenesh of the Kyrgyz Republic; • Government
-            of the Kyrgyz Republic and organs of executive power subordinate to it;
-            • Constitutional Court of the Kyrgyz Republic, Supreme Court of the
-            Kyrgyz Republic, local courts and judges of the Kyrgyz
-            Republic.</p>
-         </div><br />
-      
-      <div>
          
-         <h4> Article 8</h4>
+         <h3> Second Section THE STRUCTURE AND FUNCTIONING OF THE STATE</h3>
          
-         <p>1. <span class="multi">Political parties</span>, <span class="assembly">trade unions and other public
-               associations</span> may be organized in the Kyrgyz Republic on
-            the basis of free will and common interests. <span class="assembly">The state guarantees the observance of rights
-               and lawful interests of public associations</span>. 2.
-            Political parties may participate in state affairs only in the following
-            forms: • Nomination of their candidates for the election to the Jogorku
-            Kenesh of the Kyrgyz Republic, state posts and organs of local
-            self-government; • Formation of factions in representative organs. 3.
-            <span class="secular">Religion and all cults are separate from
-               the state</span>. 4. In the Kyrgyz Republic the following is not
-            permitted: •<span class="multi"> Merging of state and party
-               institutions</span>, as well as the subordination of state
-            activity to party programs and decisions; • Formation and activity of
-            party organizations in state establishments and organizations. State
-            officials have the right to carry out their party activities outside
-            their work activity; • Membership in parties and activity in support of
-            any political party by the military personnel, employees of the organs
-            of internal affairs, national security, justice, Procuratura and courts;
-            • <span class="secular">Organization of political parties on
-               religious and ethnic grounds. Religious organizations must not
-               pursue political aims and tasks</span>; • Interference by
-            members of religious organizations and cults with the activity of state
-            organs; • Activity of foreign political parties, public associations,
-            religious and other organizations detrimental to the constitutional
-            system, state and national security.</p>
-         </div><br />
-      
-      <div>
          
-         <h4> Article 9</h4>
+         <div>
+            
+            <h4>Article 7</h4>
+            
+            <p> 1. The state power in the Kyrgyz Republic is based on the following
+               principles: • <span class="consent">Supremacy of the power of the people</span>,
+               represented and protected by <span class="elections">the nationally elected head of
+                  the state— the President of the Kyrgyz Republic</span>; •
+               <span class="separation">Division of state power into the legislative, executive
+                  and judicial branches, their concerted functioning and
+                  interaction</span>; • Responsibility of <span class="unitary">the state organs before the nation and the
+                  implementation of their powers in the interest of the
+                  nation</span>; • Delimitation of functions of state power and
+               local self-government. 2.Within the limits of powers established by this
+               Constitution, <span class="unitary">the state power in the Kyrgyz
+                  Republic is represented and executed by</span>: • President of the
+               Kyrgyz Republic; • Jogorku Kenesh of the Kyrgyz Republic; • Government
+               of the Kyrgyz Republic and organs of executive power subordinate to it;
+               • Constitutional Court of the Kyrgyz Republic, Supreme Court of the
+               Kyrgyz Republic, local courts and judges of the Kyrgyz
+               Republic.</p>
+            </div><br />
          
-         <p> 1. The Kyrgyz Republic <span class="international">does not have goals of
-               expansion, aggression and territorial claims to be resolved by means
-               of military force</span>. It rejects the militarization of
-            national life, subordination of the government or its activity for the
-            purposes of war. The Armed Forces of Kyrgyzstan <span class="soveriegnty">are
-               organized in accordance with the principles of self-defense and
-               defensive sufficiency</span>. 2. <span class="soveriegnty">The right to
-               conduct war is not recognized except in cases of aggression against
-               Kyrgyzstan and other states bound by obligations of collective
-               defense</span>. Permission for each case of a unit of the
-            Armed Forces crossing over the borders of the territory of the Kyrgyz
-            Republic is a <span class="gov">matter of decision of the Jogorku Kenesh of the
-               Kyrgyz Republic</span> adopted by a majority no less than two thirds
-            of the total number of Deputies. 3. <span class="gov">The use of Armed Forces for the
-               resolution of internal political issues is prohibited</span>.
-            Military personnel may be called upon to liquidate the consequences of
-            natural disasters and in other similar cases directly provided by law.
-            4. The Kyrgyz Republic observes <span class="international">generally recognized
-               principles of international law</span>, <span class="peace">seeks
-               universal and just peace</span>, mutually beneficial cooperation,
-            [and] <span class="international">resolution of global and regional problems in a
-               peaceful way</span>. <span class="peace">Actions capable of disturbing
-               the peaceful coexistence of the peoples, propaganda and
-               encouragement of inter-ethnic or religious clashes are
-               unconstitutional</span>. </p>
-         </div><br />
-      
-      <div>
+         <div>
+            
+            <h4> Article 8</h4>
+            
+            <p>1. <span class="multi">Political parties</span>, <span class="assembly">trade unions and other public
+                  associations</span> may be organized in the Kyrgyz Republic on
+               the basis of free will and common interests. <span class="assembly">The state guarantees the observance of rights
+                  and lawful interests of public associations</span>. 2.
+               Political parties may participate in state affairs only in the following
+               forms: • Nomination of their candidates for the election to the Jogorku
+               Kenesh of the Kyrgyz Republic, state posts and organs of local
+               self-government; • Formation of factions in representative organs. 3.
+               <span class="secular">Religion and all cults are separate from
+                  the state</span>. 4. In the Kyrgyz Republic the following is not
+               permitted: •<span class="multi"> Merging of state and party
+                  institutions</span>, as well as the subordination of state
+               activity to party programs and decisions; • Formation and activity of
+               party organizations in state establishments and organizations. State
+               officials have the right to carry out their party activities outside
+               their work activity; • Membership in parties and activity in support of
+               any political party by the military personnel, employees of the organs
+               of internal affairs, national security, justice, Procuratura and courts;
+               • <span class="secular">Organization of political parties on
+                  religious and ethnic grounds. Religious organizations must not
+                  pursue political aims and tasks</span>; • Interference by
+               members of religious organizations and cults with the activity of state
+               organs; • Activity of foreign political parties, public associations,
+               religious and other organizations detrimental to the constitutional
+               system, state and national security.</p>
+            </div><br />
          
-         <h4>Article 10</h4>
+         <div>
+            
+            <h4> Article 9</h4>
+            
+            <p> 1. The Kyrgyz Republic <span class="international">does not have goals of
+                  expansion, aggression and territorial claims to be resolved by means
+                  of military force</span>. It rejects the militarization of
+               national life, subordination of the government or its activity for the
+               purposes of war. The Armed Forces of Kyrgyzstan <span class="soveriegnty">are
+                  organized in accordance with the principles of self-defense and
+                  defensive sufficiency</span>. 2. <span class="soveriegnty">The right to
+                  conduct war is not recognized except in cases of aggression against
+                  Kyrgyzstan and other states bound by obligations of collective
+                  defense</span>. Permission for each case of a unit of the
+               Armed Forces crossing over the borders of the territory of the Kyrgyz
+               Republic is a <span class="gov">matter of decision of the Jogorku Kenesh of the
+                  Kyrgyz Republic</span> adopted by a majority no less than two thirds
+               of the total number of Deputies. 3. <span class="gov">The use of Armed Forces for the
+                  resolution of internal political issues is prohibited</span>.
+               Military personnel may be called upon to liquidate the consequences of
+               natural disasters and in other similar cases directly provided by law.
+               4. The Kyrgyz Republic observes <span class="international">generally recognized
+                  principles of international law</span>, <span class="peace">seeks
+                  universal and just peace</span>, mutually beneficial cooperation,
+               [and] <span class="international">resolution of global and regional problems in a
+                  peaceful way</span>. <span class="peace">Actions capable of disturbing
+                  the peaceful coexistence of the peoples, propaganda and
+                  encouragement of inter-ethnic or religious clashes are
+                  unconstitutional</span>. </p>
+            </div><br />
          
-         <p> 1. <span class="gov">A state of exception in Kyrgyzstan may be imposed only in
-               cases of natural disasters, direct threat to the constitutional
-               system, mass disorder accompanied by violence and menace to human
-               life, as well as under the circumstances and for limited periods
-               indicated in a constitutional law</span>. 2. A state of exception
-            throughout the entire territory of the Kyrgyz Republic <span class="gov">may be
-               imposed only by the Jogorku Kenesh of the Kyrgyz Republic, but a
-               state of exception may be imposed by the President of the Kyrgyz
-               Republic in limited locations</span> under circumstances requiring
-            immediate action with a prompt, same day notification of that [act] to
-            the Jogorku Kenesh of the Kyrgyz Republic, which must confirm the act of
-            the President within no more than three days. In the absence of such a
-            confirmation within the indicated time, the state of exception is
-            cancelled. 3. <span class="gov">Martial law in the Kyrgyz Republic may be imposed by
-               the Jogorku Kenesh of the Kyrgyz Republic only in case of aggression
-               against the Kyrgyz Republic</span>. 4. <span class="gov">A session recess of the
-               Jogorku Kenesh of the Kyrgyz Republic is not permitted during a
-               state of exception and martial law</span>. In cases when the Jogorku
-            Kenesh of the Kyrgyz Republic is not in session and a state of exception
-            has been imposed by the President, the Jogorku Kenesh of the Kyrgyz
-            Republic shall convene without a notice no later than the day following
-            the introduction of the state of exception. 5. <span class="gov">Referenda,
-               elections, changes in the structure, functions and powers of state
-               organs established by the Constitution of the Kyrgyz Republic are
-               not allowed during a state of exception and martial
-               law</span>.</p>
-         </div><br />
-      
-      <div>
+         <div>
+            
+            <h4>Article 10</h4>
+            
+            <p> 1. <span class="gov">A state of exception in Kyrgyzstan may be imposed only in
+                  cases of natural disasters, direct threat to the constitutional
+                  system, mass disorder accompanied by violence and menace to human
+                  life, as well as under the circumstances and for limited periods
+                  indicated in a constitutional law</span>. 2. A state of exception
+               throughout the entire territory of the Kyrgyz Republic <span class="gov">may be
+                  imposed only by the Jogorku Kenesh of the Kyrgyz Republic, but a
+                  state of exception may be imposed by the President of the Kyrgyz
+                  Republic in limited locations</span> under circumstances requiring
+               immediate action with a prompt, same day notification of that [act] to
+               the Jogorku Kenesh of the Kyrgyz Republic, which must confirm the act of
+               the President within no more than three days. In the absence of such a
+               confirmation within the indicated time, the state of exception is
+               cancelled. 3. <span class="gov">Martial law in the Kyrgyz Republic may be imposed by
+                  the Jogorku Kenesh of the Kyrgyz Republic only in case of aggression
+                  against the Kyrgyz Republic</span>. 4. <span class="gov">A session recess of the
+                  Jogorku Kenesh of the Kyrgyz Republic is not permitted during a
+                  state of exception and martial law</span>. In cases when the Jogorku
+               Kenesh of the Kyrgyz Republic is not in session and a state of exception
+               has been imposed by the President, the Jogorku Kenesh of the Kyrgyz
+               Republic shall convene without a notice no later than the day following
+               the introduction of the state of exception. 5. <span class="gov">Referenda,
+                  elections, changes in the structure, functions and powers of state
+                  organs established by the Constitution of the Kyrgyz Republic are
+                  not allowed during a state of exception and martial
+                  law</span>.</p>
+            </div><br />
          
-         <h4>Article 11</h4>
+         <div>
+            
+            <h4>Article 11</h4>
+            
+            <p> 1. The state budget of the Kyrgyz Republic consists of the national
+               budget and local budgets, comprising all expenditures and revenues of
+               the state. The national budget is approved by the Jogorku Kenesh of the
+               Kyrgyz Republic upon presentation by the Government of the Kyrgyz
+               Republic. 2. Revenues of the national budget are generated by the total
+               taxes established by law, other obligatory payments, income from state
+               property and other receipts. 3. <span class="gov">A single system of taxation
+                  functions on the territory of the Kyrgyz Republic</span>. <span class="gov">The
+                  right to impose taxes belongs to the Jogorku Kenesh of the Kyrgyz
+                  Republic</span>. Laws establishing new taxes and worsening the
+               standing of the tax payers are not retroactive. 4. In exceptional cases
+               [and] for the protection the economic interests of the Kyrgyz Republic,
+               the Government of the Kyrgyz Republic has the right to adopt temporary
+               measures in the sphere of taxation by changing individual tax rates and
+               other obligatory budget payments with prompt notification of the Jogorku
+               Kenesh of the Kyrgyz Republic. 5. The report on the execution of the
+               national budget is approved by the Jogorku Kenesh of the Kyrgyz
+               Republic.</p>
+            </div><br />
          
-         <p> 1. The state budget of the Kyrgyz Republic consists of the national
-            budget and local budgets, comprising all expenditures and revenues of
-            the state. The national budget is approved by the Jogorku Kenesh of the
-            Kyrgyz Republic upon presentation by the Government of the Kyrgyz
-            Republic. 2. Revenues of the national budget are generated by the total
-            taxes established by law, other obligatory payments, income from state
-            property and other receipts. 3. <span class="gov">A single system of taxation
-               functions on the territory of the Kyrgyz Republic</span>. <span class="gov">The
-               right to impose taxes belongs to the Jogorku Kenesh of the Kyrgyz
-               Republic</span>. Laws establishing new taxes and worsening the
-            standing of the tax payers are not retroactive. 4. In exceptional cases
-            [and] for the protection the economic interests of the Kyrgyz Republic,
-            the Government of the Kyrgyz Republic has the right to adopt temporary
-            measures in the sphere of taxation by changing individual tax rates and
-            other obligatory budget payments with prompt notification of the Jogorku
-            Kenesh of the Kyrgyz Republic. 5. The report on the execution of the
-            national budget is approved by the Jogorku Kenesh of the Kyrgyz
-            Republic.</p>
-         </div><br />
-      
-      <div>
+         <div>
+            
+            <h4>Article 12</h4>
+            
+            <p> 1. <span class="gov">The Constitution has the supreme juridical force and direct
+                  effect in the Kyrgyz Republic</span>. 2. Laws and other normative
+               legal acts are adopted on the basis of the Constitution. 3.
+               <span class="international">International treaties and agreements that have,
+                  according to a procedure established by law, come into force [and]
+                  to which the Kyrgyz Republic is a party as well as generally
+                  accepted principles and norms of international law are a component
+                  of the legislation of the Kyrgyz Republic</span>.</p>
+            </div><br />
          
-         <h4>Article 12</h4>
          
-         <p> 1. <span class="gov">The Constitution has the supreme juridical force and direct
-               effect in the Kyrgyz Republic</span>. 2. Laws and other normative
-            legal acts are adopted on the basis of the Constitution. 3.
-            <span class="international">International treaties and agreements that have,
-               according to a procedure established by law, come into force [and]
-               to which the Kyrgyz Republic is a party as well as generally
-               accepted principles and norms of international law are a component
-               of the legislation of the Kyrgyz Republic</span>.</p>
-         </div><br />
-      
-      
-      
-      </body>
+         
+         </div>
+   </body>
 </html>

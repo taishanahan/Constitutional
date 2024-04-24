@@ -2,231 +2,281 @@
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <link rel="stylesheet" type="text/css" href="styling.css" />
-      <title>XSLT for Constitutions</title>
+      <link rel="stylesheet" type="text/css" href="transformation-styling.css" /><script src="textpage-highlight-javascript.js"></script><title>XSLT for Constitutions</title>
    </head>
    <body>
-      
-      <h2>PREAMBLE</h2>
-      <p class="preamble">PREAMBLE We, the citizens of Georgia - whose firm will it is to establish a
-         <span class="gov">democratic social order</span>, economic freedom, and a legal and a social
-         state; to secure <span class="international">universally recognised human rights and
-            freedoms</span>; and to enhance <span class="soveriegnty">state
-            independence</span> and <span class="peace">peaceful relations with other peoples</span>
-         - drawing on the <span class="nationalism">centuries-old traditions of the statehood of the Georgian
-            nation and the historical and legal legacy of the Constitution of Georgia of
-            1921</span>, proclaim this Constitution before<span class="neutral"> God
-            </span>and the nation. </p>
-      
-      
-      
-      <h2>CHAPTER ONE. GENERAL PROVISIONS</h2>
-      
-      
-      
-      
-      <div>
+      <h1>An Analysis of the Constitutions of Former Soviet Union States</h1>
+      <div class="nav-bar">
+         <ul>
+            <li class="navbar"><a href="index.xhtml">Home</a></li>
+            <li class="navbar"><a href="about-page.xhtml">About</a></li>
+            <li class="navbar"><a href="constitution-page.xhtml">Constitutions</a></li>
+            <li class="navbar"><a href="analysis-page.xhtml">Analysis</a></li>
+            <li class="navbar"><a href="conclusion-page.xhtml">Conclusions</a></li>
+         </ul>
+      </div>
+      <div class="sidenav">
+         <ul>
+            <li class="sidebar"><a href="armenia-xslt-test.xhtml">Armenia</a></li>
+            <li class="sidebar"><a href="azerbaijan-xslt.xhtml">Azerbaijan</a></li>
+            <li class="sidebar"><a href="belarus-xslt.xhtml">Belarus</a></li>
+            <li class="sidebar"><a href="estonia-xslt.xhtml">Estonia</a></li>
+            <li class="sidebar"><a href="georgia-xslt.xhtml">Georgia</a></li>
+            <li class="sidebar"><a href="kazakhstan-xslt.xhtml">Kazhakstan</a></li>
+            <li class="sidebar"><a href="kyrgyzstan-xslt.xhtml">Kyrgyzstan</a></li>
+            <li class="sidebar"><a href="latvia-xslt.xhtml">Latvia</a></li>
+            <li class="sidebar"><a href="lithuania-xslt.xhtml">Lithuania</a></li>
+            <li class="sidebar"><a href="moldova-xslt.xhtml">Moldova</a></li>
+            <li class="sidebar"><a href="russia-xslt.xhtml">Russia</a></li>
+            <li class="sidebar"><a href="tajikstan-xslt.xhtml">Tajikistan</a></li>
+            <li class="sidebar"><a href="turkmenistan-xslt.xhtml">Turkmenistan</a></li>
+            <li class="sidebar"><a href="ukraine-xslt.xhtml">Ukraine</a></li>
+            <li class="sidebar"><a href="uzbekistan-xslt.xhtml">Uzbekistan</a></li>
+         </ul>
+      </div>
+      <div class="check-box">
+         <h4>Check a box to highlight an element: </h4>
+         <ul>
+            <li class="colors"><input type="checkbox" id="myCheckOne" onclick="highlightNationalism()" /><label for="myCheckOne">Nationalism</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckTwo" onclick="highlightLiberty()" /><label for="myCheckTwo">Liberty</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckGov" onclick="highlightGov()" /><label for="myCheckGov">Government</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckCitizenship" onclick="highlightCitizenship()" /><label for="myCheckCitizenship">Citizenship</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckVote" onclick="highlightVote()" /><label for="myCheckVote">Vote</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckProtest" onclick="highlightProtest()" /><label for="myCheckProtest">Protest</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckAssembly" onclick="highlightAssembly()" /><label for="myCheckAssembly">Assembly</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckLegal" onclick="highlightLegal()" /><label for="myCheckLegal">Legal</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckRace" onclick="highlightRace()" /><label for="myCheckRace">Racial Equality</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckMisc" onclick="highlightMisc()" /><label for="myCheckMisc">Misc Rights</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckCapital" onclick="highlightCapital()" /><label for="myCheckCapital">Capital</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckSymbols" onclick="highlightSymbols()" /><label for="myCheckSymbols">Symbols</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckRussian" onclick="highlightRussian()" /><label for="myCheckRussian">Russian Language</label></li>
+            <li class="colors"><input type="checkbox" id="myCheckNative" onclick="highlightNative()" /><label for="myCheckNative">Native Language</label></li>
+         </ul>
+      </div>
+      <div class="text">
          
-         <h3> Article 1. State sovereignty </h3>
+         <h2>PREAMBLE</h2>
+         <p class="preamble">PREAMBLE We, the citizens of Georgia - whose firm will it is to establish a
+            <span class="gov">democratic social order</span>, economic freedom, and a legal and a social
+            state; to secure <span class="international">universally recognised human rights and
+               freedoms</span>; and to enhance <span class="soveriegnty">state
+               independence</span> and <span class="peace">peaceful relations with other peoples</span>
+            - drawing on the <span class="nationalism">centuries-old traditions of the statehood of the Georgian
+               nation and the historical and legal legacy of the Constitution of Georgia of
+               1921</span>, proclaim this Constitution before<span class="neutral"> God
+               </span>and the nation. </p>
          
          
-         <p> Georgia is an <span class="soveriegnty">independent, unified and indivisible
-               state</span> as confirmed by the <span class="nationalism">Referendum of
-               31 March 1991 held in the entire territory of the country, including
-               the Autonomous Soviet Socialist Republic of Abkhazia and the former
-               Autonomous Region of South Ossetia, and by the Act of Restoration of
-               State Independence of Georgia of 9 April 1991</span>. The
-            territory of the state of Georgia was determined on 21 December 1991.
-            The territorial integrity of Georgia and the inviolability of the state
-            border is confirmed by the Constitution and laws of Georgia, and
-            <span class="international">recognised by the world community of nations and by
-               international organisations</span>. The <span class="treason">alienation
-               of the territory of the state of Georgia shall be
-               prohibited</span>. The <span class="international">state border may be changed
-               only by a bilateral agreement with a neighbouring
-               state</span>.</p>
-         </div><br />
-      
-      
-      <div>
          
-         <h3> Article 2. State symbols </h3>
+         <h2>CHAPTER ONE. GENERAL PROVISIONS</h2>
          
-         <p>'Georgia' is the name of the state of Georgia.
-            <span class="capital">Tbilisi</span> is the capital of Georgia. <span class="native">The official language of Georgia shall be
-               Georgian, and, in the Autonomous Republic of Abkhazia, also
-               Abkhazian. The official language is protected by the organic
-               law</span>. The <span class="symbols">state flag, the coat of arms, and the
-               anthem of Georgia are established by the organic law</span>,
-            which shall be revised in accordance with the procedure established for
-            revising the Constitution.</p>
-         </div><br />
-      
-      
-      <div>
          
-         <h3> Article 3. Democracy </h3>
          
-         <p> Georgia is a <span class="gov">democratic republic</span>. <span class="consent">People are
-               the source of state authority</span>. People exercise power
-            through their <span class="multi">representatives, as well as
-               through referendums</span> and other forms of <span class="gov">direct
-               democracy</span>. No one shall have the right to seize power. The
-            current term of a body elected in general<span class="elections"> elections shall not
-               be extended or reduced by the Constitution or law</span>.
-            <span class="multi">Political parties</span> shall
-            participate in the formation and exercise of the political will of the
-            people. The activities of political parties shall be based on the
-            principles of freedom, equality, transparency, and <span class="multi">intra-party democracy</span>. </p>
-         </div><br />
-      
-      
-      <div>
          
-         <h3> Article 4. Legal state </h3>
+         <div>
+            
+            <h3> Article 1. State sovereignty </h3>
+            
+            
+            <p> Georgia is an <span class="soveriegnty">independent, unified and indivisible
+                  state</span> as confirmed by the <span class="nationalism">Referendum of
+                  31 March 1991 held in the entire territory of the country, including
+                  the Autonomous Soviet Socialist Republic of Abkhazia and the former
+                  Autonomous Region of South Ossetia, and by the Act of Restoration of
+                  State Independence of Georgia of 9 April 1991</span>. The
+               territory of the state of Georgia was determined on 21 December 1991.
+               The territorial integrity of Georgia and the inviolability of the state
+               border is confirmed by the Constitution and laws of Georgia, and
+               <span class="international">recognised by the world community of nations and by
+                  international organisations</span>. The <span class="treason">alienation
+                  of the territory of the state of Georgia shall be
+                  prohibited</span>. The <span class="international">state border may be changed
+                  only by a bilateral agreement with a neighbouring
+                  state</span>.</p>
+            </div><br />
          
-         <p> Georgia is a <span class="soveriegnty">legal state</span>. The State
-            acknowledges and protects <span class="international">universally recognised human
-               rights and freedoms as eternal and supreme human values. While
-               exercising authority, the people and the State shall be bound by
-               these rights and freedoms as directly applicable
-               law</span>. The Constitution<span class="international"> shall not deny
-               other universally recognised human rights and freedoms that are not
-               explicitly referred to herein</span>, but that inherently
-            derive from the principles of the Constitution. <span class="separation">State
-               authority shall be exercised based on the principle of the
-               separation of powers</span>. <span class="consent">State authority shall be
-               exercised within the ambit of the Constitution and law</span>.
-            The Constitution of Georgia shall be the supreme law of the State.
-            General rules for the adoption and issuance of legislative and other
-            normative acts, and their hierarchy, shall be determined by the organic
-            law.<span class="international"> The legislation of Georgia shall comply with the
-               universally recognised principles and norms of international
-               law</span>. <span class="international">An international treaty of
-               Georgia shall take precedence over domestic normative
-               </span>acts <span class="soveriegnty">unless it comes into conflict with the
-               Constitution or the Constitutional Agreement of
-               Georgia</span>. </p>
-         </div><br />
-      
-      <div>
          
-         <h3> Article 5. Social state </h3>
+         <div>
+            
+            <h3> Article 2. State symbols </h3>
+            
+            <p>'Georgia' is the name of the state of Georgia.
+               <span class="capital">Tbilisi</span> is the capital of Georgia. <span class="native">The official language of Georgia shall be
+                  Georgian, and, in the Autonomous Republic of Abkhazia, also
+                  Abkhazian. The official language is protected by the organic
+                  law</span>. The <span class="symbols">state flag, the coat of arms, and the
+                  anthem of Georgia are established by the organic law</span>,
+               which shall be revised in accordance with the procedure established for
+               revising the Constitution.</p>
+            </div><br />
          
-         <p> Georgia is a <span class="gov">social state</span>. <span class="misc">The State shall take care of strengthening the principles of social
-               justice, social equality and social solidarity within
-               society</span>. The <span class="misc">State shall
-               take care of the equitable socio-economic and demographic
-               development in the entire territory of the country</span>.
-            Special conditions for the development of high mountain regions shall be
-            determined by law.<span class="misc"> The State shall take care
-               of human health care and social protection, ensuring the subsistence
-               minimum and decent housing, and protecting the welfare of the
-               family</span>. <span class="misc">The State shall
-               promote the employment of citizens. Conditions for providing the
-               subsistence minimum shall be determined by law</span>.
-            <span class="misc">The State shall take care of
-               environmental protection and the rational use of natural
-               resources</span>. <span class="nationalism">The State shall take care of
-               the protection of national values, identity and cultural
-               heritage</span>, and of the development of <span class="misc">education, science and culture</span>. The
-            State shall take care of the <span class="misc">development of
-               sports, establishing a healthy lifestyle, and engaging children and
-               youth in physical education and sports</span>. The State shall
-            take care of<span class="citizenship"> maintaining and
-               developing connections with the homeland for Georgian compatriots
-               residing abroad</span>.</p>
-         </div><br />
-      
-      
-      <div>
          
-         <h3> Article 6. Economic freedom </h3>
+         <div>
+            
+            <h3> Article 3. Democracy </h3>
+            
+            <p> Georgia is a <span class="gov">democratic republic</span>. <span class="consent">People are
+                  the source of state authority</span>. People exercise power
+               through their <span class="multi">representatives, as well as
+                  through referendums</span> and other forms of <span class="gov">direct
+                  democracy</span>. No one shall have the right to seize power. The
+               current term of a body elected in general<span class="elections"> elections shall not
+                  be extended or reduced by the Constitution or law</span>.
+               <span class="multi">Political parties</span> shall
+               participate in the formation and exercise of the political will of the
+               people. The activities of political parties shall be based on the
+               principles of freedom, equality, transparency, and <span class="multi">intra-party democracy</span>. </p>
+            </div><br />
          
-         <p><span class="private"> Economic freedom is recognised and
-               guaranteed</span>. The State shall take care of developing a
-            <span class="free">free and open economy</span>, and
-            <span class="private">free enterprise and
-               competition</span>. <span class="private">Abolishing the
-               universal right to private property shall be prohibited</span>.
-            </p>
-         </div><br />
-      
-      <div>
          
-         <h3> Article 7. Basis of territorial arrangement </h3>
+         <div>
+            
+            <h3> Article 4. Legal state </h3>
+            
+            <p> Georgia is a <span class="soveriegnty">legal state</span>. The State
+               acknowledges and protects <span class="international">universally recognised human
+                  rights and freedoms as eternal and supreme human values. While
+                  exercising authority, the people and the State shall be bound by
+                  these rights and freedoms as directly applicable
+                  law</span>. The Constitution<span class="international"> shall not deny
+                  other universally recognised human rights and freedoms that are not
+                  explicitly referred to herein</span>, but that inherently
+               derive from the principles of the Constitution. <span class="separation">State
+                  authority shall be exercised based on the principle of the
+                  separation of powers</span>. <span class="consent">State authority shall be
+                  exercised within the ambit of the Constitution and law</span>.
+               The Constitution of Georgia shall be the supreme law of the State.
+               General rules for the adoption and issuance of legislative and other
+               normative acts, and their hierarchy, shall be determined by the organic
+               law.<span class="international"> The legislation of Georgia shall comply with the
+                  universally recognised principles and norms of international
+                  law</span>. <span class="international">An international treaty of
+                  Georgia shall take precedence over domestic normative
+                  </span>acts <span class="soveriegnty">unless it comes into conflict with the
+                  Constitution or the Constitutional Agreement of
+                  Georgia</span>. </p>
+            </div><br />
          
-         <p> The following shall fall within <span class="consent">the exclusive competence
-               of the supreme state authorities of Georgia</span>: a.
-            <span class="liberty">legislation on human
-               rights</span>, <span class="citizenship">Georgian
-               citizenship</span>, <span class="citizenship">migration&gt;, entry into and exit from the country</span>, and
-            the <span class="international">temporary or permanent stay of aliens and stateless
-               persons</span> in Georgia; b.<span class="other">
-               criminal, penitentiary, civil, intellectual property,
-               administrative, labour and procedural legislation; legislation
-               pertaining to land, minerals, and other natural resources;
-               pharmaceutical legislation; legislation on obtaining the status of
-               educational institution, and on accreditation, and academic degrees;
-               and legislation on the National Academy of Sciences</span>; c.
-            <span class="international">foreign policy and international relations; foreign
-               trade, customs and tariff regimes</span>; d. state defence,
-            military industry and arms trade; <span class="peace">issues relating to war and
-               truce</span>; determining and introducing the legal regime of a
-            state of emergency and martial law; the armed forces; courts and
-            prosecution; state security; criminal police and
-            investigation;<span class="soveriegnty"> the status, regime and protection of the
-               state border; and a cordon sanitaire on the border; </span>
-            e.<span class="currency"> state finances and state loans; the printing and
-               emission of money; and legislation on banking, credit, insurance,
-               tax and trade of national significance</span>; f. <span class="public">railways and motor roads of national
-               significance; the integrated energy system and regime;
-               communications</span>; <span class="public">the status
-               and protection of territorial waters, airspace, the continental
-               shelf and the exclusive economic zone</span>; <span class="public">aviation; the merchant fleet; ensigns; harbours
-               of national significance; fishing in oceans and high seas;
-               meteorology; environmental monitoring systems; standards and models;
-               geodesy and cartography; determining the precise time; and state
-               statistics</span>. g. The <span class="federalist">powers of
-               the Autonomous Republic of Abkhazia and the Autonomous Republic of
-               Ajara, and procedures for exercising such powers shall be determined
-               by the constitutional laws</span> of Georgia that are an integral
-            part of the Constitution of Georgia. h. The <span class="separation">state
-               territorial arrangement of Georgia shall be revised by a
-               constitutional law of Georgia on the basis of the principle of the
-               separation of powers</span> after the complete restoration of
-            the jurisdiction of Georgia over the entire territory of the country. i.
-            <span class="neutral">The citizens of Georgia shall regulate
-               affairs of local importance through local self-government in
-               accordance with the legislation of Georgia</span>. <span class="federalist">The separation of the powers of state authority
-               and self-governing units is based on the principle of
-               subsidiarity</span>. <span class="federalist">The State ensures
-               that the financial resources of self-governing units correspond with
-               their powers as determined by the organic law</span>. j.<span class="unitary"> An exclusive economic zone shall be established in
-               Anaklia on the basis of the organic law, where a special legal
-               regime shall apply. Other exclusive economic zones with special
-               legal regimes may also be established on the basis of the organic
-               law.</span></p>
-         </div><br />
-      
-      <div>
+         <div>
+            
+            <h3> Article 5. Social state </h3>
+            
+            <p> Georgia is a <span class="gov">social state</span>. <span class="misc">The State shall take care of strengthening the principles of social
+                  justice, social equality and social solidarity within
+                  society</span>. The <span class="misc">State shall
+                  take care of the equitable socio-economic and demographic
+                  development in the entire territory of the country</span>.
+               Special conditions for the development of high mountain regions shall be
+               determined by law.<span class="misc"> The State shall take care
+                  of human health care and social protection, ensuring the subsistence
+                  minimum and decent housing, and protecting the welfare of the
+                  family</span>. <span class="misc">The State shall
+                  promote the employment of citizens. Conditions for providing the
+                  subsistence minimum shall be determined by law</span>.
+               <span class="misc">The State shall take care of
+                  environmental protection and the rational use of natural
+                  resources</span>. <span class="nationalism">The State shall take care of
+                  the protection of national values, identity and cultural
+                  heritage</span>, and of the development of <span class="misc">education, science and culture</span>. The
+               State shall take care of the <span class="misc">development of
+                  sports, establishing a healthy lifestyle, and engaging children and
+                  youth in physical education and sports</span>. The State shall
+               take care of<span class="citizenship"> maintaining and
+                  developing connections with the homeland for Georgian compatriots
+                  residing abroad</span>.</p>
+            </div><br />
          
-         <h3> Article 8. Relationship between the State and the Apostolic
-            Autocephalous Orthodox Church of Georgia </h3>
          
-         <p>Along with <span class="racial-equality">freedom of belief
-               and religion</span>, the State shall recognise the outstanding
-            role of the <span class="nationalism">Apostolic Autocephalous Orthodox Church of
-               Georgia in the history of Georgia</span>, and <span class="secular">its independence from the State</span>. The
-            <span class="state-religion">relationship between the state of
-               Georgia and the Apostolic Autocephalous Orthodox Church of Georgia
-               shall be determined by a constitutional agreement</span>, which
-            shall be <span class="international">in full compliance with the universally
-               recognised principles and norms of international law in the area of
-               human rights and freedoms</span>.</p>
-         </div><br />
-      
-      
-      
-      
-      </body>
+         <div>
+            
+            <h3> Article 6. Economic freedom </h3>
+            
+            <p><span class="private"> Economic freedom is recognised and
+                  guaranteed</span>. The State shall take care of developing a
+               <span class="free">free and open economy</span>, and
+               <span class="private">free enterprise and
+                  competition</span>. <span class="private">Abolishing the
+                  universal right to private property shall be prohibited</span>.
+               </p>
+            </div><br />
+         
+         <div>
+            
+            <h3> Article 7. Basis of territorial arrangement </h3>
+            
+            <p> The following shall fall within <span class="consent">the exclusive competence
+                  of the supreme state authorities of Georgia</span>: a.
+               <span class="liberty">legislation on human
+                  rights</span>, <span class="citizenship">Georgian
+                  citizenship</span>, <span class="citizenship">migration&gt;, entry into and exit from the country</span>, and
+               the <span class="international">temporary or permanent stay of aliens and stateless
+                  persons</span> in Georgia; b.<span class="other">
+                  criminal, penitentiary, civil, intellectual property,
+                  administrative, labour and procedural legislation; legislation
+                  pertaining to land, minerals, and other natural resources;
+                  pharmaceutical legislation; legislation on obtaining the status of
+                  educational institution, and on accreditation, and academic degrees;
+                  and legislation on the National Academy of Sciences</span>; c.
+               <span class="international">foreign policy and international relations; foreign
+                  trade, customs and tariff regimes</span>; d. state defence,
+               military industry and arms trade; <span class="peace">issues relating to war and
+                  truce</span>; determining and introducing the legal regime of a
+               state of emergency and martial law; the armed forces; courts and
+               prosecution; state security; criminal police and
+               investigation;<span class="soveriegnty"> the status, regime and protection of the
+                  state border; and a cordon sanitaire on the border; </span>
+               e.<span class="currency"> state finances and state loans; the printing and
+                  emission of money; and legislation on banking, credit, insurance,
+                  tax and trade of national significance</span>; f. <span class="public">railways and motor roads of national
+                  significance; the integrated energy system and regime;
+                  communications</span>; <span class="public">the status
+                  and protection of territorial waters, airspace, the continental
+                  shelf and the exclusive economic zone</span>; <span class="public">aviation; the merchant fleet; ensigns; harbours
+                  of national significance; fishing in oceans and high seas;
+                  meteorology; environmental monitoring systems; standards and models;
+                  geodesy and cartography; determining the precise time; and state
+                  statistics</span>. g. The <span class="federalist">powers of
+                  the Autonomous Republic of Abkhazia and the Autonomous Republic of
+                  Ajara, and procedures for exercising such powers shall be determined
+                  by the constitutional laws</span> of Georgia that are an integral
+               part of the Constitution of Georgia. h. The <span class="separation">state
+                  territorial arrangement of Georgia shall be revised by a
+                  constitutional law of Georgia on the basis of the principle of the
+                  separation of powers</span> after the complete restoration of
+               the jurisdiction of Georgia over the entire territory of the country. i.
+               <span class="neutral">The citizens of Georgia shall regulate
+                  affairs of local importance through local self-government in
+                  accordance with the legislation of Georgia</span>. <span class="federalist">The separation of the powers of state authority
+                  and self-governing units is based on the principle of
+                  subsidiarity</span>. <span class="federalist">The State ensures
+                  that the financial resources of self-governing units correspond with
+                  their powers as determined by the organic law</span>. j.<span class="unitary"> An exclusive economic zone shall be established in
+                  Anaklia on the basis of the organic law, where a special legal
+                  regime shall apply. Other exclusive economic zones with special
+                  legal regimes may also be established on the basis of the organic
+                  law.</span></p>
+            </div><br />
+         
+         <div>
+            
+            <h3> Article 8. Relationship between the State and the Apostolic
+               Autocephalous Orthodox Church of Georgia </h3>
+            
+            <p>Along with <span class="racial-equality">freedom of belief
+                  and religion</span>, the State shall recognise the outstanding
+               role of the <span class="nationalism">Apostolic Autocephalous Orthodox Church of
+                  Georgia in the history of Georgia</span>, and <span class="secular">its independence from the State</span>. The
+               <span class="state-religion">relationship between the state of
+                  Georgia and the Apostolic Autocephalous Orthodox Church of Georgia
+                  shall be determined by a constitutional agreement</span>, which
+               shall be <span class="international">in full compliance with the universally
+                  recognised principles and norms of international law in the area of
+                  human rights and freedoms</span>.</p>
+            </div><br />
+         
+         
+         
+         
+         </div>
+   </body>
 </html>

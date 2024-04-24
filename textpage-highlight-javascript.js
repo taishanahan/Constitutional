@@ -82,7 +82,7 @@ function highlightProtest() {
     var x = document.getElementsByClassName("protest");
     if (checkBox.checked == true){
         for(var i=0; i<x.length; i++){
-           x[i].style.backgroundColor="#7285AS"; //"pigeon"
+           x[i].style.backgroundColor="#AAB8C2"; //"pigeon"
         }
     } else {
        for(var i=0; i<x.length; i++){
