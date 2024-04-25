@@ -25,8 +25,6 @@ li.sidebar a{
     margin: 10px;
     border-radius: 0px;
     color:black;
-    
-    
 }
 
 .sidebar a:hover{
@@ -58,3 +56,80 @@ li.colors{
     width: 20%;
     text-align:left;
 }
+
+div.sidenav1{
+    width: 85%;
+    position:relative;
+    margin: auto;
+}
+
+ .armenia a:hover{
+                background-color: black;
+                color: white;
+            }
+            li.armenia a{
+                text-decoration: none;
+                border-radius: 0px;
+                color:white;
+            }
+           
+            li.armenia{
+                z-index: 100;
+                transform: translate(150px, -230px);
+                
+                text-decoration:none;
+                list-style-type:none;
+                position: absolute;
+                text-decoration: none;
+                padding: 5px;
+                margin: 5px;
+                border-radius: 0px;
+                color:white;
+                font-size: 13px;
+                background-color: black;
+                
+            }
+            li.azerbaijan a{
+                text-decoration: none;
+                border-radius: 0px;
+                color:white;
+            }
+           
+            li.azerbaijan{
+                transform: translate(200px, -220px);
+                
+                text-decoration:none;
+                list-style-type:none;
+                position: absolute;
+                text-decoration: none;
+                padding: 5px;
+                margin: 5px;
+                border-radius: 0px;
+                color:white;
+                font-size: 13px;
+                background-color: black;
+                
+            }
+            
+            li.belarus a{
+                text-decoration: none;
+                border-radius: 0px;
+                color:white;
+            }
+           
+            li.belarus{
+                transform: translate(130%, -1300%);
+                
+                text-decoration:none;
+                list-style-type:none;
+                position: absolute;
+                text-decoration: none;
+                padding: 5px;
+                margin: 5px;
+                border-radius: 0px;
+                color:white;
+                font-size: 13px;
+                background-color: black;
+                
+            }
+           
